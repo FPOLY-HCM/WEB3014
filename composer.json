@@ -1,0 +1,18 @@
+{
+    "name": "fpolyhcm/web3014",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "FPOLYHCM\\WEB3014\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ngo Quoc Dat",
+            "email": "datlechin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    }
+}

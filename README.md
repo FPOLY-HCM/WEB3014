@@ -4,3 +4,4 @@
 
 - Ngo Quoc Dat
 - Nguyen Dang Khai
+- Nguyen Hoang Quoc
