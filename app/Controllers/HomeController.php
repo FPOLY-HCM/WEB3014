@@ -2,12 +2,13 @@
 
 namespace App\Controllers;
 
-use Symfony\Component\HttpFoundation\Response;
+use Core\Controller;
+use Core\View;
 
-class HomeController
+class HomeController extends Controller
 {
-    public function index(): Response
+    public function index()
     {
-        return new Response('Hello world');
+        return View::render('home');
     }
 }

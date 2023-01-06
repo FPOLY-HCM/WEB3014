@@ -1,13 +1,18 @@
 <?php
 
 use App\Controllers\HomeController;
-use Symfony\Component\Routing\Route;
-use Symfony\Component\Routing\RouteCollection;
+use Core\Route;
 
-$routes = new RouteCollection();
+Route::get('/', [HomeController::class, 'index']);
 
-$routes->add('home', new Route('/', [
-    '_controller' => [new HomeController(), 'index'],
-]));
+Route::get('/contact', function () {
+    return 'Contact page';
+});
 
-return $routes;
+Route::get('/login', function () {
+    return 'Login page';
+});
+
+Route::post('/login', function () {
+    return 'Post login';
+});
