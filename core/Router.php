@@ -29,7 +29,9 @@ class Router
         $action = $routes[$method][$path] ?? false;
 
         if (! $action) {
-            throw new \Exception("Route [$path] does not exists.");
+            http_response_code(404);
+            require_once __DIR__ . '/../app/views/errors/404.php';
+            exit();
         }
 
         if (is_array($action)) {
