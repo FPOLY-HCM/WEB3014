@@ -276,8 +276,10 @@ require_once __DIR__ . '/partials/header.php';
                                     <button class="btn btn-default btn-find font-sm">Search</button>
                                 </form>
                             </div>
-                            <div class="list-tags-banner mt-60 wow animate__animated animate__fadeInUp" data-wow-delay=".3s"><strong>Popular Searches:</strong><a href="#">Designer</a>, <a href="#">Web</a>, <a href="#">IOS</a>, <a href="#">Developer</a>, <a href="#">PHP</a>, <a href="#">Senior</a>, <a href="#">Engineer</a>
-                        </div>
+                            <div class="list-tags-banner mt-60 wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
+                                <strong>Popular Searches:</strong>
+                                <a href="#">Designer</a>, <a href="#">Web</a>, <a href="#">IOS</a>, <a href="#">Developer</a>, <a href="#">PHP</a>, <a href="#">Senior</a>, <a href="#">Engineer</a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-12 d-none d-xl-block col-md-6">
