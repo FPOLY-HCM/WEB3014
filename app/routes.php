@@ -1,6 +1,7 @@
 <?php
 
 use App\Controllers\HomeController;
+use App\Controllers\BlogController;
 use App\Controllers\Auth\LoginController;
 use App\Controllers\Auth\RegisterController;
 
@@ -19,3 +20,6 @@ Route::post('/login', function () {
 });
 
 Route::get('/register', [RegisterController::class, 'index']);
+
+Route::get('/blog', [BlogController::class, 'index']);
+Route::get('/blog-details', [BlogController::class, 'blogDetails']);
