@@ -97,12 +97,8 @@
                                     <li><a href="job-details-2.html">Jobs Details 2</a></li>
                                 </ul>
                             </li>
-                            <li class="has-children">
-                                <a href="companies-grid.html">Nhà tuyển dụng</a>
-                                <ul class="sub-menu">
-                                    <li><a href="companies-grid.html">Recruiters</a></li>
-                                    <li><a href="company-details.html">Company Details</a></li>
-                                </ul>
+                            <li>
+                                <a href="/companies">Nhà tuyển dụng</a>
                             </li>
                             <li class="has-children">
                                 <a href="candidates-grid.html">Ứng viên</a>
