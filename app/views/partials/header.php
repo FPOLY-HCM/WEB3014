@@ -12,8 +12,8 @@
     <meta name="description" content="Index page">
     <meta name="keywords" content="index, page">
     <meta name="author" content="">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/template/favicon.svg">
-    <link href="assets/css/style.css?version=2.0" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/imgs/template/favicon.svg">
+    <link href="/assets/css/style.css?version=2.0" rel="stylesheet">
     <title>Jobbox</title>
 </head>
 
@@ -22,7 +22,7 @@
         <div class="preloader d-flex align-items-center justify-content-center">
             <div class="preloader-inner position-relative">
                 <div class="text-center">
-                    <img src="assets/imgs/template/loading.gif" alt="jobBox">
+                    <img src="/assets/imgs/template/loading.gif" alt="jobBox">
                 </div>
             </div>
         </div>
@@ -78,7 +78,7 @@
                 <div class="header-left">
                     <div class="header-logo">
                         <a class="d-flex" href="/">
-                            <img alt="jobBox" src="assets/imgs/template/jobhub-logo.svg">
+                            <img alt="jobBox" src="/assets/imgs/template/jobhub-logo.svg">
                         </a>
                     </div>
                 </div>
@@ -100,13 +100,8 @@
                             <li>
                                 <a href="/companies">Nhà tuyển dụng</a>
                             </li>
-                            <li class="has-children">
-                                <a href="candidates-grid.html">Ứng viên</a>
-                                <ul class="sub-menu">
-                                    <li><a href="candidates-grid.html">Candidates Grid</a></li>
-                                    <li><a href="candidate-details.html">Candidate Details</a></li>
-                                    <li><a href="candidate-profile.html">Candidate Profile</a></li>
-                                </ul>
+                            <li>
+                                <a href="/candidates">Ứng viên</a>
                             </li>
                             <li>
                                 <a href="/blog">Blog</a>
