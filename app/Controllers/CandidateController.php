@@ -5,7 +5,7 @@ namespace App\Controllers;
 use Core\Controller;
 use Core\View;
 
-class CandidatesController extends Controller
+class CandidateController extends Controller
 {
     public function index()
     {

@@ -78,7 +78,7 @@
                 <div class="header-left">
                     <div class="header-logo">
                         <a class="d-flex" href="/">
-                            <img alt="jobBox" src="assets/imgs/template/jobhub-logo.svg">
+                            <img alt="jobBox" src="/assets/imgs/template/jobhub-logo.svg">
                         </a>
                     </div>
                 </div>
@@ -100,13 +100,8 @@
                             <li>
                                 <a href="/companies">Nhà tuyển dụng</a>
                             </li>
-                            <li class="has-children">
-                                <a href="candidates-grid.html">Ứng viên</a>
-                                <ul class="sub-menu">
-                                    <li><a href="candidates-grid.html">Candidates Grid</a></li>
-                                    <li><a href="candidate-details.html">Candidate Details</a></li>
-                                    <li><a href="candidate-profile.html">Candidate Profile</a></li>
-                                </ul>
+                            <li>
+                                <a href="/candidates">Ứng viên</a>
                             </li>
                             <li>
                                 <a href="/blog">Blog</a>

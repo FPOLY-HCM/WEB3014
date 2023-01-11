@@ -4,7 +4,7 @@ require_once __DIR__ . '/../partials/header.php';
 
 <main class="main">
       <section class="section-box">
-        <div><img src="assets/imgs/page/blog/img-single.png"></div>
+        <div><img src="/assets/imgs/page/blog/img-single.png"></div>
       </section>
       <section class="section-box">
         <div class="archive-header pt-50 text-center">
@@ -13,8 +13,8 @@ require_once __DIR__ . '/../partials/header.php';
               <div class="max-width-single"><a class="btn btn-tag" href="#">Job Tips</a>
                 <h2 class="mb-30 mt-20 text-center">11 Tips to Help You Get New Clients Through Cold Calling</h2>
                 <div class="post-meta text-muted d-flex align-items-center mx-auto justify-content-center">
-                  <div class="author d-flex align-items-center mr-30"><img alt="jobBox" src="assets/imgs/page/homepage1/user3.png"><span>Sarah Harding</span></div>
-                  <div class="date"><span class="font-xs color-text-paragraph-2 mr-20 d-inline-block"><img class="img-middle mr-5" src="assets/imgs/page/blog/calendar.svg"> 06 Sep 2022</span><span class="font-xs color-text-paragraph-2 d-inline-block"><img class="img-middle mr-5" src="assets/imgs/template/icons/time.svg"> 8 mins to read</span></div>
+                  <div class="author d-flex align-items-center mr-30"><img alt="jobBox" src="/assets/imgs/page/homepage1/user3.png"><span>Sarah Harding</span></div>
+                  <div class="date"><span class="font-xs color-text-paragraph-2 mr-20 d-inline-block"><img class="img-middle mr-5" src="/assets/imgs/page/blog/calendar.svg"> 06 Sep 2022</span><span class="font-xs color-text-paragraph-2 d-inline-block"><img class="img-middle mr-5" src="/assets/imgs/template/icons/time.svg"> 8 mins to read</span></div>
                 </div>
               </div>
             </div>
@@ -35,7 +35,7 @@ require_once __DIR__ . '/../partials/header.php';
                     </p>
                   </div>
                 </div>
-                <figure><img src="assets/imgs/page/blog/img-content.png"></figure>
+                <figure><img src="/assets/imgs/page/blog/img-content.png"></figure>
                 <div class="max-width-single">
                   <div class="content-single">
                     <p></p>
@@ -67,7 +67,7 @@ require_once __DIR__ . '/../partials/header.php';
                     <div class="row">
                       <div class="col-lg-7"><a class="btn btn-border-3 mr-10 hover-up" href="#"># Nature</a><a class="btn btn-border-3 mr-10 hover-up" href="#"># Beauty</a><a class="btn btn-border-3 hover-up" href="#"># Travel tips</a></div>
                       <div class="col-md-5 text-lg-end social-share">
-                        <h6 class="color-text-paragraph-2 d-inline-block d-baseline mr-20 mt-10">Share</h6><a class="mr-20 d-inline-block d-middle hover-up" href="#"><img alt="jobBox" src="assets/imgs/page/blog/fb.svg"></a><a class="mr-20 d-inline-block d-middle hover-up" href="#"><img alt="jobBox" src="assets/imgs/page/blog/tw.svg"></a><a class="mr-0 d-inline-block d-middle hover-up" href="#"><img alt="jobBox" src="assets/imgs/page/blog/pi.svg"></a>
+                        <h6 class="color-text-paragraph-2 d-inline-block d-baseline mr-20 mt-10">Share</h6><a class="mr-20 d-inline-block d-middle hover-up" href="#"><img alt="jobBox" src="/assets/imgs/page/blog/fb.svg"></a><a class="mr-20 d-inline-block d-middle hover-up" href="#"><img alt="jobBox" src="/assets/imgs/page/blog/tw.svg"></a><a class="mr-0 d-inline-block d-middle hover-up" href="#"><img alt="jobBox" src="/assets/imgs/page/blog/pi.svg"></a>
                       </div>
                     </div>
                   </div>
@@ -75,7 +75,7 @@ require_once __DIR__ . '/../partials/header.php';
                   <ul class="list-comments">
                     <li>
                       <div class="author-bio mt-40 bg-white">
-                        <div class="author-image mb-15"><a href="author.html"><img class="avatar" src="assets/imgs/page/candidates/user5.png" alt=""></a>
+                        <div class="author-image mb-15"><a href="author.html"><img class="avatar" src="/assets/imgs/page/candidates/user5.png" alt=""></a>
                           <div class="author-infor">
                             <h6 class="mt-0 mb-0">Robert Fox</h6>
                             <p class="mb-0 color-text-paragraph-2 font-sm">August 25, 2022</p>
@@ -88,7 +88,7 @@ require_once __DIR__ . '/../partials/header.php';
                     </li>
                     <li>
                       <div class="author-bio mt-40 bg-white">
-                        <div class="author-image mb-15"><a href="author.html"><img class="avatar" src="assets/imgs/page/candidates/user1.png" alt=""></a>
+                        <div class="author-image mb-15"><a href="author.html"><img class="avatar" src="/assets/imgs/page/candidates/user1.png" alt=""></a>
                           <div class="author-infor">
                             <h6 class="mt-0 mb-0">Jenny Wilson</h6>
                             <p class="mb-0 color-text-paragraph-2 font-sm">August 25, 2022</p>
@@ -101,7 +101,7 @@ require_once __DIR__ . '/../partials/header.php';
                       <ul>
                         <li>
                           <div class="author-bio mt-40 bg-white">
-                            <div class="author-image mb-15"><a href="author.html"><img class="avatar" src="assets/imgs/page/candidates/user3.png" alt=""></a>
+                            <div class="author-image mb-15"><a href="author.html"><img class="avatar" src="/assets/imgs/page/candidates/user3.png" alt=""></a>
                               <div class="author-infor">
                                 <h6 class="mt-0 mb-0">Eleanor Pena</h6>
                                 <p class="mb-0 color-text-paragraph-2 font-sm">August 25, 2022</p>
@@ -146,7 +146,7 @@ require_once __DIR__ . '/../partials/header.php';
         <div class="container">
           <div class="box-newsletter">
             <div class="row">
-              <div class="col-xl-3 col-12 text-center d-none d-xl-block"><img src="assets/imgs/template/newsletter-left.png" alt="joxBox"></div>
+              <div class="col-xl-3 col-12 text-center d-none d-xl-block"><img src="/assets/imgs/template/newsletter-left.png" alt="joxBox"></div>
               <div class="col-lg-12 col-xl-6 col-12">
                 <h2 class="text-md-newsletter text-center">New Things Will Always<br> Update Regularly</h2>
                 <div class="box-form-newsletter mt-40">
@@ -156,7 +156,7 @@ require_once __DIR__ . '/../partials/header.php';
                   </form>
                 </div>
               </div>
-              <div class="col-xl-3 col-12 text-center d-none d-xl-block"><img src="assets/imgs/template/newsletter-right.png" alt="joxBox"></div>
+              <div class="col-xl-3 col-12 text-center d-none d-xl-block"><img src="/assets/imgs/template/newsletter-right.png" alt="joxBox"></div>
             </div>
           </div>
         </div>
