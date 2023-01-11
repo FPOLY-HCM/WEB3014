@@ -26,7 +26,7 @@ require_once __DIR__ . '/../partials/header.php';
           <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
               <div class="card-grid-5">
-                <div class="card-grid-5 hover-up" style="background-image: url('assets/imgs/page/blog/img-big1.png')"><a href="blog-details">
+                <div class="card-grid-5 hover-up" style="background-image: url('assets/imgs/page/blog/img-big1.png')"><a href="/blog/show">
                     <div class="box-cover-img">
                       <div class="content-bottom">
                         <h3 class="color-white mb-20">11 Tips to Help You Get New Clients</h3>
@@ -36,7 +36,7 @@ require_once __DIR__ . '/../partials/header.php';
               </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-              <div class="card-grid-5 hover-up" style="background-image: url('assets/imgs/page/blog/img-big2.png')"><a href="blog-details">
+              <div class="card-grid-5 hover-up" style="background-image: url('assets/imgs/page/blog/img-big2.png')"><a href="/blog/show">
                   <div class="box-cover-img">
                     <div class="content-bottom">
                       <h3 class="color-white mb-20">Recruiter and Land Your Dream Job</h3>
@@ -45,7 +45,7 @@ require_once __DIR__ . '/../partials/header.php';
                   </div></a></div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-              <div class="card-grid-5 hover-up" style="background-image: url('assets/imgs/page/blog/img-big3.png')"><a href="blog-details">
+              <div class="card-grid-5 hover-up" style="background-image: url('assets/imgs/page/blog/img-big3.png')"><a href="/blog/show">
                   <div class="box-cover-img">
                     <div class="content-bottom">
                       <h3 class="color-white mb-20">Work-From-Home Jobs That Pay Well</h3>
@@ -68,11 +68,11 @@ require_once __DIR__ . '/../partials/header.php';
                 <div class="row">
                   <div class="col-lg-6 mb-30">
                     <div class="card-grid-3 hover-up">
-                      <div class="text-center card-grid-3-image"><a href="blog-details">
+                      <div class="text-center card-grid-3-image"><a href="/blog/show">
                           <figure><img alt="jobBox" src="assets/imgs/page/blog/img1.png"></figure></a></div>
                       <div class="card-block-info">
                         <div class="tags mb-15"><a class="btn btn-tag" href="blog-grid.html">News</a></div>
-                        <h5><a href="blog-details">21 Job Interview Tips: How To Make a Great Impression</a></h5>
+                        <h5><a href="/blog/show">21 Job Interview Tips: How To Make a Great Impression</a></h5>
                         <p class="mt-10 color-text-paragraph font-sm">Our mission is to create the world&amp;rsquo;s most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.</p>
                         <div class="card-2-bottom mt-20">
                           <div class="row">
@@ -89,11 +89,11 @@ require_once __DIR__ . '/../partials/header.php';
                   </div>
                   <div class="col-lg-6 mb-30">
                     <div class="card-grid-3 hover-up">
-                      <div class="text-center card-grid-3-image"><a href="blog-details">
+                      <div class="text-center card-grid-3-image"><a href="/blog/show">
                           <figure><img alt="jobBox" src="assets/imgs/page/blog/img2.png"></figure></a></div>
                       <div class="card-block-info">
                         <div class="tags mb-15"><a class="btn btn-tag" href="blog-grid.html">Events</a></div>
-                        <h5><a href="blog-details">Email Examples: How To Respond to Employer Interview Requests</a></h5>
+                        <h5><a href="/blog/show">Email Examples: How To Respond to Employer Interview Requests</a></h5>
                         <p class="mt-10 color-text-paragraph font-sm">Our mission is to create the world&amp;rsquo;s most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.</p>
                         <div class="card-2-bottom mt-20">
                           <div class="row">
@@ -110,11 +110,11 @@ require_once __DIR__ . '/../partials/header.php';
                   </div>
                   <div class="col-lg-6 mb-30">
                     <div class="card-grid-3 hover-up">
-                      <div class="text-center card-grid-3-image"><a href="blog-details">
+                      <div class="text-center card-grid-3-image"><a href="/blog/show">
                           <figure><img alt="jobBox" src="assets/imgs/page/blog/img3.png"></figure></a></div>
                       <div class="card-block-info">
                         <div class="tags mb-15"><a class="btn btn-tag" href="blog-grid.html">Events</a></div>
-                        <h5><a href="blog-details">How To Write an Application Letter (With Examples)</a></h5>
+                        <h5><a href="/blog/show">How To Write an Application Letter (With Examples)</a></h5>
                         <p class="mt-10 color-text-paragraph font-sm">Our mission is to create the world&amp;rsquo;s most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.</p>
                         <div class="card-2-bottom mt-20">
                           <div class="row">
@@ -131,11 +131,11 @@ require_once __DIR__ . '/../partials/header.php';
                   </div>
                   <div class="col-lg-6 mb-30">
                     <div class="card-grid-3 hover-up">
-                      <div class="text-center card-grid-3-image"><a href="blog-details">
+                      <div class="text-center card-grid-3-image"><a href="/blog/show">
                           <figure><img alt="jobBox" src="assets/imgs/page/homepage1/img-news1.png"></figure></a></div>
                       <div class="card-block-info">
                         <div class="tags mb-15"><a class="btn btn-tag" href="blog-grid.html">Events</a></div>
-                        <h5><a href="blog-details">17 Jobs That Hire at Age 15 (and Even 14)</a></h5>
+                        <h5><a href="/blog/show">17 Jobs That Hire at Age 15 (and Even 14)</a></h5>
                         <p class="mt-10 color-text-paragraph font-sm">Our mission is to create the world&amp;rsquo;s most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.</p>
                         <div class="card-2-bottom mt-20">
                           <div class="row">
@@ -152,11 +152,11 @@ require_once __DIR__ . '/../partials/header.php';
                   </div>
                   <div class="col-lg-6 mb-30">
                     <div class="card-grid-3 hover-up">
-                      <div class="text-center card-grid-3-image"><a href="blog-details">
+                      <div class="text-center card-grid-3-image"><a href="/blog/show">
                           <figure><img alt="jobBox" src="assets/imgs/page/homepage1/img-news2.png"></figure></a></div>
                       <div class="card-block-info">
                         <div class="tags mb-15"><a class="btn btn-tag" href="blog-grid.html">Events</a></div>
-                        <h5><a href="blog-details">How To Write a Cover Letter (Plus Tips and Examples)</a></h5>
+                        <h5><a href="/blog/show">How To Write a Cover Letter (Plus Tips and Examples)</a></h5>
                         <p class="mt-10 color-text-paragraph font-sm">Our mission is to create the world&amp;rsquo;s most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.</p>
                         <div class="card-2-bottom mt-20">
                           <div class="row">
@@ -173,11 +173,11 @@ require_once __DIR__ . '/../partials/header.php';
                   </div>
                   <div class="col-lg-6 mb-30">
                     <div class="card-grid-3 hover-up">
-                      <div class="text-center card-grid-3-image"><a href="blog-details">
+                      <div class="text-center card-grid-3-image"><a href="/blog/show">
                           <figure><img alt="jobBox" src="assets/imgs/page/homepage1/img-news3.png"></figure></a></div>
                       <div class="card-block-info">
                         <div class="tags mb-15"><a class="btn btn-tag" href="blog-grid.html">Events</a></div>
-                        <h5><a href="blog-details">10 Best Skills To Include on a Resume</a></h5>
+                        <h5><a href="/blog/show">10 Best Skills To Include on a Resume</a></h5>
                         <p class="mt-10 color-text-paragraph font-sm">Our mission is to create the world&amp;rsquo;s most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.</p>
                         <div class="card-2-bottom mt-20">
                           <div class="row">
@@ -194,11 +194,11 @@ require_once __DIR__ . '/../partials/header.php';
                   </div>
                   <div class="col-lg-6 mb-30">
                     <div class="card-grid-3 hover-up">
-                      <div class="text-center card-grid-3-image"><a href="blog-details">
+                      <div class="text-center card-grid-3-image"><a href="/blog/show">
                           <figure><img alt="jobBox" src="assets/imgs/page/blog/img1.png"></figure></a></div>
                       <div class="card-block-info">
                         <div class="tags mb-15"><a class="btn btn-tag" href="blog-grid.html">Events</a></div>
-                        <h5><a href="blog-details">39 Strengths and Weaknesses To Discuss in a Job Interview</a></h5>
+                        <h5><a href="/blog/show">39 Strengths and Weaknesses To Discuss in a Job Interview</a></h5>
                         <p class="mt-10 color-text-paragraph font-sm">Our mission is to create the world&amp;rsquo;s most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.</p>
                         <div class="card-2-bottom mt-20">
                           <div class="row">
@@ -215,11 +215,11 @@ require_once __DIR__ . '/../partials/header.php';
                   </div>
                   <div class="col-lg-6 mb-30">
                     <div class="card-grid-3 hover-up">
-                      <div class="text-center card-grid-3-image"><a href="blog-details">
+                      <div class="text-center card-grid-3-image"><a href="/blog/show">
                           <figure><img alt="jobBox" src="assets/imgs/page/blog/img2.png"></figure></a></div>
                       <div class="card-block-info">
                         <div class="tags mb-15"><a class="btn btn-tag" href="blog-grid.html">Events</a></div>
-                        <h5><a href="blog-details">List of Weaknesses: 10 Things To Say in an Interview</a></h5>
+                        <h5><a href="/blog/show">List of Weaknesses: 10 Things To Say in an Interview</a></h5>
                         <p class="mt-10 color-text-paragraph font-sm">Our mission is to create the world&amp;rsquo;s most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.</p>
                         <div class="card-2-bottom mt-20">
                           <div class="row">

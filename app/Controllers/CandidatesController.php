@@ -9,10 +9,11 @@ class CandidatesController extends Controller
 {
     public function index()
     {
-        return View::render('candidates/candidates-list');
+        return View::render('candidates/index');
     }
     
-    public function candidatesDetails(){
-        return View::render('candidates/candidates-details');
+    public function show()
+    {
+        return View::render('candidates/show');
     }
 }

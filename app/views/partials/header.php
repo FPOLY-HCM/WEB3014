@@ -12,8 +12,8 @@
     <meta name="description" content="Index page">
     <meta name="keywords" content="index, page">
     <meta name="author" content="">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/template/favicon.svg">
-    <link href="assets/css/style.css?version=2.0" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/imgs/template/favicon.svg">
+    <link href="/assets/css/style.css?version=2.0" rel="stylesheet">
     <title>Jobbox</title>
 </head>
 
@@ -22,7 +22,7 @@
         <div class="preloader d-flex align-items-center justify-content-center">
             <div class="preloader-inner position-relative">
                 <div class="text-center">
-                    <img src="assets/imgs/template/loading.gif" alt="jobBox">
+                    <img src="/assets/imgs/template/loading.gif" alt="jobBox">
                 </div>
             </div>
         </div>
