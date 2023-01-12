@@ -92,8 +92,8 @@
                                 <a href="jobs-grid.html">Tìm việc</a>
                                 <ul class="sub-menu">
                                     <li><a href="jobs-grid.html">Jobs Grid</a></li>
-                                    <li><a href="jobs-list.html">Jobs List</a></li>
-                                    <li><a href="job-details.html">Jobs Details </a></li>
+                                    <li><a href="/job-list">Jobs List</a></li>
+                                    <li><a href="/job-details">Jobs Details </a></li>
                                     <li><a href="job-details-2.html">Jobs Details 2</a></li>
                                 </ul>
                             </li>
@@ -229,14 +229,8 @@
                                         <li><a href="index-6.html">Home 6</a></li>
                                     </ul>
                                 </li>
-                                <li class="has-children">
-                                    <a href="jobs-grid.html">Find a Job</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="jobs-grid.html">Jobs Grid</a></li>
-                                        <li><a href="jobs-list.html">Jobs List</a></li>
-                                        <li><a href="job-details.html">Jobs Details </a></li>
-                                        <li><a href="job-details-2.html">Jobs Details 2 </a></li>
-                                    </ul>
+                                <li>
+                                    <a href="/jobs">Việc làm</a>
                                 </li>
                                 <li class="has-children">
                                     <a href="companies-grid.html">Recruiters</a>
