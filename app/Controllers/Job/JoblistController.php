@@ -4,14 +4,14 @@ namespace App\Controllers\Job;
 use Core\Controller;
 use Core\View;
 
-class JoblistController extends Controller
+class JobController extends Controller
 {
     public function index()
     {
-        return View::render('job/index');
+        return Views::render('job/index');
     }
     public function show()
     {
-        return View::render('job/show');
+        return Views::render('job/show');
     }
 }
