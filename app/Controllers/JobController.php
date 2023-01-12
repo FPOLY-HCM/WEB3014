@@ -1,5 +1,6 @@
 <?php
-namespace App\Controllers\Job;
+
+namespace App\Controllers;
 
 use Core\Controller;
 use Core\View;
@@ -8,10 +9,11 @@ class JobController extends Controller
 {
     public function index()
     {
-        return Views::render('job/index');
+        return View::render('jobs/index');
     }
+
     public function show()
     {
-        return Views::render('job/show');
+        return View::render('jobs/show');
     }
 }
