@@ -12,8 +12,8 @@
     <meta name="description" content="Index page">
     <meta name="keywords" content="index, page">
     <meta name="author" content="">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/template/favicon.svg">
-    <link href="assets/css/style.css?version=2.0" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/imgs/template/favicon.svg">
+    <link href="/assets/css/style.css?version=2.0" rel="stylesheet">
     <title>Jobbox</title>
 </head>
 
@@ -22,7 +22,7 @@
         <div class="preloader d-flex align-items-center justify-content-center">
             <div class="preloader-inner position-relative">
                 <div class="text-center">
-                    <img src="assets/imgs/template/loading.gif" alt="jobBox">
+                    <img src="/assets/imgs/template/loading.gif" alt="jobBox">
                 </div>
             </div>
         </div>
@@ -78,7 +78,7 @@
                 <div class="header-left">
                     <div class="header-logo">
                         <a class="d-flex" href="/">
-                            <img alt="jobBox" src="assets/imgs/template/jobhub-logo.svg">
+                            <img alt="jobBox" src="/assets/imgs/template/jobhub-logo.svg">
                         </a>
                     </div>
                 </div>
@@ -234,14 +234,8 @@
                                         <li><a href="index-6.html">Home 6</a></li>
                                     </ul>
                                 </li>
-                                <li class="has-children">
-                                    <a href="jobs-grid.html">Find a Job</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="jobs-grid.html">Jobs Grid</a></li>
-                                        <li><a href="jobs-list.html">Jobs List</a></li>
-                                        <li><a href="job-details.html">Jobs Details </a></li>
-                                        <li><a href="job-details-2.html">Jobs Details 2 </a></li>
-                                    </ul>
+                                <li>
+                                    <a href="/jobs">Việc làm</a>
                                 </li>
                                 <li class="has-children">
                                     <a href="companies-grid.html">Recruiters</a>
