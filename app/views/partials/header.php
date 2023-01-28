@@ -88,14 +88,8 @@
                             <li>
                                 <a href="/">Trang chủ</a>
                             </li>
-                            <li class="has-children">
-                                <a href="jobs-grid.html">Tìm việc</a>
-                                <ul class="sub-menu">
-                                    <li><a href="jobs-grid.html">Jobs Grid</a></li>
-                                    <li><a href="/job-list">Jobs List</a></li>
-                                    <li><a href="/job-details">Jobs Details </a></li>
-                                    <li><a href="job-details-2.html">Jobs Details 2</a></li>
-                                </ul>
+                            <li>
+                                <a href="/jobs">Tìm việc</a>
                             </li>
                             <li>
                                 <a href="/companies">Nhà tuyển dụng</a>
@@ -106,7 +100,9 @@
                             <li>
                                 <a href="/blog">Blog</a>
                             </li>
-                            <li><a href="page-contact.html">Liên hệ</a></li>
+                            <li>
+                                <a href="page-contact.html">Liên hệ</a>
+                            </li>
                         </ul>
                     </nav>
                     <div class="burger-icon burger-icon-white">
