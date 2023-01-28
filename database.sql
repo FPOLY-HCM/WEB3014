@@ -18,8 +18,8 @@ CREATE TABLE `users`
 ) CHARSET = utf8mb4
   COLLATE = utf8mb4_unicode_ci;
 
-DROP TABLE IF EXISTS `customers`;
-CREATE TABLE `customers`
+DROP TABLE IF EXISTS `accounts`;
+CREATE TABLE `accounts`
 (
     `id`         bigint(20) unsigned NOT NULL AUTO_INCREMENT,
     `first_name` varchar(120)        NOT NULL,
@@ -34,8 +34,8 @@ CREATE TABLE `customers`
     `created_at` timestamp           NULL     DEFAULT NULL,
     `updated_at` timestamp           NULL     DEFAULT NULL,
     PRIMARY KEY (`id`),
-    UNIQUE KEY `customers_email_unique` (`email`),
-    UNIQUE KEY `customers_phone_unique` (`phone`)
+    UNIQUE KEY `accounts_email_unique` (`email`),
+    UNIQUE KEY `accounts_phone_unique` (`phone`)
 ) CHARSET = utf8mb4
   COLLATE = utf8mb4_unicode_ci;
 
@@ -53,6 +53,17 @@ CREATE TABLE `companies`
     `address`     varchar(255)        NOT NULL,
     `cover_image` varchar(255)                 DEFAULT NULL,
     `status`      varchar(20)         NOT NULL DEFAULT 'published',
+    `created_at`  timestamp           NULL     DEFAULT NULL,
+    `updated_at`  timestamp           NULL     DEFAULT NULL,
+    PRIMARY KEY (`id`)
+) CHARSET = utf8mb4
+  COLLATE = utf8mb4_unicode_ci;
+
+DROP TABLE IF EXISTS `categories`;
+CREATE TABLE `categories`
+(
+    `id`          bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+    `name`        varchar(255)        NOT NULL,
     `created_at`  timestamp           NULL     DEFAULT NULL,
     `updated_at`  timestamp           NULL     DEFAULT NULL,
     PRIMARY KEY (`id`)
