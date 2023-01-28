@@ -11,4 +11,9 @@ class CompanyController extends Controller
     {
         return View::render('companies/index');
     }
+
+    public function show()
+    {
+        return View::render('companies/show');
+    }
 }

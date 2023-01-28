@@ -305,17 +305,23 @@ require_once __DIR__ . '/partials/header.php';
                 <div class="box-swiper mt-50">
                     <div class="swiper-container swiper-group-5 swiper">
                         <div class="swiper-wrapper pb-70 pt-5">
-                            <div class="swiper-slide hover-up"><a href="jobs-list.html">
+                            <div class="swiper-slide hover-up">
+                                <a href="jobs-list.html">
                                     <div class="item-logo">
-                                        <div class="image-left"><img alt="jobBox" src="assets/imgs/page/homepage1/marketing.svg"></div>
+                                        <div class="image-left">
+                                            <img alt="jobBox" src="assets/imgs/page/homepage1/marketing.svg">
+                                        </div>
                                         <div class="text-info-right">
                                             <h4>Marketing &amp; Sale</h4>
                                             <p class="font-xs">1526<span> Jobs Available</span></p>
                                         </div>
                                     </div>
-                                </a><a href="jobs-grid.html">
+                                </a>
+                                <a href="/jobs">
                                     <div class="item-logo">
-                                        <div class="image-left"><img alt="jobBox" src="assets/imgs/page/homepage1/customer.svg"></div>
+                                        <div class="image-left">
+                                            <img alt="jobBox" src="assets/imgs/page/homepage1/customer.svg">
+                                        </div>
                                         <div class="text-info-right">
                                             <h4>Customer Help</h4>
                                             <p class="font-xs">185<span> Jobs Available</span></p>
@@ -323,17 +329,23 @@ require_once __DIR__ . '/partials/header.php';
                                     </div>
                                 </a>
                             </div>
-                            <div class="swiper-slide hover-up"><a href="jobs-grid.html">
+                            <div class="swiper-slide hover-up">
+                                <a href="/jobs">
                                     <div class="item-logo">
-                                        <div class="image-left"><img alt="jobBox" src="assets/imgs/page/homepage1/finance.svg"></div>
+                                        <div class="image-left">
+                                            <img alt="jobBox" src="assets/imgs/page/homepage1/finance.svg">
+                                        </div>
                                         <div class="text-info-right">
                                             <h4>Finance</h4>
                                             <p class="font-xs">168<span> Jobs Available</span></p>
                                         </div>
                                     </div>
-                                </a><a href="jobs-list.html">
+                                </a>
+                                <a href="jobs-list.html">
                                     <div class="item-logo">
-                                        <div class="image-left"><img alt="jobBox" src="assets/imgs/page/homepage1/lightning.svg"></div>
+                                        <div class="image-left">
+                                            <img alt="jobBox" src="assets/imgs/page/homepage1/lightning.svg">
+                                        </div>
                                         <div class="text-info-right">
                                             <h4>Software</h4>
                                             <p class="font-xs">1856<span> Jobs Available</span></p>
@@ -341,17 +353,23 @@ require_once __DIR__ . '/partials/header.php';
                                     </div>
                                 </a>
                             </div>
-                            <div class="swiper-slide hover-up"><a href="jobs-grid.html">
+                            <div class="swiper-slide hover-up">
+                                <a href="/jobs">
                                     <div class="item-logo">
-                                        <div class="image-left"><img alt="jobBox" src="assets/imgs/page/homepage1/human.svg"></div>
+                                        <div class="image-left">
+                                            <img alt="jobBox" src="assets/imgs/page/homepage1/human.svg">
+                                        </div>
                                         <div class="text-info-right">
                                             <h4>Human Resource</h4>
                                             <p class="font-xs">165<span> Jobs Available</span></p>
                                         </div>
                                     </div>
-                                </a><a href="jobs-grid.html">
+                                </a>
+                                <a href="/jobs">
                                     <div class="item-logo">
-                                        <div class="image-left"><img alt="jobBox" src="assets/imgs/page/homepage1/management.svg"></div>
+                                        <div class="image-left">
+                                            <img alt="jobBox" src="assets/imgs/page/homepage1/management.svg">
+                                        </div>
                                         <div class="text-info-right">
                                             <h4>Management</h4>
                                             <p class="font-xs">965<span> Jobs Available</span></p>
@@ -359,17 +377,23 @@ require_once __DIR__ . '/partials/header.php';
                                     </div>
                                 </a>
                             </div>
-                            <div class="swiper-slide hover-up"><a href="jobs-list.html">
+                            <div class="swiper-slide hover-up">
+                                <a href="jobs-list.html">
                                     <div class="item-logo">
-                                        <div class="image-left"><img alt="jobBox" src="assets/imgs/page/homepage1/retail.svg"></div>
+                                        <div class="image-left">
+                                            <img alt="jobBox" src="assets/imgs/page/homepage1/retail.svg">
+                                        </div>
                                         <div class="text-info-right">
                                             <h4>Retail &amp; Products</h4>
                                             <p class="font-xs">563<span> Jobs Available</span></p>
                                         </div>
                                     </div>
-                                </a><a href="jobs-grid.html">
+                                </a>
+                                <a href="/jobs">
                                     <div class="item-logo">
-                                        <div class="image-left"><img alt="jobBox" src="assets/imgs/page/homepage1/security.svg"></div>
+                                        <div class="image-left">
+                                            <img alt="jobBox" src="assets/imgs/page/homepage1/security.svg">
+                                        </div>
                                         <div class="text-info-right">
                                             <h4>Security Analyst</h4>
                                             <p class="font-xs">254<span> Jobs Available</span></p>
@@ -377,17 +401,23 @@ require_once __DIR__ . '/partials/header.php';
                                     </div>
                                 </a>
                             </div>
-                            <div class="swiper-slide hover-up"><a href="jobs-grid.html">
+                            <div class="swiper-slide hover-up">
+                                <a href="/jobs">
                                     <div class="item-logo">
-                                        <div class="image-left"><img alt="jobBox" src="assets/imgs/page/homepage1/content.svg"></div>
+                                        <div class="image-left">
+                                            <img alt="jobBox" src="assets/imgs/page/homepage1/content.svg">
+                                        </div>
                                         <div class="text-info-right">
                                             <h4>Content Writer</h4>
                                             <p class="font-xs">142<span> Jobs Available</span></p>
                                         </div>
                                     </div>
-                                </a><a href="jobs-list.html">
+                                </a>
+                                <a href="jobs-list.html">
                                     <div class="item-logo">
-                                        <div class="image-left"><img alt="jobBox" src="assets/imgs/page/homepage1/research.svg"></div>
+                                        <div class="image-left">
+                                            <img alt="jobBox" src="assets/imgs/page/homepage1/research.svg">
+                                        </div>
                                         <div class="text-info-right">
                                             <h4>Market Research</h4>
                                             <p class="font-xs">532<span> Jobs Available</span></p>
@@ -427,13 +457,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-1.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">LinkedIn</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">LinkedIn</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">UI / UX Designer fulltime</a></h6>
+                                        <h6><a href="/jobs/show">UI / UX Designer fulltime</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Fulltime</span><span class="card-time">4<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Adobe XD</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Figma</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Photoshop</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">Adobe XD</a><a class="btn btn-grey-small mr-5" href="/jobs">Figma</a><a class="btn btn-grey-small mr-5" href="/jobs">Photoshop</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -450,13 +480,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-2.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Adobe Ilustrator</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Adobe Ilustrator</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Full Stack Engineer</a></h6>
+                                        <h6><a href="/jobs/show">Full Stack Engineer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Part time</span><span class="card-time">5<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">React</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">NodeJS</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">React</a><a class="btn btn-grey-small mr-5" href="/jobs">NodeJS</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -473,13 +503,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-3.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Bing Search</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Bing Search</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Java Software Engineer</a></h6>
+                                        <h6><a href="/jobs/show">Java Software Engineer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Full time</span><span class="card-time">6<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Python</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">AWS</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Photoshop</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">Python</a><a class="btn btn-grey-small mr-5" href="/jobs">AWS</a><a class="btn btn-grey-small mr-5" href="/jobs">Photoshop</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -496,13 +526,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-4.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Dailymotion</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Dailymotion</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Frontend Developer</a></h6>
+                                        <h6><a href="/jobs/show">Frontend Developer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Full time</span><span class="card-time">6<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Typescript</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Java</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">Typescript</a><a class="btn btn-grey-small mr-5" href="/jobs">Java</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -519,13 +549,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-5.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Linkedin</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Linkedin</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">React Native Web Developer</a></h6>
+                                        <h6><a href="/jobs/show">React Native Web Developer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Fulltime</span><span class="card-time">4<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Angular</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">Angular</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -542,13 +572,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-6.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Quora JSC</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Quora JSC</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Senior System Engineer</a></h6>
+                                        <h6><a href="/jobs/show">Senior System Engineer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Part time</span><span class="card-time">5<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="job-details.html">PHP</a><a class="btn btn-grey-small mr-5" href="job-details.html">Android</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs/show">PHP</a><a class="btn btn-grey-small mr-5" href="/jobs/show">Android</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -565,13 +595,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-7.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Nintendo</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Nintendo</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Products Manager</a></h6>
+                                        <h6><a href="/jobs/show">Products Manager</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Full time</span><span class="card-time">6<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="job-details.html">ASP .Net</a><a class="btn btn-grey-small mr-5" href="job-details.html">Figma</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs/show">ASP .Net</a><a class="btn btn-grey-small mr-5" href="/jobs/show">Figma</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -588,13 +618,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-8.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Periscope</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Periscope</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Lead Quality Control QA</a></h6>
+                                        <h6><a href="/jobs/show">Lead Quality Control QA</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Full time</span><span class="card-time">6<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="job-details.html">iOS</a><a class="btn btn-grey-small mr-5" href="job-details.html">Laravel</a><a class="btn btn-grey-small mr-5" href="job-details.html">Golang</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs/show">iOS</a><a class="btn btn-grey-small mr-5" href="/jobs/show">Laravel</a><a class="btn btn-grey-small mr-5" href="/jobs/show">Golang</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -615,13 +645,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-6.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Quora JSC</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Quora JSC</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Senior System Engineer</a></h6>
+                                        <h6><a href="/jobs/show">Senior System Engineer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Part time</span><span class="card-time">5<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="job-details.html">PHP</a><a class="btn btn-grey-small mr-5" href="job-details.html">Android</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs/show">PHP</a><a class="btn btn-grey-small mr-5" href="/jobs/show">Android</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -638,13 +668,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-7.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Nintendo</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Nintendo</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Products Manager</a></h6>
+                                        <h6><a href="/jobs/show">Products Manager</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Full time</span><span class="card-time">6<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="job-details.html">ASP .Net</a><a class="btn btn-grey-small mr-5" href="job-details.html">Figma</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs/show">ASP .Net</a><a class="btn btn-grey-small mr-5" href="/jobs/show">Figma</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -661,13 +691,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-4.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Dailymotion</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Dailymotion</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Frontend Developer</a></h6>
+                                        <h6><a href="/jobs/show">Frontend Developer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Full time</span><span class="card-time">6<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Typescript</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Java</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">Typescript</a><a class="btn btn-grey-small mr-5" href="/jobs">Java</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -684,13 +714,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-5.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Linkedin</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Linkedin</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">React Native Web Developer</a></h6>
+                                        <h6><a href="/jobs/show">React Native Web Developer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Fulltime</span><span class="card-time">4<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Angular</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">Angular</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -707,13 +737,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-8.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Periscope</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Periscope</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Lead Quality Control QA</a></h6>
+                                        <h6><a href="/jobs/show">Lead Quality Control QA</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Full time</span><span class="card-time">6<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="job-details.html">iOS</a><a class="btn btn-grey-small mr-5" href="job-details.html">Laravel</a><a class="btn btn-grey-small mr-5" href="job-details.html">Golang</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs/show">iOS</a><a class="btn btn-grey-small mr-5" href="/jobs/show">Laravel</a><a class="btn btn-grey-small mr-5" href="/jobs/show">Golang</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -730,13 +760,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-1.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">LinkedIn</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">LinkedIn</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">UI / UX Designer fulltime</a></h6>
+                                        <h6><a href="/jobs/show">UI / UX Designer fulltime</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Fulltime</span><span class="card-time">4<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Adobe XD</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Figma</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Photoshop</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">Adobe XD</a><a class="btn btn-grey-small mr-5" href="/jobs">Figma</a><a class="btn btn-grey-small mr-5" href="/jobs">Photoshop</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -753,13 +783,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-2.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Adobe Ilustrator</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Adobe Ilustrator</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Full Stack Engineer</a></h6>
+                                        <h6><a href="/jobs/show">Full Stack Engineer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Part time</span><span class="card-time">5<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">React</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">NodeJS</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">React</a><a class="btn btn-grey-small mr-5" href="/jobs">NodeJS</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -776,13 +806,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-3.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Bing Search</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Bing Search</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Java Software Engineer</a></h6>
+                                        <h6><a href="/jobs/show">Java Software Engineer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Full time</span><span class="card-time">6<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Python</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">AWS</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Photoshop</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">Python</a><a class="btn btn-grey-small mr-5" href="/jobs">AWS</a><a class="btn btn-grey-small mr-5" href="/jobs">Photoshop</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -803,13 +833,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-4.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Dailymotion</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Dailymotion</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Frontend Developer</a></h6>
+                                        <h6><a href="/jobs/show">Frontend Developer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Full time</span><span class="card-time">6<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Typescript</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Java</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">Typescript</a><a class="btn btn-grey-small mr-5" href="/jobs">Java</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -826,13 +856,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-5.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Linkedin</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Linkedin</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">React Native Web Developer</a></h6>
+                                        <h6><a href="/jobs/show">React Native Web Developer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Fulltime</span><span class="card-time">4<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Angular</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">Angular</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -849,13 +879,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-6.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Quora JSC</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Quora JSC</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Senior System Engineer</a></h6>
+                                        <h6><a href="/jobs/show">Senior System Engineer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Part time</span><span class="card-time">5<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="job-details.html">PHP</a><a class="btn btn-grey-small mr-5" href="job-details.html">Android</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs/show">PHP</a><a class="btn btn-grey-small mr-5" href="/jobs/show">Android</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -872,13 +902,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-7.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Nintendo</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Nintendo</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Products Manager</a></h6>
+                                        <h6><a href="/jobs/show">Products Manager</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Full time</span><span class="card-time">6<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="job-details.html">ASP .Net</a><a class="btn btn-grey-small mr-5" href="job-details.html">Figma</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs/show">ASP .Net</a><a class="btn btn-grey-small mr-5" href="/jobs/show">Figma</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -895,13 +925,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-8.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Periscope</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Periscope</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Lead Quality Control QA</a></h6>
+                                        <h6><a href="/jobs/show">Lead Quality Control QA</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Full time</span><span class="card-time">6<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="job-details.html">iOS</a><a class="btn btn-grey-small mr-5" href="job-details.html">Laravel</a><a class="btn btn-grey-small mr-5" href="job-details.html">Golang</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs/show">iOS</a><a class="btn btn-grey-small mr-5" href="/jobs/show">Laravel</a><a class="btn btn-grey-small mr-5" href="/jobs/show">Golang</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -918,13 +948,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-1.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">LinkedIn</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">LinkedIn</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">UI / UX Designer fulltime</a></h6>
+                                        <h6><a href="/jobs/show">UI / UX Designer fulltime</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Fulltime</span><span class="card-time">4<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Adobe XD</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Figma</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Photoshop</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">Adobe XD</a><a class="btn btn-grey-small mr-5" href="/jobs">Figma</a><a class="btn btn-grey-small mr-5" href="/jobs">Photoshop</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -941,13 +971,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-2.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Adobe Ilustrator</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Adobe Ilustrator</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Full Stack Engineer</a></h6>
+                                        <h6><a href="/jobs/show">Full Stack Engineer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Part time</span><span class="card-time">5<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">React</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">NodeJS</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">React</a><a class="btn btn-grey-small mr-5" href="/jobs">NodeJS</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -964,13 +994,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-3.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Bing Search</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Bing Search</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Java Software Engineer</a></h6>
+                                        <h6><a href="/jobs/show">Java Software Engineer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Full time</span><span class="card-time">6<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Python</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">AWS</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Photoshop</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">Python</a><a class="btn btn-grey-small mr-5" href="/jobs">AWS</a><a class="btn btn-grey-small mr-5" href="/jobs">Photoshop</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -991,13 +1021,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-7.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Nintendo</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Nintendo</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Products Manager</a></h6>
+                                        <h6><a href="/jobs/show">Products Manager</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Full time</span><span class="card-time">6<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="job-details.html">ASP .Net</a><a class="btn btn-grey-small mr-5" href="job-details.html">Figma</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs/show">ASP .Net</a><a class="btn btn-grey-small mr-5" href="/jobs/show">Figma</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -1014,13 +1044,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-8.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Periscope</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Periscope</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Lead Quality Control QA</a></h6>
+                                        <h6><a href="/jobs/show">Lead Quality Control QA</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Full time</span><span class="card-time">6<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="job-details.html">iOS</a><a class="btn btn-grey-small mr-5" href="job-details.html">Laravel</a><a class="btn btn-grey-small mr-5" href="job-details.html">Golang</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs/show">iOS</a><a class="btn btn-grey-small mr-5" href="/jobs/show">Laravel</a><a class="btn btn-grey-small mr-5" href="/jobs/show">Golang</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -1037,13 +1067,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-4.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Dailymotion</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Dailymotion</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Frontend Developer</a></h6>
+                                        <h6><a href="/jobs/show">Frontend Developer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Full time</span><span class="card-time">6<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Typescript</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Java</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">Typescript</a><a class="btn btn-grey-small mr-5" href="/jobs">Java</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -1060,13 +1090,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-5.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Linkedin</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Linkedin</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">React Native Web Developer</a></h6>
+                                        <h6><a href="/jobs/show">React Native Web Developer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Fulltime</span><span class="card-time">4<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Angular</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">Angular</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -1083,13 +1113,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-6.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Quora JSC</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Quora JSC</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Senior System Engineer</a></h6>
+                                        <h6><a href="/jobs/show">Senior System Engineer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Part time</span><span class="card-time">5<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="job-details.html">PHP</a><a class="btn btn-grey-small mr-5" href="job-details.html">Android</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs/show">PHP</a><a class="btn btn-grey-small mr-5" href="/jobs/show">Android</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -1106,13 +1136,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-1.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">LinkedIn</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">LinkedIn</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">UI / UX Designer fulltime</a></h6>
+                                        <h6><a href="/jobs/show">UI / UX Designer fulltime</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Fulltime</span><span class="card-time">4<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Adobe XD</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Figma</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Photoshop</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">Adobe XD</a><a class="btn btn-grey-small mr-5" href="/jobs">Figma</a><a class="btn btn-grey-small mr-5" href="/jobs">Photoshop</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -1129,13 +1159,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-2.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Adobe Ilustrator</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Adobe Ilustrator</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Full Stack Engineer</a></h6>
+                                        <h6><a href="/jobs/show">Full Stack Engineer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Part time</span><span class="card-time">5<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">React</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">NodeJS</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">React</a><a class="btn btn-grey-small mr-5" href="/jobs">NodeJS</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -1152,13 +1182,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-3.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Bing Search</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Bing Search</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Java Software Engineer</a></h6>
+                                        <h6><a href="/jobs/show">Java Software Engineer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Full time</span><span class="card-time">6<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Python</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">AWS</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Photoshop</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">Python</a><a class="btn btn-grey-small mr-5" href="/jobs">AWS</a><a class="btn btn-grey-small mr-5" href="/jobs">Photoshop</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -1179,13 +1209,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-8.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Periscope</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Periscope</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Lead Quality Control QA</a></h6>
+                                        <h6><a href="/jobs/show">Lead Quality Control QA</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Full time</span><span class="card-time">6<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="job-details.html">iOS</a><a class="btn btn-grey-small mr-5" href="job-details.html">Laravel</a><a class="btn btn-grey-small mr-5" href="job-details.html">Golang</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs/show">iOS</a><a class="btn btn-grey-small mr-5" href="/jobs/show">Laravel</a><a class="btn btn-grey-small mr-5" href="/jobs/show">Golang</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -1202,13 +1232,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-1.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">LinkedIn</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">LinkedIn</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">UI / UX Designer fulltime</a></h6>
+                                        <h6><a href="/jobs/show">UI / UX Designer fulltime</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Fulltime</span><span class="card-time">4<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Adobe XD</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Figma</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Photoshop</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">Adobe XD</a><a class="btn btn-grey-small mr-5" href="/jobs">Figma</a><a class="btn btn-grey-small mr-5" href="/jobs">Photoshop</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -1225,13 +1255,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-4.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Dailymotion</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Dailymotion</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Frontend Developer</a></h6>
+                                        <h6><a href="/jobs/show">Frontend Developer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Full time</span><span class="card-time">6<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Typescript</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Java</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">Typescript</a><a class="btn btn-grey-small mr-5" href="/jobs">Java</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -1248,13 +1278,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-5.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Linkedin</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Linkedin</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">React Native Web Developer</a></h6>
+                                        <h6><a href="/jobs/show">React Native Web Developer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Fulltime</span><span class="card-time">4<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Angular</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">Angular</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -1271,13 +1301,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-6.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Quora JSC</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Quora JSC</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Senior System Engineer</a></h6>
+                                        <h6><a href="/jobs/show">Senior System Engineer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Part time</span><span class="card-time">5<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="job-details.html">PHP</a><a class="btn btn-grey-small mr-5" href="job-details.html">Android</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs/show">PHP</a><a class="btn btn-grey-small mr-5" href="/jobs/show">Android</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -1294,13 +1324,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-7.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Nintendo</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Nintendo</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Products Manager</a></h6>
+                                        <h6><a href="/jobs/show">Products Manager</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Full time</span><span class="card-time">6<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="job-details.html">ASP .Net</a><a class="btn btn-grey-small mr-5" href="job-details.html">Figma</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs/show">ASP .Net</a><a class="btn btn-grey-small mr-5" href="/jobs/show">Figma</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -1317,13 +1347,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-2.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Adobe Ilustrator</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Adobe Ilustrator</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Full Stack Engineer</a></h6>
+                                        <h6><a href="/jobs/show">Full Stack Engineer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Part time</span><span class="card-time">5<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">React</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">NodeJS</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">React</a><a class="btn btn-grey-small mr-5" href="/jobs">NodeJS</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -1340,13 +1370,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-3.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Bing Search</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Bing Search</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Java Software Engineer</a></h6>
+                                        <h6><a href="/jobs/show">Java Software Engineer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Full time</span><span class="card-time">6<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Python</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">AWS</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Photoshop</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">Python</a><a class="btn btn-grey-small mr-5" href="/jobs">AWS</a><a class="btn btn-grey-small mr-5" href="/jobs">Photoshop</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -1367,13 +1397,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-8.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Periscope</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Periscope</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Lead Quality Control QA</a></h6>
+                                        <h6><a href="/jobs/show">Lead Quality Control QA</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Full time</span><span class="card-time">6<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="job-details.html">iOS</a><a class="btn btn-grey-small mr-5" href="job-details.html">Laravel</a><a class="btn btn-grey-small mr-5" href="job-details.html">Golang</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs/show">iOS</a><a class="btn btn-grey-small mr-5" href="/jobs/show">Laravel</a><a class="btn btn-grey-small mr-5" href="/jobs/show">Golang</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -1390,13 +1420,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-1.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">LinkedIn</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">LinkedIn</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">UI / UX Designer fulltime</a></h6>
+                                        <h6><a href="/jobs/show">UI / UX Designer fulltime</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Fulltime</span><span class="card-time">4<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Adobe XD</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Figma</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Photoshop</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">Adobe XD</a><a class="btn btn-grey-small mr-5" href="/jobs">Figma</a><a class="btn btn-grey-small mr-5" href="/jobs">Photoshop</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -1413,13 +1443,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-2.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Adobe Ilustrator</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Adobe Ilustrator</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Full Stack Engineer</a></h6>
+                                        <h6><a href="/jobs/show">Full Stack Engineer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Part time</span><span class="card-time">5<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">React</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">NodeJS</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">React</a><a class="btn btn-grey-small mr-5" href="/jobs">NodeJS</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -1436,13 +1466,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-3.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Bing Search</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Bing Search</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Java Software Engineer</a></h6>
+                                        <h6><a href="/jobs/show">Java Software Engineer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Full time</span><span class="card-time">6<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Python</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">AWS</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Photoshop</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">Python</a><a class="btn btn-grey-small mr-5" href="/jobs">AWS</a><a class="btn btn-grey-small mr-5" href="/jobs">Photoshop</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -1459,13 +1489,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-4.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Dailymotion</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Dailymotion</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Frontend Developer</a></h6>
+                                        <h6><a href="/jobs/show">Frontend Developer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Full time</span><span class="card-time">6<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Typescript</a><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Java</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">Typescript</a><a class="btn btn-grey-small mr-5" href="/jobs">Java</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -1482,13 +1512,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-5.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Linkedin</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Linkedin</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">React Native Web Developer</a></h6>
+                                        <h6><a href="/jobs/show">React Native Web Developer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Fulltime</span><span class="card-time">4<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="jobs-grid.html">Angular</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs">Angular</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -1505,13 +1535,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-6.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Quora JSC</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Quora JSC</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Senior System Engineer</a></h6>
+                                        <h6><a href="/jobs/show">Senior System Engineer</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Part time</span><span class="card-time">5<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="job-details.html">PHP</a><a class="btn btn-grey-small mr-5" href="job-details.html">Android</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs/show">PHP</a><a class="btn btn-grey-small mr-5" href="/jobs/show">Android</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -1528,13 +1558,13 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-7.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="company-details.html">Nintendo</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Nintendo</a><span class="location-small">New York, US</span></div>
                                     </div>
                                     <div class="card-block-info">
-                                        <h6><a href="job-details.html">Products Manager</a></h6>
+                                        <h6><a href="/jobs/show">Products Manager</a></h6>
                                         <div class="mt-5"><span class="card-briefcase">Full time</span><span class="card-time">6<span> minutes ago</span></span></div>
                                         <p class="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="job-details.html">ASP .Net</a><a class="btn btn-grey-small mr-5" href="job-details.html">Figma</a>
+                                        <div class="mt-30"><a class="btn btn-grey-small mr-5" href="/jobs/show">ASP .Net</a><a class="btn btn-grey-small mr-5" href="/jobs/show">Figma</a>
                                         </div>
                                         <div class="card-2-bottom mt-30">
                                             <div class="row">
@@ -1565,9 +1595,11 @@ require_once __DIR__ . '/partials/header.php';
                 <div class="swiper-container swiper-group-1 swiper-style-2 swiper">
                     <div class="swiper-wrapper pt-5">
                         <div class="swiper-slide">
-                            <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
+                            <div class="item-5 hover-up wow animate__animated animate__fadeIn">
+                                <a href="/companies/show">
                                     <div class="item-logo">
-                                        <div class="image-left"><img alt="jobBox" src="assets/imgs/brands/brand-1.png"></div>
+                                        <div class="image-left">
+                                            <img alt="jobBox" src="assets/imgs/brands/brand-1.png"></div>
                                         <div class="text-info-right">
                                             <h4>Linkedin</h4><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>68</span><span>)</span></span>
                                         </div>
@@ -1575,9 +1607,11 @@ require_once __DIR__ . '/partials/header.php';
                                     </div>
                                 </a>
                             </div>
-                            <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
+                            <div class="item-5 hover-up wow animate__animated animate__fadeIn">
+                                <a href="/companies/show">
                                     <div class="item-logo">
-                                        <div class="image-left"><img alt="jobBox" src="assets/imgs/brands/brand-2.png"></div>
+                                        <div class="image-left">
+                                            <img alt="jobBox" src="assets/imgs/brands/brand-2.png"></div>
                                         <div class="text-info-right">
                                             <h4>Adobe</h4><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>42</span><span>)</span></span>
                                         </div>
@@ -1585,9 +1619,11 @@ require_once __DIR__ . '/partials/header.php';
                                     </div>
                                 </a>
                             </div>
-                            <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
+                            <div class="item-5 hover-up wow animate__animated animate__fadeIn">
+                                <a href="/companies/show">
                                     <div class="item-logo">
-                                        <div class="image-left"><img alt="jobBox" src="assets/imgs/brands/brand-3.png"></div>
+                                        <div class="image-left">
+                                            <img alt="jobBox" src="assets/imgs/brands/brand-3.png"></div>
                                         <div class="text-info-right">
                                             <h4>Dailymotion</h4><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>46</span><span>)</span></span>
                                         </div>
@@ -1595,9 +1631,11 @@ require_once __DIR__ . '/partials/header.php';
                                     </div>
                                 </a>
                             </div>
-                            <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
+                            <div class="item-5 hover-up wow animate__animated animate__fadeIn">
+                                <a href="/companies/show">
                                     <div class="item-logo">
-                                        <div class="image-left"><img alt="jobBox" src="assets/imgs/brands/brand-4.png"></div>
+                                        <div class="image-left">
+                                            <img alt="jobBox" src="assets/imgs/brands/brand-4.png"></div>
                                         <div class="text-info-right">
                                             <h4>NewSum</h4><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>68</span><span>)</span></span>
                                         </div>
@@ -1605,9 +1643,11 @@ require_once __DIR__ . '/partials/header.php';
                                     </div>
                                 </a>
                             </div>
-                            <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
+                            <div class="item-5 hover-up wow animate__animated animate__fadeIn">
+                                <a href="/companies/show">
                                     <div class="item-logo">
-                                        <div class="image-left"><img alt="jobBox" src="assets/imgs/brands/brand-5.png"></div>
+                                        <div class="image-left">
+                                            <img alt="jobBox" src="assets/imgs/brands/brand-5.png"></div>
                                         <div class="text-info-right">
                                             <h4>PowerHome</h4><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>87</span><span>)</span></span>
                                         </div>
@@ -1615,9 +1655,11 @@ require_once __DIR__ . '/partials/header.php';
                                     </div>
                                 </a>
                             </div>
-                            <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
+                            <div class="item-5 hover-up wow animate__animated animate__fadeIn">
+                                <a href="/companies/show">
                                     <div class="item-logo">
-                                        <div class="image-left"><img alt="jobBox" src="assets/imgs/brands/brand-6.png"></div>
+                                        <div class="image-left">
+                                            <img alt="jobBox" src="assets/imgs/brands/brand-6.png"></div>
                                         <div class="text-info-right">
                                             <h4>Whop.com</h4><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>34</span><span>)</span></span>
                                         </div>
@@ -1625,9 +1667,11 @@ require_once __DIR__ . '/partials/header.php';
                                     </div>
                                 </a>
                             </div>
-                            <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
+                            <div class="item-5 hover-up wow animate__animated animate__fadeIn">
+                                <a href="/companies/show">
                                     <div class="item-logo">
-                                        <div class="image-left"><img alt="jobBox" src="assets/imgs/brands/brand-7.png"></div>
+                                        <div class="image-left">
+                                            <img alt="jobBox" src="assets/imgs/brands/brand-7.png"></div>
                                         <div class="text-info-right">
                                             <h4>Greewood</h4><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>124</span><span>)</span></span>
                                         </div>
@@ -1635,9 +1679,11 @@ require_once __DIR__ . '/partials/header.php';
                                     </div>
                                 </a>
                             </div>
-                            <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
+                            <div class="item-5 hover-up wow animate__animated animate__fadeIn">
+                                <a href="/companies/show">
                                     <div class="item-logo">
-                                        <div class="image-left"><img alt="jobBox" src="assets/imgs/brands/brand-8.png"></div>
+                                        <div class="image-left">
+                                            <img alt="jobBox" src="assets/imgs/brands/brand-8.png"></div>
                                         <div class="text-info-right">
                                             <h4>Kentucky</h4><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>54</span><span>)</span></span>
                                         </div>
@@ -1645,9 +1691,11 @@ require_once __DIR__ . '/partials/header.php';
                                     </div>
                                 </a>
                             </div>
-                            <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
+                            <div class="item-5 hover-up wow animate__animated animate__fadeIn">
+                                <a href="/companies/show">
                                     <div class="item-logo">
-                                        <div class="image-left"><img alt="jobBox" src="assets/imgs/brands/brand-9.png"></div>
+                                        <div class="image-left">
+                                            <img alt="jobBox" src="assets/imgs/brands/brand-9.png"></div>
                                         <div class="text-info-right">
                                             <h4>Qeuity</h4><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>76</span><span>)</span></span>
                                         </div>
@@ -1655,9 +1703,11 @@ require_once __DIR__ . '/partials/header.php';
                                     </div>
                                 </a>
                             </div>
-                            <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
+                            <div class="item-5 hover-up wow animate__animated animate__fadeIn">
+                                <a href="/companies/show">
                                     <div class="item-logo">
-                                        <div class="image-left"><img alt="jobBox" src="assets/imgs/brands/brand-10.png"></div>
+                                        <div class="image-left">
+                                            <img alt="jobBox" src="assets/imgs/brands/brand-10.png"></div>
                                         <div class="text-info-right">
                                             <h4>Honda</h4><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>89</span><span>)</span></span>
                                         </div>
@@ -1665,9 +1715,11 @@ require_once __DIR__ . '/partials/header.php';
                                     </div>
                                 </a>
                             </div>
-                            <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
+                            <div class="item-5 hover-up wow animate__animated animate__fadeIn">
+                                <a href="/companies/show">
                                     <div class="item-logo">
-                                        <div class="image-left"><img alt="jobBox" src="assets/imgs/brands/brand-5.png"></div>
+                                        <div class="image-left">
+                                            <img alt="jobBox" src="assets/imgs/brands/brand-5.png"></div>
                                         <div class="text-info-right">
                                             <h4>Toyota</h4><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>34</span><span>)</span></span>
                                         </div>
@@ -1675,9 +1727,11 @@ require_once __DIR__ . '/partials/header.php';
                                     </div>
                                 </a>
                             </div>
-                            <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
+                            <div class="item-5 hover-up wow animate__animated animate__fadeIn">
+                                <a href="/companies/show">
                                     <div class="item-logo">
-                                        <div class="image-left"><img alt="jobBox" src="assets/imgs/brands/brand-3.png"></div>
+                                        <div class="image-left">
+                                            <img alt="jobBox" src="assets/imgs/brands/brand-3.png"></div>
                                         <div class="text-info-right">
                                             <h4>Lexuxs</h4><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>27</span><span>)</span></span>
                                         </div>
@@ -1685,9 +1739,11 @@ require_once __DIR__ . '/partials/header.php';
                                     </div>
                                 </a>
                             </div>
-                            <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
+                            <div class="item-5 hover-up wow animate__animated animate__fadeIn">
+                                <a href="/companies/show">
                                     <div class="item-logo">
-                                        <div class="image-left"><img alt="jobBox" src="assets/imgs/brands/brand-6.png"></div>
+                                        <div class="image-left">
+                                            <img alt="jobBox" src="assets/imgs/brands/brand-6.png"></div>
                                         <div class="text-info-right">
                                             <h4>Ondo</h4><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>54</span><span>)</span></span>
                                         </div>
@@ -1695,9 +1751,11 @@ require_once __DIR__ . '/partials/header.php';
                                     </div>
                                 </a>
                             </div>
-                            <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
+                            <div class="item-5 hover-up wow animate__animated animate__fadeIn">
+                                <a href="/companies/show">
                                     <div class="item-logo">
-                                        <div class="image-left"><img alt="jobBox" src="assets/imgs/brands/brand-2.png"></div>
+                                        <div class="image-left">
+                                            <img alt="jobBox" src="assets/imgs/brands/brand-2.png"></div>
                                         <div class="text-info-right">
                                             <h4>Square</h4><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>16</span><span>)</span></span>
                                         </div>
@@ -1705,9 +1763,11 @@ require_once __DIR__ . '/partials/header.php';
                                     </div>
                                 </a>
                             </div>
-                            <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
+                            <div class="item-5 hover-up wow animate__animated animate__fadeIn">
+                                <a href="/companies/show">
                                     <div class="item-logo">
-                                        <div class="image-left"><img alt="jobBox" src="assets/imgs/brands/brand-8.png"></div>
+                                        <div class="image-left">
+                                            <img alt="jobBox" src="assets/imgs/brands/brand-8.png"></div>
                                         <div class="text-info-right">
                                             <h4>Vista</h4><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>97</span><span>)</span></span>
                                         </div>
@@ -1737,14 +1797,15 @@ require_once __DIR__ . '/partials/header.php';
                         <div class="swiper-wrapper pb-70 pt-5">
                             <div class="swiper-slide">
                                 <div class="card-grid-3 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="text-center card-grid-3-image"><a href="#">
+                                    <div class="text-center card-grid-3-image">
+                                        <a href="/blog/show">
                                             <figure><img alt="jobBox" src="assets/imgs/page/homepage1/img-news1.png"></figure>
                                         </a>
                                     </div>
                                     <div class="card-block-info">
-                                        <div class="tags mb-15"><a class="btn btn-tag" href="blog-grid.html">News</a>
+                                        <div class="tags mb-15"><a class="btn btn-tag" href="/blog/show">News</a>
                                     </div>
-                                        <h5><a href="blog-details.html">21 Job Interview Tips: How To Make a Great Impression</a></h5>
+                                        <h5><a href="/blog/show">21 Job Interview Tips: How To Make a Great Impression</a></h5>
                                         <p class="mt-10 color-text-paragraph font-sm">Our mission is to create the world&amp;rsquo;s most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.</p>
                                         <div class="card-2-bottom mt-20">
                                             <div class="row">
@@ -1761,14 +1822,15 @@ require_once __DIR__ . '/partials/header.php';
                             </div>
                             <div class="swiper-slide">
                                 <div class="card-grid-3 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="text-center card-grid-3-image"><a href="#">
+                                    <div class="text-center card-grid-3-image">
+                                        <a href="/blog/show">
                                             <figure><img alt="jobBox" src="assets/imgs/page/homepage1/img-news2.png"></figure>
                                         </a>
                                     </div>
                                     <div class="card-block-info">
-                                        <div class="tags mb-15"><a class="btn btn-tag" href="blog-grid.html">Events</a>
+                                        <div class="tags mb-15"><a class="btn btn-tag" href="/blog/show">Events</a>
                                     </div>
-                                        <h5><a href="blog-details.html">39 Strengths and Weaknesses To Discuss in a Job Interview</a></h5>
+                                        <h5><a href="/blog/show">39 Strengths and Weaknesses To Discuss in a Job Interview</a></h5>
                                         <p class="mt-10 color-text-paragraph font-sm">Our mission is to create the world&amp;rsquo;s most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.</p>
                                         <div class="card-2-bottom mt-20">
                                             <div class="row">
@@ -1785,14 +1847,15 @@ require_once __DIR__ . '/partials/header.php';
                             </div>
                             <div class="swiper-slide">
                                 <div class="card-grid-3 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="text-center card-grid-3-image"><a href="#">
+                                    <div class="text-center card-grid-3-image">
+                                        <a href="/blog/show">
                                             <figure><img alt="jobBox" src="assets/imgs/page/homepage1/img-news3.png"></figure>
                                         </a>
                                     </div>
                                     <div class="card-block-info">
-                                        <div class="tags mb-15"><a class="btn btn-tag" href="blog-grid.html">News</a>
+                                        <div class="tags mb-15"><a class="btn btn-tag" href="/blog/show">News</a>
                                     </div>
-                                        <h5><a href="blog-details.html">Interview Question: Why Dont You Have a Degree?</a></h5>
+                                        <h5><a href="/blog/show">Interview Question: Why Dont You Have a Degree?</a></h5>
                                         <p class="mt-10 color-text-paragraph font-sm">Learn how to respond if an interviewer asks you why you dont have a degree, and read example answers that can help you craft</p>
                                         <div class="card-2-bottom mt-20">
                                             <div class="row">
@@ -1812,7 +1875,7 @@ require_once __DIR__ . '/partials/header.php';
                     <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div>
                 </div>
-                <div class="text-center"><a class="btn btn-brand-1 btn-icon-load mt--30 hover-up" href="blog-grid.html">Load More Posts</a>
+                <div class="text-center"><a class="btn btn-brand-1 btn-icon-load mt--30 hover-up" href="/blog/show">Load More Posts</a>
             </div>
             </div>
         </div>

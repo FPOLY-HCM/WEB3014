@@ -15,6 +15,7 @@ Route::get('/login', [LoginController::class, 'index']);
 Route::get('/register', [RegisterController::class, 'index']);
 
 Route::get('/companies', [CompanyController::class, 'index']);
+Route::get('/companies/show', [CompanyController::class, 'show']);
 
 Route::get('/jobs', [JobController::class, 'index']);
 Route::get('/jobs/show', [JobController::class, 'show']);

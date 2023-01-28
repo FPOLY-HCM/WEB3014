@@ -60,9 +60,9 @@ require_once __DIR__ . '/../partials/header.php';
                         <div class="row">
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="company-details.html"><img src="assets/imgs/brands/brand-1.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-1.png" alt="jobBox"></a></div>
                                     <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="company-details.html">Car Toys</a></h5>
+                                        <h5 class="font-bold"><a href="/companies/show">Car Toys</a></h5>
                                         <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>66</span><span>)</span></span></div><span class="card-location">New York, US</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>12</span><span> Jobs Open</span></a></div>
                                     </div>
@@ -70,9 +70,9 @@ require_once __DIR__ . '/../partials/header.php';
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="company-details.html"><img src="assets/imgs/brands/brand-2.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-2.png" alt="jobBox"></a></div>
                                     <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="company-details.html">Carols Daughter</a></h5>
+                                        <h5 class="font-bold"><a href="/companies/show">Carols Daughter</a></h5>
                                         <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>18</span><span>)</span></span></div><span class="card-location">London, UK</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>25</span><span> Jobs Open</span></a></div>
                                     </div>
@@ -80,9 +80,9 @@ require_once __DIR__ . '/../partials/header.php';
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="company-details.html"><img src="assets/imgs/brands/brand-3.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-3.png" alt="jobBox"></a></div>
                                     <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="company-details.html">Amazon</a></h5>
+                                        <h5 class="font-bold"><a href="/companies/show">Amazon</a></h5>
                                         <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>52</span><span>)</span></span></div><span class="card-location">Tokyo,Japan</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>54</span><span> Jobs Open</span></a></div>
                                     </div>
@@ -90,9 +90,9 @@ require_once __DIR__ . '/../partials/header.php';
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="company-details.html"><img src="assets/imgs/brands/brand-4.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-4.png" alt="jobBox"></a></div>
                                     <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="company-details.html">Baseball Savings</a></h5>
+                                        <h5 class="font-bold"><a href="/companies/show">Baseball Savings</a></h5>
                                         <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>85</span><span>)</span></span></div><span class="card-location">Chicago, US</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>6</span><span> Jobs Open</span></a></div>
                                     </div>
@@ -100,9 +100,9 @@ require_once __DIR__ . '/../partials/header.php';
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="company-details.html"><img src="assets/imgs/brands/brand-5.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-5.png" alt="jobBox"></a></div>
                                     <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="company-details.html">Ashford</a></h5>
+                                        <h5 class="font-bold"><a href="/companies/show">Ashford</a></h5>
                                         <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>25</span><span>)</span></span></div><span class="card-location">Toronto, Italia</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>67</span><span> Jobs Open</span></a></div>
                                     </div>
@@ -110,9 +110,9 @@ require_once __DIR__ . '/../partials/header.php';
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="company-details.html"><img src="assets/imgs/brands/brand-6.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-6.png" alt="jobBox"></a></div>
                                     <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="company-details.html">Callaway Golf</a></h5>
+                                        <h5 class="font-bold"><a href="/companies/show">Callaway Golf</a></h5>
                                         <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>34</span><span>)</span></span></div><span class="card-location">San Francisco, US</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>45</span><span> Jobs Open</span></a></div>
                                     </div>
@@ -120,9 +120,9 @@ require_once __DIR__ . '/../partials/header.php';
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="company-details.html"><img src="assets/imgs/brands/brand-7.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-7.png" alt="jobBox"></a></div>
                                     <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="company-details.html">Percepta</a></h5>
+                                        <h5 class="font-bold"><a href="/companies/show">Percepta</a></h5>
                                         <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>97</span><span>)</span></span></div><span class="card-location">Chinatown, Singpore</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>64</span><span> Jobs Open</span></a></div>
                                     </div>
@@ -130,9 +130,9 @@ require_once __DIR__ . '/../partials/header.php';
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="company-details.html"><img src="assets/imgs/brands/brand-8.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-8.png" alt="jobBox"></a></div>
                                     <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="company-details.html">Exela Movers</a></h5>
+                                        <h5 class="font-bold"><a href="/companies/show">Exela Movers</a></h5>
                                         <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>67</span><span>)</span></span></div><span class="card-location">New York, US</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>87</span><span> Jobs Open</span></a></div>
                                     </div>
@@ -140,9 +140,9 @@ require_once __DIR__ . '/../partials/header.php';
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="company-details.html"><img src="assets/imgs/brands/brand-9.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-9.png" alt="jobBox"></a></div>
                                     <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="company-details.html">Ibotta, Inc</a></h5>
+                                        <h5 class="font-bold"><a href="/companies/show">Ibotta, Inc</a></h5>
                                         <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>45</span><span>)</span></span></div><span class="card-location">New York, US</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>23</span><span> Jobs Open</span></a></div>
                                     </div>
@@ -150,9 +150,9 @@ require_once __DIR__ . '/../partials/header.php';
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="company-details.html"><img src="assets/imgs/brands/brand-1.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-1.png" alt="jobBox"></a></div>
                                     <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="company-details.html">Wanderu </a></h5>
+                                        <h5 class="font-bold"><a href="/companies/show">Wanderu </a></h5>
                                         <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>08</span><span>)</span></span></div><span class="card-location">New York, US</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>45</span><span> Jobs Open</span></a></div>
                                     </div>
@@ -160,9 +160,9 @@ require_once __DIR__ . '/../partials/header.php';
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="company-details.html"><img src="assets/imgs/brands/brand-2.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-2.png" alt="jobBox"></a></div>
                                     <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="company-details.html">Aceable, Inc.</a></h5>
+                                        <h5 class="font-bold"><a href="/companies/show">Aceable, Inc.</a></h5>
                                         <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>54</span><span>)</span></span></div><span class="card-location">New York, US</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>67</span><span> Jobs Open</span></a></div>
                                     </div>
@@ -170,9 +170,9 @@ require_once __DIR__ . '/../partials/header.php';
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="company-details.html"><img src="assets/imgs/brands/brand-3.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-3.png" alt="jobBox"></a></div>
                                     <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="company-details.html">Intrepid Travel</a></h5>
+                                        <h5 class="font-bold"><a href="/companies/show">Intrepid Travel</a></h5>
                                         <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>123</span><span>)</span></span></div><span class="card-location">New York, US</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>53</span><span> Jobs Open</span></a></div>
                                     </div>
@@ -180,9 +180,9 @@ require_once __DIR__ . '/../partials/header.php';
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="company-details.html"><img src="assets/imgs/brands/brand-4.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-4.png" alt="jobBox"></a></div>
                                     <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="company-details.html">Defendify </a></h5>
+                                        <h5 class="font-bold"><a href="/companies/show">Defendify </a></h5>
                                         <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>64</span><span>)</span></span></div><span class="card-location">New York, US</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>56</span><span> Jobs Open</span></a></div>
                                     </div>
@@ -190,9 +190,9 @@ require_once __DIR__ . '/../partials/header.php';
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="company-details.html"><img src="assets/imgs/brands/brand-5.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-5.png" alt="jobBox"></a></div>
                                     <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="company-details.html">Twisters </a></h5>
+                                        <h5 class="font-bold"><a href="/companies/show">Twisters </a></h5>
                                         <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>34</span><span>)</span></span></div><span class="card-location">New York, US</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>66</span><span> Jobs Open</span></a></div>
                                     </div>
@@ -200,9 +200,9 @@ require_once __DIR__ . '/../partials/header.php';
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="company-details.html"><img src="assets/imgs/brands/brand-6.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-6.png" alt="jobBox"></a></div>
                                     <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="company-details.html">Fireworks</a></h5>
+                                        <h5 class="font-bold"><a href="/companies/show">Fireworks</a></h5>
                                         <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>12</span><span>)</span></span></div><span class="card-location">New York, US</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>12</span><span> Jobs Open</span></a></div>
                                     </div>
@@ -210,9 +210,9 @@ require_once __DIR__ . '/../partials/header.php';
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="company-details.html"><img src="assets/imgs/brands/brand-1.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-1.png" alt="jobBox"></a></div>
                                     <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="company-details.html">Car Toys</a></h5>
+                                        <h5 class="font-bold"><a href="/companies/show">Car Toys</a></h5>
                                         <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>66</span><span>)</span></span></div><span class="card-location">New York, US</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>12</span><span> Jobs Open</span></a></div>
                                     </div>
@@ -220,9 +220,9 @@ require_once __DIR__ . '/../partials/header.php';
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="company-details.html"><img src="assets/imgs/brands/brand-2.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-2.png" alt="jobBox"></a></div>
                                     <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="company-details.html">Carols Daughter</a></h5>
+                                        <h5 class="font-bold"><a href="/companies/show">Carols Daughter</a></h5>
                                         <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>18</span><span>)</span></span></div><span class="card-location">London, UK</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>25</span><span> Jobs Open</span></a></div>
                                     </div>
@@ -230,9 +230,9 @@ require_once __DIR__ . '/../partials/header.php';
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="company-details.html"><img src="assets/imgs/brands/brand-3.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-3.png" alt="jobBox"></a></div>
                                     <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="company-details.html">Amazon</a></h5>
+                                        <h5 class="font-bold"><a href="/companies/show">Amazon</a></h5>
                                         <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>52</span><span>)</span></span></div><span class="card-location">Tokyo,Japan</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>54</span><span> Jobs Open</span></a></div>
                                     </div>
@@ -240,9 +240,9 @@ require_once __DIR__ . '/../partials/header.php';
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="company-details.html"><img src="assets/imgs/brands/brand-4.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-4.png" alt="jobBox"></a></div>
                                     <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="company-details.html">Baseball Savings</a></h5>
+                                        <h5 class="font-bold"><a href="/companies/show">Baseball Savings</a></h5>
                                         <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>85</span><span>)</span></span></div><span class="card-location">Chicago, US</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>6</span><span> Jobs Open</span></a></div>
                                     </div>
@@ -250,9 +250,9 @@ require_once __DIR__ . '/../partials/header.php';
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="company-details.html"><img src="assets/imgs/brands/brand-5.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-5.png" alt="jobBox"></a></div>
                                     <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="company-details.html">Ashford</a></h5>
+                                        <h5 class="font-bold"><a href="/companies/show">Ashford</a></h5>
                                         <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>25</span><span>)</span></span></div><span class="card-location">Toronto, Italia</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>67</span><span> Jobs Open</span></a></div>
                                     </div>
@@ -260,9 +260,9 @@ require_once __DIR__ . '/../partials/header.php';
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="company-details.html"><img src="assets/imgs/brands/brand-6.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-6.png" alt="jobBox"></a></div>
                                     <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="company-details.html">Callaway Golf</a></h5>
+                                        <h5 class="font-bold"><a href="/companies/show">Callaway Golf</a></h5>
                                         <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>34</span><span>)</span></span></div><span class="card-location">San Francisco, US</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>45</span><span> Jobs Open</span></a></div>
                                     </div>
