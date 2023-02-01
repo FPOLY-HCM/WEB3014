@@ -43,6 +43,7 @@ DROP TABLE IF EXISTS `companies`;
 CREATE TABLE `companies`
 (
     `id`          bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+    `account_id`  int(10) unsigned    NOT NULL,
     `name`        varchar(255)        NOT NULL,
     `email`       varchar(255)        NOT NULL,
     `phone`       varchar(20)                  DEFAULT NULL,
@@ -62,11 +63,11 @@ CREATE TABLE `companies`
 DROP TABLE IF EXISTS `categories`;
 CREATE TABLE `categories`
 (
-    `id`          bigint(20) unsigned NOT NULL AUTO_INCREMENT,
-    `name`        varchar(255)        NOT NULL,
-    `icon`        varchar(255)                 DEFAULT NULL,
-    `created_at`  timestamp           NULL     DEFAULT NULL,
-    `updated_at`  timestamp           NULL     DEFAULT NULL,
+    `id`         bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+    `name`       varchar(255)        NOT NULL,
+    `icon`       varchar(255)             DEFAULT NULL,
+    `created_at` timestamp           NULL DEFAULT NULL,
+    `updated_at` timestamp           NULL DEFAULT NULL,
     PRIMARY KEY (`id`)
 ) CHARSET = utf8mb4
   COLLATE = utf8mb4_unicode_ci;
@@ -75,10 +76,11 @@ DROP TABLE IF EXISTS `jobs`;
 CREATE TABLE `jobs`
 (
     `id`                  bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+    `category_id`         int(10) unsigned    NOT NULL,
+    `company_id`          int(10) unsigned             DEFAULT NULL,
     `name`                varchar(120)        NOT NULL,
     `description`         text                         DEFAULT NULL,
     `content`             text                         DEFAULT NULL,
-    `company_id`          int(10) unsigned             DEFAULT NULL,
     `address`             varchar(255)                 DEFAULT NULL,
     `salary`              decimal(15, 0) unsigned      DEFAULT NULL,
     `salary_range`        varchar(30)         NOT NULL DEFAULT 'hour',
@@ -88,6 +90,19 @@ CREATE TABLE `jobs`
     `status`              varchar(60)         NOT NULL DEFAULT 'published',
     `created_at`          timestamp           NULL     DEFAULT NULL,
     `updated_at`          timestamp           NULL     DEFAULT NULL,
+    PRIMARY KEY (`id`)
+) CHARSET = utf8mb4
+  COLLATE = utf8mb4_unicode_ci;
+
+DROP TABLE IF EXISTS `applications`;
+CREATE TABLE `applications`
+(
+    `id`         bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+    `job_id`     int(10) unsigned    NOT NULL,
+    `account_id` int(10) unsigned    NOT NULL,
+    `status`     varchar(20)         NOT NULL DEFAULT 'pending',
+    `created_at` timestamp           NULL     DEFAULT NULL,
+    `updated_at` timestamp           NULL     DEFAULT NULL,
     PRIMARY KEY (`id`)
 ) CHARSET = utf8mb4
   COLLATE = utf8mb4_unicode_ci;
