@@ -22,8 +22,7 @@ DROP TABLE IF EXISTS `accounts`;
 CREATE TABLE `accounts`
 (
     `id`         bigint(20) unsigned NOT NULL AUTO_INCREMENT,
-    `first_name` varchar(120)        NOT NULL,
-    `last_name`  varchar(120)        NOT NULL,
+    `name`       varchar(255)        NOT NULL,
     `email`      varchar(255)        NOT NULL,
     `password`   varchar(255)        NOT NULL,
     `phone`      varchar(255)                 DEFAULT NULL,

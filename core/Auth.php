@@ -2,44 +2,59 @@
 
 namespace Core;
 
+use App\Models\Account;
 use App\Models\User;
+use Illuminate\Database\Eloquent\Model;
 
 class Auth
 {
-    protected User|null $user = null;
+    protected User|Account|null $user = null;
+
+    protected string $guard;
+
+    protected Model|string|null $model;
 
     protected string|null $sessionUserId;
 
-    public function __construct()
+    public function __construct(string $guard = 'account')
     {
-        $this->sessionUserId = $_SESSION['user_id'] ?? null;
+        $this->guard = $guard;
+
+        if ($this->guard === 'account') {
+            $this->model = Account::class;
+        } elseif ($this->guard === 'admin') {
+            $this->model = User::class;
+        }
+
+        $this->sessionUserId = $_SESSION[$this->guard . '_user_id'] ?? null;
 
         if ($this->sessionUserId) {
-            $user = User::query()->findOrFail($this->sessionUserId);
+            $user = $this->model::query()->findOrFail($this->sessionUserId);
 
             $this->user = $user;
         }
     }
 
-    public function user(): User|null
+    public function user(): User|Account|null
     {
         return $this->user;
     }
 
     public function check(): bool
     {
-        return $this->sessionUserId && $this->user;
+        return $this->sessionUserId ? true : false;
     }
 
     public function attempt(string $email, string $password): bool
     {
-        $user = User::query()->where('email', $email)->where('password', $password)->first();
+        $user = $this->model::query()->where('email', $email)->where('password', $password)->first();
 
         if (! $user) {
             return false;
         }
 
-        $_SESSION['user_id'] = $user->id;
+        $_SESSION[$this->guard . '_user_id'] = $user->id;
+
         $this->user = $user;
 
         return true;

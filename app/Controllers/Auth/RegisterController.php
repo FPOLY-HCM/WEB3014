@@ -2,7 +2,7 @@
 
 namespace App\Controllers\Auth;
 
-use App\Models\User;
+use App\Models\Account;
 use Core\Auth;
 use Core\Controller;
 use Core\Request;
@@ -24,17 +24,17 @@ class RegisterController extends Controller
         $password = $request->input('password');
         $password_confirmation = $request->input('password_confirmation');
 
-        $user = User::create([
+        $account = Account::create([
             'name' => $name,
             'email' => $email,
             'password' => $password,
         ]);
 
-        if (! $user) {
+        if (! $account) {
             return redirect('/register');
         }
 
-        if ((new Auth())->attempt($email, $password)) {
+        if ((new Auth('account'))->attempt($email, $password)) {
             return redirect('/');
         }
 
