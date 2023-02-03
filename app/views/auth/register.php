@@ -12,18 +12,14 @@ require_once __DIR__ . '/../partials/header.php';
                         <h2 class="mt-10 mb-5 text-brand-1">Bắt đầu miễn phí</h2>
                         <p class="font-sm text-muted mb-30">Access to all features. No credit card required.</p>
                     </div>
-                    <form class="login-register text-start mt-20" action="#">
+                    <form class="login-register text-start mt-20" action="/register" method="post">
                         <div class="form-group">
                             <label class="form-label" for="input-1">Họ tên *</label>
-                            <input class="form-control" id="input-1" type="text" required="" name="fullname" placeholder="Steven Job">
+                            <input class="form-control" id="input-1" type="text" required="" name="name" placeholder="Steven Job">
                         </div>
                         <div class="form-group">
                             <label class="form-label" for="input-2">Email *</label>
-                            <input class="form-control" id="input-2" type="email" required="" name="emailaddress" placeholder="stevenjob@gmail.com">
-                        </div>
-                        <div class="form-group">
-                            <label class="form-label" for="input-3">Tên tài khoản *</label>
-                            <input class="form-control" id="input-3" type="text" required="" name="username" placeholder="stevenjob">
+                            <input class="form-control" id="input-2" type="email" required="" name="email" placeholder="stevenjob@gmail.com">
                         </div>
                         <div class="form-group">
                             <label class="form-label" for="input-4">Mật khẩu *</label>
@@ -31,7 +27,7 @@ require_once __DIR__ . '/../partials/header.php';
                         </div>
                         <div class="form-group">
                             <label class="form-label" for="input-5">Nhập lại mật khẩu *</label>
-                            <input class="form-control" id="input-5" type="password" required="" name="re-password" placeholder="************">
+                            <input class="form-control" id="input-5" type="password" required="" name="password_confirmation" placeholder="************">
                         </div>
                         <div class="login_footer form-group d-flex justify-content-between">
                             <label class="cb-container">

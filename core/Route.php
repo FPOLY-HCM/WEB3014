@@ -11,7 +11,7 @@ class Route
         Router::register('GET', $uri, $action);
     }
 
-    public static function post(string $uri, Closure $action): void
+    public static function post(string $uri, Closure|array $action): void
     {
         Router::register('POST', $uri, $action);
     }

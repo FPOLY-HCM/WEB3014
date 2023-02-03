@@ -8,12 +8,14 @@ use App\Controllers\JobController;
 use App\Controllers\BlogController;
 use App\Controllers\CandidateController;
 use App\Controllers\DashboardController;
+use Core\Auth;
 use Core\Route;
 
 Route::get('/', [HomeController::class, 'index']);
 
 Route::get('/login', [LoginController::class, 'index']);
 Route::get('/register', [RegisterController::class, 'index']);
+Route::post('/register', [RegisterController::class, 'register']);
 
 Route::get('/companies', [CompanyController::class, 'index']);
 Route::get('/companies/show', [CompanyController::class, 'show']);
@@ -28,3 +30,7 @@ Route::get('/candidates', [CandidateController::class, 'index']);
 Route::get('/candidate/show', [CandidateController::class, 'show']);
 
 Route::get('/dashboard', [DashboardController::class, 'index']);
+
+Route::get('/test', function () {
+    dd((new Auth())->check());
+});
