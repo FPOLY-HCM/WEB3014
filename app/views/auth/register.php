@@ -14,20 +14,20 @@ require_once __DIR__ . '/../partials/header.php';
                     </div>
                     <form class="login-register text-start mt-20" action="/register" method="post">
                         <div class="form-group">
-                            <label class="form-label" for="input-1">Họ tên *</label>
-                            <input class="form-control" id="input-1" type="text" required="" name="name" placeholder="Steven Job">
+                            <label class="form-label" for="name">Họ tên *</label>
+                            <input class="form-control" id="name" type="text" required="" name="name" placeholder="Steven Job">
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="input-2">Email *</label>
-                            <input class="form-control" id="input-2" type="email" required="" name="email" placeholder="stevenjob@gmail.com">
+                            <label class="form-label" for="email">Email *</label>
+                            <input class="form-control" id="email" type="email" required="" name="email" placeholder="stevenjob@gmail.com">
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="input-4">Mật khẩu *</label>
-                            <input class="form-control" id="input-4" type="password" required="" name="password" placeholder="************">
+                            <label class="form-label" for="password">Mật khẩu *</label>
+                            <input class="form-control" id="password" type="password" required="" name="password" placeholder="************">
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="input-5">Nhập lại mật khẩu *</label>
-                            <input class="form-control" id="input-5" type="password" required="" name="password_confirmation" placeholder="************">
+                            <label class="form-label" for="password_confirmation">Nhập lại mật khẩu *</label>
+                            <input class="form-control" id="password_confirmation" type="password" required="" name="password_confirmation" placeholder="************">
                         </div>
                         <div class="login_footer form-group d-flex justify-content-between">
                             <label class="cb-container">
@@ -35,9 +35,9 @@ require_once __DIR__ . '/../partials/header.php';
                             </label><a class="text-muted" href="page-contact.html">Tìm hiểu thêm</a>
                         </div>
                         <div class="form-group">
-                            <button class="btn btn-brand-1 hover-up w-100" type="submit" name="login">Đăng ký</button>
+                            <button class="btn btn-brand-1 hover-up w-100" type="submit">Đăng ký</button>
                         </div>
-                        <div class="text-muted text-center">Đã có tài khoản? <a href="page-signin.html">Đăng nhập</a></div>
+                        <div class="text-muted text-center">Đã có tài khoản? <a href="/login">Đăng nhập</a></div>
                     </form>
                     <div class="mt-20">
                         <div class="divider-text-center"><span>Hoặc đăng nhập bằng Google</span></div>
