@@ -43,14 +43,14 @@ CREATE TABLE `companies`
 (
     `id`          bigint(20) unsigned NOT NULL AUTO_INCREMENT,
     `account_id`  int(10) unsigned    NOT NULL,
-    `name`        varchar(255)        NOT NULL,
-    `email`       varchar(255)        NOT NULL,
+    `name`        varchar(255)                 DEFAULT NULL,
+    `email`       varchar(255)                 DEFAULT NULL,
     `phone`       varchar(20)                  DEFAULT NULL,
     `description` varchar(300)                 DEFAULT NULL,
-    `content`     mediumtext          NOT NULL,
+    `content`     mediumtext                   DEFAULT NULL,
     `website`     varchar(255)                 DEFAULT NULL,
     `logo`        varchar(255)                 DEFAULT NULL,
-    `address`     varchar(255)        NOT NULL,
+    `address`     varchar(255)                 DEFAULT NULL,
     `cover_image` varchar(255)                 DEFAULT NULL,
     `status`      varchar(20)         NOT NULL DEFAULT 'published',
     `created_at`  timestamp           NULL     DEFAULT NULL,
@@ -105,6 +105,14 @@ CREATE TABLE `applications`
     PRIMARY KEY (`id`)
 ) CHARSET = utf8mb4
   COLLATE = utf8mb4_unicode_ci;
+
+INSERT INTO accounts (name, email, password, type)
+VALUES ('Employeer', 'employeer@web3014.test', '123456', 'employeer'),
+       ('Job seeker', 'jobseeker@web3014.test', '123456', 'job-seeker');
+
+INSERT INTO companies (account_id, name, logo)
+VALUES (1, 'LinkedIn', '/assets/imgs/brands/brand-1.png'),
+       (1, 'Adobe Ilustrator', '/assets/imgs/brands/brand-2.png');
 
 INSERT INTO categories (name, icon)
 VALUES ('Lập trình web', '/assets/imgs/page/homepage1/content.svg'),
