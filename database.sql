@@ -112,7 +112,15 @@ VALUES ('Employeer', 'employeer@web3014.test', '123456', 'employeer'),
 
 INSERT INTO companies (account_id, name, logo)
 VALUES (1, 'LinkedIn', '/assets/imgs/brands/brand-1.png'),
-       (1, 'Adobe Ilustrator', '/assets/imgs/brands/brand-2.png');
+       (1, 'Adobe Ilustrator', '/assets/imgs/brands/brand-2.png'),
+       (1, 'Dailymotion', '/assets/imgs/brands/brand-3.png'),
+       (1, 'NewSum', '/assets/imgs/brands/brand-4.png'),
+       (1, 'PowerHome', '/assets/imgs/brands/brand-5.png'),
+       (1, 'Whop.com', '/assets/imgs/brands/brand-6.png'),
+       (1, 'Greewood', '/assets/imgs/brands/brand-7.png'),
+       (1, 'Kentucky', '/assets/imgs/brands/brand-8.png'),
+       (1, 'Qeuity', '/assets/imgs/brands/brand-9.png'),
+       (1, 'Honda', '/assets/imgs/brands/brand-10.png'),
 
 INSERT INTO categories (name, icon)
 VALUES ('Lập trình web', '/assets/imgs/page/homepage1/content.svg'),
