@@ -105,3 +105,7 @@ CREATE TABLE `applications`
     PRIMARY KEY (`id`)
 ) CHARSET = utf8mb4
   COLLATE = utf8mb4_unicode_ci;
+
+INSERT INTO categories (name, icon)
+VALUES ('Lập trình web', '/assets/imgs/page/homepage1/content.svg'),
+       ('Nhà báo', '/assets/imgs/page/homepage1/marketing.svg');
