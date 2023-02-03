@@ -116,4 +116,12 @@ VALUES (1, 'LinkedIn', '/assets/imgs/brands/brand-1.png'),
 
 INSERT INTO categories (name, icon)
 VALUES ('Lập trình web', '/assets/imgs/page/homepage1/content.svg'),
+       ('Retail & Products', '/assets/imgs/page/homepage1/retail.svg'),
+       ('Customer Help', '/assets/imgs/page/homepage1/customer.svg'),
+       ('Finance', '/assets/imgs/page/homepage1/finance.svg'),
+       ('Human Resource', '/assets/imgs/page/homepage1/human.svg'),
+       ('Software', '/assets/imgs/page/homepage1/lightning.svg'),
+       ('Management', '/assets/imgs/page/homepage1/management.svg'),
+       ('Market Research', '/assets/imgs/page/homepage1/research.svg'),
+       ('Security Analyst', '/assets/imgs/page/homepage1/security.svg'),  
        ('Nhà báo', '/assets/imgs/page/homepage1/marketing.svg');
