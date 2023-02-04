@@ -12,7 +12,7 @@ class RegisterController extends Controller
 {
     public function index()
     {
-        return View::render('auth/register');
+        return view('auth/register');
     }
 
     public function register()

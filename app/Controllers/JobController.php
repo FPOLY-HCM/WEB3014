@@ -9,11 +9,11 @@ class JobController extends Controller
 {
     public function index()
     {
-        return View::render('jobs/index');
+        return view('jobs/index');
     }
 
     public function show()
     {
-        return View::render('jobs/show');
+        return view('jobs/show');
     }
 }

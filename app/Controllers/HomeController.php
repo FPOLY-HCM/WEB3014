@@ -9,6 +9,6 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return View::render('home');
+        return view('home');
     }
 }

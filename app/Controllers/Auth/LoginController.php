@@ -3,7 +3,6 @@
 namespace App\Controllers\Auth;
 
 use Core\Controller;
-use Core\View;
 use Core\Request;
 use Core\Auth;
 
@@ -11,7 +10,7 @@ class LoginController extends Controller
 {
     public function index()
     {
-        return View::render('auth/login');
+        return view('auth/login');
     }
 
     public function login()

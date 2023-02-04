@@ -9,11 +9,11 @@ class BlogController extends Controller
 {
     public function index()
     {
-        return View::render('blog/index');
+        return view('blog/index');
     }
     
     public function show()
     {
-        return View::render('blog/show');
+        return view('blog/show');
     }
 }

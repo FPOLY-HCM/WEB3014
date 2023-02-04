@@ -9,11 +9,11 @@ class CompanyController extends Controller
 {
     public function index()
     {
-        return View::render('companies/index');
+        return view('companies/index');
     }
 
     public function show()
     {
-        return View::render('companies/show');
+        return view('companies/show');
     }
 }
