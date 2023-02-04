@@ -120,7 +120,7 @@ VALUES (1, 'LinkedIn', '/assets/imgs/brands/brand-1.png'),
        (1, 'Greewood', '/assets/imgs/brands/brand-7.png'),
        (1, 'Kentucky', '/assets/imgs/brands/brand-8.png'),
        (1, 'Qeuity', '/assets/imgs/brands/brand-9.png'),
-       (1, 'Honda', '/assets/imgs/brands/brand-10.png'),
+       (1, 'Honda', '/assets/imgs/brands/brand-10.png');
 
 INSERT INTO categories (name, icon)
 VALUES ('Lập trình web', '/assets/imgs/page/homepage1/content.svg'),
@@ -131,5 +131,5 @@ VALUES ('Lập trình web', '/assets/imgs/page/homepage1/content.svg'),
        ('Software', '/assets/imgs/page/homepage1/lightning.svg'),
        ('Management', '/assets/imgs/page/homepage1/management.svg'),
        ('Market Research', '/assets/imgs/page/homepage1/research.svg'),
-       ('Security Analyst', '/assets/imgs/page/homepage1/security.svg'),  
+       ('Security Analyst', '/assets/imgs/page/homepage1/security.svg'),
        ('Nhà báo', '/assets/imgs/page/homepage1/marketing.svg');
