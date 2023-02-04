@@ -12,7 +12,7 @@ require_once __DIR__ . '/../partials/header.php';
                         <h2 class="mt-10 mb-5 text-brand-1">Đăng nhập</h2>
                         <p class="font-sm text-muted mb-30">Access to all features. No credit card required.</p>
                     </div>
-                    <form class="login-register text-start mt-20" action="#">
+                    <form class="login-register text-start mt-20" action="/login" method="post">
                         <div class="form-group">
                             <label class="form-label" for="email">Email *</label>
                             <input class="form-control" id="email" type="text" required="" name="email" placeholder="email@example.com">
