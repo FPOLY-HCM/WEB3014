@@ -8,7 +8,6 @@ use App\Controllers\JobController;
 use App\Controllers\BlogController;
 use App\Controllers\CandidateController;
 use App\Controllers\DashboardController;
-use Core\Auth;
 use Core\Route;
 
 Route::get('/', [HomeController::class, 'index']);
@@ -31,3 +30,7 @@ Route::get('/candidates', [CandidateController::class, 'index']);
 Route::get('/candidate/show', [CandidateController::class, 'show']);
 
 Route::get('/dashboard', [DashboardController::class, 'index']);
+
+Route::get('/test/{hehe}', function () {
+    echo 'test';
+});
