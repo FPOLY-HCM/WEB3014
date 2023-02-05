@@ -120,7 +120,7 @@ VALUES (1, 'LinkedIn', '/assets/imgs/brands/brand-1.png'),
        (1, 'Greewood', '/assets/imgs/brands/brand-7.png'),
        (1, 'Kentucky', '/assets/imgs/brands/brand-8.png'),
        (1, 'Qeuity', '/assets/imgs/brands/brand-9.png'),
-       (1, 'Honda', '/assets/imgs/brands/brand-10.png'),
+       (1, 'Honda', '/assets/imgs/brands/brand-10.png');
 
 INSERT INTO categories (name, icon)
 VALUES ('Lập trình web', '/assets/imgs/page/homepage1/content.svg'),

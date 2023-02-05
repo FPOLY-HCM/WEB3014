@@ -4,11 +4,14 @@ namespace App\Controllers;
 
 use Core\Controller;
 use Core\View;
+use Illuminate\Database;
+use App\Models\Company;
 
 class HomeController extends Controller
 {
     public function index()
     {
-        return view('home');
+        $companies = Company::all();
+        return view('home', compact('companies'));
     }
 }
