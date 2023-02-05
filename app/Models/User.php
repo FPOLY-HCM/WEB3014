@@ -12,5 +12,7 @@ class User extends Model
         'email',
         'name',
         'password',
+        'email_verified_at',
+        'remember_token',
     ];
 }

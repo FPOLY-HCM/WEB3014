@@ -12,5 +12,10 @@ class Account extends Model
         'email',
         'name',
         'password',
+        'phone',
+        'dob',
+        'bio',
+        'credits',
+        'type',
     ];
 }

@@ -52,7 +52,7 @@ CREATE TABLE `companies`
     `logo`        varchar(255)                 DEFAULT NULL,
     `address`     varchar(255)                 DEFAULT NULL,
     `cover_image` varchar(255)                 DEFAULT NULL,
-    `status`      varchar(20)         NOT NULL DEFAULT 'published',
+    `status`      varchar(20)         NOT NULL DEFAULT 'active',
     `created_at`  timestamp           NULL     DEFAULT NULL,
     `updated_at`  timestamp           NULL     DEFAULT NULL,
     PRIMARY KEY (`id`)
