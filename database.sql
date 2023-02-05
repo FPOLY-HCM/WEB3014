@@ -107,8 +107,8 @@ CREATE TABLE `applications`
   COLLATE = utf8mb4_unicode_ci;
 
 INSERT INTO accounts (name, email, password, type)
-VALUES ('Employeer', 'employeer@web3014.test', '123456', 'employeer'),
-       ('Job seeker', 'jobseeker@web3014.test', '123456', 'job-seeker');
+VALUES ('Employer', 'employer@web3014.test', '123456', 'employer'),
+       ('Job Seeker', 'jobseeker@web3014.test', '123456', 'job_seeker');
 
 INSERT INTO companies (account_id, name, logo, address)
 VALUES (1, 'LinkedIn', '/assets/imgs/brands/brand-1.png', 'Hồ Chí Minh, VN'),
