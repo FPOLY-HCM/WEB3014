@@ -1595,36 +1595,21 @@ require_once __DIR__ . '/partials/header.php';
                 <div class="swiper-container swiper-group-1 swiper-style-2 swiper">
                     <div class="swiper-wrapper pt-5">
                         <div class="swiper-slide">
-                            <?php  
-                                foreach($data['companies'] as $company){
-                                    echo 
-                                    '<div class="item-5 hover-up wow animate__animated animate__fadeIn">
-                                        <a href="/companies/show">
-                                            <div class="item-logo">
-                                                <div class="image-left">
-                                                    <img alt="jobBox" src="'.$company['logo'].'">
-                                                </div>
-                                                <div class="text-info-right">
-                                                    <h4>'.$company['name'].'</h4><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>68</span><span>)</span></span>
-                                                </div>
-                                                <div class="text-info-bottom mt-5"><span class="font-xs color-text-mutted icon-location">New York, US</span><span class="font-xs color-text-mutted float-end mt-5">25<span> Open Jobs</span></span></div>
+                            <?php foreach($data['companies'] as $company): ?>
+                                <div class="item-5 hover-up wow animate__animated animate__fadeIn">
+                                    <a href="/companies/show">
+                                        <div class="item-logo">
+                                            <div class="image-left">
+                                                <img alt="jobBox" src="<?php echo $company['logo']; ?>">
                                             </div>
-                                        </a>
-                                    </div>';
-                                }
-                            ?>
-                            <!-- <div class="item-5 hover-up wow animate__animated animate__fadeIn">
-                                <a href="/companies/show">
-                                    <div class="item-logo">
-                                        <div class="image-left">
-                                            <img alt="jobBox" src="assets/imgs/brands/brand-1.png"></div>
-                                        <div class="text-info-right">
-                                            <h4>Linkedin</h4><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>68</span><span>)</span></span>
+                                            <div class="text-info-right">
+                                                <h4><?php echo $company['name']; ?></h4><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>68</span><span>)</span></span>
+                                            </div>
+                                            <div class="text-info-bottom mt-5"><span class="font-xs color-text-mutted icon-location">New York, US</span><span class="font-xs color-text-mutted float-end mt-5">25<span> Open Jobs</span></span></div>
                                         </div>
-                                        <div class="text-info-bottom mt-5"><span class="font-xs color-text-mutted icon-location">New York, US</span><span class="font-xs color-text-mutted float-end mt-5">25<span> Open Jobs</span></span></div>
-                                    </div>
-                                </a>
-                            </div> -->
+                                    </a>
+                                </div>
+                            <?php endforeach; ?>
                         </div>
                     </div>
                 </div>
