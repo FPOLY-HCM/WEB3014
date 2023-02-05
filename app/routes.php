@@ -30,7 +30,3 @@ Route::get('/candidates', [CandidateController::class, 'index']);
 Route::get('/candidate/show', [CandidateController::class, 'show']);
 
 Route::get('/dashboard', [DashboardController::class, 'index']);
-
-Route::get('/test/{hehe}', function () {
-    echo 'test';
-});
