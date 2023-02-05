@@ -3,7 +3,6 @@
 namespace App\Controllers;
 
 use Core\Controller;
-use Core\View;
 
 class BlogController extends Controller
 {

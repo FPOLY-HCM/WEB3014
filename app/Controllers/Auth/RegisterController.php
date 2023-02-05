@@ -6,7 +6,6 @@ use App\Models\Account;
 use Core\Auth;
 use Core\Controller;
 use Core\Request;
-use Core\View;
 
 class RegisterController extends Controller
 {
