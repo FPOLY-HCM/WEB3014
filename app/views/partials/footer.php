@@ -1,9 +1,13 @@
     <footer class="footer mt-50">
         <div class="container">
             <div class="row">
-                <div class="footer-col-1 col-md-3 col-sm-12"><a href="index.html"><img alt="jobBox" src="/assets/imgs/template/jobhub-logo.svg"></a>
-                    <div class="mt-20 mb-20 font-xs color-text-paragraph-2">JobBox is the heart of the design community and the best resource to discover and connect with designers and jobs worldwide.</div>
-                    <div class="footer-social"><a class="icon-socials icon-facebook" href="#"></a><a class="icon-socials icon-twitter" href="#"></a><a class="icon-socials icon-linkedin" href="#"></a></div>
+                <div class="footer-col-1 col-md-3 col-sm-12"><a href="index.html"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/jobhub-logo.svg') ?>"></a>
+                    <div class="mt-20 mb-20 font-xs color-text-paragraph-2"><?= env('APP_NAME') ?> is the heart of the design community and the best resource to discover and connect with designers and jobs worldwide.</div>
+                    <div class="footer-social">
+                        <a class="icon-socials icon-facebook" href="#"></a>
+                        <a class="icon-socials icon-twitter" href="#"></a>
+                        <a class="icon-socials icon-linkedin" href="#"></a>
+                    </div>
                 </div>
                 <div class="footer-col-2 col-md-2 col-xs-6">
                     <h6 class="mb-20">Resources</h6>
@@ -44,12 +48,12 @@
                 <div class="footer-col-6 col-md-3 col-sm-12">
                     <h6 class="mb-20">Download App</h6>
                     <p class="color-text-paragraph-2 font-xs">Download our Apps and get extra 15% Discount on your first Order&mldr;!</p>
-                    <div class="mt-15"><a class="mr-5" href="#"><img src="/assets/imgs/template/icons/app-store.png" alt="joxBox"></a><a href="#"><img src="/assets/imgs/template/icons/android.png" alt="joxBox"></a></div>
+                    <div class="mt-15"><a class="mr-5" href="#"><img src="<?= asset('assets/imgs/template/icons/app-store.png') ?>" alt="<?= env('APP_NAME') ?>"></a><a href="#"><img src="<?= asset('assets/imgs/template/icons/android.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                 </div>
             </div>
             <div class="footer-bottom mt-50">
                 <div class="row">
-                    <div class="col-md-6"><span class="font-xs color-text-paragraph">Copyright &copy; 2022. JobBox all right reserved</span></div>
+                    <div class="col-md-6"><span class="font-xs color-text-paragraph">Copyright &copy; 2022. <?= env('APP_NAME') ?> all right reserved</span></div>
                     <div class="col-md-6 text-md-end text-start">
                         <div class="footer-social"><a class="font-xs color-text-paragraph" href="#">Privacy Policy</a><a class="font-xs color-text-paragraph mr-30 ml-30" href="#">Terms &amp; Conditions</a><a class="font-xs color-text-paragraph" href="#">Security</a></div>
                     </div>
@@ -57,18 +61,18 @@
             </div>
         </div>
     </footer>
-    <script src="/assets/js/vendor/modernizr-3.6.0.min.js"></script>
-    <script src="/assets/js/vendor/jquery-3.6.0.min.js"></script>
-    <script src="/assets/js/vendor/jquery-migrate-3.3.0.min.js"></script>
-    <script src="/assets/js/vendor/bootstrap.bundle.min.js"></script>
-    <script src="/assets/js/plugins/waypoints.js"></script>
-    <script src="/assets/js/plugins/wow.js"></script>
-    <script src="/assets/js/plugins/magnific-popup.js"></script>
-    <script src="/assets/js/plugins/perfect-scrollbar.min.js"></script>
-    <script src="/assets/js/plugins/select2.min.js"></script>
-    <script src="/assets/js/plugins/isotope.js"></script>
-    <script src="/assets/js/plugins/scrollup.js"></script>
-    <script src="/assets/js/plugins/swiper-bundle.min.js"></script>
-    <script src="/assets/js/main.js?v=1.0"></script>
+    <script src="<?= asset('assets/js/vendor/modernizr-3.6.0.min.js') ?>"></script>
+    <script src="<?= asset('assets/js/vendor/jquery-3.6.0.min.js') ?>"></script>
+    <script src="<?= asset('assets/js/vendor/jquery-migrate-3.3.0.min.js') ?>"></script>
+    <script src="<?= asset('assets/js/vendor/bootstrap.bundle.min.js') ?>"></script>
+    <script src="<?= asset('assets/js/plugins/waypoints.js') ?>"></script>
+    <script src="<?= asset('assets/js/plugins/wow.js') ?>"></script>
+    <script src="<?= asset('assets/js/plugins/magnific-popup.js') ?>"></script>
+    <script src="<?= asset('assets/js/plugins/perfect-scrollbar.min.js') ?>"></script>
+    <script src="<?= asset('assets/js/plugins/select2.min.js') ?>"></script>
+    <script src="<?= asset('assets/js/plugins/isotope.js') ?>"></script>
+    <script src="<?= asset('assets/js/plugins/scrollup.js') ?>"></script>
+    <script src="<?= asset('assets/js/plugins/swiper-bundle.min.js') ?>"></script>
+    <script src="<?= asset('assets/js/main.js?v=1.0') ?>"></script>
 </body>
 </html>

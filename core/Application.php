@@ -3,7 +3,7 @@
 namespace Core;
 
 use Illuminate\Database\Capsule\Manager;
-use Symfony\Component\Dotenv\Dotenv;
+use Dotenv\Dotenv;
 
 class Application
 {
@@ -16,7 +16,9 @@ class Application
         $this->router = new Router();
         $this->request = new Request();
 
-        $this->loadEnvironment();
+        $dotenv = Dotenv::createImmutable(__DIR__ . '/..');
+        $dotenv->load();
+
         $this->connectToDatabase();
     }
 
@@ -43,11 +45,5 @@ class Application
         $capsule->setAsGlobal();
 
         $capsule->bootEloquent();
-    }
-
-    protected function loadEnvironment(): void
-    {
-        $dotenv = new Dotenv();
-        $dotenv->load(__DIR__ . '/../.env');
     }
 }

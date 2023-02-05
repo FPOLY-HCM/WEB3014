@@ -7,25 +7,25 @@ require_once __DIR__ . '/partials/header.php';
         <a class="btn btn-expanded"></a>
         <nav class="nav-main-menu">
             <ul class="main-menu">
-                <li> <a class="dashboard2 active" href="index.html"><img src="assets/dashboard/imgs/page/dashboard/dashboard.svg" alt="jobBox"><span class="name">Dashboard</span></a>
+                <li> <a class="dashboard2 active" href="index.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/dashboard.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">Dashboard</span></a>
                 </li>
-                <li> <a class="dashboard2" href="candidates.html"><img src="assets/dashboard/imgs/page/dashboard/candidates.svg" alt="jobBox"><span class="name">Candidates</span></a>
+                <li> <a class="dashboard2" href="candidates.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/candidates.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">Candidates</span></a>
                 </li>
-                <li> <a class="dashboard2" href="recruiters.html"><img src="assets/dashboard/imgs/page/dashboard/recruiters.svg" alt="jobBox"><span class="name">Recruiters</span></a>
+                <li> <a class="dashboard2" href="recruiters.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/recruiters.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">Recruiters</span></a>
                 </li>
-                <li> <a class="dashboard2" href="my-job-grid.html"><img src="assets/dashboard/imgs/page/dashboard/jobs.svg" alt="jobBox"><span class="name">My Jobs</span></a>
+                <li> <a class="dashboard2" href="my-job-grid.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/jobs.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">My Jobs</span></a>
                 </li>
-                <li> <a class="dashboard2" href="my-tasks-list.html"><img src="assets/dashboard/imgs/page/dashboard/tasks.svg" alt="jobBox"><span class="name">Tasks List</span></a>
+                <li> <a class="dashboard2" href="my-tasks-list.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/tasks.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">Tasks List</span></a>
                 </li>
-                <li> <a class="dashboard2" href="profile.html"><img src="assets/dashboard/imgs/page/dashboard/profiles.svg" alt="jobBox"><span class="name">My Profiles</span></a>
+                <li> <a class="dashboard2" href="profile.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/profiles.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">My Profiles</span></a>
                 </li>
-                <li> <a class="dashboard2" href="my-resume.html"><img src="assets/dashboard/imgs/page/dashboard/cv-manage.svg" alt="jobBox"><span class="name">CV Manage</span></a>
+                <li> <a class="dashboard2" href="my-resume.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/cv-manage.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">CV Manage</span></a>
                 </li>
-                <li> <a class="dashboard2" href="settings.html"><img src="assets/dashboard/imgs/page/dashboard/settings.svg" alt="jobBox"><span class="name">Setting</span></a>
+                <li> <a class="dashboard2" href="settings.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/settings.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">Setting</span></a>
                 </li>
-                <li> <a class="dashboard2" href="authentication.html"><img src="assets/dashboard/imgs/page/dashboard/authentication.svg" alt="jobBox"><span class="name">Authentication</span></a>
+                <li> <a class="dashboard2" href="authentication.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/authentication.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">Authentication</span></a>
                 </li>
-                <li> <a class="dashboard2" href="login.html"><img src="assets/dashboard/imgs/page/dashboard/logout.svg" alt="jobBox"><span class="name">Logout</span></a>
+                <li> <a class="dashboard2" href="login.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/logout.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">Logout</span></a>
                 </li>
             </ul>
         </nav>
@@ -60,7 +60,7 @@ require_once __DIR__ . '/partials/header.php';
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-4 col-sm-6">
                             <div class="card-style-1 hover-up">
-                                <div class="card-image"> <img src="assets/dashboard/imgs/page/dashboard/computer.svg" alt="jobBox"></div>
+                                <div class="card-image"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/computer.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                 <div class="card-info">
                                     <div class="card-title">
                                         <h3>1568<span class="font-sm status up">25<span>%</span></span>
@@ -72,7 +72,7 @@ require_once __DIR__ . '/partials/header.php';
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-4 col-sm-6">
                             <div class="card-style-1 hover-up">
-                                <div class="card-image"> <img src="assets/dashboard/imgs/page/dashboard/bank.svg" alt="jobBox"></div>
+                                <div class="card-image"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/bank.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                 <div class="card-info">
                                     <div class="card-title">
                                         <h3>284<span class="font-sm status up">5<span>%</span></span>
@@ -84,7 +84,7 @@ require_once __DIR__ . '/partials/header.php';
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-4 col-sm-6">
                             <div class="card-style-1 hover-up">
-                                <div class="card-image"> <img src="assets/dashboard/imgs/page/dashboard/headphone.svg" alt="jobBox"></div>
+                                <div class="card-image"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/headphone.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                 <div class="card-info">
                                     <div class="card-title">
                                         <h3>985<span class="font-sm status up">5<span>%</span></span>
@@ -96,7 +96,7 @@ require_once __DIR__ . '/partials/header.php';
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-4 col-sm-6">
                             <div class="card-style-1 hover-up">
-                                <div class="card-image"> <img src="assets/dashboard/imgs/page/dashboard/open-file.svg" alt="jobBox"></div>
+                                <div class="card-image"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/open-file.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                 <div class="card-info">
                                     <div class="card-title">
                                         <h3>2356<span class="font-sm status down">- 2%</span>
@@ -108,7 +108,7 @@ require_once __DIR__ . '/partials/header.php';
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-4 col-sm-6">
                             <div class="card-style-1 hover-up">
-                                <div class="card-image"> <img src="assets/dashboard/imgs/page/dashboard/doc.svg" alt="jobBox"></div>
+                                <div class="card-image"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/doc.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                 <div class="card-info">
                                     <div class="card-title">
                                         <h3>254<span class="font-sm status up">2<span>%</span></span>
@@ -120,7 +120,7 @@ require_once __DIR__ . '/partials/header.php';
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-4 col-sm-6">
                             <div class="card-style-1 hover-up">
-                                <div class="card-image"> <img src="assets/dashboard/imgs/page/dashboard/man.svg" alt="jobBox"></div>
+                                <div class="card-image"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/man.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                 <div class="card-info">
                                     <div class="card-title">
                                         <h3>548<span class="font-sm status up">48<span>%</span></span>
@@ -163,7 +163,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="panel-body">
                                 <div class="card-style-2 hover-up">
                                     <div class="card-head">
-                                        <div class="card-image"> <img src="assets/dashboard/imgs/page/dashboard/img1.png" alt="jobBox"></div>
+                                        <div class="card-image"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/img1.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="card-title">
                                             <h6>Senior Full Stack Engineer, Creator Success</h6><span class="job-type">Full time</span><span class="time-post">3mins ago</span><span class="location">New York, US</span>
                                         </div>
@@ -174,7 +174,7 @@ require_once __DIR__ . '/partials/header.php';
                                 </div>
                                 <div class="card-style-2 hover-up">
                                     <div class="card-head">
-                                        <div class="card-image"> <img src="assets/dashboard/imgs/page/dashboard/img2.png" alt="jobBox"></div>
+                                        <div class="card-image"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/img2.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="card-title">
                                             <h6>Senior Full Stack Engineer, Creator Success</h6><span class="job-type">Full time</span><span class="time-post">3mins ago</span><span class="location">Chicago, US</span>
                                         </div>
@@ -185,7 +185,7 @@ require_once __DIR__ . '/partials/header.php';
                                 </div>
                                 <div class="card-style-2 hover-up">
                                     <div class="card-head">
-                                        <div class="card-image"> <img src="assets/dashboard/imgs/page/dashboard/img3.png" alt="jobBox"></div>
+                                        <div class="card-image"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/img3.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="card-title">
                                             <h6>Lead Product/UX/UI Designer Role</h6><span class="job-type">Full time</span><span class="time-post">3mins ago</span><span class="location">Paris, France</span>
                                         </div>
@@ -196,7 +196,7 @@ require_once __DIR__ . '/partials/header.php';
                                 </div>
                                 <div class="card-style-2 hover-up">
                                     <div class="card-head">
-                                        <div class="card-image"> <img src="assets/dashboard/imgs/page/dashboard/img4.png" alt="jobBox"></div>
+                                        <div class="card-image"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/img4.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="card-title">
                                             <h6>Marketing Graphic Designer</h6><span class="job-type">Full time</span><span class="time-post">3mins ago</span><span class="location">Tokyto, Japan</span>
                                         </div>
@@ -207,7 +207,7 @@ require_once __DIR__ . '/partials/header.php';
                                 </div>
                                 <div class="card-style-2 hover-up">
                                     <div class="card-head">
-                                        <div class="card-image"> <img src="assets/dashboard/imgs/page/dashboard/img5.png" alt="jobBox"></div>
+                                        <div class="card-image"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/img5.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="card-title">
                                             <h6>Director, Product Design - Creator</h6><span class="job-type">Full time</span><span class="time-post">3mins ago</span><span class="location">Ha Noi, Vietnam</span>
                                         </div>
@@ -235,48 +235,48 @@ require_once __DIR__ . '/partials/header.php';
                             </div>
                             <div class="panel-body">
                                 <div class="card-style-3 hover-up">
-                                    <div class="card-image online"><img src="assets/dashboard/imgs/page/dashboard/avata1.png" alt="jobBox"></div>
+                                    <div class="card-image online"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/avata1.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                     <div class="card-title">
                                         <h6>Robert Fox</h6><span class="job-position">UI/UX Designer</span>
                                     </div>
                                     <div class="card-location"> <span class="location">Chicago, US</span></div>
-                                    <div class="card-rating"><img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <span class="font-xs color-text-mutted">
+                                    <div class="card-rating"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <span class="font-xs color-text-mutted">
                                             (65)</span></div>
                                 </div>
                                 <div class="card-style-3 hover-up">
-                                    <div class="card-image online"><img src="assets/dashboard/imgs/page/dashboard/avata2.png" alt="jobBox"></div>
+                                    <div class="card-image online"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/avata2.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                     <div class="card-title">
                                         <h6>Cody Fisher</h6><span class="job-position">Network Engineer</span>
                                     </div>
                                     <div class="card-location"> <span class="location">New York, US</span></div>
-                                    <div class="card-rating"><img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <span class="font-xs color-text-mutted">
+                                    <div class="card-rating"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <span class="font-xs color-text-mutted">
                                             (65)</span></div>
                                 </div>
                                 <div class="card-style-3 hover-up">
-                                    <div class="card-image online"><img src="assets/dashboard/imgs/page/dashboard/avata3.png" alt="jobBox"></div>
+                                    <div class="card-image online"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/avata3.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                     <div class="card-title">
                                         <h6>Jane Cooper</h6><span class="job-position">Content Manager</span>
                                     </div>
                                     <div class="card-location"> <span class="location">Chicago, US</span></div>
-                                    <div class="card-rating"><img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <span class="font-xs color-text-mutted">
+                                    <div class="card-rating"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <span class="font-xs color-text-mutted">
                                             (65)</span></div>
                                 </div>
                                 <div class="card-style-3 hover-up">
-                                    <div class="card-image online"><img src="assets/dashboard/imgs/page/dashboard/avata4.png" alt="jobBox"></div>
+                                    <div class="card-image online"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/avata4.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                     <div class="card-title">
                                         <h6>Jerome Bell</h6><span class="job-position">Frontend Developer</span>
                                     </div>
                                     <div class="card-location"> <span class="location">Chicago, US</span></div>
-                                    <div class="card-rating"><img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <span class="font-xs color-text-mutted">
+                                    <div class="card-rating"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <span class="font-xs color-text-mutted">
                                             (65)</span></div>
                                 </div>
                                 <div class="card-style-3 hover-up">
-                                    <div class="card-image online"><img src="assets/dashboard/imgs/page/dashboard/avata5.png" alt="jobBox"></div>
+                                    <div class="card-image online"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/avata5.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                     <div class="card-title">
                                         <h6>Floyd Miles</h6><span class="job-position">NodeJS Dev</span>
                                     </div>
                                     <div class="card-location"> <span class="location">Chicago, US</span></div>
-                                    <div class="card-rating"><img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <span class="font-xs color-text-mutted">
+                                    <div class="card-rating"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <span class="font-xs color-text-mutted">
                                             (65)</span></div>
                                 </div>
                             </div>
@@ -299,9 +299,9 @@ require_once __DIR__ . '/partials/header.php';
                                     <div class="col-lg-6 col-md-6 pr-5 pl-5">
                                         <div class="card-style-4 hover-up">
                                             <div class="d-flex">
-                                                <div class="card-image"><img src="assets/dashboard/imgs/page/dashboard/avata1.png" alt="jobBox"></div>
+                                                <div class="card-image"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/avata1.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                                 <div class="card-title">
-                                                    <h6>Robert Fox</h6><img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star-none.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star-none.svg" alt="jobBox"> <span class="font-xs color-text-mutted">
+                                                    <h6>Robert Fox</h6><img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star-none.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star-none.svg') ?>" alt="<?= env('APP_NAME') ?>"> <span class="font-xs color-text-mutted">
                                                         (65)</span>
                                                 </div>
                                             </div>
@@ -311,9 +311,9 @@ require_once __DIR__ . '/partials/header.php';
                                     <div class="col-lg-6 col-md-6 pr-5 pl-5">
                                         <div class="card-style-4 hover-up">
                                             <div class="d-flex">
-                                                <div class="card-image"><img src="assets/dashboard/imgs/page/dashboard/avata2.png" alt="jobBox"></div>
+                                                <div class="card-image"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/avata2.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                                 <div class="card-title">
-                                                    <h6>Cody Fisher</h6><img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star-none.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star-none.svg" alt="jobBox"> <span class="font-xs color-text-mutted">
+                                                    <h6>Cody Fisher</h6><img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star-none.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star-none.svg') ?>" alt="<?= env('APP_NAME') ?>"> <span class="font-xs color-text-mutted">
                                                         (65)</span>
                                                 </div>
                                             </div>
@@ -323,9 +323,9 @@ require_once __DIR__ . '/partials/header.php';
                                     <div class="col-lg-6 col-md-6 pr-5 pl-5">
                                         <div class="card-style-4 hover-up">
                                             <div class="d-flex">
-                                                <div class="card-image"><img src="assets/dashboard/imgs/page/dashboard/avata3.png" alt="jobBox"></div>
+                                                <div class="card-image"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/avata3.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                                 <div class="card-title">
-                                                    <h6>Jane Cooper</h6><img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star-none.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star-none.svg" alt="jobBox"> <span class="font-xs color-text-mutted">
+                                                    <h6>Jane Cooper</h6><img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star-none.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star-none.svg') ?>" alt="<?= env('APP_NAME') ?>"> <span class="font-xs color-text-mutted">
                                                         (65)</span>
                                                 </div>
                                             </div>
@@ -335,9 +335,9 @@ require_once __DIR__ . '/partials/header.php';
                                     <div class="col-lg-6 col-md-6 pr-5 pl-5">
                                         <div class="card-style-4 hover-up">
                                             <div class="d-flex">
-                                                <div class="card-image"><img src="assets/dashboard/imgs/page/dashboard/avata4.png" alt="jobBox"></div>
+                                                <div class="card-image"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/avata4.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                                 <div class="card-title">
-                                                    <h6>Jerome Bell</h6><img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star-none.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star-none.svg" alt="jobBox"> <span class="font-xs color-text-mutted">
+                                                    <h6>Jerome Bell</h6><img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star-none.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star-none.svg') ?>" alt="<?= env('APP_NAME') ?>"> <span class="font-xs color-text-mutted">
                                                         (65)</span>
                                                 </div>
                                             </div>
@@ -347,9 +347,9 @@ require_once __DIR__ . '/partials/header.php';
                                     <div class="col-lg-6 col-md-6 pr-5 pl-5">
                                         <div class="card-style-4 hover-up">
                                             <div class="d-flex">
-                                                <div class="card-image"><img src="assets/dashboard/imgs/page/dashboard/avata5.png" alt="jobBox"></div>
+                                                <div class="card-image"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/avata5.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                                 <div class="card-title">
-                                                    <h6>Floyd Miles</h6><img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star-none.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star-none.svg" alt="jobBox"> <span class="font-xs color-text-mutted">
+                                                    <h6>Floyd Miles</h6><img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star-none.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star-none.svg') ?>" alt="<?= env('APP_NAME') ?>"> <span class="font-xs color-text-mutted">
                                                         (65)</span>
                                                 </div>
                                             </div>
@@ -359,9 +359,9 @@ require_once __DIR__ . '/partials/header.php';
                                     <div class="col-lg-6 col-md-6 pr-5 pl-5">
                                         <div class="card-style-4 hover-up">
                                             <div class="d-flex">
-                                                <div class="card-image"><img src="assets/dashboard/imgs/page/dashboard/avata1.png" alt="jobBox"></div>
+                                                <div class="card-image"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/avata1.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                                 <div class="card-title">
-                                                    <h6>Devon Lane</h6><img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star-none.svg" alt="jobBox"> <img src="assets/dashboard/imgs/page/dashboard/star-none.svg" alt="jobBox"> <span class="font-xs color-text-mutted">
+                                                    <h6>Devon Lane</h6><img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star-none.svg') ?>" alt="<?= env('APP_NAME') ?>"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/star-none.svg') ?>" alt="<?= env('APP_NAME') ?>"> <span class="font-xs color-text-mutted">
                                                         (65)</span>
                                                 </div>
                                             </div>
@@ -475,16 +475,16 @@ require_once __DIR__ . '/partials/header.php';
                         <div class="box-swiper">
                             <div class="swiper-container swiper-group-10">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide"> <img src="assets/dashboard/imgs/page/dashboard/microsoft.svg" alt="jobBox"></div>
-                                    <div class="swiper-slide"> <img src="assets/dashboard/imgs/page/dashboard/sony.svg" alt="jobBox"></div>
-                                    <div class="swiper-slide"> <img src="assets/dashboard/imgs/page/dashboard/acer.svg" alt="jobBox"></div>
-                                    <div class="swiper-slide"> <img src="assets/dashboard/imgs/page/dashboard/nokia.svg" alt="jobBox"></div>
-                                    <div class="swiper-slide"> <img src="assets/dashboard/imgs/page/dashboard/asus.svg" alt="jobBox"></div>
-                                    <div class="swiper-slide"> <img src="assets/dashboard/imgs/page/dashboard/casio.svg" alt="jobBox"></div>
-                                    <div class="swiper-slide"> <img src="assets/dashboard/imgs/page/dashboard/dell.svg" alt="jobBox"></div>
-                                    <div class="swiper-slide"> <img src="assets/dashboard/imgs/page/dashboard/panasonic.svg" alt="jobBox"></div>
-                                    <div class="swiper-slide"> <img src="assets/dashboard/imgs/page/dashboard/vaio.svg" alt="jobBox"></div>
-                                    <div class="swiper-slide"> <img src="assets/dashboard/imgs/page/dashboard/sony.svg" alt="jobBox"></div>
+                                    <div class="swiper-slide"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/microsoft.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
+                                    <div class="swiper-slide"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/sony.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
+                                    <div class="swiper-slide"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/acer.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
+                                    <div class="swiper-slide"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/nokia.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
+                                    <div class="swiper-slide"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/asus.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
+                                    <div class="swiper-slide"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/casio.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
+                                    <div class="swiper-slide"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/dell.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
+                                    <div class="swiper-slide"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/panasonic.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
+                                    <div class="swiper-slide"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/vaio.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
+                                    <div class="swiper-slide"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/sony.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                 </div>
                             </div>
                         </div>
@@ -497,7 +497,7 @@ require_once __DIR__ . '/partials/header.php';
                 <div class="box-footer">
                     <div class="row">
                         <div class="col-md-6 col-sm-12 mb-25 text-center text-md-start">
-                            <p class="font-sm color-text-paragraph-2">© 2022 - <a class="color-brand-2" href="https://themeforest.net/item/jobbox-job-portal-html-bootstrap-5-template/39217891" target="_blank">JobBox </a>Dashboard <span> Made by </span><a class="color-brand-2" href="http://alithemes.com" target="_blank"> AliThemes</a></p>
+                            <p class="font-sm color-text-paragraph-2">© 2022 - <a class="color-brand-2" href="https://themeforest.net/item/<?= env('APP_NAME') ?>-job-portal-html-bootstrap-5-template/39217891" target="_blank"><?= env('APP_NAME') ?> </a>Dashboard <span> Made by </span><a class="color-brand-2" href="http://alithemes.com" target="_blank"> AliThemes</a></p>
                         </div>
                         <div class="col-md-6 col-sm-12 text-center text-md-end mb-25">
                             <ul class="menu-footer">

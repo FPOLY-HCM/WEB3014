@@ -52,7 +52,7 @@ require_once __DIR__ . '/../partials/header.php';
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div class="box-view-type"><a class="view-type" href="jobs-list.html"><img src="assets/imgs/template/icons/icon-list.svg" alt="jobBox"></a><a class="view-type" href="jobs-grid.html"><img src="assets/imgs/template/icons/icon-grid-hover.svg" alt="jobBox"></a></div>
+                                        <div class="box-view-type"><a class="view-type" href="jobs-list.html"><img src="<?= asset('assets/imgs/template/icons/icon-list.svg') ?>" alt="<?= env('APP_NAME') ?>"></a><a class="view-type" href="jobs-grid.html"><img src="<?= asset('assets/imgs/template/icons/icon-grid-hover.svg') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                                     </div>
                                 </div>
                             </div>
@@ -60,210 +60,210 @@ require_once __DIR__ . '/../partials/header.php';
                         <div class="row">
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-1.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-1.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                                     <div class="info-text mt-10">
                                         <h5 class="font-bold"><a href="/companies/show">Car Toys</a></h5>
-                                        <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>66</span><span>)</span></span></div><span class="card-location">New York, US</span>
+                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>66</span><span>)</span></span></div><span class="card-location">New York, US</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>12</span><span> Jobs Open</span></a></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-2.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-2.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                                     <div class="info-text mt-10">
                                         <h5 class="font-bold"><a href="/companies/show">Carols Daughter</a></h5>
-                                        <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>18</span><span>)</span></span></div><span class="card-location">London, UK</span>
+                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>18</span><span>)</span></span></div><span class="card-location">London, UK</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>25</span><span> Jobs Open</span></a></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-3.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-3.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                                     <div class="info-text mt-10">
                                         <h5 class="font-bold"><a href="/companies/show">Amazon</a></h5>
-                                        <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>52</span><span>)</span></span></div><span class="card-location">Tokyo,Japan</span>
+                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>52</span><span>)</span></span></div><span class="card-location">Tokyo,Japan</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>54</span><span> Jobs Open</span></a></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-4.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-4.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                                     <div class="info-text mt-10">
                                         <h5 class="font-bold"><a href="/companies/show">Baseball Savings</a></h5>
-                                        <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>85</span><span>)</span></span></div><span class="card-location">Chicago, US</span>
+                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>85</span><span>)</span></span></div><span class="card-location">Chicago, US</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>6</span><span> Jobs Open</span></a></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-5.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-5.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                                     <div class="info-text mt-10">
                                         <h5 class="font-bold"><a href="/companies/show">Ashford</a></h5>
-                                        <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>25</span><span>)</span></span></div><span class="card-location">Toronto, Italia</span>
+                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>25</span><span>)</span></span></div><span class="card-location">Toronto, Italia</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>67</span><span> Jobs Open</span></a></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-6.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-6.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                                     <div class="info-text mt-10">
                                         <h5 class="font-bold"><a href="/companies/show">Callaway Golf</a></h5>
-                                        <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>34</span><span>)</span></span></div><span class="card-location">San Francisco, US</span>
+                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>34</span><span>)</span></span></div><span class="card-location">San Francisco, US</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>45</span><span> Jobs Open</span></a></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-7.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-7.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                                     <div class="info-text mt-10">
                                         <h5 class="font-bold"><a href="/companies/show">Percepta</a></h5>
-                                        <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>97</span><span>)</span></span></div><span class="card-location">Chinatown, Singpore</span>
+                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>97</span><span>)</span></span></div><span class="card-location">Chinatown, Singpore</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>64</span><span> Jobs Open</span></a></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-8.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-8.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                                     <div class="info-text mt-10">
                                         <h5 class="font-bold"><a href="/companies/show">Exela Movers</a></h5>
-                                        <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>67</span><span>)</span></span></div><span class="card-location">New York, US</span>
+                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>67</span><span>)</span></span></div><span class="card-location">New York, US</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>87</span><span> Jobs Open</span></a></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-9.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-9.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                                     <div class="info-text mt-10">
                                         <h5 class="font-bold"><a href="/companies/show">Ibotta, Inc</a></h5>
-                                        <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>45</span><span>)</span></span></div><span class="card-location">New York, US</span>
+                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>45</span><span>)</span></span></div><span class="card-location">New York, US</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>23</span><span> Jobs Open</span></a></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-1.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-1.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                                     <div class="info-text mt-10">
                                         <h5 class="font-bold"><a href="/companies/show">Wanderu </a></h5>
-                                        <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>08</span><span>)</span></span></div><span class="card-location">New York, US</span>
+                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>08</span><span>)</span></span></div><span class="card-location">New York, US</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>45</span><span> Jobs Open</span></a></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-2.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-2.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                                     <div class="info-text mt-10">
                                         <h5 class="font-bold"><a href="/companies/show">Aceable, Inc.</a></h5>
-                                        <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>54</span><span>)</span></span></div><span class="card-location">New York, US</span>
+                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>54</span><span>)</span></span></div><span class="card-location">New York, US</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>67</span><span> Jobs Open</span></a></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-3.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-3.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                                     <div class="info-text mt-10">
                                         <h5 class="font-bold"><a href="/companies/show">Intrepid Travel</a></h5>
-                                        <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>123</span><span>)</span></span></div><span class="card-location">New York, US</span>
+                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>123</span><span>)</span></span></div><span class="card-location">New York, US</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>53</span><span> Jobs Open</span></a></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-4.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-4.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                                     <div class="info-text mt-10">
                                         <h5 class="font-bold"><a href="/companies/show">Defendify </a></h5>
-                                        <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>64</span><span>)</span></span></div><span class="card-location">New York, US</span>
+                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>64</span><span>)</span></span></div><span class="card-location">New York, US</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>56</span><span> Jobs Open</span></a></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-5.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-5.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                                     <div class="info-text mt-10">
                                         <h5 class="font-bold"><a href="/companies/show">Twisters </a></h5>
-                                        <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>34</span><span>)</span></span></div><span class="card-location">New York, US</span>
+                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>34</span><span>)</span></span></div><span class="card-location">New York, US</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>66</span><span> Jobs Open</span></a></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-6.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-6.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                                     <div class="info-text mt-10">
                                         <h5 class="font-bold"><a href="/companies/show">Fireworks</a></h5>
-                                        <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>12</span><span>)</span></span></div><span class="card-location">New York, US</span>
+                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>12</span><span>)</span></span></div><span class="card-location">New York, US</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>12</span><span> Jobs Open</span></a></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-1.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-1.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                                     <div class="info-text mt-10">
                                         <h5 class="font-bold"><a href="/companies/show">Car Toys</a></h5>
-                                        <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>66</span><span>)</span></span></div><span class="card-location">New York, US</span>
+                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>66</span><span>)</span></span></div><span class="card-location">New York, US</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>12</span><span> Jobs Open</span></a></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-2.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-2.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                                     <div class="info-text mt-10">
                                         <h5 class="font-bold"><a href="/companies/show">Carols Daughter</a></h5>
-                                        <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>18</span><span>)</span></span></div><span class="card-location">London, UK</span>
+                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>18</span><span>)</span></span></div><span class="card-location">London, UK</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>25</span><span> Jobs Open</span></a></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-3.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-3.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                                     <div class="info-text mt-10">
                                         <h5 class="font-bold"><a href="/companies/show">Amazon</a></h5>
-                                        <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>52</span><span>)</span></span></div><span class="card-location">Tokyo,Japan</span>
+                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>52</span><span>)</span></span></div><span class="card-location">Tokyo,Japan</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>54</span><span> Jobs Open</span></a></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-4.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-4.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                                     <div class="info-text mt-10">
                                         <h5 class="font-bold"><a href="/companies/show">Baseball Savings</a></h5>
-                                        <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>85</span><span>)</span></span></div><span class="card-location">Chicago, US</span>
+                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>85</span><span>)</span></span></div><span class="card-location">Chicago, US</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>6</span><span> Jobs Open</span></a></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-5.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-5.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                                     <div class="info-text mt-10">
                                         <h5 class="font-bold"><a href="/companies/show">Ashford</a></h5>
-                                        <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>25</span><span>)</span></span></div><span class="card-location">Toronto, Italia</span>
+                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>25</span><span>)</span></span></div><span class="card-location">Toronto, Italia</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>67</span><span> Jobs Open</span></a></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="assets/imgs/brands/brand-6.png" alt="jobBox"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-6.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                                     <div class="info-text mt-10">
                                         <h5 class="font-bold"><a href="/companies/show">Callaway Golf</a></h5>
-                                        <div class="mt-5"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>34</span><span>)</span></span></div><span class="card-location">San Francisco, US</span>
+                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>34</span><span>)</span></span></div><span class="card-location">San Francisco, US</span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>45</span><span> Jobs Open</span></a></div>
                                     </div>
                                 </div>
@@ -684,7 +684,7 @@ require_once __DIR__ . '/../partials/header.php';
                                     <div class="text-center card-grid-3-image">
                                         <a href="#">
                                             <figure>
-                                                <img alt="jobBox" src="assets/imgs/page/homepage1/img-news1.png">
+                                                <img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/img-news1.png') ?>">
                                             </figure>
                                         </a>
                                     </div>
@@ -695,7 +695,7 @@ require_once __DIR__ . '/../partials/header.php';
                                         <div class="card-2-bottom mt-20">
                                             <div class="row">
                                                 <div class="col-lg-6 col-6">
-                                                    <div class="d-flex"><img class="img-rounded" src="assets/imgs/page/homepage1/user1.png" alt="jobBox">
+                                                    <div class="d-flex"><img class="img-rounded" src="<?= asset('assets/imgs/page/homepage1/user1.png') ?>" alt="<?= env('APP_NAME') ?>">
                                                         <div class="info-right-img"><span class="font-sm font-bold color-brand-1 op-70">Sarah Harding</span><br><span class="font-xs color-text-paragraph-2">06 September</span></div>
                                                     </div>
                                                 </div>
@@ -710,7 +710,7 @@ require_once __DIR__ . '/../partials/header.php';
                                     <div class="text-center card-grid-3-image">
                                         <a href="#">
                                             <figure>
-                                                <img alt="jobBox" src="assets/imgs/page/homepage1/img-news2.png">
+                                                <img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/img-news2.png') ?>">
                                             </figure>
                                         </a>
                                     </div>
@@ -722,7 +722,7 @@ require_once __DIR__ . '/../partials/header.php';
                                             <div class="row">
                                                 <div class="col-lg-6 col-6">
                                                     <div class="d-flex">
-                                                        <img class="img-rounded" src="assets/imgs/page/homepage1/user2.png" alt="jobBox">
+                                                        <img class="img-rounded" src="<?= asset('assets/imgs/page/homepage1/user2.png') ?>" alt="<?= env('APP_NAME') ?>">
                                                         <div class="info-right-img">
                                                             <span class="font-sm font-bold color-brand-1 op-70">Steven Jobs</span>
                                                             <br>
@@ -743,7 +743,7 @@ require_once __DIR__ . '/../partials/header.php';
                                     <div class="text-center card-grid-3-image">
                                         <a href="#">
                                             <figure>
-                                                <img alt="jobBox" src="assets/imgs/page/homepage1/img-news3.png">
+                                                <img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/img-news3.png') ?>">
                                             </figure>
                                         </a>
                                     </div>
@@ -759,7 +759,7 @@ require_once __DIR__ . '/../partials/header.php';
                                             <div class="row">
                                                 <div class="col-lg-6 col-6">
                                                     <div class="d-flex">
-                                                        <img class="img-rounded" src="assets/imgs/page/homepage1/user3.png" alt="jobBox">
+                                                        <img class="img-rounded" src="<?= asset('assets/imgs/page/homepage1/user3.png') ?>" alt="<?= env('APP_NAME') ?>">
                                                         <div class="info-right-img">
                                                             <span class="font-sm font-bold color-brand-1 op-70">Wiliam Kend</span><br><span class="font-xs color-text-paragraph-2">06 September</span>
                                                         </div>
@@ -789,7 +789,7 @@ require_once __DIR__ . '/../partials/header.php';
             <div class="box-newsletter">
                 <div class="row">
                     <div class="col-xl-3 col-12 text-center d-none d-xl-block">
-                        <img src="assets/imgs/template/newsletter-left.png" alt="joxBox">
+                        <img src="<?= asset('assets/imgs/template/newsletter-left.png') ?>" alt="<?= env('APP_NAME') ?>">
                     </div>
                     <div class="col-lg-12 col-xl-6 col-12">
                         <h2 class="text-md-newsletter text-center">New Things Will Always<br> Update Regularly</h2>
@@ -801,7 +801,7 @@ require_once __DIR__ . '/../partials/header.php';
                         </div>
                     </div>
                     <div class="col-xl-3 col-12 text-center d-none d-xl-block">
-                        <img src="assets/imgs/template/newsletter-right.png" alt="joxBox">
+                        <img src="<?= asset('assets/imgs/template/newsletter-right.png') ?>" alt="<?= env('APP_NAME') ?>">
                     </div>
                 </div>
             </div>

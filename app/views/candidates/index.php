@@ -71,7 +71,7 @@ require_once __DIR__ . '/../partials/header.php';
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="box-view-type"><a class="view-type" href="jobs-list.html"><img src="/assets/imgs/template/icons/icon-list.svg" alt="jobBox"></a><a class="view-type" href="jobs-grid.html"><img src="assets/imgs/template/icons/icon-grid-hover.svg" alt="jobBox"></a></div>
+                                <div class="box-view-type"><a class="view-type" href="jobs-list.html"><img src="<?= asset('assets/imgs/template/icons/icon-list.svg') ?>" alt="<?= env('APP_NAME') ?>"></a><a class="view-type" href="jobs-grid.html"><img src="<?= asset('assets/imgs/template/icons/icon-grid-hover.svg') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                             </div>
                         </div>
                     </div>
@@ -81,12 +81,12 @@ require_once __DIR__ . '/../partials/header.php';
                         <div class="card-grid-2 hover-up">
                             <div class="card-grid-2-image-left">
                                 <div class="card-grid-2-image-rd online"><a href="/candidate/show">
-                                        <figure><img alt="jobBox" src="/assets/imgs/page/candidates/user1.png"></figure>
+                                        <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/candidates/user1.png') ?>"></figure>
                                     </a></div>
                                 <div class="card-profile pt-10"><a href="/candidate/show">
                                         <h5>Robert Fox</h5>
                                     </a><span class="font-xs color-text-mutted">UI/UX Designer</span>
-                                    <div class="rate-reviews-small pt-5"><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
+                                    <div class="rate-reviews-small pt-5"><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
                                 </div>
                             </div>
                             <div class="card-block-info">
@@ -108,12 +108,12 @@ require_once __DIR__ . '/../partials/header.php';
                         <div class="card-grid-2 hover-up">
                             <div class="card-grid-2-image-left">
                                 <div class="card-grid-2-image-rd online"><a href="/candidate/show">
-                                        <figure><img alt="jobBox" src="assets/imgs/page/candidates/user2.png"></figure>
+                                        <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/candidates/user2.png') ?>"></figure>
                                     </a></div>
                                 <div class="card-profile pt-10"><a href="/candidate/show">
                                         <h5>Cody Fisher</h5>
                                     </a><span class="font-xs color-text-mutted">Python developer</span>
-                                    <div class="rate-reviews-small pt-5"><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
+                                    <div class="rate-reviews-small pt-5"><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
                                 </div>
                             </div>
                             <div class="card-block-info">
@@ -135,12 +135,12 @@ require_once __DIR__ . '/../partials/header.php';
                         <div class="card-grid-2 hover-up">
                             <div class="card-grid-2-image-left">
                                 <div class="card-grid-2-image-rd online"><a href="/candidate/show">
-                                        <figure><img alt="jobBox" src="assets/imgs/page/candidates/user3.png"></figure>
+                                        <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/candidates/user3.png') ?>"></figure>
                                     </a></div>
                                 <div class="card-profile pt-10"><a href="/candidate/show">
                                         <h5>Jerome Bell</h5>
                                     </a><span class="font-xs color-text-mutted">Content Manager</span>
-                                    <div class="rate-reviews-small pt-5"><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
+                                    <div class="rate-reviews-small pt-5"><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
                                 </div>
                             </div>
                             <div class="card-block-info">
@@ -162,12 +162,12 @@ require_once __DIR__ . '/../partials/header.php';
                         <div class="card-grid-2 hover-up">
                             <div class="card-grid-2-image-left">
                                 <div class="card-grid-2-image-rd online"><a href="/candidate/show">
-                                        <figure><img alt="jobBox" src="assets/imgs/page/candidates/user4.png"></figure>
+                                        <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/candidates/user4.png') ?>"></figure>
                                     </a></div>
                                 <div class="card-profile pt-10"><a href="/candidate/show">
                                         <h5>Jane Cooper</h5>
                                     </a><span class="font-xs color-text-mutted">Network</span>
-                                    <div class="rate-reviews-small pt-5"><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
+                                    <div class="rate-reviews-small pt-5"><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
                                 </div>
                             </div>
                             <div class="card-block-info">
@@ -189,12 +189,12 @@ require_once __DIR__ . '/../partials/header.php';
                         <div class="card-grid-2 hover-up">
                             <div class="card-grid-2-image-left">
                                 <div class="card-grid-2-image-rd online"><a href="/candidate/show">
-                                        <figure><img alt="jobBox" src="assets/imgs/page/candidates/user5.png"></figure>
+                                        <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/candidates/user5.png') ?>"></figure>
                                     </a></div>
                                 <div class="card-profile pt-10"><a href="/candidate/show">
                                         <h5>Floyd Miles</h5>
                                     </a><span class="font-xs color-text-mutted">Photo Editing</span>
-                                    <div class="rate-reviews-small pt-5"><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
+                                    <div class="rate-reviews-small pt-5"><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
                                 </div>
                             </div>
                             <div class="card-block-info">
@@ -216,12 +216,12 @@ require_once __DIR__ . '/../partials/header.php';
                         <div class="card-grid-2 hover-up">
                             <div class="card-grid-2-image-left">
                                 <div class="card-grid-2-image-rd online"><a href="/candidate/show">
-                                        <figure><img alt="jobBox" src="assets/imgs/page/candidates/user6.png"></figure>
+                                        <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/candidates/user6.png') ?>"></figure>
                                     </a></div>
                                 <div class="card-profile pt-10"><a href="/candidate/show">
                                         <h5>Devon Lane</h5>
                                     </a><span class="font-xs color-text-mutted">Online Marketing</span>
-                                    <div class="rate-reviews-small pt-5"><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
+                                    <div class="rate-reviews-small pt-5"><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
                                 </div>
                             </div>
                             <div class="card-block-info">
@@ -243,12 +243,12 @@ require_once __DIR__ . '/../partials/header.php';
                         <div class="card-grid-2 hover-up">
                             <div class="card-grid-2-image-left">
                                 <div class="card-grid-2-image-rd online"><a href="/candidate/show">
-                                        <figure><img alt="jobBox" src="assets/imgs/page/candidates/user7.png"></figure>
+                                        <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/candidates/user7.png') ?>"></figure>
                                     </a></div>
                                 <div class="card-profile pt-10"><a href="/candidate/show">
                                         <h5>Jerome Bell</h5>
                                     </a><span class="font-xs color-text-mutted">UI/UX Designer</span>
-                                    <div class="rate-reviews-small pt-5"><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
+                                    <div class="rate-reviews-small pt-5"><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
                                 </div>
                             </div>
                             <div class="card-block-info">
@@ -270,12 +270,12 @@ require_once __DIR__ . '/../partials/header.php';
                         <div class="card-grid-2 hover-up">
                             <div class="card-grid-2-image-left">
                                 <div class="card-grid-2-image-rd online"><a href="/candidate/show">
-                                        <figure><img alt="jobBox" src="assets/imgs/page/candidates/user8.png"></figure>
+                                        <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/candidates/user8.png') ?>"></figure>
                                     </a></div>
                                 <div class="card-profile pt-10"><a href="/candidate/show">
                                         <h5>Eleanor</h5>
                                     </a><span class="font-xs color-text-mutted">UI/UX Designer</span>
-                                    <div class="rate-reviews-small pt-5"><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
+                                    <div class="rate-reviews-small pt-5"><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
                                 </div>
                             </div>
                             <div class="card-block-info">
@@ -297,12 +297,12 @@ require_once __DIR__ . '/../partials/header.php';
                         <div class="card-grid-2 hover-up">
                             <div class="card-grid-2-image-left">
                                 <div class="card-grid-2-image-rd online"><a href="/candidate/show">
-                                        <figure><img alt="jobBox" src="assets/imgs/page/candidates/user9.png"></figure>
+                                        <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/candidates/user9.png') ?>"></figure>
                                     </a></div>
                                 <div class="card-profile pt-10"><a href="/candidate/show">
                                         <h5>Theresa</h5>
                                     </a><span class="font-xs color-text-mutted">UI/UX Designer</span>
-                                    <div class="rate-reviews-small pt-5"><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
+                                    <div class="rate-reviews-small pt-5"><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
                                 </div>
                             </div>
                             <div class="card-block-info">
@@ -324,12 +324,12 @@ require_once __DIR__ . '/../partials/header.php';
                         <div class="card-grid-2 hover-up">
                             <div class="card-grid-2-image-left">
                                 <div class="card-grid-2-image-rd online"><a href="/candidate/show">
-                                        <figure><img alt="jobBox" src="assets/imgs/page/candidates/user10.png"></figure>
+                                        <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/candidates/user10.png') ?>"></figure>
                                     </a></div>
                                 <div class="card-profile pt-10"><a href="/candidate/show">
                                         <h5>Robert Fox</h5>
                                     </a><span class="font-xs color-text-mutted">UI/UX Designer</span>
-                                    <div class="rate-reviews-small pt-5"><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
+                                    <div class="rate-reviews-small pt-5"><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
                                 </div>
                             </div>
                             <div class="card-block-info">
@@ -351,12 +351,12 @@ require_once __DIR__ . '/../partials/header.php';
                         <div class="card-grid-2 hover-up">
                             <div class="card-grid-2-image-left">
                                 <div class="card-grid-2-image-rd online"><a href="/candidate/show">
-                                        <figure><img alt="jobBox" src="assets/imgs/page/candidates/user11.png"></figure>
+                                        <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/candidates/user11.png') ?>"></figure>
                                     </a></div>
                                 <div class="card-profile pt-10"><a href="/candidate/show">
                                         <h5>Cameron</h5>
                                     </a><span class="font-xs color-text-mutted">UI/UX Designer</span>
-                                    <div class="rate-reviews-small pt-5"><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
+                                    <div class="rate-reviews-small pt-5"><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
                                 </div>
                             </div>
                             <div class="card-block-info">
@@ -378,12 +378,12 @@ require_once __DIR__ . '/../partials/header.php';
                         <div class="card-grid-2 hover-up">
                             <div class="card-grid-2-image-left">
                                 <div class="card-grid-2-image-rd online"><a href="/candidate/show">
-                                        <figure><img alt="jobBox" src="assets/imgs/page/candidates/user12.png"></figure>
+                                        <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/candidates/user12.png') ?>"></figure>
                                     </a></div>
                                 <div class="card-profile pt-10"><a href="/candidate/show">
                                         <h5>Jacob Jones</h5>
                                     </a><span class="font-xs color-text-mutted">UI/UX Designer</span>
-                                    <div class="rate-reviews-small pt-5"><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
+                                    <div class="rate-reviews-small pt-5"><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
                                 </div>
                             </div>
                             <div class="card-block-info">
@@ -405,12 +405,12 @@ require_once __DIR__ . '/../partials/header.php';
                         <div class="card-grid-2 hover-up">
                             <div class="card-grid-2-image-left">
                                 <div class="card-grid-2-image-rd online"><a href="/candidate/show">
-                                        <figure><img alt="jobBox" src="assets/imgs/page/candidates/user13.png"></figure>
+                                        <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/candidates/user13.png') ?>"></figure>
                                     </a></div>
                                 <div class="card-profile pt-10"><a href="/candidate/show">
                                         <h5>Court Henry</h5>
                                     </a><span class="font-xs color-text-mutted">UI/UX Designer</span>
-                                    <div class="rate-reviews-small pt-5"><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
+                                    <div class="rate-reviews-small pt-5"><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
                                 </div>
                             </div>
                             <div class="card-block-info">
@@ -432,12 +432,12 @@ require_once __DIR__ . '/../partials/header.php';
                         <div class="card-grid-2 hover-up">
                             <div class="card-grid-2-image-left">
                                 <div class="card-grid-2-image-rd online"><a href="/candidate/show">
-                                        <figure><img alt="jobBox" src="assets/imgs/page/candidates/user14.png"></figure>
+                                        <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/candidates/user14.png') ?>"></figure>
                                     </a></div>
                                 <div class="card-profile pt-10"><a href="/candidate/show">
                                         <h5>Hawkins</h5>
                                     </a><span class="font-xs color-text-mutted">UI/UX Designer</span>
-                                    <div class="rate-reviews-small pt-5"><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
+                                    <div class="rate-reviews-small pt-5"><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
                                 </div>
                             </div>
                             <div class="card-block-info">
@@ -459,12 +459,12 @@ require_once __DIR__ . '/../partials/header.php';
                         <div class="card-grid-2 hover-up">
                             <div class="card-grid-2-image-left">
                                 <div class="card-grid-2-image-rd online"><a href="/candidate/show">
-                                        <figure><img alt="jobBox" src="assets/imgs/page/candidates/user15.png"></figure>
+                                        <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/candidates/user15.png') ?>"></figure>
                                     </a></div>
                                 <div class="card-profile pt-10"><a href="/candidate/show">
                                         <h5>Howard</h5>
                                     </a><span class="font-xs color-text-mutted">UI/UX Designer</span>
-                                    <div class="rate-reviews-small pt-5"><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
+                                    <div class="rate-reviews-small pt-5"><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
                                 </div>
                             </div>
                             <div class="card-block-info">
@@ -486,12 +486,12 @@ require_once __DIR__ . '/../partials/header.php';
                         <div class="card-grid-2 hover-up">
                             <div class="card-grid-2-image-left">
                                 <div class="card-grid-2-image-rd online"><a href="/candidate/show">
-                                        <figure><img alt="jobBox" src="assets/imgs/page/candidates/user1.png"></figure>
+                                        <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/candidates/user1.png') ?>"></figure>
                                     </a></div>
                                 <div class="card-profile pt-10"><a href="/candidate/show">
                                         <h5> Alexander</h5>
                                     </a><span class="font-xs color-text-mutted">UI/UX Designer</span>
-                                    <div class="rate-reviews-small pt-5"><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span><img src="assets/imgs/template/icons/star.svg" alt="jobBox"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
+                                    <div class="rate-reviews-small pt-5"><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span><img src="<?= asset('assets/imgs/template/icons/star.svg') ?>" alt="<?= env('APP_NAME') ?>"></span><span class="ml-10 color-text-mutted font-xs">(65)</span></div>
                                 </div>
                             </div>
                             <div class="card-block-info">
@@ -541,7 +541,7 @@ require_once __DIR__ . '/../partials/header.php';
                             <div class="swiper-slide">
                                 <div class="card-grid-3 hover-up wow animate__animated animate__fadeIn">
                                     <div class="text-center card-grid-3-image"><a href="#">
-                                            <figure><img alt="jobBox" src="assets/imgs/page/homepage1/img-news1.png"></figure>
+                                            <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/img-news1.png') ?>"></figure>
                                         </a></div>
                                     <div class="card-block-info">
                                         <div class="tags mb-15"><a class="btn btn-tag" href="blog-grid.html">News</a></div>
@@ -550,7 +550,7 @@ require_once __DIR__ . '/../partials/header.php';
                                         <div class="card-2-bottom mt-20">
                                             <div class="row">
                                                 <div class="col-lg-6 col-6">
-                                                    <div class="d-flex"><img class="img-rounded" src="assets/imgs/page/homepage1/user1.png" alt="jobBox">
+                                                    <div class="d-flex"><img class="img-rounded" src="<?= asset('assets/imgs/page/homepage1/user1.png') ?>" alt="<?= env('APP_NAME') ?>">
                                                         <div class="info-right-img"><span class="font-sm font-bold color-brand-1 op-70">Sarah Harding</span><br><span class="font-xs color-text-paragraph-2">06 September</span></div>
                                                     </div>
                                                 </div>
@@ -563,7 +563,7 @@ require_once __DIR__ . '/../partials/header.php';
                             <div class="swiper-slide">
                                 <div class="card-grid-3 hover-up wow animate__animated animate__fadeIn">
                                     <div class="text-center card-grid-3-image"><a href="#">
-                                            <figure><img alt="jobBox" src="assets/imgs/page/homepage1/img-news2.png"></figure>
+                                            <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/img-news2.png') ?>"></figure>
                                         </a></div>
                                     <div class="card-block-info">
                                         <div class="tags mb-15"><a class="btn btn-tag" href="blog-grid.html">Events</a></div>
@@ -572,7 +572,7 @@ require_once __DIR__ . '/../partials/header.php';
                                         <div class="card-2-bottom mt-20">
                                             <div class="row">
                                                 <div class="col-lg-6 col-6">
-                                                    <div class="d-flex"><img class="img-rounded" src="assets/imgs/page/homepage1/user2.png" alt="jobBox">
+                                                    <div class="d-flex"><img class="img-rounded" src="<?= asset('assets/imgs/page/homepage1/user2.png') ?>" alt="<?= env('APP_NAME') ?>">
                                                         <div class="info-right-img"><span class="font-sm font-bold color-brand-1 op-70">Steven Jobs</span><br><span class="font-xs color-text-paragraph-2">06 September</span></div>
                                                     </div>
                                                 </div>
@@ -585,7 +585,7 @@ require_once __DIR__ . '/../partials/header.php';
                             <div class="swiper-slide">
                                 <div class="card-grid-3 hover-up wow animate__animated animate__fadeIn">
                                     <div class="text-center card-grid-3-image"><a href="#">
-                                            <figure><img alt="jobBox" src="assets/imgs/page/homepage1/img-news3.png"></figure>
+                                            <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/img-news3.png') ?>"></figure>
                                         </a></div>
                                     <div class="card-block-info">
                                         <div class="tags mb-15"><a class="btn btn-tag" href="blog-grid.html">News</a></div>
@@ -594,7 +594,7 @@ require_once __DIR__ . '/../partials/header.php';
                                         <div class="card-2-bottom mt-20">
                                             <div class="row">
                                                 <div class="col-lg-6 col-6">
-                                                    <div class="d-flex"><img class="img-rounded" src="assets/imgs/page/homepage1/user3.png" alt="jobBox">
+                                                    <div class="d-flex"><img class="img-rounded" src="<?= asset('assets/imgs/page/homepage1/user3.png') ?>" alt="<?= env('APP_NAME') ?>">
                                                         <div class="info-right-img"><span class="font-sm font-bold color-brand-1 op-70">Wiliam Kend</span><br><span class="font-xs color-text-paragraph-2">06 September</span></div>
                                                     </div>
                                                 </div>
@@ -617,7 +617,7 @@ require_once __DIR__ . '/../partials/header.php';
         <div class="container">
             <div class="box-newsletter">
                 <div class="row">
-                    <div class="col-xl-3 col-12 text-center d-none d-xl-block"><img src="assets/imgs/template/newsletter-left.png" alt="joxBox"></div>
+                    <div class="col-xl-3 col-12 text-center d-none d-xl-block"><img src="<?= asset('assets/imgs/template/newsletter-left.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                     <div class="col-lg-12 col-xl-6 col-12">
                         <h2 class="text-md-newsletter text-center">New Things Will Always<br> Update Regularly</h2>
                         <div class="box-form-newsletter mt-40">
@@ -627,7 +627,7 @@ require_once __DIR__ . '/../partials/header.php';
                             </form>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-12 text-center d-none d-xl-block"><img src="assets/imgs/template/newsletter-right.png" alt="joxBox"></div>
+                    <div class="col-xl-3 col-12 text-center d-none d-xl-block"><img src="<?= asset('assets/imgs/template/newsletter-right.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                 </div>
             </div>
         </div>

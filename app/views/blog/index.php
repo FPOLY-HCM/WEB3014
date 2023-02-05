@@ -30,7 +30,7 @@ require_once __DIR__ . '/../partials/header.php';
                                 <div class="box-cover-img">
                                     <div class="content-bottom">
                                         <h3 class="color-white mb-20">11 Tips to Help You Get New Clients</h3>
-                                        <div class="author d-flex align-items-center mr-20"><img class="mr-10" alt="jobBox" src="assets/imgs/page/candidates/user3.png"><span class="color-white font-sm mr-25">Azumi Rose</span><span class="color-white font-sm">25 April 2022</span></div>
+                                        <div class="author d-flex align-items-center mr-20"><img class="mr-10" alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/candidates/user3.png') ?>"><span class="color-white font-sm mr-25">Azumi Rose</span><span class="color-white font-sm">25 April 2022</span></div>
                                     </div>
                                 </div>
                             </a></div>
@@ -41,7 +41,7 @@ require_once __DIR__ . '/../partials/header.php';
                             <div class="box-cover-img">
                                 <div class="content-bottom">
                                     <h3 class="color-white mb-20">Recruiter and Land Your Dream Job</h3>
-                                    <div class="author d-flex align-items-center mr-20"><img class="mr-10" alt="jobBox" src="assets/imgs/page/candidates/user1.png"><span class="color-white font-sm mr-25">Thompson</span><span class="color-white font-sm">28 April 2022</span></div>
+                                    <div class="author d-flex align-items-center mr-20"><img class="mr-10" alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/candidates/user1.png') ?>"><span class="color-white font-sm mr-25">Thompson</span><span class="color-white font-sm">28 April 2022</span></div>
                                 </div>
                             </div>
                         </a></div>
@@ -51,7 +51,7 @@ require_once __DIR__ . '/../partials/header.php';
                             <div class="box-cover-img">
                                 <div class="content-bottom">
                                     <h3 class="color-white mb-20">Work-From-Home Jobs That Pay Well</h3>
-                                    <div class="author d-flex align-items-center mr-20"><img class="mr-10" alt="jobBox" src="assets/imgs/page/blog/ava_1.png"><span class="color-white font-sm mr-25">Alice Json</span><span class="color-white font-sm">29 April 2022</span></div>
+                                    <div class="author d-flex align-items-center mr-20"><img class="mr-10" alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/blog/ava_1.png') ?>"><span class="color-white font-sm mr-25">Alice Json</span><span class="color-white font-sm">29 April 2022</span></div>
                                 </div>
                             </div>
                         </a></div>
@@ -72,7 +72,7 @@ require_once __DIR__ . '/../partials/header.php';
                             <div class="col-lg-6 mb-30">
                                 <div class="card-grid-3 hover-up">
                                     <div class="text-center card-grid-3-image"><a href="/blog/show">
-                                            <figure><img alt="jobBox" src="assets/imgs/page/blog/img1.png"></figure>
+                                            <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/blog/img1.png') ?>"></figure>
                                         </a></div>
                                     <div class="card-block-info">
                                         <div class="tags mb-15"><a class="btn btn-tag" href="blog-grid.html">News</a></div>
@@ -81,7 +81,7 @@ require_once __DIR__ . '/../partials/header.php';
                                         <div class="card-2-bottom mt-20">
                                             <div class="row">
                                                 <div class="col-lg-6 col-6">
-                                                    <div class="d-flex"><img class="img-rounded" src="assets/imgs/page/homepage1/user1.png">
+                                                    <div class="d-flex"><img class="img-rounded" src="<?= asset('assets/imgs/page/homepage1/user1.png') ?>">
                                                         <div class="info-right-img"><span class="font-sm font-bold color-brand-1 op-70">Azumi Rose</span><br><span class="font-xs color-text-paragraph-2">25 April 2022</span></div>
                                                     </div>
                                                 </div>
@@ -94,7 +94,7 @@ require_once __DIR__ . '/../partials/header.php';
                             <div class="col-lg-6 mb-30">
                                 <div class="card-grid-3 hover-up">
                                     <div class="text-center card-grid-3-image"><a href="/blog/show">
-                                            <figure><img alt="jobBox" src="assets/imgs/page/blog/img2.png"></figure>
+                                            <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/blog/img2.png') ?>"></figure>
                                         </a></div>
                                     <div class="card-block-info">
                                         <div class="tags mb-15"><a class="btn btn-tag" href="blog-grid.html">Events</a></div>
@@ -103,7 +103,7 @@ require_once __DIR__ . '/../partials/header.php';
                                         <div class="card-2-bottom mt-20">
                                             <div class="row">
                                                 <div class="col-lg-6 col-6">
-                                                    <div class="d-flex"><img class="img-rounded" src="assets/imgs/page/homepage1/user2.png">
+                                                    <div class="d-flex"><img class="img-rounded" src="<?= asset('assets/imgs/page/homepage1/user2.png') ?>">
                                                         <div class="info-right-img"><span class="font-sm font-bold color-brand-1 op-70">Azumi Rose</span><br><span class="font-xs color-text-paragraph-2">25 April 2022</span></div>
                                                     </div>
                                                 </div>
@@ -116,7 +116,7 @@ require_once __DIR__ . '/../partials/header.php';
                             <div class="col-lg-6 mb-30">
                                 <div class="card-grid-3 hover-up">
                                     <div class="text-center card-grid-3-image"><a href="/blog/show">
-                                            <figure><img alt="jobBox" src="assets/imgs/page/blog/img3.png"></figure>
+                                            <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/blog/img3.png') ?>"></figure>
                                         </a></div>
                                     <div class="card-block-info">
                                         <div class="tags mb-15"><a class="btn btn-tag" href="blog-grid.html">Events</a></div>
@@ -125,7 +125,7 @@ require_once __DIR__ . '/../partials/header.php';
                                         <div class="card-2-bottom mt-20">
                                             <div class="row">
                                                 <div class="col-lg-6 col-6">
-                                                    <div class="d-flex"><img class="img-rounded" src="assets/imgs/page/homepage1/user3.png">
+                                                    <div class="d-flex"><img class="img-rounded" src="<?= asset('assets/imgs/page/homepage1/user3.png') ?>">
                                                         <div class="info-right-img"><span class="font-sm font-bold color-brand-1 op-70">Azumi Rose</span><br><span class="font-xs color-text-paragraph-2">25 April 2022</span></div>
                                                     </div>
                                                 </div>
@@ -138,7 +138,7 @@ require_once __DIR__ . '/../partials/header.php';
                             <div class="col-lg-6 mb-30">
                                 <div class="card-grid-3 hover-up">
                                     <div class="text-center card-grid-3-image"><a href="/blog/show">
-                                            <figure><img alt="jobBox" src="assets/imgs/page/homepage1/img-news1.png"></figure>
+                                            <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/img-news1.png') ?>"></figure>
                                         </a></div>
                                     <div class="card-block-info">
                                         <div class="tags mb-15"><a class="btn btn-tag" href="blog-grid.html">Events</a></div>
@@ -147,7 +147,7 @@ require_once __DIR__ . '/../partials/header.php';
                                         <div class="card-2-bottom mt-20">
                                             <div class="row">
                                                 <div class="col-lg-6 col-6">
-                                                    <div class="d-flex"><img class="img-rounded" src="assets/imgs/page/about/user1.png">
+                                                    <div class="d-flex"><img class="img-rounded" src="<?= asset('assets/imgs/page/about/user1.png') ?>">
                                                         <div class="info-right-img"><span class="font-sm font-bold color-brand-1 op-70">Azumi Rose</span><br><span class="font-xs color-text-paragraph-2">25 April 2022</span></div>
                                                     </div>
                                                 </div>
@@ -160,7 +160,7 @@ require_once __DIR__ . '/../partials/header.php';
                             <div class="col-lg-6 mb-30">
                                 <div class="card-grid-3 hover-up">
                                     <div class="text-center card-grid-3-image"><a href="/blog/show">
-                                            <figure><img alt="jobBox" src="assets/imgs/page/homepage1/img-news2.png"></figure>
+                                            <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/img-news2.png') ?>"></figure>
                                         </a></div>
                                     <div class="card-block-info">
                                         <div class="tags mb-15"><a class="btn btn-tag" href="blog-grid.html">Events</a></div>
@@ -169,7 +169,7 @@ require_once __DIR__ . '/../partials/header.php';
                                         <div class="card-2-bottom mt-20">
                                             <div class="row">
                                                 <div class="col-lg-6 col-6">
-                                                    <div class="d-flex"><img class="img-rounded" src="assets/imgs/page/about/user2.png">
+                                                    <div class="d-flex"><img class="img-rounded" src="<?= asset('assets/imgs/page/about/user2.png') ?>">
                                                         <div class="info-right-img"><span class="font-sm font-bold color-brand-1 op-70">Azumi Rose</span><br><span class="font-xs color-text-paragraph-2">25 April 2022</span></div>
                                                     </div>
                                                 </div>
@@ -182,7 +182,7 @@ require_once __DIR__ . '/../partials/header.php';
                             <div class="col-lg-6 mb-30">
                                 <div class="card-grid-3 hover-up">
                                     <div class="text-center card-grid-3-image"><a href="/blog/show">
-                                            <figure><img alt="jobBox" src="assets/imgs/page/homepage1/img-news3.png"></figure>
+                                            <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/img-news3.png') ?>"></figure>
                                         </a></div>
                                     <div class="card-block-info">
                                         <div class="tags mb-15"><a class="btn btn-tag" href="blog-grid.html">Events</a></div>
@@ -191,7 +191,7 @@ require_once __DIR__ . '/../partials/header.php';
                                         <div class="card-2-bottom mt-20">
                                             <div class="row">
                                                 <div class="col-lg-6 col-6">
-                                                    <div class="d-flex"><img class="img-rounded" src="assets/imgs/page/about/user3.png">
+                                                    <div class="d-flex"><img class="img-rounded" src="<?= asset('assets/imgs/page/about/user3.png') ?>">
                                                         <div class="info-right-img"><span class="font-sm font-bold color-brand-1 op-70">Azumi Rose</span><br><span class="font-xs color-text-paragraph-2">25 April 2022</span></div>
                                                     </div>
                                                 </div>
@@ -204,7 +204,7 @@ require_once __DIR__ . '/../partials/header.php';
                             <div class="col-lg-6 mb-30">
                                 <div class="card-grid-3 hover-up">
                                     <div class="text-center card-grid-3-image"><a href="/blog/show">
-                                            <figure><img alt="jobBox" src="assets/imgs/page/blog/img1.png"></figure>
+                                            <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/blog/img1.png') ?>"></figure>
                                         </a></div>
                                     <div class="card-block-info">
                                         <div class="tags mb-15"><a class="btn btn-tag" href="blog-grid.html">Events</a></div>
@@ -213,7 +213,7 @@ require_once __DIR__ . '/../partials/header.php';
                                         <div class="card-2-bottom mt-20">
                                             <div class="row">
                                                 <div class="col-lg-6 col-6">
-                                                    <div class="d-flex"><img class="img-rounded" src="assets/imgs/page/homepage1/user1.png">
+                                                    <div class="d-flex"><img class="img-rounded" src="<?= asset('assets/imgs/page/homepage1/user1.png') ?>">
                                                         <div class="info-right-img"><span class="font-sm font-bold color-brand-1 op-70">Azumi Rose</span><br><span class="font-xs color-text-paragraph-2">25 April 2022</span></div>
                                                     </div>
                                                 </div>
@@ -226,7 +226,7 @@ require_once __DIR__ . '/../partials/header.php';
                             <div class="col-lg-6 mb-30">
                                 <div class="card-grid-3 hover-up">
                                     <div class="text-center card-grid-3-image"><a href="/blog/show">
-                                            <figure><img alt="jobBox" src="assets/imgs/page/blog/img2.png"></figure>
+                                            <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/blog/img2.png') ?>"></figure>
                                         </a></div>
                                     <div class="card-block-info">
                                         <div class="tags mb-15"><a class="btn btn-tag" href="blog-grid.html">Events</a></div>
@@ -235,7 +235,7 @@ require_once __DIR__ . '/../partials/header.php';
                                         <div class="card-2-bottom mt-20">
                                             <div class="row">
                                                 <div class="col-lg-6 col-6">
-                                                    <div class="d-flex"><img class="img-rounded" src="assets/imgs/page/homepage1/user1.png">
+                                                    <div class="d-flex"><img class="img-rounded" src="<?= asset('assets/imgs/page/homepage1/user1.png') ?>">
                                                         <div class="info-right-img"><span class="font-sm font-bold color-brand-1 op-70">Azumi Rose</span><br><span class="font-xs color-text-paragraph-2">25 April 2022</span></div>
                                                     </div>
                                                 </div>
@@ -273,50 +273,50 @@ require_once __DIR__ . '/../partials/header.php';
                             <h5 class="sidebar-title">Trending Now</h5>
                             <div class="post-list-small">
                                 <div class="post-list-small-item d-flex align-items-center">
-                                    <figure class="thumb mr-15"><img src="assets/imgs/page/blog/img-trending.png" alt="jobBox"></figure>
+                                    <figure class="thumb mr-15"><img src="<?= asset('assets/imgs/page/blog/img-trending.png') ?>" alt="<?= env('APP_NAME') ?>"></figure>
                                     <div class="content">
                                         <h5>How to get better agents in New York, USA</h5>
                                         <div class="post-meta text-muted d-flex align-items-center mb-15">
-                                            <div class="author d-flex align-items-center mr-20"><img alt="jobBox" src="assets/imgs/page/homepage1/user1.png"><span>Sugar Rosie</span></div>
+                                            <div class="author d-flex align-items-center mr-20"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/user1.png') ?>"><span>Sugar Rosie</span></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="post-list-small-item d-flex align-items-center">
-                                    <figure class="thumb mr-15"><img src="assets/imgs/page/blog/gallery1.png" alt=""></figure>
+                                    <figure class="thumb mr-15"><img src="<?= asset('assets/imgs/page/blog/gallery1.png') ?>" alt=""></figure>
                                     <div class="content">
                                         <h5>How To Create a Resume for a Job in Social</h5>
                                         <div class="post-meta text-muted d-flex align-items-center mb-15">
-                                            <div class="author d-flex align-items-center mr-20"><img alt="jobBox" src="assets/imgs/page/homepage1/user3.png"><span>Harding</span></div>
+                                            <div class="author d-flex align-items-center mr-20"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/user3.png') ?>"><span>Harding</span></div>
                                             <div class="date"><span>17 Sep</span></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="post-list-small-item d-flex align-items-center">
-                                    <figure class="thumb mr-15"><img src="assets/imgs/page/blog/gallery2.png" alt=""></figure>
+                                    <figure class="thumb mr-15"><img src="<?= asset('assets/imgs/page/blog/gallery2.png') ?>" alt=""></figure>
                                     <div class="content">
                                         <h5>10 Ways to Avoid a Referee Disaster Zone</h5>
                                         <div class="post-meta text-muted d-flex align-items-center mb-15">
-                                            <div class="author d-flex align-items-center mr-20"><img alt="jobBox" src="assets/imgs/page/homepage1/user2.png"><span>Steven</span></div>
+                                            <div class="author d-flex align-items-center mr-20"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/user2.png') ?>"><span>Steven</span></div>
                                             <div class="date"><span>23 Sep</span></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="post-list-small-item d-flex align-items-center">
-                                    <figure class="thumb mr-15"><img src="assets/imgs/page/blog/gallery4.png" alt=""></figure>
+                                    <figure class="thumb mr-15"><img src="<?= asset('assets/imgs/page/blog/gallery4.png') ?>" alt=""></figure>
                                     <div class="content">
                                         <h5>How To Set Work-Life Boundaries From Any Location</h5>
                                         <div class="post-meta text-muted d-flex align-items-center mb-15">
-                                            <div class="author d-flex align-items-center mr-20"><img alt="jobBox" src="assets/imgs/page/homepage1/user3.png"><span>Merias</span></div>
+                                            <div class="author d-flex align-items-center mr-20"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/user3.png') ?>"><span>Merias</span></div>
                                             <div class="date"><span>14 Sep</span></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="post-list-small-item d-flex align-items-center">
-                                    <figure class="thumb mr-15"><img src="assets/imgs/page/blog/gallery5.png" alt=""></figure>
+                                    <figure class="thumb mr-15"><img src="<?= asset('assets/imgs/page/blog/gallery5.png') ?>" alt=""></figure>
                                     <div class="content">
                                         <h5>How to Land Your Dream Marketing Job</h5>
                                         <div class="post-meta text-muted d-flex align-items-center mb-15">
-                                            <div class="author d-flex align-items-center mr-20"><img alt="jobBox" src="assets/imgs/page/homepage1/user1.png"><span>Rosie</span></div>
+                                            <div class="author d-flex align-items-center mr-20"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/user1.png') ?>"><span>Rosie</span></div>
                                             <div class="date"><span>12 Sep</span></div>
                                         </div>
                                     </div>
@@ -331,15 +331,15 @@ require_once __DIR__ . '/../partials/header.php';
                             <h5 class="sidebar-title">Gallery</h5>
                             <div class="post-list-small">
                                 <ul class="gallery-3">
-                                    <li><a href="#"><img src="assets/imgs/page/blog/gallery1.png"></a></li>
-                                    <li><a href="#"><img src="assets/imgs/page/blog/gallery2.png"></a></li>
-                                    <li><a href="#"><img src="assets/imgs/page/blog/gallery3.png"></a></li>
-                                    <li><a href="#"><img src="assets/imgs/page/blog/gallery4.png"></a></li>
-                                    <li><a href="#"><img src="assets/imgs/page/blog/gallery5.png"></a></li>
-                                    <li><a href="#"><img src="assets/imgs/page/blog/gallery6.png"></a></li>
-                                    <li><a href="#"><img src="assets/imgs/page/blog/gallery7.png"></a></li>
-                                    <li><a href="#"><img src="assets/imgs/page/blog/gallery8.png"></a></li>
-                                    <li><a href="#"><img src="assets/imgs/page/blog/gallery9.png"></a></li>
+                                    <li><a href="#"><img src="<?= asset('assets/imgs/page/blog/gallery1.png') ?>"></a></li>
+                                    <li><a href="#"><img src="<?= asset('assets/imgs/page/blog/gallery2.png') ?>"></a></li>
+                                    <li><a href="#"><img src="<?= asset('assets/imgs/page/blog/gallery3.png') ?>"></a></li>
+                                    <li><a href="#"><img src="<?= asset('assets/imgs/page/blog/gallery4.png') ?>"></a></li>
+                                    <li><a href="#"><img src="<?= asset('assets/imgs/page/blog/gallery5.png') ?>"></a></li>
+                                    <li><a href="#"><img src="<?= asset('assets/imgs/page/blog/gallery6.png') ?>"></a></li>
+                                    <li><a href="#"><img src="<?= asset('assets/imgs/page/blog/gallery7.png') ?>"></a></li>
+                                    <li><a href="#"><img src="<?= asset('assets/imgs/page/blog/gallery8.png') ?>"></a></li>
+                                    <li><a href="#"><img src="<?= asset('assets/imgs/page/blog/gallery9.png') ?>"></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -352,7 +352,7 @@ require_once __DIR__ . '/../partials/header.php';
         <div class="container">
             <div class="box-newsletter">
                 <div class="row">
-                    <div class="col-xl-3 col-12 text-center d-none d-xl-block"><img src="assets/imgs/template/newsletter-left.png" alt="joxBox"></div>
+                    <div class="col-xl-3 col-12 text-center d-none d-xl-block"><img src="<?= asset('assets/imgs/template/newsletter-left.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                     <div class="col-lg-12 col-xl-6 col-12">
                         <h2 class="text-md-newsletter text-center">New Things Will Always<br> Update Regularly</h2>
                         <div class="box-form-newsletter mt-40">
@@ -362,7 +362,7 @@ require_once __DIR__ . '/../partials/header.php';
                             </form>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-12 text-center d-none d-xl-block"><img src="assets/imgs/template/newsletter-right.png" alt="joxBox"></div>
+                    <div class="col-xl-3 col-12 text-center d-none d-xl-block"><img src="<?= asset('assets/imgs/template/newsletter-right.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                 </div>
             </div>
         </div>

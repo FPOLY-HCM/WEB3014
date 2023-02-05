@@ -12,16 +12,16 @@
     <meta name="description" content="Index page">
     <meta name="keywords" content="index, page">
     <meta name="author" content="">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/dashboard/imgs/template/favicon.svg">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/dashboard/imgs/template/favicon.svg') ?>">
     <link href="assets/dashboard/css/style.css?version=2.0" rel="stylesheet">
-    <title>Jobbox Dashboard - Job Portal HTML Template </title>
+    <title><?= env('APP_NAME') ?> Dashboard - Job Portal HTML Template </title>
 </head>
 
 <body>
     <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
             <div class="preloader-inner position-relative">
-                <div class="text-center"><img src="assets/dashboard/imgs/template/loading.gif" alt="jobBox"></div>
+                <div class="text-center"><img src="<?= asset('assets/dashboard/imgs/template/loading.gif') ?>" alt="<?= env('APP_NAME') ?>"></div>
             </div>
         </div>
     </div>
@@ -29,7 +29,7 @@
         <div class="container">
             <div class="main-header">
                 <div class="header-left">
-                    <div class="header-logo"><a class="d-flex" href="index.html"><img alt="jobBox" src="assets/dashboard/imgs/page/dashboard/logo.svg"></a></div><span class="btn btn-grey-small ml-10">Admin area</span>
+                    <div class="header-logo"><a class="d-flex" href="index.html"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/dashboard/imgs/page/dashboard/logo.svg') ?>"></a></div><span class="btn btn-grey-small ml-10">Admin area</span>
                 </div>
                 <div class="header-search">
                     <div class="box-search">
@@ -40,9 +40,9 @@
                 </div>
                 <div class="header-menu d-none d-md-block">
                     <ul>
-                        <li> <a href="http://wp.alithemes.com/html/jobbox/demos/index.html">Home </a></li>
-                        <li> <a href="http://wp.alithemes.com/html/jobbox/demos/page-about.html">About us </a></li>
-                        <li> <a href="http://wp.alithemes.com/html/jobbox/demos/page-contact.html">Contact</a></li>
+                        <li> <a href="http://wp.alithemes.com/html/<?= env('APP_NAME') ?>/demos/index.html">Home </a></li>
+                        <li> <a href="http://wp.alithemes.com/html/<?= env('APP_NAME') ?>/demos/page-about.html">About us </a></li>
+                        <li> <a href="http://wp.alithemes.com/html/<?= env('APP_NAME') ?>/demos/page-contact.html">Contact</a></li>
                     </ul>
                 </div>
                 <div class="header-right">
@@ -54,7 +54,7 @@
                                 <li><a class="dropdown-item" href="#">20 replies</a></li>
                             </ul>
                         </div>
-                        <div class="member-login"><img alt="" src="assets/dashboard/imgs/page/dashboard/profile.png">
+                        <div class="member-login"><img alt="" src="<?= asset('assets/dashboard/imgs/page/dashboard/profile.png') ?>">
                             <div class="info-member"> <strong class="color-brand-1">Steven Jobs</strong>
                                 <div class="dropdown"><a class="font-xs color-text-paragraph-2 icon-down" id="dropdownProfile" type="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">Super Admin</a>
                                     <ul class="dropdown-menu dropdown-menu-light dropdown-menu-end" aria-labelledby="dropdownProfile">
@@ -88,25 +88,25 @@
                         <!-- mobile menu start-->
                         <nav>
                             <ul class="main-menu">
-                                <li> <a class="dashboard2 active" href="index.html"><img src="assets/dashboard/imgs/page/dashboard/dashboard.svg" alt="jobBox"><span class="name">Dashboard</span></a>
+                                <li> <a class="dashboard2 active" href="index.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/dashboard.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">Dashboard</span></a>
                                 </li>
-                                <li> <a class="dashboard2" href="candidates.html"><img src="assets/dashboard/imgs/page/dashboard/candidates.svg" alt="jobBox"><span class="name">Candidates</span></a>
+                                <li> <a class="dashboard2" href="candidates.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/candidates.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">Candidates</span></a>
                                 </li>
-                                <li> <a class="dashboard2" href="recruiters.html"><img src="assets/dashboard/imgs/page/dashboard/recruiters.svg" alt="jobBox"><span class="name">Recruiters</span></a>
+                                <li> <a class="dashboard2" href="recruiters.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/recruiters.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">Recruiters</span></a>
                                 </li>
-                                <li> <a class="dashboard2" href="my-job-grid.html"><img src="assets/dashboard/imgs/page/dashboard/jobs.svg" alt="jobBox"><span class="name">My Jobs</span></a>
+                                <li> <a class="dashboard2" href="my-job-grid.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/jobs.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">My Jobs</span></a>
                                 </li>
-                                <li> <a class="dashboard2" href="my-tasks-list.html"><img src="assets/dashboard/imgs/page/dashboard/tasks.svg" alt="jobBox"><span class="name">Tasks List</span></a>
+                                <li> <a class="dashboard2" href="my-tasks-list.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/tasks.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">Tasks List</span></a>
                                 </li>
-                                <li> <a class="dashboard2" href="profile.html"><img src="assets/dashboard/imgs/page/dashboard/profiles.svg" alt="jobBox"><span class="name">My Profiles</span></a>
+                                <li> <a class="dashboard2" href="profile.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/profiles.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">My Profiles</span></a>
                                 </li>
-                                <li> <a class="dashboard2" href="my-resume.html"><img src="assets/dashboard/imgs/page/dashboard/cv-manage.svg" alt="jobBox"><span class="name">CV Manage</span></a>
+                                <li> <a class="dashboard2" href="my-resume.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/cv-manage.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">CV Manage</span></a>
                                 </li>
-                                <li> <a class="dashboard2" href="settings.html"><img src="assets/dashboard/imgs/page/dashboard/settings.svg" alt="jobBox"><span class="name">Setting</span></a>
+                                <li> <a class="dashboard2" href="settings.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/settings.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">Setting</span></a>
                                 </li>
-                                <li> <a class="dashboard2" href="authentication.html"><img src="assets/dashboard/imgs/page/dashboard/authentication.svg" alt="jobBox"><span class="name">Authentication</span></a>
+                                <li> <a class="dashboard2" href="authentication.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/authentication.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">Authentication</span></a>
                                 </li>
-                                <li> <a class="dashboard2" href="login.html"><img src="assets/dashboard/imgs/page/dashboard/logout.svg" alt="jobBox"><span class="name">Logout</span></a>
+                                <li> <a class="dashboard2" href="login.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/logout.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">Logout</span></a>
                                 </li>
                             </ul>
                         </nav>
@@ -122,7 +122,7 @@
                         </ul>
                         <div class="mb-15 mt-15"> <a class="btn btn-default icon-edit hover-up" href="post-job.html">Post Job</a></div>
                     </div>
-                    <div class="site-copyright">Copyright 2022 &copy; JobBox. <br>Designed by AliThemes.</div>
+                    <div class="site-copyright">Copyright 2022 &copy; <?= env('APP_NAME') ?>. <br>Designed by AliThemes.</div>
                 </div>
             </div>
         </div>

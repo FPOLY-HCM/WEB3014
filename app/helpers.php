@@ -28,3 +28,14 @@ if (! function_exists('compact')) {
         return $result;
     }
 }
+
+if (! function_exists('asset')) {
+    function asset(string $path): string
+    {
+        $protocol = str_contains($_SERVER['SERVER_PROTOCOL'], 'https') ? 'https://' : 'http://';
+
+        $path = ltrim($path, '/');
+
+        return $protocol . $_ENV['APP_URL'] . '/' . $path;
+    }
+}

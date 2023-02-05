@@ -284,10 +284,10 @@ require_once __DIR__ . '/partials/header.php';
                     </div>
                     <div class="col-xl-4 col-lg-12 d-none d-xl-block col-md-6">
                         <div class="banner-imgs">
-                            <div class="block-1 shape-1"><img class="img-responsive" alt="jobBox" src="assets/imgs/page/homepage1/banner1.png"></div>
-                            <div class="block-2 shape-2"><img class="img-responsive" alt="jobBox" src="assets/imgs/page/homepage1/banner2.png"></div>
-                            <div class="block-3 shape-3"><img class="img-responsive" alt="jobBox" src="assets/imgs/page/homepage1/icon-top-banner.png"></div>
-                            <div class="block-4 shape-3"><img class="img-responsive" alt="jobBox" src="assets/imgs/page/homepage1/icon-bottom-banner.png"></div>
+                            <div class="block-1 shape-1"><img class="img-responsive" alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/banner1.png') ?>"></div>
+                            <div class="block-2 shape-2"><img class="img-responsive" alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/banner2.png') ?>"></div>
+                            <div class="block-3 shape-3"><img class="img-responsive" alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/icon-top-banner.png') ?>"></div>
+                            <div class="block-4 shape-3"><img class="img-responsive" alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/icon-bottom-banner.png') ?>"></div>
                         </div>
                     </div>
                 </div>
@@ -309,7 +309,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <a href="jobs-list.html">
                                     <div class="item-logo">
                                         <div class="image-left">
-                                            <img alt="jobBox" src="assets/imgs/page/homepage1/marketing.svg">
+                                            <img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/marketing.svg') ?>">
                                         </div>
                                         <div class="text-info-right">
                                             <h4>Marketing &amp; Sale</h4>
@@ -320,7 +320,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <a href="/jobs">
                                     <div class="item-logo">
                                         <div class="image-left">
-                                            <img alt="jobBox" src="assets/imgs/page/homepage1/customer.svg">
+                                            <img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/customer.svg') ?>">
                                         </div>
                                         <div class="text-info-right">
                                             <h4>Customer Help</h4>
@@ -333,7 +333,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <a href="/jobs">
                                     <div class="item-logo">
                                         <div class="image-left">
-                                            <img alt="jobBox" src="assets/imgs/page/homepage1/finance.svg">
+                                            <img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/finance.svg') ?>">
                                         </div>
                                         <div class="text-info-right">
                                             <h4>Finance</h4>
@@ -344,7 +344,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <a href="jobs-list.html">
                                     <div class="item-logo">
                                         <div class="image-left">
-                                            <img alt="jobBox" src="assets/imgs/page/homepage1/lightning.svg">
+                                            <img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/lightning.svg') ?>">
                                         </div>
                                         <div class="text-info-right">
                                             <h4>Software</h4>
@@ -357,7 +357,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <a href="/jobs">
                                     <div class="item-logo">
                                         <div class="image-left">
-                                            <img alt="jobBox" src="assets/imgs/page/homepage1/human.svg">
+                                            <img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/human.svg') ?>">
                                         </div>
                                         <div class="text-info-right">
                                             <h4>Human Resource</h4>
@@ -368,7 +368,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <a href="/jobs">
                                     <div class="item-logo">
                                         <div class="image-left">
-                                            <img alt="jobBox" src="assets/imgs/page/homepage1/management.svg">
+                                            <img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/management.svg') ?>">
                                         </div>
                                         <div class="text-info-right">
                                             <h4>Management</h4>
@@ -381,7 +381,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <a href="jobs-list.html">
                                     <div class="item-logo">
                                         <div class="image-left">
-                                            <img alt="jobBox" src="assets/imgs/page/homepage1/retail.svg">
+                                            <img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/retail.svg') ?>">
                                         </div>
                                         <div class="text-info-right">
                                             <h4>Retail &amp; Products</h4>
@@ -392,7 +392,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <a href="/jobs">
                                     <div class="item-logo">
                                         <div class="image-left">
-                                            <img alt="jobBox" src="assets/imgs/page/homepage1/security.svg">
+                                            <img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/security.svg') ?>">
                                         </div>
                                         <div class="text-info-right">
                                             <h4>Security Analyst</h4>
@@ -405,7 +405,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <a href="/jobs">
                                     <div class="item-logo">
                                         <div class="image-left">
-                                            <img alt="jobBox" src="assets/imgs/page/homepage1/content.svg">
+                                            <img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/content.svg') ?>">
                                         </div>
                                         <div class="text-info-right">
                                             <h4>Content Writer</h4>
@@ -416,7 +416,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <a href="jobs-list.html">
                                     <div class="item-logo">
                                         <div class="image-left">
-                                            <img alt="jobBox" src="assets/imgs/page/homepage1/research.svg">
+                                            <img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/research.svg') ?>">
                                         </div>
                                         <div class="text-info-right">
                                             <h4>Market Research</h4>
@@ -440,12 +440,12 @@ require_once __DIR__ . '/partials/header.php';
                 <p class="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp">Search and connect with the right candidates faster. </p>
                 <div class="list-tabs mt-40">
                     <ul class="nav nav-tabs" role="tablist">
-                        <li><a class="active" id="nav-tab-job-1" href="#tab-job-1" data-bs-toggle="tab" role="tab" aria-controls="tab-job-1" aria-selected="true"><img src="assets/imgs/page/homepage1/management.svg" alt="jobBox"> Management</a></li>
-                        <li><a id="nav-tab-job-2" href="#tab-job-2" data-bs-toggle="tab" role="tab" aria-controls="tab-job-2" aria-selected="false"><img src="assets/imgs/page/homepage1/marketing.svg" alt="jobBox"> Marketing &amp; Sale</a></li>
-                        <li><a id="nav-tab-job-3" href="#tab-job-3" data-bs-toggle="tab" role="tab" aria-controls="tab-job-3" aria-selected="false"><img src="assets/imgs/page/homepage1/finance.svg" alt="jobBox"> Finance</a></li>
-                        <li><a id="nav-tab-job-4" href="#tab-job-4" data-bs-toggle="tab" role="tab" aria-controls="tab-job-4" aria-selected="false"><img src="assets/imgs/page/homepage1/human.svg" alt="jobBox"> Human Resource</a></li>
-                        <li><a id="nav-tab-job-5" href="#tab-job-5" data-bs-toggle="tab" role="tab" aria-controls="tab-job-5" aria-selected="false"><img src="assets/imgs/page/homepage1/retail.svg" alt="jobBox"> Retail &amp; Products</a></li>
-                        <li><a id="nav-tab-job-6" href="#tab-job-6" data-bs-toggle="tab" role="tab" aria-controls="tab-job-6" aria-selected="false"><img src="assets/imgs/page/homepage1/content.svg" alt="jobBox"> Content Writer</a></li>
+                        <li><a class="active" id="nav-tab-job-1" href="#tab-job-1" data-bs-toggle="tab" role="tab" aria-controls="tab-job-1" aria-selected="true"><img src="<?= asset('assets/imgs/page/homepage1/management.svg') ?>" alt="<?= env('APP_NAME') ?>"> Management</a></li>
+                        <li><a id="nav-tab-job-2" href="#tab-job-2" data-bs-toggle="tab" role="tab" aria-controls="tab-job-2" aria-selected="false"><img src="<?= asset('assets/imgs/page/homepage1/marketing.svg') ?>" alt="<?= env('APP_NAME') ?>"> Marketing &amp; Sale</a></li>
+                        <li><a id="nav-tab-job-3" href="#tab-job-3" data-bs-toggle="tab" role="tab" aria-controls="tab-job-3" aria-selected="false"><img src="<?= asset('assets/imgs/page/homepage1/finance.svg') ?>" alt="<?= env('APP_NAME') ?>"> Finance</a></li>
+                        <li><a id="nav-tab-job-4" href="#tab-job-4" data-bs-toggle="tab" role="tab" aria-controls="tab-job-4" aria-selected="false"><img src="<?= asset('assets/imgs/page/homepage1/human.svg') ?>" alt="<?= env('APP_NAME') ?>"> Human Resource</a></li>
+                        <li><a id="nav-tab-job-5" href="#tab-job-5" data-bs-toggle="tab" role="tab" aria-controls="tab-job-5" aria-selected="false"><img src="<?= asset('assets/imgs/page/homepage1/retail.svg') ?>" alt="<?= env('APP_NAME') ?>"> Retail &amp; Products</a></li>
+                        <li><a id="nav-tab-job-6" href="#tab-job-6" data-bs-toggle="tab" role="tab" aria-controls="tab-job-6" aria-selected="false"><img src="<?= asset('assets/imgs/page/homepage1/content.svg') ?>" alt="<?= env('APP_NAME') ?>"> Content Writer</a></li>
                     </ul>
                 </div>
             </div>
@@ -456,7 +456,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-1.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-1.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">LinkedIn</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -479,7 +479,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-2.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-2.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Adobe Ilustrator</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -502,7 +502,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-3.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-3.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Bing Search</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -525,7 +525,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-4.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-4.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Dailymotion</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -548,7 +548,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-5.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-5.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Linkedin</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -571,7 +571,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-6.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-6.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Quora JSC</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -594,7 +594,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-7.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-7.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Nintendo</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -617,7 +617,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-8.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-8.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Periscope</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -644,7 +644,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-6.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-6.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Quora JSC</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -667,7 +667,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-7.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-7.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Nintendo</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -690,7 +690,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-4.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-4.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Dailymotion</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -713,7 +713,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-5.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-5.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Linkedin</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -736,7 +736,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-8.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-8.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Periscope</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -759,7 +759,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-1.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-1.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">LinkedIn</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -782,7 +782,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-2.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-2.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Adobe Ilustrator</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -805,7 +805,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-3.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-3.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Bing Search</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -832,7 +832,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-4.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-4.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Dailymotion</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -855,7 +855,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-5.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-5.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Linkedin</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -878,7 +878,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-6.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-6.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Quora JSC</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -901,7 +901,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-7.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-7.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Nintendo</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -924,7 +924,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-8.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-8.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Periscope</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -947,7 +947,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-1.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-1.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">LinkedIn</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -970,7 +970,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-2.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-2.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Adobe Ilustrator</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -993,7 +993,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-3.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-3.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Bing Search</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -1020,7 +1020,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-7.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-7.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Nintendo</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -1043,7 +1043,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-8.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-8.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Periscope</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -1066,7 +1066,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-4.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-4.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Dailymotion</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -1089,7 +1089,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-5.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-5.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Linkedin</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -1112,7 +1112,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-6.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-6.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Quora JSC</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -1135,7 +1135,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-1.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-1.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">LinkedIn</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -1158,7 +1158,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-2.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-2.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Adobe Ilustrator</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -1181,7 +1181,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-3.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-3.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Bing Search</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -1208,7 +1208,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-8.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-8.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Periscope</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -1231,7 +1231,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-1.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-1.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">LinkedIn</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -1254,7 +1254,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-4.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-4.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Dailymotion</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -1277,7 +1277,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-5.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-5.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Linkedin</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -1300,7 +1300,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-6.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-6.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Quora JSC</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -1323,7 +1323,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-7.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-7.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Nintendo</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -1346,7 +1346,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-2.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-2.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Adobe Ilustrator</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -1369,7 +1369,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-3.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-3.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Bing Search</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -1396,7 +1396,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-8.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-8.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Periscope</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -1419,7 +1419,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-1.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-1.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">LinkedIn</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -1442,7 +1442,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-2.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-2.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Adobe Ilustrator</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -1465,7 +1465,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-3.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-3.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Bing Search</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -1488,7 +1488,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-4.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-4.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Dailymotion</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -1511,7 +1511,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-5.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-5.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Linkedin</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -1534,7 +1534,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-6.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-6.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Quora JSC</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -1557,7 +1557,7 @@ require_once __DIR__ . '/partials/header.php';
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
-                                        <div class="image-box"><img src="assets/imgs/brands/brand-7.png" alt="jobBox"></div>
+                                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-7.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                                         <div class="right-info"><a class="name-job" href="/jobs/show">Nintendo</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
@@ -1604,8 +1604,8 @@ require_once __DIR__ . '/partials/header.php';
                                             </div>
                                             <div class="text-info-right">
                                                 <h4><?= $company->name ?></h4>
-                                                <?php foreach(range(1, 5) as $i): ?>
-                                                    <img alt="<?= $i ?>" src="assets/imgs/template/icons/star.svg">
+                                                <?php foreach (range(1, 5) as $i) : ?>
+                                                    <img alt="<?= $i ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>">
                                                 <?php endforeach; ?>
                                                 <span class="font-xs color-text-mutted ml-10">(68)</span>
                                             </div>
@@ -1643,7 +1643,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-3 hover-up wow animate__animated animate__fadeIn">
                                     <div class="text-center card-grid-3-image">
                                         <a href="/blog/show">
-                                            <figure><img alt="jobBox" src="assets/imgs/page/homepage1/img-news1.png"></figure>
+                                            <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/img-news1.png') ?>"></figure>
                                         </a>
                                     </div>
                                     <div class="card-block-info">
@@ -1654,7 +1654,7 @@ require_once __DIR__ . '/partials/header.php';
                                         <div class="card-2-bottom mt-20">
                                             <div class="row">
                                                 <div class="col-lg-6 col-6">
-                                                    <div class="d-flex"><img class="img-rounded" src="assets/imgs/page/homepage1/user1.png" alt="jobBox">
+                                                    <div class="d-flex"><img class="img-rounded" src="<?= asset('assets/imgs/page/homepage1/user1.png') ?>" alt="<?= env('APP_NAME') ?>">
                                                         <div class="info-right-img"><span class="font-sm font-bold color-brand-1 op-70">Sarah Harding</span><br><span class="font-xs color-text-paragraph-2">06 September</span></div>
                                                     </div>
                                                 </div>
@@ -1668,7 +1668,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-3 hover-up wow animate__animated animate__fadeIn">
                                     <div class="text-center card-grid-3-image">
                                         <a href="/blog/show">
-                                            <figure><img alt="jobBox" src="assets/imgs/page/homepage1/img-news2.png"></figure>
+                                            <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/img-news2.png') ?>"></figure>
                                         </a>
                                     </div>
                                     <div class="card-block-info">
@@ -1679,7 +1679,7 @@ require_once __DIR__ . '/partials/header.php';
                                         <div class="card-2-bottom mt-20">
                                             <div class="row">
                                                 <div class="col-lg-6 col-6">
-                                                    <div class="d-flex"><img class="img-rounded" src="assets/imgs/page/homepage1/user2.png" alt="jobBox">
+                                                    <div class="d-flex"><img class="img-rounded" src="<?= asset('assets/imgs/page/homepage1/user2.png') ?>" alt="<?= env('APP_NAME') ?>">
                                                         <div class="info-right-img"><span class="font-sm font-bold color-brand-1 op-70">Steven Jobs</span><br><span class="font-xs color-text-paragraph-2">06 September</span></div>
                                                     </div>
                                                 </div>
@@ -1693,7 +1693,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-3 hover-up wow animate__animated animate__fadeIn">
                                     <div class="text-center card-grid-3-image">
                                         <a href="/blog/show">
-                                            <figure><img alt="jobBox" src="assets/imgs/page/homepage1/img-news3.png"></figure>
+                                            <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/homepage1/img-news3.png') ?>"></figure>
                                         </a>
                                     </div>
                                     <div class="card-block-info">
@@ -1704,7 +1704,7 @@ require_once __DIR__ . '/partials/header.php';
                                         <div class="card-2-bottom mt-20">
                                             <div class="row">
                                                 <div class="col-lg-6 col-6">
-                                                    <div class="d-flex"><img class="img-rounded" src="assets/imgs/page/homepage1/user3.png" alt="jobBox">
+                                                    <div class="d-flex"><img class="img-rounded" src="<?= asset('assets/imgs/page/homepage1/user3.png') ?>" alt="<?= env('APP_NAME') ?>">
                                                         <div class="info-right-img"><span class="font-sm font-bold color-brand-1 op-70">Wiliam Kend</span><br><span class="font-xs color-text-paragraph-2">06 September</span></div>
                                                     </div>
                                                 </div>
@@ -1728,7 +1728,7 @@ require_once __DIR__ . '/partials/header.php';
         <div class="container">
             <div class="box-newsletter">
                 <div class="row">
-                    <div class="col-xl-3 col-12 text-center d-none d-xl-block"><img src="assets/imgs/template/newsletter-left.png" alt="joxBox"></div>
+                    <div class="col-xl-3 col-12 text-center d-none d-xl-block"><img src="<?= asset('assets/imgs/template/newsletter-left.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                     <div class="col-lg-12 col-xl-6 col-12">
                         <h2 class="text-md-newsletter text-center">New Things Will Always<br> Update Regularly</h2>
                         <div class="box-form-newsletter mt-40">
@@ -1738,7 +1738,7 @@ require_once __DIR__ . '/partials/header.php';
                             </form>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-12 text-center d-none d-xl-block"><img src="assets/imgs/template/newsletter-right.png" alt="joxBox"></div>
+                    <div class="col-xl-3 col-12 text-center d-none d-xl-block"><img src="<?= asset('assets/imgs/template/newsletter-right.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                 </div>
             </div>
         </div>

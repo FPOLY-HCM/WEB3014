@@ -12,9 +12,9 @@
     <meta name="description" content="Index page">
     <meta name="keywords" content="index, page">
     <meta name="author" content="">
-    <link rel="shortcut icon" type="image/x-icon" href="/assets/imgs/template/favicon.svg">
-    <link href="/assets/css/style.css?version=2.0" rel="stylesheet">
-    <title>Jobbox</title>
+    <link rel="shortcut icon" type="image/x-icon" href="<?= asset('assets/imgs/template/favicon.svg') ?>">
+    <link href="<?= asset('assets/css/style.css') ?>" rel="stylesheet">
+    <title><?= env('APP_NAME') ?></title>
 </head>
 
 <body>
@@ -22,7 +22,7 @@
         <div class="preloader d-flex align-items-center justify-content-center">
             <div class="preloader-inner position-relative">
                 <div class="text-center">
-                    <img src="/assets/imgs/template/loading.gif" alt="jobBox">
+                    <img src="<?= asset('assets/imgs/template/loading.gif') ?>" alt="<?= env('APP_NAME') ?>">
                 </div>
             </div>
         </div>
@@ -78,7 +78,7 @@
                 <div class="header-left">
                     <div class="header-logo">
                         <a class="d-flex" href="/">
-                            <img alt="jobBox" src="/assets/imgs/template/jobhub-logo.svg">
+                            <img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/jobhub-logo.svg') ?>">
                         </a>
                     </div>
                 </div>
@@ -195,7 +195,7 @@
                         </ul>
                     </div>
                     <div class="site-copyright">
-                        Copyright 2022 &copy; JobBox. <br>Designed by AliThemes.
+                        Copyright 2022 &copy; <?= env('APP_NAME') ?>. <br>Designed by AliThemes.
                     </div>
                 </div>
             </div>
@@ -277,7 +277,7 @@
                         </ul>
                     </div>
                     <div class="site-copyright">
-                        Copyright 2022 &copy; JobBox. <br>Designed by AliThemes.
+                        Copyright 2022 &copy; <?= env('APP_NAME') ?>. <br>Designed by AliThemes.
                     </div>
                 </div>
             </div>

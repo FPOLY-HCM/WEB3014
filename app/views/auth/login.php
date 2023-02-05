@@ -34,16 +34,16 @@ require_once __DIR__ . '/../partials/header.php';
                     <div class="mt-20">
                         <div class="divider-text-center"><span>Hoặc đăng nhập bằng Google</span></div>
                         <button class="btn social-login hover-up mt-20">
-                            <img src="assets/imgs/template/icons/icon-google.svg" alt="jobbox">
+                            <img src="<?= asset('assets/imgs/template/icons/icon-google.svg') ?>" alt="<?= env('APP_NAME') ?>">
                             <strong>Đăng nhập bằng Google</strong>
                         </button>
                     </div>
                 </div>
                 <div class="img-1 d-none d-lg-block">
-                    <img class="shape-1" src="assets/imgs/page/login-register/img-4.svg" alt="JobBox">
+                    <img class="shape-1" src="<?= asset('assets/imgs/page/login-register/img-4.svg') ?>" alt="<?= env('APP_NAME') ?>">
                 </div>
                 <div class="img-2">
-                    <img src="assets/imgs/page/login-register/img-3.svg" alt="JobBox">
+                    <img src="<?= asset('assets/imgs/page/login-register/img-3.svg') ?>" alt="<?= env('APP_NAME') ?>">
                 </div>
             </div>
         </div>

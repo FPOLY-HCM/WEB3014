@@ -4,7 +4,7 @@ require_once __DIR__ . '/../partials/header.php';
     <main class="main">
       <section class="section-box-2">
         <div class="container">
-          <div class="banner-hero banner-image-single"><img src="/assets/imgs/page/job-single/thumb.png" alt="jobBox"></div>
+          <div class="banner-hero banner-image-single"><img src="<?= asset('assets/imgs/page/job-single/thumb.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
           <div class="row mt-10">
             <div class="col-lg-8 col-md-12">
               <h3>Senior Full Stack Engineer, Creator Success Full Time</h3>
@@ -25,41 +25,41 @@ require_once __DIR__ . '/../partials/header.php';
                 <h5 class="border-bottom pb-15 mb-30">Employment Information</h5>
                 <div class="row">
                   <div class="col-md-6 d-flex">
-                    <div class="sidebar-icon-item"><img src="/assets/imgs/page/job-single/industry.svg" alt="jobBox"></div>
+                    <div class="sidebar-icon-item"><img src="<?= asset('assets/imgs/page/job-single/industry.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
                     <div class="sidebar-text-info ml-10"><span class="text-description industry-icon mb-10">Industry</span><strong class="small-heading"> Mechanical / Auto / Automotive, Civil / Construction</strong></div>
                   </div>
                   <div class="col-md-6 d-flex mt-sm-15">
-                    <div class="sidebar-icon-item"><img src="/assets/imgs/page/job-single/job-level.svg" alt="jobBox"></div>
+                    <div class="sidebar-icon-item"><img src="<?= asset('assets/imgs/page/job-single/job-level.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
                     <div class="sidebar-text-info ml-10"><span class="text-description joblevel-icon mb-10">Job level</span><strong class="small-heading">Experienced (Non - Manager)</strong></div>
                   </div>
                 </div>
                 <div class="row mt-25">
                   <div class="col-md-6 d-flex mt-sm-15">
-                    <div class="sidebar-icon-item"><img src="/assets/imgs/page/job-single/salary.svg" alt="jobBox"></div>
+                    <div class="sidebar-icon-item"><img src="<?= asset('assets/imgs/page/job-single/salary.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
                     <div class="sidebar-text-info ml-10"><span class="text-description salary-icon mb-10">Salary</span><strong class="small-heading">$800 - $1000</strong></div>
                   </div>
                   <div class="col-md-6 d-flex">
-                    <div class="sidebar-icon-item"><img src="/assets/imgs/page/job-single/experience.svg" alt="jobBox"></div>
+                    <div class="sidebar-icon-item"><img src="<?= asset('assets/imgs/page/job-single/experience.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
                     <div class="sidebar-text-info ml-10"><span class="text-description experience-icon mb-10">Experience</span><strong class="small-heading">1 - 2 years</strong></div>
                   </div>
                 </div>
                 <div class="row mt-25">
                   <div class="col-md-6 d-flex mt-sm-15">
-                    <div class="sidebar-icon-item"><img src="/assets/imgs/page/job-single/job-type.svg" alt="jobBox"></div>
+                    <div class="sidebar-icon-item"><img src="<?= asset('assets/imgs/page/job-single/job-type.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
                     <div class="sidebar-text-info ml-10"><span class="text-description jobtype-icon mb-10">Job type</span><strong class="small-heading">Permanent</strong></div>
                   </div>
                   <div class="col-md-6 d-flex mt-sm-15">
-                    <div class="sidebar-icon-item"><img src="/assets/imgs/page/job-single/deadline.svg" alt="jobBox"></div>
+                    <div class="sidebar-icon-item"><img src="<?= asset('assets/imgs/page/job-single/deadline.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
                     <div class="sidebar-text-info ml-10"><span class="text-description mb-10">Deadline</span><strong class="small-heading">10/08/2022</strong></div>
                   </div>
                 </div>
                 <div class="row mt-25">
                   <div class="col-md-6 d-flex mt-sm-15">
-                    <div class="sidebar-icon-item"><img src="/assets/imgs/page/job-single/updated.svg" alt="jobBox"></div>
+                    <div class="sidebar-icon-item"><img src="<?= asset('assets/imgs/page/job-single/updated.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
                     <div class="sidebar-text-info ml-10"><span class="text-description jobtype-icon mb-10">Updated</span><strong class="small-heading">10/07/2022</strong></div>
                   </div>
                   <div class="col-md-6 d-flex mt-sm-15">
-                    <div class="sidebar-icon-item"><img src="/assets/imgs/page/job-single/location.svg" alt="jobBox"></div>
+                    <div class="sidebar-icon-item"><img src="<?= asset('assets/imgs/page/job-single/location.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
                     <div class="sidebar-text-info ml-10"><span class="text-description mb-10">Location</span><strong class="small-heading">Dallas, Texas Remote Friendly</strong></div>
                   </div>
                 </div>
@@ -104,7 +104,7 @@ require_once __DIR__ . '/../partials/header.php';
                 <div class="row align-items-center">
                   <div class="col-md-5"><a class="btn btn-default mr-15" href="#">Apply now</a><a class="btn btn-border" href="#">Save job</a></div>
                   <div class="col-md-7 text-lg-end social-share">
-                    <h6 class="color-text-paragraph-2 d-inline-block d-baseline mr-10">Share this</h6><a class="mr-5 d-inline-block d-middle" href="#"><img alt="jobBox" src="/assets/imgs/template/icons/share-fb.svg"></a><a class="mr-5 d-inline-block d-middle" href="#"><img alt="jobBox" src="/assets/imgs/template/icons/share-tw.svg"></a><a class="mr-5 d-inline-block d-middle" href="#"><img alt="jobBox" src="/assets/imgs/template/icons/share-red.svg"></a><a class="d-inline-block d-middle" href="#"><img alt="jobBox" src="/assets/imgs/template/icons/share-whatsapp.svg"></a>
+                    <h6 class="color-text-paragraph-2 d-inline-block d-baseline mr-10">Share this</h6><a class="mr-5 d-inline-block d-middle" href="#"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/share-fb.svg') ?>"></a><a class="mr-5 d-inline-block d-middle" href="#"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/share-tw.svg') ?>"></a><a class="mr-5 d-inline-block d-middle" href="#"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/share-red.svg') ?>"></a><a class="d-inline-block d-middle" href="#"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/share-whatsapp.svg') ?>"></a>
                   </div>
                 </div>
               </div>
@@ -113,7 +113,7 @@ require_once __DIR__ . '/../partials/header.php';
               <div class="sidebar-border">
                 <div class="sidebar-heading">
                   <div class="avatar-sidebar">
-                    <figure><img alt="jobBox" src="/assets/imgs/page/job-single/avatar.png"></figure>
+                    <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/job-single/avatar.png') ?>"></figure>
                     <div class="sidebar-info"><span class="sidebar-company">AliThemes</span><span class="card-location">New York, US</span><a class="link-underline mt-15" href="#">02 Open Jobs</a></div>
                   </div>
                 </div>
@@ -134,7 +134,7 @@ require_once __DIR__ . '/../partials/header.php';
                   <ul>
                     <li>
                       <div class="card-list-4 wow animate__animated animate__fadeIn hover-up">
-                        <div class="image"><a href="job-details.html"><img src="/assets/imgs/brands/brand-1.png" alt="jobBox"></a></div>
+                        <div class="image"><a href="job-details.html"><img src="<?= asset('assets/imgs/brands/brand-1.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                         <div class="info-text">
                           <h5 class="font-md font-bold color-brand-1"><a href="job-details.html">UI / UX Designer fulltime</a></h5>
                           <div class="mt-0"><span class="card-briefcase">Fulltime</span><span class="card-time"><span>3</span><span> mins ago</span></span></div>
@@ -151,7 +151,7 @@ require_once __DIR__ . '/../partials/header.php';
                     </li>
                     <li>
                       <div class="card-list-4 wow animate__animated animate__fadeIn hover-up">
-                        <div class="image"><a href="job-details.html"><img src="/assets/imgs/brands/brand-2.png" alt="jobBox"></a></div>
+                        <div class="image"><a href="job-details.html"><img src="<?= asset('assets/imgs/brands/brand-2.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                         <div class="info-text">
                           <h5 class="font-md font-bold color-brand-1"><a href="job-details.html">Java Software Engineer</a></h5>
                           <div class="mt-0"><span class="card-briefcase">Fulltime</span><span class="card-time"><span>5</span><span> mins ago</span></span></div>
@@ -168,7 +168,7 @@ require_once __DIR__ . '/../partials/header.php';
                     </li>
                     <li>
                       <div class="card-list-4 wow animate__animated animate__fadeIn hover-up">
-                        <div class="image"><a href="job-details.html"><img src="/assets/imgs/brands/brand-3.png" alt="jobBox"></a></div>
+                        <div class="image"><a href="job-details.html"><img src="<?= asset('assets/imgs/brands/brand-3.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                         <div class="info-text">
                           <h5 class="font-md font-bold color-brand-1"><a href="job-details.html">Frontend Developer</a></h5>
                           <div class="mt-0"><span class="card-briefcase">Fulltime</span><span class="card-time"><span>8</span><span> mins ago</span></span></div>
@@ -185,7 +185,7 @@ require_once __DIR__ . '/../partials/header.php';
                     </li>
                     <li>
                       <div class="card-list-4 wow animate__animated animate__fadeIn hover-up">
-                        <div class="image"><a href="job-details.html"><img src="/assets/imgs/brands/brand-4.png" alt="jobBox"></a></div>
+                        <div class="image"><a href="job-details.html"><img src="<?= asset('assets/imgs/brands/brand-4.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                         <div class="info-text">
                           <h5 class="font-md font-bold color-brand-1"><a href="job-details.html">Cloud Engineer</a></h5>
                           <div class="mt-0"><span class="card-briefcase">Fulltime</span><span class="card-time"><span>12</span><span> mins ago</span></span></div>
@@ -202,7 +202,7 @@ require_once __DIR__ . '/../partials/header.php';
                     </li>
                     <li>
                       <div class="card-list-4 wow animate__animated animate__fadeIn hover-up">
-                        <div class="image"><a href="job-details.html"><img src="/assets/imgs/brands/brand-5.png" alt="jobBox"></a></div>
+                        <div class="image"><a href="job-details.html"><img src="<?= asset('assets/imgs/brands/brand-5.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                         <div class="info-text">
                           <h5 class="font-md font-bold color-brand-1"><a href="job-details.html">DevOps Engineer</a></h5>
                           <div class="mt-0"><span class="card-briefcase">Fulltime</span><span class="card-time"><span>34</span><span> mins ago</span></span></div>
@@ -219,7 +219,7 @@ require_once __DIR__ . '/../partials/header.php';
                     </li>
                     <li>
                       <div class="card-list-4 wow animate__animated animate__fadeIn hover-up">
-                        <div class="image"><a href="job-details.html"><img src="/assets/imgs/brands/brand-6.png" alt="jobBox"></a></div>
+                        <div class="image"><a href="job-details.html"><img src="<?= asset('assets/imgs/brands/brand-6.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                         <div class="info-text">
                           <h5 class="font-md font-bold color-brand-1"><a href="job-details.html">Figma design UI/UX</a></h5>
                           <div class="mt-0"><span class="card-briefcase">Fulltime</span><span class="card-time"><span>45</span><span> mins ago</span></span></div>
@@ -236,7 +236,7 @@ require_once __DIR__ . '/../partials/header.php';
                     </li>
                     <li>
                       <div class="card-list-4 wow animate__animated animate__fadeIn hover-up">
-                        <div class="image"><a href="job-details.html"><img src="/assets/imgs/brands/brand-7.png" alt="jobBox"></a></div>
+                        <div class="image"><a href="job-details.html"><img src="<?= asset('assets/imgs/brands/brand-7.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                         <div class="info-text">
                           <h5 class="font-md font-bold color-brand-1"><a href="job-details.html">Product Manage</a></h5>
                           <div class="mt-0"><span class="card-briefcase">Fulltime</span><span class="card-time"><span>50</span><span> mins ago</span></span></div>
@@ -253,7 +253,7 @@ require_once __DIR__ . '/../partials/header.php';
                     </li>
                     <li>
                       <div class="card-list-4 wow animate__animated animate__fadeIn hover-up">
-                        <div class="image"><a href="job-details.html"><img src="/assets/imgs/brands/brand-8.png" alt="jobBox"></a></div>
+                        <div class="image"><a href="job-details.html"><img src="<?= asset('assets/imgs/brands/brand-8.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                         <div class="info-text">
                           <h5 class="font-md font-bold color-brand-1"><a href="job-details.html">UI / UX Designer</a></h5>
                           <div class="mt-0"><span class="card-briefcase">Fulltime</span><span class="card-time"><span>58</span><span> mins ago</span></span></div>
@@ -288,7 +288,7 @@ require_once __DIR__ . '/../partials/header.php';
                   <div class="swiper-slide">
                     <div class="card-grid-2 hover-up">
                       <div class="card-grid-2-image-left"><span class="flash"></span>
-                        <div class="image-box"><img src="/assets/imgs/brands/brand-6.png" alt="jobBox"></div>
+                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-6.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                         <div class="right-info"><a class="name-job" href="company-details.html">Quora JSC</a><span class="location-small">New York, US</span></div>
                       </div>
                       <div class="card-block-info">
@@ -311,7 +311,7 @@ require_once __DIR__ . '/../partials/header.php';
                   <div class="swiper-slide">
                     <div class="card-grid-2 hover-up">
                       <div class="card-grid-2-image-left"><span class="flash"></span>
-                        <div class="image-box"><img src="/assets/imgs/brands/brand-4.png" alt="jobBox"></div>
+                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-4.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                         <div class="right-info"><a class="name-job" href="company-details.html">Dailymotion</a><span class="location-small">New York, US</span></div>
                       </div>
                       <div class="card-block-info">
@@ -334,7 +334,7 @@ require_once __DIR__ . '/../partials/header.php';
                   <div class="swiper-slide">
                     <div class="card-grid-2 hover-up">
                       <div class="card-grid-2-image-left"><span class="flash"></span>
-                        <div class="image-box"><img src="/assets/imgs/brands/brand-8.png" alt="jobBox"></div>
+                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-8.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                         <div class="right-info"><a class="name-job" href="company-details.html">Periscope</a><span class="location-small">New York, US</span></div>
                       </div>
                       <div class="card-block-info">
@@ -357,7 +357,7 @@ require_once __DIR__ . '/../partials/header.php';
                   <div class="swiper-slide">
                     <div class="card-grid-2 hover-up">
                       <div class="card-grid-2-image-left"><span class="flash"></span>
-                        <div class="image-box"><img src="/assets/imgs/brands/brand-4.png" alt="jobBox"></div>
+                        <div class="image-box"><img src="<?= asset('assets/imgs/brands/brand-4.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
                         <div class="right-info"><a class="name-job" href="company-details.html">Dailymotion</a><span class="location-small">New York, US</span></div>
                       </div>
                       <div class="card-block-info">
@@ -390,7 +390,7 @@ require_once __DIR__ . '/../partials/header.php';
         <div class="container">
           <div class="box-newsletter">
             <div class="row">
-              <div class="col-xl-3 col-12 text-center d-none d-xl-block"><img src="/assets/imgs/template/newsletter-left.png" alt="joxBox"></div>
+              <div class="col-xl-3 col-12 text-center d-none d-xl-block"><img src="<?= asset('assets/imgs/template/newsletter-left.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
               <div class="col-lg-12 col-xl-6 col-12">
                 <h2 class="text-md-newsletter text-center">New Things Will Always<br> Update Regularly</h2>
                 <div class="box-form-newsletter mt-40">
@@ -400,7 +400,7 @@ require_once __DIR__ . '/../partials/header.php';
                   </form>
                 </div>
               </div>
-              <div class="col-xl-3 col-12 text-center d-none d-xl-block"><img src="/assets/imgs/template/newsletter-right.png" alt="joxBox"></div>
+              <div class="col-xl-3 col-12 text-center d-none d-xl-block"><img src="<?= asset('assets/imgs/template/newsletter-right.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
             </div>
           </div>
         </div>
