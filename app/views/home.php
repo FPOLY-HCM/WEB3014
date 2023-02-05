@@ -457,7 +457,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-1.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">LinkedIn</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">LinkedIn</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">UI / UX Designer fulltime</a></h6>
@@ -480,7 +480,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-2.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Adobe Ilustrator</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Adobe Ilustrator</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Full Stack Engineer</a></h6>
@@ -503,7 +503,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-3.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Bing Search</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Bing Search</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Java Software Engineer</a></h6>
@@ -526,7 +526,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-4.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Dailymotion</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Dailymotion</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Frontend Developer</a></h6>
@@ -549,7 +549,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-5.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Linkedin</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Linkedin</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">React Native Web Developer</a></h6>
@@ -572,7 +572,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-6.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Quora JSC</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Quora JSC</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Senior System Engineer</a></h6>
@@ -595,7 +595,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-7.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Nintendo</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Nintendo</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Products Manager</a></h6>
@@ -618,7 +618,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-8.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Periscope</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Periscope</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Lead Quality Control QA</a></h6>
@@ -645,7 +645,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-6.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Quora JSC</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Quora JSC</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Senior System Engineer</a></h6>
@@ -668,7 +668,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-7.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Nintendo</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Nintendo</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Products Manager</a></h6>
@@ -691,7 +691,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-4.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Dailymotion</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Dailymotion</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Frontend Developer</a></h6>
@@ -714,7 +714,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-5.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Linkedin</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Linkedin</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">React Native Web Developer</a></h6>
@@ -737,7 +737,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-8.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Periscope</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Periscope</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Lead Quality Control QA</a></h6>
@@ -760,7 +760,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-1.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">LinkedIn</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">LinkedIn</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">UI / UX Designer fulltime</a></h6>
@@ -783,7 +783,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-2.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Adobe Ilustrator</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Adobe Ilustrator</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Full Stack Engineer</a></h6>
@@ -806,7 +806,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-3.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Bing Search</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Bing Search</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Java Software Engineer</a></h6>
@@ -833,7 +833,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-4.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Dailymotion</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Dailymotion</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Frontend Developer</a></h6>
@@ -856,7 +856,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-5.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Linkedin</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Linkedin</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">React Native Web Developer</a></h6>
@@ -879,7 +879,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-6.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Quora JSC</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Quora JSC</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Senior System Engineer</a></h6>
@@ -902,7 +902,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-7.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Nintendo</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Nintendo</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Products Manager</a></h6>
@@ -925,7 +925,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-8.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Periscope</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Periscope</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Lead Quality Control QA</a></h6>
@@ -948,7 +948,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-1.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">LinkedIn</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">LinkedIn</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">UI / UX Designer fulltime</a></h6>
@@ -971,7 +971,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-2.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Adobe Ilustrator</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Adobe Ilustrator</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Full Stack Engineer</a></h6>
@@ -994,7 +994,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-3.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Bing Search</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Bing Search</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Java Software Engineer</a></h6>
@@ -1021,7 +1021,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-7.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Nintendo</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Nintendo</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Products Manager</a></h6>
@@ -1044,7 +1044,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-8.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Periscope</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Periscope</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Lead Quality Control QA</a></h6>
@@ -1067,7 +1067,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-4.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Dailymotion</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Dailymotion</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Frontend Developer</a></h6>
@@ -1090,7 +1090,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-5.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Linkedin</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Linkedin</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">React Native Web Developer</a></h6>
@@ -1113,7 +1113,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-6.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Quora JSC</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Quora JSC</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Senior System Engineer</a></h6>
@@ -1136,7 +1136,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-1.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">LinkedIn</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">LinkedIn</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">UI / UX Designer fulltime</a></h6>
@@ -1159,7 +1159,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-2.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Adobe Ilustrator</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Adobe Ilustrator</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Full Stack Engineer</a></h6>
@@ -1182,7 +1182,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-3.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Bing Search</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Bing Search</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Java Software Engineer</a></h6>
@@ -1209,7 +1209,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-8.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Periscope</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Periscope</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Lead Quality Control QA</a></h6>
@@ -1232,7 +1232,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-1.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">LinkedIn</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">LinkedIn</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">UI / UX Designer fulltime</a></h6>
@@ -1255,7 +1255,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-4.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Dailymotion</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Dailymotion</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Frontend Developer</a></h6>
@@ -1278,7 +1278,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-5.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Linkedin</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Linkedin</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">React Native Web Developer</a></h6>
@@ -1301,7 +1301,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-6.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Quora JSC</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Quora JSC</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Senior System Engineer</a></h6>
@@ -1324,7 +1324,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-7.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Nintendo</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Nintendo</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Products Manager</a></h6>
@@ -1347,7 +1347,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-2.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Adobe Ilustrator</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Adobe Ilustrator</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Full Stack Engineer</a></h6>
@@ -1370,7 +1370,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-3.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Bing Search</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Bing Search</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Java Software Engineer</a></h6>
@@ -1397,7 +1397,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-8.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Periscope</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Periscope</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Lead Quality Control QA</a></h6>
@@ -1420,7 +1420,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-1.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">LinkedIn</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">LinkedIn</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">UI / UX Designer fulltime</a></h6>
@@ -1443,7 +1443,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-2.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Adobe Ilustrator</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Adobe Ilustrator</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Full Stack Engineer</a></h6>
@@ -1466,7 +1466,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-3.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Bing Search</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Bing Search</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Java Software Engineer</a></h6>
@@ -1489,7 +1489,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-4.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Dailymotion</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Dailymotion</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Frontend Developer</a></h6>
@@ -1512,7 +1512,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-5.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Linkedin</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Linkedin</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">React Native Web Developer</a></h6>
@@ -1535,7 +1535,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-6.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Quora JSC</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Quora JSC</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Senior System Engineer</a></h6>
@@ -1558,7 +1558,7 @@ require_once __DIR__ . '/partials/header.php';
                                 <div class="card-grid-2 hover-up">
                                     <div class="card-grid-2-image-left"><span class="flash"></span>
                                         <div class="image-box"><img src="assets/imgs/brands/brand-7.png" alt="jobBox"></div>
-                                        <div class="right-info"><a class="name-job" href="/jobs/show">Nintendo</a><span class="location-small">New York, US</span></div>
+                                        <div class="right-info"><a class="name-job" href="/jobs/show">Nintendo</a><span class="location-small">Hồ Chí Minh, VN</span></div>
                                     </div>
                                     <div class="card-block-info">
                                         <h6><a href="/jobs/show">Products Manager</a></h6>
@@ -1586,7 +1586,7 @@ require_once __DIR__ . '/partials/header.php';
     <section class="section-box mt-50">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">Top Recruiters</h2>
+                <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">Nhà tuyển dụng hàng đầu</h2>
                 <p class="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp">Discover your next career move, freelance gig, or internship</p>
             </div>
         </div>
@@ -1595,17 +1595,26 @@ require_once __DIR__ . '/partials/header.php';
                 <div class="swiper-container swiper-group-1 swiper-style-2 swiper">
                     <div class="swiper-wrapper pt-5">
                         <div class="swiper-slide">
-                            <?php foreach($companies as $company): ?>
+                            <?php foreach ($companies as $company) : ?>
                                 <div class="item-5 hover-up wow animate__animated animate__fadeIn">
                                     <a href="/companies/show">
                                         <div class="item-logo">
                                             <div class="image-left">
-                                                <img alt="<?= $company['name'] ?>" src="<?= $company['logo']; ?>">
+                                                <img alt="<?= $company->name ?>" src="<?= $company->logo ?>">
                                             </div>
                                             <div class="text-info-right">
-                                                <h4><?= $company['name']; ?></h4><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><img alt="jobBox" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>68</span><span>)</span></span>
+                                                <h4><?= $company->name ?></h4>
+                                                <?php foreach(range(1, 5) as $i): ?>
+                                                    <img alt="<?= $i ?>" src="assets/imgs/template/icons/star.svg">
+                                                <?php endforeach; ?>
+                                                <span class="font-xs color-text-mutted ml-10">(68)</span>
                                             </div>
-                                            <div class="text-info-bottom mt-5"><span class="font-xs color-text-mutted icon-location">New York, US</span><span class="font-xs color-text-mutted float-end mt-5">25<span> Open Jobs</span></span></div>
+                                            <div class="text-info-bottom mt-5">
+                                                <span class="font-xs color-text-mutted icon-location"><?= $company->address ?></span>
+                                                <span class="font-xs color-text-mutted float-end mt-5">
+                                                    25 công việc
+                                                </span>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -1639,7 +1648,7 @@ require_once __DIR__ . '/partials/header.php';
                                     </div>
                                     <div class="card-block-info">
                                         <div class="tags mb-15"><a class="btn btn-tag" href="/blog/show">News</a>
-                                    </div>
+                                        </div>
                                         <h5><a href="/blog/show">21 Job Interview Tips: How To Make a Great Impression</a></h5>
                                         <p class="mt-10 color-text-paragraph font-sm">Our mission is to create the world&amp;rsquo;s most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.</p>
                                         <div class="card-2-bottom mt-20">
@@ -1664,7 +1673,7 @@ require_once __DIR__ . '/partials/header.php';
                                     </div>
                                     <div class="card-block-info">
                                         <div class="tags mb-15"><a class="btn btn-tag" href="/blog/show">Events</a>
-                                    </div>
+                                        </div>
                                         <h5><a href="/blog/show">39 Strengths and Weaknesses To Discuss in a Job Interview</a></h5>
                                         <p class="mt-10 color-text-paragraph font-sm">Our mission is to create the world&amp;rsquo;s most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.</p>
                                         <div class="card-2-bottom mt-20">
@@ -1689,7 +1698,7 @@ require_once __DIR__ . '/partials/header.php';
                                     </div>
                                     <div class="card-block-info">
                                         <div class="tags mb-15"><a class="btn btn-tag" href="/blog/show">News</a>
-                                    </div>
+                                        </div>
                                         <h5><a href="/blog/show">Interview Question: Why Dont You Have a Degree?</a></h5>
                                         <p class="mt-10 color-text-paragraph font-sm">Learn how to respond if an interviewer asks you why you dont have a degree, and read example answers that can help you craft</p>
                                         <div class="card-2-bottom mt-20">
@@ -1711,7 +1720,7 @@ require_once __DIR__ . '/partials/header.php';
                     <div class="swiper-button-prev"></div>
                 </div>
                 <div class="text-center"><a class="btn btn-brand-1 btn-icon-load mt--30 hover-up" href="/blog/show">Load More Posts</a>
-            </div>
+                </div>
             </div>
         </div>
     </section>
