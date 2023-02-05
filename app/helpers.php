@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 use Core\View;
 
 if (! function_exists('redirect')) {
