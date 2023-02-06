@@ -14,7 +14,7 @@ class HomeController extends Controller
     {
         $companies = Company::all();
 
-        $categories = (Category::all()->chunk(2));
+        $categories = Category::all()->chunk(2);
 
         return view('home', compact('companies', 'categories'));
    }
