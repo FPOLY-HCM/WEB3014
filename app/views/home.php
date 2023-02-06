@@ -305,21 +305,24 @@ require_once __DIR__ . '/partials/header.php';
                 <div class="box-swiper mt-50">
                     <div class="swiper-container swiper-group-5 swiper">
                         <div class="swiper-wrapper pb-70 pt-5">
-                            <div class="swiper-slide hover-up">
-                            <?php foreach($categories as $category): ?>
-                                <a href="jobs-list.html">
-                                    <div class="item-logo">
-                                        <div class="image-left">
-                                            <img alt="<?= $category->name ?>" src="<?= asset($category->icon) ?>">
-                                        </div>
-                                        <div class="text-info-right">
-                                            <h4><?= $category->name ?></h4>
-                                            <p class="font-xs">1526<span> Jobs Available</span></p>
-                                        </div>
-                                    </div>
-                                </a>
-                                <?php endforeach; ?>
-                            </div>
+                            <?php foreach ($categories as $collection) : ?>
+                                <div class="swiper-slide hover-up">
+                                    <?php foreach($collection as $category) : ?>
+                                        <a href="jobs-list.html">
+                                            <div class="item-logo">
+
+                                                <div class="image-left">
+                                                    <img alt="<?= $category->name ?>" src="<?= asset($category->icon) ?>">
+                                                </div>
+                                                <div class="text-info-right">
+                                                    <h4><?= $category->name ?></h4>
+                                                    <p class="font-xs">1526<span> Jobs Available</span></p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    <?php endforeach; ?>
+                                </div>
+                            <?php endforeach; ?>
                         </div>
                     </div>
                     <div class="swiper-button-next"></div>
