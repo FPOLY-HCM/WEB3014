@@ -13,6 +13,8 @@ class HomeController extends Controller
     {
         $companies = Company::all();
 
-        return view('home', compact('companies'));
-    }
+        $categories = Category::all();
+
+        return view('home', compact('companies', 'categories'));
+   }
 }
