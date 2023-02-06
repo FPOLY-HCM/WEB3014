@@ -6,6 +6,7 @@ namespace App\Controllers;
 
 use Core\Controller;
 use App\Models\Company;
+use App\Models\Category;
 
 class HomeController extends Controller
 {
@@ -13,6 +14,8 @@ class HomeController extends Controller
     {
         $companies = Company::all();
 
-        return view('home', compact('companies'));
-    }
+        $categories = Category::all()->chunk(2);
+
+        return view('home', compact('companies', 'categories'));
+   }
 }
