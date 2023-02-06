@@ -322,7 +322,7 @@ require_once __DIR__ . '/../partials/header.php';
 										<div class="col-lg-6 col-md-6 col-sm-12">
 											<div class="card-grid-2-image-left">
 												<div class="image-box">
-													<img src="<?= $job->company->logo ?>" alt="<?= env('APP_NAME') ?>">
+													<img src="<?= asset($job->company->logo) ?>" alt="<?= $job->name ?>">
 												</div>
 												<div class="right-info">
 													<a class="name-job" href=""><?= $job->company->name ?></a>
@@ -340,10 +340,10 @@ require_once __DIR__ . '/../partials/header.php';
 									<div class="card-block-info">
 										<h4><a href="/jobs/show"><?= $job->name ?></a></h4>
 										<div class="mt-5"><span class="card-briefcase">Fulltime</span><span class="card-time"><span>4</span><span> mins ago</span></span></div>
-										<p class="font-sm color-text-paragraph mt-10"><?= $job->content ?></p>
+										<p class="font-sm color-text-paragraph mt-10"><?= $job->description ?></p>
 										<div class="card-2-bottom mt-20">
 											<div class="row">
-												<div class="col-lg-7 col-7"><span class="card-text-price"><?= $job->salary ?></span><span class="text-muted">/<?= $job->salary_range ?></span></div>
+												<div class="col-lg-7 col-7"><span class="card-text-price"><?= number_format($job->salary) ?></span><span class="text-muted">/<?= $job->salary_range ?></span></div>
 												<div class="col-lg-5 col-5 text-end">
 													<div class="btn btn-apply-now" data-bs-toggle="modal" data-bs-target="#ModalApplyJobForm">Apply now</div>
 												</div>
