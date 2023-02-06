@@ -29,7 +29,7 @@ require_once __DIR__ . '/../partials/header.php';
                     <div class="content-page">
                         <div class="box-filters-job">
                             <div class="row">
-                                <div class="col-xl-6 col-lg-5"><span class="text-small text-showing">Showing <strong>41-60 </strong>of <strong>944 </strong>jobs</span></div>
+                                <div class="col-xl-6 col-lg-5"><span class="text-small text-showing">Đang hiện từ <strong>41-60 </strong>trong <strong>944 </strong>công việc</span></div>
                                 <div class="col-xl-6 col-lg-7 text-lg-end mt-sm-15">
                                     <div class="display-flex2">
                                         <div class="box-border mr-10"><span class="text-sortby">Show:</span>
@@ -42,7 +42,7 @@ require_once __DIR__ . '/../partials/header.php';
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div class="box-border"><span class="text-sortby">Sort by:</span>
+                                        <div class="box-border"><span class="text-sortby">Sắp xếp theo:</span>
                                             <div class="dropdown dropdown-sort">
                                                 <button class="btn dropdown-toggle" id="dropdownSort2" type="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static"><span>Newest Post</span><i class="fi-rr-angle-small-down"></i></button>
                                                 <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="dropdownSort2">
@@ -58,216 +58,18 @@ require_once __DIR__ . '/../partials/header.php';
                             </div>
                         </div>
                         <div class="row">
+                            <?php foreach($companies as $company): ?>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-1.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
+                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset($company->logo) ?>" alt="<?= env('APP_NAME') ?>"></a></div>
                                     <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="/companies/show">Car Toys</a></h5>
-                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>66</span><span>)</span></span></div><span class="card-location">New York, US</span>
+                                        <h5 class="font-bold"><a href="/companies/show"><?= $company->name ?></a></h5>
+                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>66</span><span>)</span></span></div><span class="card-location"><?= $company->address ?></span>
                                         <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>12</span><span> Jobs Open</span></a></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                                <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-2.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
-                                    <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="/companies/show">Carols Daughter</a></h5>
-                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>18</span><span>)</span></span></div><span class="card-location">London, UK</span>
-                                        <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>25</span><span> Jobs Open</span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                                <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-3.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
-                                    <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="/companies/show">Amazon</a></h5>
-                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>52</span><span>)</span></span></div><span class="card-location">Tokyo,Japan</span>
-                                        <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>54</span><span> Jobs Open</span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                                <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-4.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
-                                    <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="/companies/show">Baseball Savings</a></h5>
-                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>85</span><span>)</span></span></div><span class="card-location">Chicago, US</span>
-                                        <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>6</span><span> Jobs Open</span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                                <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-5.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
-                                    <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="/companies/show">Ashford</a></h5>
-                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>25</span><span>)</span></span></div><span class="card-location">Toronto, Italia</span>
-                                        <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>67</span><span> Jobs Open</span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                                <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-6.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
-                                    <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="/companies/show">Callaway Golf</a></h5>
-                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>34</span><span>)</span></span></div><span class="card-location">San Francisco, US</span>
-                                        <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>45</span><span> Jobs Open</span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                                <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-7.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
-                                    <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="/companies/show">Percepta</a></h5>
-                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>97</span><span>)</span></span></div><span class="card-location">Chinatown, Singpore</span>
-                                        <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>64</span><span> Jobs Open</span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                                <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-8.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
-                                    <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="/companies/show">Exela Movers</a></h5>
-                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>67</span><span>)</span></span></div><span class="card-location">New York, US</span>
-                                        <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>87</span><span> Jobs Open</span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                                <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-9.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
-                                    <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="/companies/show">Ibotta, Inc</a></h5>
-                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>45</span><span>)</span></span></div><span class="card-location">New York, US</span>
-                                        <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>23</span><span> Jobs Open</span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                                <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-1.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
-                                    <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="/companies/show">Wanderu </a></h5>
-                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>08</span><span>)</span></span></div><span class="card-location">New York, US</span>
-                                        <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>45</span><span> Jobs Open</span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                                <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-2.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
-                                    <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="/companies/show">Aceable, Inc.</a></h5>
-                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>54</span><span>)</span></span></div><span class="card-location">New York, US</span>
-                                        <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>67</span><span> Jobs Open</span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                                <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-3.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
-                                    <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="/companies/show">Intrepid Travel</a></h5>
-                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>123</span><span>)</span></span></div><span class="card-location">New York, US</span>
-                                        <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>53</span><span> Jobs Open</span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                                <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-4.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
-                                    <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="/companies/show">Defendify </a></h5>
-                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>64</span><span>)</span></span></div><span class="card-location">New York, US</span>
-                                        <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>56</span><span> Jobs Open</span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                                <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-5.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
-                                    <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="/companies/show">Twisters </a></h5>
-                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>34</span><span>)</span></span></div><span class="card-location">New York, US</span>
-                                        <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>66</span><span> Jobs Open</span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                                <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-6.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
-                                    <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="/companies/show">Fireworks</a></h5>
-                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>12</span><span>)</span></span></div><span class="card-location">New York, US</span>
-                                        <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>12</span><span> Jobs Open</span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                                <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-1.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
-                                    <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="/companies/show">Car Toys</a></h5>
-                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>66</span><span>)</span></span></div><span class="card-location">New York, US</span>
-                                        <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>12</span><span> Jobs Open</span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                                <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-2.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
-                                    <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="/companies/show">Carols Daughter</a></h5>
-                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>18</span><span>)</span></span></div><span class="card-location">London, UK</span>
-                                        <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>25</span><span> Jobs Open</span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                                <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-3.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
-                                    <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="/companies/show">Amazon</a></h5>
-                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>52</span><span>)</span></span></div><span class="card-location">Tokyo,Japan</span>
-                                        <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>54</span><span> Jobs Open</span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                                <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-4.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
-                                    <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="/companies/show">Baseball Savings</a></h5>
-                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>85</span><span>)</span></span></div><span class="card-location">Chicago, US</span>
-                                        <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>6</span><span> Jobs Open</span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                                <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-5.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
-                                    <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="/companies/show">Ashford</a></h5>
-                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>25</span><span>)</span></span></div><span class="card-location">Toronto, Italia</span>
-                                        <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>67</span><span> Jobs Open</span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                                <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
-                                    <div class="image-box"><a href="/companies/show"><img src="<?= asset('assets/imgs/brands/brand-6.png') ?>" alt="<?= env('APP_NAME') ?>"></a></div>
-                                    <div class="info-text mt-10">
-                                        <h5 class="font-bold"><a href="/companies/show">Callaway Golf</a></h5>
-                                        <div class="mt-5"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/template/icons/star.svg') ?>"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>34</span><span>)</span></span></div><span class="card-location">San Francisco, US</span>
-                                        <div class="mt-30"><a class="btn btn-grey-big" href="jobs-grid.html"><span>45</span><span> Jobs Open</span></a></div>
-                                    </div>
-                                </div>
-                            </div>
+                            <?php endforeach; ?>
                         </div>
                     </div>
                     <div class="paginations">

@@ -130,7 +130,17 @@ VALUES (1, 'LinkedIn', '/assets/imgs/brands/brand-1.png', 'Hồ Chí Minh, VN'),
        (1, 'Greewood', '/assets/imgs/brands/brand-7.png', 'Đà Nẵng, VN'),
        (1, 'Kentucky', '/assets/imgs/brands/brand-8.png', 'Hồ Chí Minh, VN'),
        (1, 'Qeuity', '/assets/imgs/brands/brand-9.png', 'Hà Nội, VN'),
-       (1, 'Honda', '/assets/imgs/brands/brand-10.png', 'Đà Nẵng, VN');
+       (1, 'Honda', '/assets/imgs/brands/brand-10.png', 'Đà Nẵng, VN'),
+       (1, 'Honda', '/assets/imgs/brands/brand-8.png', 'Hồ Chí Minh, VN'),
+       (1, 'Kentucky', '/assets/imgs/brands/brand-1.png', 'Hà Nội, VN'),
+       (1, 'Honda', '/assets/imgs/brands/brand-1.png', 'Đà Nẵng, VN'),
+       (1, 'Honda', '/assets/imgs/brands/brand-4.png', 'Hà Nội, VN'),
+       (1, 'Honda', '/assets/imgs/brands/brand-5.png', 'Hồ Chí Minh, VN'),
+       (1, 'Honda', '/assets/imgs/brands/brand-2.png', 'Đà Nẵng, VN'),
+       (1, 'Whop.com', '/assets/imgs/brands/brand-8.png', 'Đà Nẵng, VN'),
+       (1, 'NewSum', '/assets/imgs/brands/brand-7.png', 'Hồ Chí Minh, VN'),
+       (1, 'LinkedIn', '/assets/imgs/brands/brand-9.png', 'Đà Nẵng, VN'),
+       (1, 'Honda', '/assets/imgs/brands/brand-1.png', 'Hà Nội, VN');
 
 INSERT INTO categories (name, icon)
 VALUES ('Lập trình web', '/assets/imgs/page/homepage1/content.svg'),
@@ -207,4 +217,16 @@ VALUES (1, 'An Giang'),
        (60, 'Hà Nam'),
        (61, 'Bắc Ninh'),
        (62, 'Bắc Giang'),
-       (63, 'Bắc Kạn');
+       (63, 'Bắc Kạn');    
+
+INSERT INTO jobs (category_id, company_id, city_id, name, description, content, salary, salary_range, number_of_positions)
+VALUES (1,2,3,'Full Stack Engineer', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 5000000, 'Tháng', 10),
+       (2,3,4,'UI/UX Designer Fulltime', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 20000, 'Giờ', 10),
+       (3,4,6,'Java Software Engineer', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 50000000, 'Tháng', 10),
+       (4,5,12,'Frontend Developer', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 30000000, 'Tháng', 10),
+       (5,6,55,'Backend Developer', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 25000000, 'Tháng', 10),
+       (6,5,54,'Product Manager', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 25000000, 'Tháng', 10),  
+       (5,7,53,'Lead Quanlity Control QA', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 25000000, 'Tháng', 10),  
+       (7,8,52,'Senior System Engineer', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 23000000, 'Tháng', 10),  
+       (9,9,51,'React Native Developer', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 28000000, 'Tháng', 10),  
+       (8,6,55,'PHP Developer', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 25000000, 'Tháng', 10);

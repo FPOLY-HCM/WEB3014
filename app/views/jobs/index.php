@@ -315,15 +315,19 @@ require_once __DIR__ . '/../partials/header.php';
 							</div>
 						</div>
 						<div class="row display-list">
-							<div class="col-xl-12 col-12">
+							<?php foreach($jobs as $job): ?>
+								<div class="col-xl-12 col-12">
 								<div class="card-grid-2 hover-up"><span class="flash"></span>
 									<div class="row">
 										<div class="col-lg-6 col-md-6 col-sm-12">
 											<div class="card-grid-2-image-left">
 												<div class="image-box">
-													<img src="<?= asset('assets/imgs/brands/brand-1.png') ?>" alt="<?= env('APP_NAME') ?>">
+													<img src="<?= asset($job->company->logo) ?>" alt="<?= $job->name ?>">
 												</div>
-												<div class="right-info"><a class="name-job" href="">LinkedIn</a><span class="location-small">New York, US</span></div>
+												<div class="right-info">
+													<a class="name-job" href=""><?= $job->company->name ?></a>
+													<span class="location-small"><?= $job->city->name ?></span>
+												</div>
 											</div>
 										</div>
 										<div class="col-lg-6 text-start text-md-end pr-60 col-md-6 col-sm-12">
@@ -334,12 +338,12 @@ require_once __DIR__ . '/../partials/header.php';
 										</div>
 									</div>
 									<div class="card-block-info">
-										<h4><a href="/jobs/show">UI / UX Designer fulltime</a></h4>
+										<h4><a href="/jobs/show"><?= $job->name ?></a></h4>
 										<div class="mt-5"><span class="card-briefcase">Fulltime</span><span class="card-time"><span>4</span><span> mins ago</span></span></div>
-										<p class="font-sm color-text-paragraph mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
+										<p class="font-sm color-text-paragraph mt-10"><?= $job->description ?></p>
 										<div class="card-2-bottom mt-20">
 											<div class="row">
-												<div class="col-lg-7 col-7"><span class="card-text-price">$500</span><span class="text-muted">/Hour</span></div>
+												<div class="col-lg-7 col-7"><span class="card-text-price"><?= number_format($job->salary) ?></span><span class="text-muted">/<?= $job->salary_range ?></span></div>
 												<div class="col-lg-5 col-5 text-end">
 													<div class="btn btn-apply-now" data-bs-toggle="modal" data-bs-target="#ModalApplyJobForm">Apply now</div>
 												</div>
@@ -347,238 +351,8 @@ require_once __DIR__ . '/../partials/header.php';
 										</div>
 									</div>
 								</div>
-							</div>
-							<div class="col-xl-12 col-12">
-								<div class="card-grid-2 hover-up"><span class="flash"></span>
-									<div class="row">
-										<div class="col-lg-6 col-md-6 col-sm-12">
-											<div class="card-grid-2-image-left">
-												<div class="image-box">
-													<img src="<?= asset('assets/imgs/brands/brand-2.png') ?>" alt="<?= env('APP_NAME') ?>">
-												</div>
-												<div class="right-info"><a class="name-job" href="">Adobe Ilustrator</a><span class="location-small">New York, US</span></div>
-											</div>
-										</div>
-										<div class="col-lg-6 text-start text-md-end pr-60 col-md-6 col-sm-12">
-											<div class="pl-15 mb-15 mt-30">
-												<a class="btn btn-grey-small mr-5" href="#">Adobe XD</a>
-												<a class="btn btn-grey-small mr-5" href="#">Figma</a>
-											</div>
-										</div>
-									</div>
-									<div class="card-block-info">
-										<h4><a href="/jobs/show">Full Stack Engineer</a></h4>
-										<div class="mt-5"><span class="card-briefcase">Part time</span><span class="card-time"><span>5</span><span> mins ago</span></span></div>
-										<p class="font-sm color-text-paragraph mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-										<div class="card-2-bottom mt-20">
-											<div class="row">
-												<div class="col-lg-7 col-7"><span class="card-text-price">$800</span><span class="text-muted">/Hour</span></div>
-												<div class="col-lg-5 col-5 text-end">
-													<div class="btn btn-apply-now" data-bs-toggle="modal" data-bs-target="#ModalApplyJobForm">Apply now</div>
-												</div>
-											</div>
-										</div>
-									</div>
 								</div>
-							</div>
-							<div class="col-xl-12 col-12">
-								<div class="card-grid-2 hover-up"><span class="flash"></span>
-									<div class="row">
-										<div class="col-lg-6 col-md-6 col-sm-12">
-											<div class="card-grid-2-image-left">
-												<div class="image-box">
-													<img src="<?= asset('assets/imgs/brands/brand-3.png') ?>" alt="<?= env('APP_NAME') ?>">
-												</div>
-												<div class="right-info"><a class="name-job" href="">Bing Search</a><span class="location-small">New York, US</span></div>
-											</div>
-										</div>
-										<div class="col-lg-6 text-start text-md-end pr-60 col-md-6 col-sm-12">
-											<div class="pl-15 mb-15 mt-30">
-												<a class="btn btn-grey-small mr-5" href="#">Adobe XD</a>
-												<a class="btn btn-grey-small mr-5" href="#">Figma</a>
-											</div>
-										</div>
-									</div>
-									<div class="card-block-info">
-										<h4><a href="/jobs/show">Java Software Engineer</a></h4>
-										<div class="mt-5"><span class="card-briefcase">Full time</span><span class="card-time"><span>6</span><span> mins ago</span></span></div>
-										<p class="font-sm color-text-paragraph mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-										<div class="card-2-bottom mt-20">
-											<div class="row">
-												<div class="col-lg-7 col-7"><span class="card-text-price">$250</span><span class="text-muted">/Hour</span></div>
-												<div class="col-lg-5 col-5 text-end">
-													<div class="btn btn-apply-now" data-bs-toggle="modal" data-bs-target="#ModalApplyJobForm">Apply now</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-xl-12 col-12">
-								<div class="card-grid-2 hover-up"><span class="flash"></span>
-									<div class="row">
-										<div class="col-lg-6 col-md-6 col-sm-12">
-											<div class="card-grid-2-image-left">
-												<div class="image-box">
-													<img src="<?= asset('assets/imgs/brands/brand-4.png') ?>" alt="<?= env('APP_NAME') ?>">
-												</div>
-												<div class="right-info"><a class="name-job" href="">Dailymotion</a><span class="location-small">New York, US</span></div>
-											</div>
-										</div>
-										<div class="col-lg-6 text-start text-md-end pr-60 col-md-6 col-sm-12">
-											<div class="pl-15 mb-15 mt-30">
-												<a class="btn btn-grey-small mr-5" href="#">Adobe XD</a>
-												<a class="btn btn-grey-small mr-5" href="#">Figma</a>
-											</div>
-										</div>
-									</div>
-									<div class="card-block-info">
-										<h4><a href="/jobs/show">Frontend Developer</a></h4>
-										<div class="mt-5"><span class="card-briefcase">Full time</span><span class="card-time"><span>6</span><span> mins ago</span></span></div>
-										<p class="font-sm color-text-paragraph mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-										<div class="card-2-bottom mt-20">
-											<div class="row">
-												<div class="col-lg-7 col-7"><span class="card-text-price">$250</span><span class="text-muted">/Hour</span></div>
-												<div class="col-lg-5 col-5 text-end">
-													<div class="btn btn-apply-now" data-bs-toggle="modal" data-bs-target="#ModalApplyJobForm">Apply now</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-xl-12 col-12">
-								<div class="card-grid-2 hover-up"><span class="flash"></span>
-									<div class="row">
-										<div class="col-lg-6 col-md-6 col-sm-12">
-											<div class="card-grid-2-image-left">
-												<div class="image-box">
-													<img src="<?= asset('assets/imgs/brands/brand-5.png') ?>" alt="<?= env('APP_NAME') ?>">
-												</div>
-												<div class="right-info"><a class="name-job" href="">Linkedin</a><span class="location-small">New York, US</span></div>
-											</div>
-										</div>
-										<div class="col-lg-6 text-start text-md-end pr-60 col-md-6 col-sm-12">
-											<div class="pl-15 mb-15 mt-30">
-												<a class="btn btn-grey-small mr-5" href="#">Adobe XD</a>
-												<a class="btn btn-grey-small mr-5" href="#">Figma</a>
-											</div>
-										</div>
-									</div>
-									<div class="card-block-info">
-										<h4><a href="/jobs/show">React Native Web Developer</a></h4>
-										<div class="mt-5"><span class="card-briefcase">Fulltime</span><span class="card-time"><span>4</span><span> mins ago</span></span></div>
-										<p class="font-sm color-text-paragraph mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-										<div class="card-2-bottom mt-20">
-											<div class="row">
-												<div class="col-lg-7 col-7"><span class="card-text-price">$500</span><span class="text-muted">/Hour</span></div>
-												<div class="col-lg-5 col-5 text-end">
-													<div class="btn btn-apply-now" data-bs-toggle="modal" data-bs-target="#ModalApplyJobForm">Apply now</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-xl-12 col-12">
-								<div class="card-grid-2 hover-up"><span class="flash"></span>
-									<div class="row">
-										<div class="col-lg-6 col-md-6 col-sm-12">
-											<div class="card-grid-2-image-left">
-												<div class="image-box">
-													<img src="<?= asset('assets/imgs/brands/brand-6.png') ?>" alt="<?= env('APP_NAME') ?>">
-												</div>
-												<div class="right-info"><a class="name-job" href="">Quora JSC</a><span class="location-small">New York, US</span></div>
-											</div>
-										</div>
-										<div class="col-lg-6 text-start text-md-end pr-60 col-md-6 col-sm-12">
-											<div class="pl-15 mb-15 mt-30">
-												<a class="btn btn-grey-small mr-5" href="#">Adobe XD</a>
-												<a class="btn btn-grey-small mr-5" href="#">Figma</a>
-											</div>
-										</div>
-									</div>
-									<div class="card-block-info">
-										<h4><a href="/jobs/show">Senior System Engineer</a></h4>
-										<div class="mt-5"><span class="card-briefcase">Part time</span><span class="card-time"><span>5</span><span> mins ago</span></span></div>
-										<p class="font-sm color-text-paragraph mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-										<div class="card-2-bottom mt-20">
-											<div class="row">
-												<div class="col-lg-7 col-7"><span class="card-text-price">$800</span><span class="text-muted">/Hour</span></div>
-												<div class="col-lg-5 col-5 text-end">
-													<div class="btn btn-apply-now" data-bs-toggle="modal" data-bs-target="#ModalApplyJobForm">Apply now</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-xl-12 col-12">
-								<div class="card-grid-2 hover-up"><span class="flash"></span>
-									<div class="row">
-										<div class="col-lg-6 col-md-6 col-sm-12">
-											<div class="card-grid-2-image-left">
-												<div class="image-box">
-													<img src="<?= asset('assets/imgs/brands/brand-7.png') ?>" alt="<?= env('APP_NAME') ?>">
-												</div>
-												<div class="right-info"><a class="name-job" href="">Nintendo</a><span class="location-small">New York, US</span></div>
-											</div>
-										</div>
-										<div class="col-lg-6 text-start text-md-end pr-60 col-md-6 col-sm-12">
-											<div class="pl-15 mb-15 mt-30">
-												<a class="btn btn-grey-small mr-5" href="#">Adobe XD</a>
-												<a class="btn btn-grey-small mr-5" href="#">Figma</a>
-											</div>
-										</div>
-									</div>
-									<div class="card-block-info">
-										<h4><a href="/jobs/show">Products Manager</a></h4>
-										<div class="mt-5"><span class="card-briefcase">Full time</span><span class="card-time"><span>6</span><span> mins ago</span></span></div>
-										<p class="font-sm color-text-paragraph mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-										<div class="card-2-bottom mt-20">
-											<div class="row">
-												<div class="col-lg-7 col-7"><span class="card-text-price">$250</span><span class="text-muted">/Hour</span></div>
-												<div class="col-lg-5 col-5 text-end">
-													<div class="btn btn-apply-now" data-bs-toggle="modal" data-bs-target="#ModalApplyJobForm">Apply now</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-xl-12 col-12">
-								<div class="card-grid-2 hover-up"><span class="flash"></span>
-									<div class="row">
-										<div class="col-lg-6 col-md-6 col-sm-12">
-											<div class="card-grid-2-image-left">
-												<div class="image-box">
-													<img src="<?= asset('assets/imgs/brands/brand-8.png') ?>" alt="<?= env('APP_NAME') ?>">
-												</div>
-												<div class="right-info"><a class="name-job" href="">Periscope</a><span class="location-small">New York, US</span></div>
-											</div>
-										</div>
-										<div class="col-lg-6 text-start text-md-end pr-60 col-md-6 col-sm-12">
-											<div class="pl-15 mb-15 mt-30">
-												<a class="btn btn-grey-small mr-5" href="#">Adobe XD</a>
-												<a class="btn btn-grey-small mr-5" href="#">Figma</a>
-											</div>
-										</div>
-									</div>
-									<div class="card-block-info">
-										<h4><a href="/jobs/show">Lead Quality Control QA</a></h4>
-										<div class="mt-5"><span class="card-briefcase">Full time</span><span class="card-time"><span>6</span><span> mins ago</span></span></div>
-										<p class="font-sm color-text-paragraph mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
-										<div class="card-2-bottom mt-20">
-											<div class="row">
-												<div class="col-lg-7 col-7"><span class="card-text-price">$250</span><span class="text-muted">/Hour</span></div>
-												<div class="col-lg-5 col-5 text-end">
-													<div class="btn btn-apply-now" data-bs-toggle="modal" data-bs-target="#ModalApplyJobForm">Apply now</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+							<?php endforeach; ?>
 						</div>
 					</div>
 					<div class="paginations">
