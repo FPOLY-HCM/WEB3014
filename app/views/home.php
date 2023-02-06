@@ -310,10 +310,10 @@ require_once __DIR__ . '/partials/header.php';
                                 <a href="jobs-list.html">
                                     <div class="item-logo">
                                         <div class="image-left">
-                                            <img alt="<?= $category['name'] ?>" src="<?= $category['icon']; ?>">
+                                            <img alt="<?= $category->name ?>" src="<?= asset($category->icon) ?>">
                                         </div>
                                         <div class="text-info-right">
-                                            <h4><?= $category['name']; ?></h4>
+                                            <h4><?= $category->name ?></h4>
                                             <p class="font-xs">1526<span> Jobs Available</span></p>
                                         </div>
                                     </div>
