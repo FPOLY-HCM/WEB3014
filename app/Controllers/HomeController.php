@@ -7,15 +7,21 @@ namespace App\Controllers;
 use Core\Controller;
 use App\Models\Company;
 use App\Models\Category;
+use App\Models\City;
 
 class HomeController extends Controller
 {
     public function index()
     {
-        $companies = Company::all();
+        $companies = Company::query()
+            ->withCount('jobs')
+            ->get();
+        $categories = Category::query()
+            ->with(['jobs', 'jobs.company'])
+            ->withCount('jobs')
+            ->get();
+        $cities = City::all();
 
-        $categories = Category::all()->chunk(2);
-
-        return view('home', compact('companies', 'categories'));
-   }
+        return view('home', compact('companies', 'categories', 'cities'));
+    }
 }

@@ -6,6 +6,7 @@ namespace App\Models;
 
 use App\Enums\CompanyStatus;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Company extends Model
 {
@@ -26,4 +27,9 @@ class Company extends Model
     protected $casts = [
         'status' => CompanyStatus::class,
     ];
+
+    public function jobs(): HasMany
+    {
+        return $this->hasMany(Job::class);
+    }
 }

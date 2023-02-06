@@ -41,3 +41,25 @@ if (! function_exists('asset')) {
         return $protocol . $_ENV['APP_URL'] . '/' . $path;
     }
 }
+
+
+if (! function_exists('money_format')) {
+    function money_format(int $value): string
+    {
+        $value = (int) $value;
+
+        if ($value < 1000) {
+            return $value . ' đ';
+        }
+
+        $suffix = ['Nghìn', 'Triệu', 'T'];
+
+        $base = log($value, 1000);
+
+        $suffixIndex = (int) floor($base);
+
+        $formattedValue = round($value / (1000 ** $suffixIndex), 1);
+
+        return "{$formattedValue} {$suffix[$suffixIndex - 1]}";
+    }
+}
