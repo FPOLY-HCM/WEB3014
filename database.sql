@@ -207,4 +207,16 @@ VALUES (1, 'An Giang'),
        (60, 'Hà Nam'),
        (61, 'Bắc Ninh'),
        (62, 'Bắc Giang'),
-       (63, 'Bắc Kạn');
+       (63, 'Bắc Kạn');    
+
+INSERT INTO jobs (category_id, company_id, city_id, name, description, content, salary, salary_range, number_of_positions)
+VALUES (1,2,3,'Full Stack Engineer', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 5000000, 'Tháng', 10),
+       (2,3,4,'UI/UX Designer Fulltime', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 20000, 'Giờ', 10),
+       (3,4,6,'Java Software Engineer', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 50000000, 'Tháng', 10),
+       (4,5,12,'Frontend Developer', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 30000000, 'Tháng', 10),
+       (5,6,55,'Backend Developer', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 25000000, 'Tháng', 10),
+       (6,5,54,'Product Manager', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 25000000, 'Tháng', 10),  
+       (5,7,53,'Lead Quanlity Control QA', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 25000000, 'Tháng', 10),  
+       (7,8,52,'Senior System Engineer', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 23000000, 'Tháng', 10),  
+       (9,9,51,'React Native Developer', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 28000000, 'Tháng', 10),  
+       (8,6,55,'PHP Developer', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.', 25000000, 'Tháng', 10);
