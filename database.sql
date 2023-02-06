@@ -130,7 +130,17 @@ VALUES (1, 'LinkedIn', '/assets/imgs/brands/brand-1.png', 'Hồ Chí Minh, VN'),
        (1, 'Greewood', '/assets/imgs/brands/brand-7.png', 'Đà Nẵng, VN'),
        (1, 'Kentucky', '/assets/imgs/brands/brand-8.png', 'Hồ Chí Minh, VN'),
        (1, 'Qeuity', '/assets/imgs/brands/brand-9.png', 'Hà Nội, VN'),
-       (1, 'Honda', '/assets/imgs/brands/brand-10.png', 'Đà Nẵng, VN');
+       (1, 'Honda', '/assets/imgs/brands/brand-10.png', 'Đà Nẵng, VN'),
+       (1, 'Honda', '/assets/imgs/brands/brand-8.png', 'Hồ Chí Minh, VN'),
+       (1, 'Kentucky', '/assets/imgs/brands/brand-1.png', 'Hà Nội, VN'),
+       (1, 'Honda', '/assets/imgs/brands/brand-1.png', 'Đà Nẵng, VN'),
+       (1, 'Honda', '/assets/imgs/brands/brand-4.png', 'Hà Nội, VN'),
+       (1, 'Honda', '/assets/imgs/brands/brand-5.png', 'Hồ Chí Minh, VN'),
+       (1, 'Honda', '/assets/imgs/brands/brand-2.png', 'Đà Nẵng, VN'),
+       (1, 'Whop.com', '/assets/imgs/brands/brand-8.png', 'Đà Nẵng, VN'),
+       (1, 'NewSum', '/assets/imgs/brands/brand-7.png', 'Hồ Chí Minh, VN'),
+       (1, 'LinkedIn', '/assets/imgs/brands/brand-9.png', 'Đà Nẵng, VN'),
+       (1, 'Honda', '/assets/imgs/brands/brand-1.png', 'Hà Nội, VN');
 
 INSERT INTO categories (name, icon)
 VALUES ('Lập trình web', '/assets/imgs/page/homepage1/content.svg'),
