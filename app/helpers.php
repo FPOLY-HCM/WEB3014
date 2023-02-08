@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use Core\Auth;
 use Core\View;
 
 if (! function_exists('redirect')) {
@@ -52,7 +53,7 @@ if (! function_exists('money_format')) {
             return $value . ' đ';
         }
 
-        $suffix = ['Nghìn', 'Triệu', 'T'];
+        $suffix = ['Nghìn', 'Triệu', 'Tỷ'];
 
         $base = log($value, 1000);
 
@@ -61,5 +62,12 @@ if (! function_exists('money_format')) {
         $formattedValue = round($value / (1000 ** $suffixIndex), 1);
 
         return "{$formattedValue} {$suffix[$suffixIndex - 1]}";
+    }
+}
+
+if (! function_exists('auth')) {
+    function auth(string $guard = 'account'): Auth
+    {
+        return new Auth($guard);
     }
 }

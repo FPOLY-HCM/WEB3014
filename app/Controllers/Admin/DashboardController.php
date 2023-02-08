@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Controllers;
+namespace App\Controllers\Admin;
 
 use Core\Controller;
 
@@ -10,6 +10,6 @@ class DashboardController extends Controller
 {
     public function index()
     {
-        return view('dashboard/index');
+        return view('admin/dashboard');
     }
 }

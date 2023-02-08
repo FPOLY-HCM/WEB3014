@@ -16,7 +16,7 @@ class Auth
 
     protected Model|string|null $model;
 
-    protected string|null $sessionUserId;
+    protected int|null $sessionUserId;
 
     public function __construct(string $guard = 'account')
     {

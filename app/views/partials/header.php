@@ -14,7 +14,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" type="image/x-icon" href="<?= asset('assets/imgs/template/favicon.svg') ?>">
     <link href="<?= asset('assets/css/style.css') ?>" rel="stylesheet">
-    <title><?= env('APP_NAME') ?></title>
+    <title><?= $title ?? null ?><?= env('APP_NAME') ?></title>
 </head>
 
 <body>
@@ -112,10 +112,16 @@
                     </div>
                 </div>
                 <div class="header-right">
-                    <div class="block-signin">
-                        <a class="text-link-bd-btom hover-up" href="/register">Đăng ký</a>
-                        <a class="btn btn-default btn-shadow ml-30 hover-up" href="/login">Đăng nhập</a>
-                    </div>
+                    <?php if (auth()->check()) : ?>
+                        <div class="block-signin d-flex align-items-center gap-2">
+                            <a class="btn btn-default btn-shadow hover-up" href="/account/profile"><?= auth()->user()->name ?></a>
+                        </div>
+                    <?php else : ?>
+                        <div class="block-signin">
+                            <a class="text-link-bd-btom hover-up" href="/register">Đăng ký</a>
+                            <a class="btn btn-default btn-shadow ml-30 hover-up" href="/login">Đăng nhập</a>
+                        </div>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
