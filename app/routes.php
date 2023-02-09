@@ -32,3 +32,4 @@ Route::get('/candidates', [CandidateController::class, 'index']);
 Route::get('/candidate/show', [CandidateController::class, 'show']);
 
 Route::get('/admin', [DashboardController::class, 'index']);
+Route::get('/admin/login', [LoginController::class, 'index']);
