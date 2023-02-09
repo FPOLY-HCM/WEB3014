@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace App\Controllers\Auth;
-
-use Core\Controller;
+namespace App\Controllers\Admin;
 use Core\Request;
 use Core\Auth;
 
-class LoginController extends Controller
+use Core\Controller;
+
+class AdminLoginController extends Controller
 {
     public function index()
     {
-        return view('auth/login');
+        return view('admin/login');
     }
 
     public function login()
@@ -22,10 +22,10 @@ class LoginController extends Controller
         $email = $request->input('email');
         $password = $request->input('password');
 
-        if ((new Auth('account'))->attempt($email, $password)) {
-            return redirect('/');
+        if ((new Auth('admin'))->attempt($email, $password)) {
+            return redirect('/admin');
         }
-       
-        return redirect('/login');
+
+        return redirect('/admin/login');
     }
 }

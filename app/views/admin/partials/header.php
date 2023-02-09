@@ -55,7 +55,7 @@
                             </ul>
                         </div>
                         <div class="member-login"><img alt="" src="<?= asset('assets/dashboard/imgs/page/dashboard/profile.png') ?>">
-                            <div class="info-member"> <strong class="color-brand-1">Steven Jobs</strong>
+                            <div class="info-member"> <strong class="color-brand-1"> <?= auth('admin')->user()->name ?> </strong>
                                 <div class="dropdown"><a class="font-xs color-text-paragraph-2 icon-down" id="dropdownProfile" type="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">Super Admin</a>
                                     <ul class="dropdown-menu dropdown-menu-light dropdown-menu-end" aria-labelledby="dropdownProfile">
                                         <li><a class="dropdown-item" href="profile.html">Profiles</a></li>
