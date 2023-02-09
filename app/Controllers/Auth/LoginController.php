@@ -25,6 +25,10 @@ class LoginController extends Controller
         if ((new Auth('account'))->attempt($email, $password)) {
             return redirect('/');
         }
+
+        if ((new Auth('admin'))->attempt($email, $password)) {
+            return redirect('/admin');
+        }
         
         return redirect('/login');
     }
