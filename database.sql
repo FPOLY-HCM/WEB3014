@@ -88,8 +88,8 @@ CREATE TABLE `jobs`
     `views`               int(10) unsigned    NOT NULL DEFAULT 0,
     `is_featured`         tinyint(4)          NOT NULL DEFAULT 0,
     `status`              varchar(60)         NOT NULL DEFAULT 'published',
-    `created_at`          timestamp           NULL     DEFAULT NULL,
-    `updated_at`          timestamp           NULL     DEFAULT NULL,
+    `created_at`          timestamp           NULL     DEFAULT CURRENT_TIMESTAMP,
+    `updated_at`          timestamp           NULL     DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (`id`)
 ) CHARSET = utf8mb4
   COLLATE = utf8mb4_unicode_ci;
@@ -222,8 +222,7 @@ VALUES (1, 'An Giang'),
        (62, 'Bắc Giang'),
        (63, 'Bắc Kạn');
 
-INSERT INTO jobs (category_id, company_id, city_id, name, description, content, salary, salary_range,
-                  number_of_positions)
+INSERT INTO jobs (category_id, company_id, city_id, name, description, content, salary, salary_range, number_of_positions)
 VALUES (1, 2, 3, 'Full Stack Engineer',
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.',
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.',

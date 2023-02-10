@@ -32,8 +32,3 @@ Route::get('/blog/show', [BlogController::class, 'show']);
 
 Route::get('/candidates', [CandidateController::class, 'index']);
 Route::get('/candidate/show', [CandidateController::class, 'show']);
-
-Route::get('/admin', [DashboardController::class, 'index']);
-Route::get('/admin/login', [AdminLoginController::class, 'index']);
-Route::post('/admin/login', [AdminLoginController::class, 'login']);
-
