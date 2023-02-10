@@ -7,21 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="msapplication-TileColor" content="#0E0E0E">
     <meta name="template-color" content="#0E0E0E">
-    <link rel="manifest" href="manifest.json" crossorigin>
-    <meta name="msapplication-config" content="browserconfig.xml">
-    <meta name="description" content="Index page">
-    <meta name="keywords" content="index, page">
-    <meta name="author" content="">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/dashboard/imgs/template/favicon.svg') ?>">
-    <link href="assets/dashboard/css/style.css?version=2.0" rel="stylesheet">
-    <title><?= env('APP_NAME') ?> Dashboard - Job Portal HTML Template </title>
+    <link rel="shortcut icon" type="image/x-icon" href="<?= asset('assets/dashboard/imgs/template/favicon.svg') ?>">
+    <link href="<?= asset('assets/dashboard/css/style.css') ?>" rel="stylesheet">
+    <title><?= env('APP_NAME') ?></title>
 </head>
 
 <body>
     <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
             <div class="preloader-inner position-relative">
-                <div class="text-center"><img src="<?= asset('assets/dashboard/imgs/template/loading.gif') ?>" alt="<?= env('APP_NAME') ?>"></div>
+                <div class="text-center">
+                    <img src="<?= asset('assets/dashboard/imgs/template/loading.gif') ?>" alt="<?= env('APP_NAME') ?>">
+                </div>
             </div>
         </div>
     </div>
@@ -29,7 +26,11 @@
         <div class="container">
             <div class="main-header">
                 <div class="header-left">
-                    <div class="header-logo"><a class="d-flex" href="index.html"><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/dashboard/imgs/page/dashboard/logo.svg') ?>"></a></div><span class="btn btn-grey-small ml-10">Admin area</span>
+                    <div class="header-logo">
+                        <a class="d-flex" href="/admin">
+                            <img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/dashboard/imgs/page/dashboard/logo.svg') ?>">
+                        </a>
+                    </div>
                 </div>
                 <div class="header-search">
                     <div class="box-search">
@@ -40,9 +41,15 @@
                 </div>
                 <div class="header-menu d-none d-md-block">
                     <ul>
-                        <li> <a href="http://wp.alithemes.com/html/<?= env('APP_NAME') ?>/demos/index.html">Home </a></li>
-                        <li> <a href="http://wp.alithemes.com/html/<?= env('APP_NAME') ?>/demos/page-about.html">About us </a></li>
-                        <li> <a href="http://wp.alithemes.com/html/<?= env('APP_NAME') ?>/demos/page-contact.html">Contact</a></li>
+                        <li>
+                            <a href="http://wp.alithemes.com/html/<?= env('APP_NAME') ?>/demos//admin">Home </a>
+                        </li>
+                        <li>
+                            <a href="http://wp.alithemes.com/html/<?= env('APP_NAME') ?>/demos/page-about.html">About us </a>
+                        </li>
+                        <li>
+                            <a href="http://wp.alithemes.com/html/<?= env('APP_NAME') ?>/demos/page-contact.html">Contact</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="header-right">
@@ -88,25 +95,65 @@
                         <!-- mobile menu start-->
                         <nav>
                             <ul class="main-menu">
-                                <li> <a class="dashboard2 active" href="index.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/dashboard.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">Dashboard</span></a>
+                                <li>
+                                    <a class="dashboard2 active" href="/admin">
+                                        <img src="<?= asset('assets/dashboard/imgs/page/dashboard/dashboard.svg') ?>" alt="<?= env('APP_NAME') ?>">
+                                        <span class="name">Dashboard</span>
+                                    </a>
                                 </li>
-                                <li> <a class="dashboard2" href="candidates.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/candidates.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">Candidates</span></a>
+                                <li>
+                                    <a class="dashboard2" href="candidates.html">
+                                        <img src="<?= asset('assets/dashboard/imgs/page/dashboard/candidates.svg') ?>" alt="<?= env('APP_NAME') ?>">
+                                        <span class="name">Candidates</span>
+                                    </a>
                                 </li>
-                                <li> <a class="dashboard2" href="recruiters.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/recruiters.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">Recruiters</span></a>
+                                <li>
+                                    <a class="dashboard2" href="recruiters.html">
+                                        <img src="<?= asset('assets/dashboard/imgs/page/dashboard/recruiters.svg') ?>" alt="<?= env('APP_NAME') ?>">
+                                        <span class="name">Recruiters</span>
+                                    </a>
                                 </li>
-                                <li> <a class="dashboard2" href="my-job-grid.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/jobs.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">My Jobs</span></a>
+                                <li>
+                                    <a class="dashboard2" href="my-job-grid.html">
+                                        <img src="<?= asset('assets/dashboard/imgs/page/dashboard/jobs.svg') ?>" alt="<?= env('APP_NAME') ?>">
+                                        <span class="name">My Jobs</span>
+                                    </a>
                                 </li>
-                                <li> <a class="dashboard2" href="my-tasks-list.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/tasks.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">Tasks List</span></a>
+                                <li>
+                                    <a class="dashboard2" href="my-tasks-list.html">
+                                        <img src="<?= asset('assets/dashboard/imgs/page/dashboard/tasks.svg') ?>" alt="<?= env('APP_NAME') ?>">
+                                        <span class="name">Tasks List</span>
+                                    </a>
                                 </li>
-                                <li> <a class="dashboard2" href="profile.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/profiles.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">My Profiles</span></a>
+                                <li>
+                                    <a class="dashboard2" href="profile.html">
+                                        <img src="<?= asset('assets/dashboard/imgs/page/dashboard/profiles.svg') ?>" alt="<?= env('APP_NAME') ?>">
+                                        <span class="name">My Profiles</span>
+                                    </a>
                                 </li>
-                                <li> <a class="dashboard2" href="my-resume.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/cv-manage.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">CV Manage</span></a>
+                                <li>
+                                    <a class="dashboard2" href="my-resume.html">
+                                        <img src="<?= asset('assets/dashboard/imgs/page/dashboard/cv-manage.svg') ?>" alt="<?= env('APP_NAME') ?>">
+                                        <span class="name">CV Manage</span>
+                                    </a>
                                 </li>
-                                <li> <a class="dashboard2" href="settings.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/settings.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">Setting</span></a>
+                                <li>
+                                    <a class="dashboard2" href="settings.html">
+                                        <img src="<?= asset('assets/dashboard/imgs/page/dashboard/settings.svg') ?>" alt="<?= env('APP_NAME') ?>">
+                                        <span class="name">Setting</span>
+                                    </a>
                                 </li>
-                                <li> <a class="dashboard2" href="authentication.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/authentication.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">Authentication</span></a>
+                                <li>
+                                    <a class="dashboard2" href="authentication.html">
+                                        <img src="<?= asset('assets/dashboard/imgs/page/dashboard/authentication.svg') ?>" alt="<?= env('APP_NAME') ?>">
+                                        <span class="name">Authentication</span>
+                                    </a>
                                 </li>
-                                <li> <a class="dashboard2" href="login.html"><img src="<?= asset('assets/dashboard/imgs/page/dashboard/logout.svg') ?>" alt="<?= env('APP_NAME') ?>"><span class="name">Logout</span></a>
+                                <li>
+                                    <a class="dashboard2" href="login.html">
+                                        <img src="<?= asset('assets/dashboard/imgs/page/dashboard/logout.svg') ?>" alt="<?= env('APP_NAME') ?>">
+                                        <span class="name">Logout</span>
+                                    </a>
                                 </li>
                             </ul>
                         </nav>
@@ -127,3 +174,49 @@
             </div>
         </div>
     </div>
+    <main class="main">
+        <div class="nav">
+            <a class="btn btn-expanded"></a>
+            <nav class="nav-main-menu">
+                <ul class="main-menu">
+                    <li>
+                        <a class="dashboard2 active" href="/admin">
+                            <img src="<?= asset('assets/dashboard/imgs/page/dashboard/dashboard.svg') ?>" alt="<?= env('APP_NAME') ?>">
+                            <span class="name">Bảng điều khiển</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dashboard2" href="candidates.html">
+                            <img src="<?= asset('assets/dashboard/imgs/page/dashboard/candidates.svg') ?>" alt="<?= env('APP_NAME') ?>">
+                            <span class="name">Người dùng</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dashboard2" href="recruiters.html">
+                            <img src="<?= asset('assets/dashboard/imgs/page/dashboard/recruiters.svg') ?>" alt="<?= env('APP_NAME') ?>">
+                            <span class="name">Nhà tuyển dụng</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dashboard2" href="my-job-grid.html">
+                            <img src="<?= asset('assets/dashboard/imgs/page/dashboard/jobs.svg') ?>" alt="<?= env('APP_NAME') ?>">
+                            <span class="name">Công việc</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dashboard2" href="my-tasks-list.html">
+                            <img src="<?= asset('assets/dashboard/imgs/page/dashboard/tasks.svg') ?>" alt="<?= env('APP_NAME') ?>">
+                            <span class="name">Danh mục</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dashboard2" href="/admin/logout">
+                            <img src="<?= asset('assets/dashboard/imgs/page/dashboard/logout.svg') ?>" alt="<?= env('APP_NAME') ?>">
+                            <span class="name">Đăng xuất</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="border-bottom mb-20 mt-20"></div>
+        </div>
+        <div class="box-content">

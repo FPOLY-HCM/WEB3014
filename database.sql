@@ -120,6 +120,9 @@ INSERT INTO accounts (name, email, password, type)
 VALUES ('Employer', 'employer@web3014.test', '123456', 'employer'),
        ('Job Seeker', 'jobseeker@web3014.test', '123456', 'job_seeker');
 
+INSERT INTO users (name, email, password)
+VALUES ('Administrator', 'admin@jobbox.com', '123456');
+
 INSERT INTO companies (account_id, name, logo, address)
 VALUES (1, 'LinkedIn', '/assets/imgs/brands/brand-1.png', 'Hồ Chí Minh, VN'),
        (1, 'Adobe Ilustrator', '/assets/imgs/brands/brand-2.png', 'Hồ Chí Minh, VN'),
