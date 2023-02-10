@@ -29,7 +29,7 @@ require_once __DIR__ . '/../partials/header.php';
                     <div class="box-filters-job">
                         <div class="row">
                             <div class="col-xl-6 col-lg-5">
-                                <span class="text-small text-showing">Đang hiện từ <strong>41-60</strong> của 944 công việc
+                                <span class="text-small text-showing">Đang hiện từ <strong>41-60</strong> của 944 Việc làm
                             </div>
                             <div class="col-xl-6 col-lg-7 text-lg-end mt-sm-15">
                                 <div class="display-flex2">
@@ -89,7 +89,7 @@ require_once __DIR__ . '/../partials/header.php';
                                         <span class="card-location"><?= $company->address ?></span>
                                         <div class="mt-30">
                                             <a class="btn btn-grey-big" href="jobs-grid.html">
-                                                <span>12 công việc</span>
+                                                <span>12 Việc làm</span>
                                             </a>
                                         </div>
                                     </div>
@@ -302,7 +302,7 @@ require_once __DIR__ . '/../partials/header.php';
                             </div>
                         </div>
                         <div class="filter-block mb-20">
-                            <h5 class="medium-heading mb-15">Kiểu công việc</h5>
+                            <h5 class="medium-heading mb-15">Kiểu Việc làm</h5>
                             <div class="form-group">
                                 <ul class="list-checkbox">
                                     <li>
