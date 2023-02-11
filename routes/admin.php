@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 use App\Controllers\Admin\DashboardController;
 use App\Controllers\Admin\JobController;
-use App\Controllers\Auth\LoginController;
+use App\Controllers\Admin\LoginController;
 use Core\Route;
 
 Route::get('/admin', [DashboardController::class, 'index']);
