@@ -19,7 +19,7 @@ require_once __DIR__ . '/../partials/header.php';
                 <label for="category_id" class="form-label">Danh mục</label>
                 <select name="category_id" id="category_id" class="form-control">
                     <?php foreach ($categories as $category) : ?>
-                        <option value="<?= $category->id ?>" <?= $category->id === $job->category_id ? 'selected' : null ?>><?= $category->name ?></option>
+                        <option value="<?= $category->id ?>" <?= selected($category->id === $job->category_id) ?>><?= $category->name ?></option>
                     <?php endforeach; ?>
                 </select>
             </div>
@@ -27,7 +27,7 @@ require_once __DIR__ . '/../partials/header.php';
                 <label for="company_id" class="form-label">Nhà tuyển dụng</label>
                 <select name="company_id" id="company_id" class="form-control">
                     <?php foreach ($companies as $company) : ?>
-                        <option value="<?= $company->id ?>" <?= $company->id === $job->company_id ? 'selected' : null ?>><?= $company->name ?></option>
+                        <option value="<?= $company->id ?>" <?= selected($company->id === $job->company_id) ?>><?= $company->name ?></option>
                     <?php endforeach; ?>
                 </select>
             </div>
@@ -50,11 +50,11 @@ require_once __DIR__ . '/../partials/header.php';
                     <div class="form-group">
                         <label for="salary" class="form-label">Khoảng lương theo</label>
                         <select name="salary_range" id="salary_range" class="form-control">
-                            <option value="tháng" <?= $job->salary_range === 'tháng' ? 'selected' : null ?>>Tháng</option>
-                            <option value="giờ" <?= $job->salary_range === 'giờ' ? 'selected' : null ?>>Giờ</option>
-                            <option value="ngày" <?= $job->salary_range === 'ngày' ? 'selected' : null ?>>Ngày</option>
-                            <option value="tuần" <?= $job->salary_range === 'tuần' ? 'selected' : null ?>>Tuần</option>
-                            <option value="năm" <?= $job->salary_range === 'năm' ? 'selected' : null ?>>Năm</option>
+                            <option value="tháng" <?= selected($job->salary_range === 'tháng') ?>>Tháng</option>
+                            <option value="giờ" <?= selected($job->salary_range === 'giờ') ?>>Giờ</option>
+                            <option value="ngày" <?= selected($job->salary_range === 'ngày') ?>>Ngày</option>
+                            <option value="tuần" <?= selected($job->salary_range === 'tuần') ?>>Tuần</option>
+                            <option value="năm" <?= selected($job->salary_range === 'năm') ?>>Năm</option>
                         </select>
                     </div>
                 </div>
@@ -73,7 +73,7 @@ require_once __DIR__ . '/../partials/header.php';
                 <label for="status" class="form-label">Trạng thái</label>
                 <select name="status" id="status" class="form-control">
                     <?php foreach (JobStatus::cases() as $status) : ?>
-                        <option value="<?= $status->value ?>" <?= $status->value === $job->status ? 'selected' : null ?>><?= $status->label() ?></option>
+                        <option value="<?= $status->value ?>" <?= selected($status->value === $job->status) ?>><?= $status->label() ?></option>
                     <?php endforeach; ?>
                 </select>
             </div>
