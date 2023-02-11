@@ -7,7 +7,7 @@ namespace App\Controllers\Admin;
 use App\Models\Company;
 use Core\Controller;
 
-class AdminCompanyController extends Controller
+class CompanyController extends Controller
 {
     public function index()
     {
