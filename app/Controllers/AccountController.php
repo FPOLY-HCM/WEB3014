@@ -11,17 +11,13 @@ use Core\Auth;
 class AccountController extends Controller
 {   
     public function profile()
-{
-    $auth = new Auth;
-    $user = $auth->user();
+    {
+       $user = auth()->user();
 
-    if (!$user) {
-        // Xử lý lỗi nếu $user là null
-        return;
-      }
+       if (!auth()->check()) {
+           return redirect('/login');
+       }
 
-    $username = explode('@', $user->email)[0];
-
-    return view('account/profile', compact('user','username'));
-}
+       return view('account/profile', compact('user',));
+    } 
 }
