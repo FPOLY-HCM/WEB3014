@@ -192,7 +192,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="dashboard2" href="recruiters.html">
+                        <a class="dashboard2" href="/admin/companies">
                             <img src="<?= asset('assets/dashboard/imgs/page/dashboard/recruiters.svg') ?>" alt="<?= env('APP_NAME') ?>">
                             <span class="name">Nhà tuyển dụng</span>
                         </a>
