@@ -36,8 +36,38 @@ require_once __DIR__ . '/../partials/header.php';
                 <textarea name="description" id="description" rows="2" class="form-control"><?= $job->description ?></textarea>
             </div>
             <div class="form-group">
-                <label for="salary" class="form-label">Lương</label>
-                <input type="text" id="salary" name="salary" class="form-group" value="<?= $job->salary ?>">
+                <label for="content" class="form-label">Nội dung</label>
+                <textarea name="content" id="content" rows="5" class="form-control"><?= $job->content ?></textarea>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="salary" class="form-label">Lương</label>
+                        <input type="text" id="salary" name="salary" class="form-group" value="<?= $job->salary ?>">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="salary" class="form-label">Khoảng lương theo</label>
+                        <select name="salary_range" id="salary_range" class="form-control">
+                            <option value="tháng" <?= $job->salary_range === 'tháng' ? 'selected' : null ?>>Tháng</option>
+                            <option value="giờ" <?= $job->salary_range === 'giờ' ? 'selected' : null ?>>Giờ</option>
+                            <option value="ngày" <?= $job->salary_range === 'ngày' ? 'selected' : null ?>>Ngày</option>
+                            <option value="tuần" <?= $job->salary_range === 'tuần' ? 'selected' : null ?>>Tuần</option>
+                            <option value="năm" <?= $job->salary_range === 'năm' ? 'selected' : null ?>>Năm</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="number_of_position" class="form-label">Số lượng cần tuyển</label>
+                        <input type="text" id="number_of_position" name="number_of_position" class="form-group" value="<?= $job->number_of_position ?>">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="address" class="form-label">Địa chỉ</label>
+                <input type="text" id="address" name="address" class="form-group" value="<?= $job->address ?>">
             </div>
             <div class="form-group">
                 <label for="status" class="form-label">Trạng thái</label>

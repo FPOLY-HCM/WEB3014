@@ -33,38 +33,38 @@ require_once __DIR__ . '/../partials/header.php';
                         </select>
                     </div>
                 </div>
-                <div class="form-group">
-                    <label for="description" class="form-label">Mô tả</label>
-                    <textarea name="description" id="description" rows="2" class="form-control"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="content" class="form-label">Nội dung</label>
-                    <textarea name="content" id="content" rows="5" class="form-control"></textarea>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label for="salary" class="form-label">Lương</label>
-                            <input type="text" id="salary" name="salary" class="form-group">
-                        </div>
+            </div>
+            <div class="form-group">
+                <label for="description" class="form-label">Mô tả</label>
+                <textarea name="description" id="description" rows="2" class="form-control"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="content" class="form-label">Nội dung</label>
+                <textarea name="content" id="content" rows="5" class="form-control"></textarea>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="salary" class="form-label">Lương</label>
+                        <input type="text" id="salary" name="salary" class="form-group">
                     </div>
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label for="salary" class="form-label">Khoảng lương theo</label>
-                            <select name="salary_range" id="salary_range" class="form-control">
-                                <option value="tháng">Tháng</option>
-                                <option value="giờ">Giờ</option>
-                                <option value="ngày">Ngày</option>
-                                <option value="tuần">Tuần</option>
-                                <option value="năm">Năm</option>
-                            </select>
-                        </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="salary" class="form-label">Khoảng lương theo</label>
+                        <select name="salary_range" id="salary_range" class="form-control">
+                            <option value="tháng">Tháng</option>
+                            <option value="giờ">Giờ</option>
+                            <option value="ngày">Ngày</option>
+                            <option value="tuần">Tuần</option>
+                            <option value="năm">Năm</option>
+                        </select>
                     </div>
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label for="number_of_position" class="form-label">Số lượng cần tuyển</label>
-                            <input type="text" id="number_of_position" name="number_of_position" class="form-group">
-                        </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="number_of_position" class="form-label">Số lượng cần tuyển</label>
+                        <input type="text" id="number_of_position" name="number_of_position" class="form-group">
                     </div>
                 </div>
             </div>

@@ -72,7 +72,34 @@ class JobController extends Controller
     
     public function update()
     {
+        $request = $this->request;
 
+        $id = $request->input('id');
+        $name = $request->input('name');
+        $description = $request->input('description');
+        $salary = $request->input('salary');
+        $salaryRange = $request->input('salary_range');
+        $category_id = $request->input('category_id');
+        $company_id = $request->input('company_id');
+        $content = $request->input('content');
+        $numberOfPosition = $request->input('number_of_position');
+        $address = $request->input('address');
+
+        $job = Job::findOrFail($id);
+
+        $job->update([
+            'name' => $name,
+            'salary' => $salary,
+            'salary_range' => $salaryRange,
+            'category_id' => $category_id,
+            'company_id' => $company_id,
+            'description' => $description,
+            'content' => $content,
+            'number_of_position' => $numberOfPosition,
+            'address' => $address,
+        ]);
+
+        return redirect('/admin/jobs');
     }
 
     public function destroy()
