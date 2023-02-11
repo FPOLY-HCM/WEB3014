@@ -18,6 +18,6 @@ class AccountController extends Controller
            return redirect('/login');
        }
 
-       return view('account/profile', compact('user',));
+       return view('account/profile', compact('user'));
     } 
 }
