@@ -49,22 +49,7 @@ function auth(string $guard = 'account'): Auth
     return new Auth($guard);
 }
 
-<<<<<<< HEAD
 function selected(bool $condition): string|null
 {
     return $condition ? 'selected' : null;
-=======
-if (! function_exists('auth')) {
-    function auth(string $guard = 'account'): Auth
-    {
-        return new Auth($guard);
-    }
-}
-
-if (! function_exists('request')) {
-    function request(): Request
-    {
-        return new Request();
-    }
->>>>>>> 11e1c2fafcb34797ef81191ae7b1380ffbce4b2b
 }
