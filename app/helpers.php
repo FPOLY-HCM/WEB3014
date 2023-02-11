@@ -71,3 +71,10 @@ if (! function_exists('auth')) {
         return new Auth($guard);
     }
 }
+
+if (! function_exists('request')) {
+    function request(): Request
+    {
+        return new Request();
+    }
+}

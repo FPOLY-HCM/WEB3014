@@ -5,9 +5,7 @@ declare(strict_types=1);
 namespace App\Controllers\Auth;
 
 use App\Models\Account;
-use Core\Auth;
 use Core\Controller;
-use Core\Request;
 
 class RegisterController extends Controller
 {
@@ -18,12 +16,10 @@ class RegisterController extends Controller
 
     public function register()
     {
-        $request = new Request();
-
-        $name = $request->input('name');
-        $email = $request->input('email');
-        $password = $request->input('password');
-        $password_confirmation = $request->input('password_confirmation');
+        $name = request()->input('name');
+        $email = request()->input('email');
+        $password = request()->input('password');
+        $password_confirmation = request()->input('password_confirmation');
 
         $account = Account::create([
             'name' => $name,
@@ -35,7 +31,7 @@ class RegisterController extends Controller
             return redirect('/register');
         }
 
-        if ((new Auth('account'))->attempt($email, $password)) {
+        if (auth()->attempt($email, $password)) {
             return redirect('/');
         }
 

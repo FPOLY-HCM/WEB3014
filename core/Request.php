@@ -34,6 +34,11 @@ class Request
         return $_SERVER['REQUEST_METHOD'];
     }
 
+    public function all(): array
+    {
+        return array_merge($this->post, $this->get);
+    }
+
     public function input(string $key): string
     {
         return $this->post[$key] ?? '';
