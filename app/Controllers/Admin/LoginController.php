@@ -18,7 +18,7 @@ class LoginController extends Controller
         $email = request()->input('email');
         $password = request()->input('password');
 
-        if (auth()->attempt($email, $password)) {
+        if (auth('admin')->attempt($email, $password)) {
             return redirect('/admin');
         }
 

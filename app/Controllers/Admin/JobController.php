@@ -29,6 +29,8 @@ class JobController extends Controller
     public function store()
     {
         Job::create(request()->all());
+
+        return redirect('/admin/jobs');
     }
 
     public function edit()
