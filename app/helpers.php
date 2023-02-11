@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 use Core\Auth;
+use Core\Request;
 use Core\View;
 
 function redirect(string $uri = ''): void
@@ -47,6 +48,11 @@ function money_format(int $value): string
 function auth(string $guard = 'account'): Auth
 {
     return new Auth($guard);
+}
+
+function request(): Request
+{
+    return new Request();
 }
 
 function selected(bool $condition): string|null
