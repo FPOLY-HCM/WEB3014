@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-use App\Controllers\Admin\AdminCompanyController;
 use App\Controllers\HomeController;
 use App\Controllers\Auth\LoginController;
 use App\Controllers\Auth\RegisterController;
@@ -38,4 +37,3 @@ Route::get('/admin', [DashboardController::class, 'index']);
 Route::get('/admin/login', [AdminLoginController::class, 'index']);
 Route::post('/admin/login', [AdminLoginController::class, 'login']);
 
-Route::get('/admin/companies', [AdminCompanyController::class, 'index']);

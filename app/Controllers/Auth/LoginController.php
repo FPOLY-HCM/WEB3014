@@ -5,8 +5,6 @@ declare(strict_types=1);
 namespace App\Controllers\Auth;
 
 use Core\Controller;
-use Core\Request;
-use Core\Auth;
 
 class LoginController extends Controller
 {
@@ -17,12 +15,11 @@ class LoginController extends Controller
 
     public function login()
     {
-        $request = new Request();
 
-        $email = $request->input('email');
-        $password = $request->input('password');
+        $email = request()->input('email');
+        $password = request()->input('password');
 
-        if ((new Auth('account'))->attempt($email, $password)) {
+        if (auth()->attempt($email, $password)) {
             return redirect('/');
         }
        

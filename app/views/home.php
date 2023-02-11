@@ -69,7 +69,7 @@ require_once __DIR__ . '/partials/header.php';
                                             </div>
                                             <div class="text-info-right">
                                                 <h4><?= $category->name ?></h4>
-                                                <p class="font-xs">Có <?= $category->jobs_count ?> công việc</p>
+                                                <p class="font-xs">Có <?= $category->jobs_count ?> Việc làm</p>
                                             </div>
                                         </div>
                                     </a>
@@ -87,8 +87,8 @@ require_once __DIR__ . '/partials/header.php';
 <section class="section-box mt-50">
     <div class="container">
         <div class="text-center">
-            <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">Công việc mới nhất</h2>
-            <p class="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp">Tìm công việc phù hợp với bạn. 800+ công việc mới mỗi ngày</p>
+            <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">Việc làm mới nhất</h2>
+            <p class="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp">Tìm Việc làm phù hợp với bạn. 800+ Việc làm mới mỗi ngày</p>
             <div class="list-tabs mt-40">
                 <ul class="nav nav-tabs" role="tablist">
                     <?php foreach ($categories->sortByDesc('jobs_count')->take(6) as $key => $category) : ?>
@@ -185,7 +185,7 @@ require_once __DIR__ . '/partials/header.php';
                                         <div class="text-info-bottom mt-5">
                                             <span class="font-xs color-text-mutted icon-location"><?= $company->address ?></span>
                                             <span class="font-xs color-text-mutted float-end mt-5">
-                                                <?= $company->jobs_count ?> công việc
+                                                <?= $company->jobs_count ?> Việc làm
                                             </span>
                                         </div>
                                     </div>

@@ -198,9 +198,9 @@
                         </a>
                     </li>
                     <li>
-                        <a class="dashboard2" href="my-job-grid.html">
+                        <a class="dashboard2" href="/admin/jobs">
                             <img src="<?= asset('assets/dashboard/imgs/page/dashboard/jobs.svg') ?>" alt="<?= env('APP_NAME') ?>">
-                            <span class="name">Công việc</span>
+                            <span class="name">Việc làm</span>
                         </a>
                     </li>
                     <li>

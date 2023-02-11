@@ -24,12 +24,12 @@
                     </div>
                     <form class="login-register text-start mt-20" action="/admin/login" method="post">
                         <div class="form-group">
-                            <label class="form-label" for="input-1">Địa chỉ email *</label>
-                            <input class="form-control" id="input-1" type="text" required="" name="email" placeholder="Steven Job">
+                            <label class="form-label" for="email">Địa chỉ email *</label>
+                            <input class="form-control" id="email" type="text" required name="email" placeholder="Steven Job">
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="input-4">Mật khẩu *</label>
-                            <input class="form-control" id="input-4" type="password" required="" name="password" placeholder="************">
+                            <label class="form-label" for="password">Mật khẩu *</label>
+                            <input class="form-control" id="password" type="password" required name="password" placeholder="************">
                         </div>
                         <div class="login_footer form-group d-flex justify-content-between">
                             <label class="cb-container">
@@ -39,7 +39,7 @@
                             </label>
                         </div>
                         <div class="form-group">
-                            <button class="btn btn-brand-1 hover-up w-100" type="submit" name="login">Đăng nhập</button>
+                            <button class="btn btn-brand-1 hover-up w-100" type="submit">Đăng nhập</button>
                         </div>
                     </form>
                 </div>
@@ -49,7 +49,3 @@
 </body>
 
 </html>
-
-<?php
-require_once __DIR__ . '/partials/footer.php';
-?>
