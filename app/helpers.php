@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 use Core\Auth;
 use Core\Request;
+use Core\Setting;
 use Core\View;
 
 function redirect(string $uri = ''): void
@@ -58,4 +59,17 @@ function request(): Request
 function selected(bool $condition): string|null
 {
     return $condition ? 'selected' : null;
+}
+
+function setting(string|null $key = null, string|null $default = null): Setting|string|null
+{
+    $setting = new Setting();
+
+    if (is_array($key)) {
+        $setting->set($key);
+    } elseif (! is_null($key)) {
+        return $setting->get($key, $default);
+    }
+
+    return $setting;
 }
