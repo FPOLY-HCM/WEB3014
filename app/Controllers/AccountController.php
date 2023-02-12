@@ -6,18 +6,16 @@ namespace App\Controllers;
 
 use Core\Controller;
 
-use Core\Auth;
-
 class AccountController extends Controller
-{   
+{
     public function profile()
     {
-       $user = auth()->user();
+        if (!auth()->check()) {
+            return redirect('/login');
+        }
 
-       if (!auth()->check()) {
-           return redirect('/login');
-       }
+        $account = auth()->user();
 
-       return view('account/profile', compact('user'));
-    } 
+        return view('account/profile', compact('account'));
+    }
 }
