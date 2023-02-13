@@ -2,7 +2,6 @@
 require_once __DIR__ . '/partials/header.php';
 ?>
 
-
 <div class="row">
     <div class="col-xxl-8 col-xl-7 col-lg-7">
         <div class="section-box">
@@ -324,7 +323,6 @@ require_once __DIR__ . '/partials/header.php';
         </div>
     </div>
 </div>
-
 
 <?php
 require_once __DIR__ . '/partials/footer.php';

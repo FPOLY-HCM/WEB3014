@@ -210,6 +210,12 @@
                         </a>
                     </li>
                     <li>
+                        <a class="dashboard2" href="/admin/settings">
+                            <img src="<?= asset('assets/dashboard/imgs/page/dashboard/tasks.svg') ?>" alt="<?= env('APP_NAME') ?>">
+                            <span class="name">Cài đặt</span>
+                        </a>
+                    </li>
+                    <li>
                         <a class="dashboard2" href="/admin/logout">
                             <img src="<?= asset('assets/dashboard/imgs/page/dashboard/logout.svg') ?>" alt="<?= env('APP_NAME') ?>">
                             <span class="name">Đăng xuất</span>
