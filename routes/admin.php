@@ -15,8 +15,7 @@ Route::get('/admin/login', [LoginController::class, 'index']);
 Route::post('/admin/login', [LoginController::class, 'login']);
 
 Route::resource('/admin/jobs', JobController::class);
-
-Route::get('/admin/companies', [CompanyController::class, 'index']);
+Route::resource('/admin/companies', CompanyController::class);
 
 Route::get('/admin/settings', [SettingController::class, 'index']);
 Route::post('/admin/settings', [SettingController::class, 'store']);

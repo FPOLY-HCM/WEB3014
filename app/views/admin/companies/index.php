@@ -26,8 +26,8 @@ require_once __DIR__ . '/../partials/header.php';
                     <td><?= $company->name ?></td>
                     <td><?= $company->address ?></td>
                     <td>
-                        <a href="/admin/company/edit?id=<?= $company->id ?>" class="btn btn-sm btn-primary">Sửa</a>
-                        <a href="/admin/company/delete?id=<?= $company->id ?>" class="btn btn-sm btn-danger">Xóa</a>
+                        <a href="/admin/companies/edit?id=<?= $company->id ?>" class="btn btn-sm btn-primary">Sửa</a>
+                        <a href="/admin/companies/delete?id=<?= $company->id ?>" class="btn btn-sm btn-danger">Xóa</a>
                     </td>
                     </tr>
                 <?php endforeach; ?>
