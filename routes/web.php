@@ -9,8 +9,7 @@ use App\Controllers\CompanyController;
 use App\Controllers\JobController;
 use App\Controllers\BlogController;
 use App\Controllers\CandidateController;
-use App\Controllers\Admin\DashboardController;
-use App\Controllers\Admin\AdminLoginController;
+use App\Controllers\AccountController;
 
 use Core\Route;
 
@@ -32,3 +31,5 @@ Route::get('/blog/show', [BlogController::class, 'show']);
 
 Route::get('/candidates', [CandidateController::class, 'index']);
 Route::get('/candidate/show', [CandidateController::class, 'show']);
+
+Route::get('/account/profile', [AccountController::class, 'profile']);

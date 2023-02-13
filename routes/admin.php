@@ -14,12 +14,7 @@ Route::get('/admin', [DashboardController::class, 'index']);
 Route::get('/admin/login', [LoginController::class, 'index']);
 Route::post('/admin/login', [LoginController::class, 'login']);
 
-Route::get('/admin/jobs', [JobController::class, 'index']);
-Route::get('/admin/jobs/create', [JobController::class, 'create']);
-Route::post('/admin/jobs/store', [JobController::class, 'store']);
-Route::get('/admin/jobs/edit', [JobController::class, 'edit']);
-Route::post('/admin/jobs/update', [JobController::class, 'update']);
-Route::get('/admin/jobs/delete', [JobController::class, 'destroy']);
+Route::resource('/admin/jobs', JobController::class);
 
 Route::get('/admin/companies', [CompanyController::class, 'index']);    
 Route::get('/admin/companies/create', [CompanyController::class, 'create']);
