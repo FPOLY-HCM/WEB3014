@@ -13,10 +13,15 @@ require_once __DIR__ . '/../partials/header.php';
                 <input type="text" id="name" name="name" class="form-group">
             </div>
             <div class="form-group">
-                <input type="hidden" id="account_id" name="account_id" class="form-group" value="1">
+                <label for="account_id" class="form-label">Người dùng</label>
+                <select name="account_id" id="account_id" class="form-control">
+                    <?php foreach ($accounts as $account) : ?>
+                        <option value="<?= $account->id ?>"><?= $account->name ?></option>
+                    <?php endforeach; ?>
+                </select>
             </div>
             <div class="form-group">
-                <label for="logo" class="form-label">Lô gô</label>
+                <label for="logo" class="form-label">Logo</label>
                 <input type="file" name="logo" id="logo" class="form-control"></input>
             </div>
             <div class="form-group">

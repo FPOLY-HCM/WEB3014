@@ -16,10 +16,4 @@ Route::post('/admin/login', [LoginController::class, 'login']);
 
 Route::resource('/admin/jobs', JobController::class);
 
-Route::get('/admin/companies', [CompanyController::class, 'index']);    
-Route::get('/admin/companies/create', [CompanyController::class, 'create']);
-Route::post('/admin/companies/store', [CompanyController::class, 'store']);
-Route::get('/admin/companies/edit', [CompanyController::class, 'edit']);
-Route::post('/admin/companies/update', [CompanyController::class, 'update']);
-Route::get('/admin/companies/delete', [CompanyController::class, 'destroy']);
-
+Route::resource('/admin/companies', CompanyController::class);

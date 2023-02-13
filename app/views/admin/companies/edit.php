@@ -8,21 +8,26 @@ require_once __DIR__ . '/../partials/header.php';
     </div>
     <div class="panel-body">
         <form action="/admin/companies/update" method="post">
-            <input type="hidden" name="id" value="<?= $recruiter->id ?>">
+            <input type="hidden" name="id" value="<?= $company->id ?>">
             <div class="form-group">
                 <label for="name" class="form-label">Tên nhà tuyển dụng</label>
-                <input type="text" id="name" name="name" class="form-group" value="<?= $recruiter->name ?>">
+                <input type="text" id="name" name="name" class="form-group" value="<?= $company->name ?>">
             </div>
             <div class="form-group">
-                <input type="hidden" id="account_id" name="account_id" class="form-group" value="1">
+                <label for="account_id" class="form-label">Người dùng</label>
+                <select name="account_id" id="account_id" class="form-control">
+                    <?php foreach ($accounts as $account) : ?>
+                        <option value="<?= $account->id ?>"><?= $account->name ?></option>
+                    <?php endforeach; ?>
+                </select>
             </div>
             <div class="form-group">
-                <label for="logo" class="form-label">Lô gô</label>
-                <input type="file" name="logo" id="logo" class="form-control" value="<?= $recruiter->logo ?>">
+                <label for="logo" class="form-label">Logo</label>
+                <input type="file" name="logo" id="logo" class="form-control" value="<?= $company->logo ?>">
             </div>
             <div class="form-group">
                 <label for="address" class="form-label">Địa chỉ</label>
-                <input type="text" id="address" name="address" class="form-group" value="<?= $recruiter->address ?>">
+                <input type="text" id="address" name="address" class="form-group" value="<?= $company->address ?>">
             </div>
             <button type="submit" class="btn btn-primary">Cập nhật</button>
         </form>
