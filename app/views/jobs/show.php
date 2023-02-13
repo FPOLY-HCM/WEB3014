@@ -7,11 +7,11 @@ require_once __DIR__ . '/../partials/header.php';
         <div class="banner-hero banner-image-single"><img src="<?= asset('assets/imgs/page/job-single/thumb.png') ?>" alt="<?= env('APP_NAME') ?>"></div>
         <div class="row mt-10">
             <div class="col-lg-8 col-md-12">
-                <h3>Senior Full Stack Engineer, Creator Success Full Time</h3>
+                <h3><?= $job->name ?></h3>
                 <div class="mt-0 mb-15"><span class="card-briefcase">Fulltime</span><span class="card-time">3 mins ago</span></div>
             </div>
             <div class="col-lg-4 col-md-12 text-lg-end">
-                <div class="btn btn-apply-icon btn-apply btn-apply-big hover-up" data-bs-toggle="modal" data-bs-target="#ModalApplyJobForm">Apply now</div>
+                <div class="btn btn-apply-icon btn-apply btn-apply-big hover-up" data-bs-toggle="modal" data-bs-target="#ModalApplyJobForm">Ứng tuyển ngay</div>
             </div>
         </div>
         <div class="border-bottom pt-10 pb-10"></div>
@@ -22,84 +22,82 @@ require_once __DIR__ . '/../partials/header.php';
         <div class="row">
             <div class="col-lg-8 col-md-12 col-sm-12 col-12">
                 <div class="job-overview">
-                    <h5 class="border-bottom pb-15 mb-30">Employment Information</h5>
+                    <h5 class="border-bottom pb-15 mb-30">Thông tin việc làm</h5>
                     <div class="row">
                         <div class="col-md-6 d-flex">
                             <div class="sidebar-icon-item"><img src="<?= asset('assets/imgs/page/job-single/industry.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
-                            <div class="sidebar-text-info ml-10"><span class="text-description industry-icon mb-10">Industry</span><strong class="small-heading"> Mechanical / Auto / Automotive, Civil / Construction</strong></div>
+                            <div class="sidebar-text-info ml-10"><span class="text-description industry-icon mb-10">Nghành nghề</span><strong class="small-heading"> Mechanical / Auto / Automotive, Civil / Construction</strong></div>
                         </div>
                         <div class="col-md-6 d-flex mt-sm-15">
                             <div class="sidebar-icon-item"><img src="<?= asset('assets/imgs/page/job-single/job-level.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
-                            <div class="sidebar-text-info ml-10"><span class="text-description joblevel-icon mb-10">Job level</span><strong class="small-heading">Experienced (Non - Manager)</strong></div>
+                            <div class="sidebar-text-info ml-10"><span class="text-description joblevel-icon mb-10">Cấp bậc</span><strong class="small-heading">Có kinh nghiệm (Non - Manager)</strong></div>
                         </div>
                     </div>
                     <div class="row mt-25">
                         <div class="col-md-6 d-flex mt-sm-15">
                             <div class="sidebar-icon-item"><img src="<?= asset('assets/imgs/page/job-single/salary.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
-                            <div class="sidebar-text-info ml-10"><span class="text-description salary-icon mb-10">Salary</span><strong class="small-heading">$800 - $1000</strong></div>
+                            <div class="sidebar-text-info ml-10"><span class="text-description salary-icon mb-10">Lương</span><strong class="small-heading"><?= money_format($job->salary) ?></strong></div>
                         </div>
                         <div class="col-md-6 d-flex">
                             <div class="sidebar-icon-item"><img src="<?= asset('assets/imgs/page/job-single/experience.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
-                            <div class="sidebar-text-info ml-10"><span class="text-description experience-icon mb-10">Experience</span><strong class="small-heading">1 - 2 years</strong></div>
+                            <div class="sidebar-text-info ml-10"><span class="text-description experience-icon mb-10">Kinh nghiệm</span><strong class="small-heading">1 - 2 năm</strong></div>
                         </div>
                     </div>
                     <div class="row mt-25">
                         <div class="col-md-6 d-flex mt-sm-15">
                             <div class="sidebar-icon-item"><img src="<?= asset('assets/imgs/page/job-single/job-type.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
-                            <div class="sidebar-text-info ml-10"><span class="text-description jobtype-icon mb-10">Job type</span><strong class="small-heading">Permanent</strong></div>
+                            <div class="sidebar-text-info ml-10"><span class="text-description jobtype-icon mb-10">Công việc</span><strong class="small-heading">Dài hạn</strong></div>
                         </div>
                         <div class="col-md-6 d-flex mt-sm-15">
                             <div class="sidebar-icon-item"><img src="<?= asset('assets/imgs/page/job-single/deadline.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
-                            <div class="sidebar-text-info ml-10"><span class="text-description mb-10">Deadline</span><strong class="small-heading">10/08/2022</strong></div>
+                            <div class="sidebar-text-info ml-10"><span class="text-description mb-10">Ngày hết hạn</span><strong class="small-heading">10/08/2022</strong></div>
                         </div>
                     </div>
                     <div class="row mt-25">
                         <div class="col-md-6 d-flex mt-sm-15">
                             <div class="sidebar-icon-item"><img src="<?= asset('assets/imgs/page/job-single/updated.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
-                            <div class="sidebar-text-info ml-10"><span class="text-description jobtype-icon mb-10">Updated</span><strong class="small-heading">10/07/2022</strong></div>
+                            <div class="sidebar-text-info ml-10"><span class="text-description jobtype-icon mb-10">Ngày cập nhật</span><strong class="small-heading"><?php echo explode(" ", $job->updated_at)[0] ?></strong></div>
                         </div>
                         <div class="col-md-6 d-flex mt-sm-15">
                             <div class="sidebar-icon-item"><img src="<?= asset('assets/imgs/page/job-single/location.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
-                            <div class="sidebar-text-info ml-10"><span class="text-description mb-10">Location</span><strong class="small-heading">Dallas, Texas Remote Friendly</strong></div>
+                            <div class="sidebar-text-info ml-10"><span class="text-description mb-10">Địa chỉ</span><strong class="small-heading"><?= $job->company->address ?></strong></div>
                         </div>
                     </div>
                 </div>
                 <div class="content-single">
-                    <h4>Welcome to AliStudio Team</h4>
-                    <p>The AliStudio Design team has a vision to establish a trusted platform that enables productive and healthy enterprises in a world of digital and remote everything, constantly changing work patterns and norms, and the need for organizational resiliency.</p>
+                    <h4>Chào mừng đến với <?= $job->company->name ?></h4>
+                    <p><?= $job->company->name ?> có tầm nhìn thiết lập một nền tảng đáng tin cậy cho phép các doanh nghiệp hoạt động hiệu quả và lành mạnh trong thế giới của mọi thứ từ xa và kỹ thuật số, các mô hình và chuẩn mực công việc thay đổi liên tục cũng như nhu cầu về khả năng phục hồi của tổ chức.</p>
                     <p>
-                        The ideal candidate will have strong creative skills and a portfolio of work which demonstrates their passion for illustrative design and typography. This candidate will have experiences in working with numerous different design platforms such as digital
-                        and print forms.
+                        Ứng viên lý tưởng sẽ có kỹ năng sáng tạo mạnh mẽ và danh mục công việc thể hiện niềm đam mê của họ đối với thiết kế minh họa và kiểu chữ. Ứng viên này sẽ có kinh nghiệm làm việc với nhiều nền tảng thiết kế khác nhau như kỹ thuật số
+                        và in các biểu mẫu.
                     </p>
-                    <h4>Essential Knowledge, Skills, and Experience</h4>
+                    <h4>Kiến thức, kỹ năng và kinh nghiệm thiết yếu</h4>
                     <ul>
-                        <li>A portfolio demonstrating well thought through and polished end to end customer journeys</li>
-                        <li>5+ years of industry experience in interactive design and / or visual design</li>
-                        <li>Excellent interpersonal skills</li>
-                        <li>Aware of trends in&#x202F;mobile, communications, and collaboration</li>
-                        <li>Ability to create highly polished design prototypes, mockups, and other communication artifacts</li>
-                        <li>The ability to scope and estimate efforts accurately and prioritize tasks and goals independently</li>
-                        <li>History of impacting shipping products with your work</li>
-                        <li>A Bachelor&rsquo;s Degree in Design (or related field) or equivalent professional experience</li>
-                        <li>Proficiency in a variety of design tools such as Figma, Photoshop, Illustrator, and Sketch</li>
+                        <li>Một danh mục đầu tư thể hiện sự suy nghĩ thấu đáo và trau chuốt từ đầu đến cuối hành trình của khách hàng</li>
+                        <li>Hơn 5 năm kinh nghiệm trong ngành về thiết kế tương tác và/hoặc thiết kế trực quan</li>
+                        <li>Kỹ năng quan hệ tuyệt vời</li>
+                        <li>Nhận biết các xu hướng trong di động, truyền thông và cộng tác</li>
+                        <li>Khả năng tạo các nguyên mẫu thiết kế, mô hình mô phỏng và các tạo phẩm giao tiếp khác được đánh bóng cao</li>
+                        <li>Khả năng xác định phạm vi và ước tính nỗ lực một cách chính xác và ưu tiên các nhiệm vụ và mục tiêu một cách độc lập</li>
+                        <li>Lịch sử tác động đến các sản phẩm vận chuyển với công việc của bạn</li>
+                        <li>Bằng Cử nhân về Thiết kế (hoặc lĩnh vực liên quan) hoặc kinh nghiệm chuyên môn tương đương</li>
+                        <li>Thành thạo nhiều công cụ thiết kế như Figma, Photoshop, Illustrator và Sketch</li>
                     </ul>
-                    <h4>Preferred Experience</h4>
+                    <h4>Kinh nghiệm thích hợp</h4>
                     <ul>
-                        <li>Designing user experiences for enterprise software / services</li>
-                        <li>Creating and applying established design principles and interaction patterns</li>
-                        <li>Aligning or influencing design thinking with teams working in other geographies</li>
+                        <li>Thiết kế trải nghiệm người dùng cho phần mềm/dịch vụ doanh nghiệp</li>
+                        <li>Tạo và áp dụng các nguyên tắc thiết kế và mẫu tương tác đã thiết lập</li>
+                        <li>Sắp xếp hoặc ảnh hưởng đến tư duy thiết kế với các nhóm làm việc ở các khu vực địa lý khác</li>
                     </ul>
-                    <h4>Product Designer</h4>
-                    <p><strong>Product knowledge:</strong> Deeply understand the technology and features of the product area to which you are assigned.</p>
-                    <p><strong>Research:</strong> Provide human and business impact and insights for products.</p>
-                    <p><strong>Deliverables:</strong> Create deliverables for your product area (for example competitive analyses, user flows, low fidelity wireframes, high fidelity mockups, prototypes, etc.) that solve real user problems through
-                        the user experience.
+                    <h4>Người thiết kế sản phẩm</h4>
+                    <p><strong>Kiến thức về sản phẩm:</strong> Hiểu sâu về công nghệ, tính năng của mảng sản phẩm mình được phân công phụ trách.</p>
+                    <p><strong>Nghiên cứu:</strong> Cung cấp tác động của con người và doanh nghiệp cũng như hiểu biết sâu sắc về sản phẩm..</p>
+                    <p><strong>Sản phẩm có thể bàn giao:</strong> CTạo sản phẩm bàn giao cho khu vực sản phẩm của bạn (ví dụ: phân tích cạnh tranh, luồng người dùng, khung lưới có độ trung thực thấp, mô hình mô phỏng có độ trung thực cao, nguyên mẫu, v.v.) để giải quyết các vấn đề thực của người dùng thông qua trải nghiệm người dùng..
                     </p>
-                    <p><strong>Communication:</strong> Communicate the results of UX activities within your product area to the design team department, cross-functional partners within your product area, and other interested Superformula team
-                        members using clear language that simplifies complexity.
+                    <p><strong>Giao tiếp:</strong> Truyền đạt kết quả của các hoạt động UX trong khu vực sản phẩm của bạn tới bộ phận nhóm thiết kế, các đối tác đa chức năng trong khu vực sản phẩm của bạn và các thành viên nhóm Superformula quan tâm khác bằng cách sử dụng ngôn ngữ rõ ràng giúp đơn giản hóa sự phức tạp..
                     </p>
                 </div>
-                <div class="author-single"><span>AliThemes</span></div>
+                <div class="author-single"><span><?= $job->company->name ?></span></div>
                 <div class="single-apply-jobs">
                     <div class="row align-items-center">
                         <div class="col-md-5"><a class="btn btn-default mr-15" href="#">Apply now</a><a class="btn btn-border" href="#">Save job</a></div>
@@ -114,7 +112,7 @@ require_once __DIR__ . '/../partials/header.php';
                     <div class="sidebar-heading">
                         <div class="avatar-sidebar">
                             <figure><img alt="<?= env('APP_NAME') ?>" src="<?= asset('assets/imgs/page/job-single/avatar.png') ?>"></figure>
-                            <div class="sidebar-info"><span class="sidebar-company">AliThemes</span><span class="card-location">New York, US</span><a class="link-underline mt-15" href="#">02 Open Jobs</a></div>
+                            <div class="sidebar-info"><span class="sidebar-company"><?= $job->company->name ?></span><span class="card-location"><?= $job->company->address ?></span><a class="link-underline mt-15" href="#">02 Open Jobs</a></div>
                         </div>
                     </div>
                     <div class="sidebar-list-job">
@@ -301,7 +299,7 @@ require_once __DIR__ . '/../partials/header.php';
                                         <div class="row">
                                             <div class="col-lg-7 col-7"><span class="card-text-price">$800</span><span class="text-muted">/Hour</span></div>
                                             <div class="col-lg-5 col-5 text-end">
-                                                <div class="btn btn-apply-now" data-bs-toggle="modal" data-bs-target="#ModalApplyJobForm">Apply now</div>
+                                                <div class="btn btn-apply-now" data-bs-toggle="modal" data-bs-target="#ModalApplyJobForm">Ứng tuyển ngay</div>
                                             </div>
                                         </div>
                                     </div>
