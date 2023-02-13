@@ -117,6 +117,19 @@ CREATE TABLE `cities`
 ) CHARSET = utf8mb4
   COLLATE = utf8mb4_unicode_ci;
 
+DROP TABLE IF EXISTS `settings`;
+CREATE TABLE `settings`
+(
+    `id`         bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+    `key`        varchar(255)        NOT NULL,
+    `value`      text                DEFAULT NULL,
+    `created_at` timestamp           NULL DEFAULT NULL,
+    `updated_at` timestamp           NULL DEFAULT NULL,
+    PRIMARY KEY (`id`),
+    UNIQUE KEY `settings_key_unique` (`key`)
+) CHARSET = utf8mb4
+  COLLATE = utf8mb4_unicode_ci;
+
 INSERT INTO accounts (name, email, password, type)
 VALUES ('Employer', 'employer@web3014.test', '123456', 'employer'),
        ('Job Seeker', 'jobseeker@web3014.test', '123456', 'job_seeker');
