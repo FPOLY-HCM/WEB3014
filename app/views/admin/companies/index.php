@@ -5,7 +5,7 @@ require_once __DIR__ . '/../partials/header.php';
 <div class="panel-white">
     <div class="panel-head d-flex justify-content-between align-items-center">
         <h5>Danh sách Việc làm</h5>
-        <a href="/admin/companies/create" class="btn btn-primary">Thêm mới</a>
+        <a href="/admin/recruiters/create" class="btn btn-primary">Thêm mới</a>
     </div>
     <div class="panel-body">
         <table class="table">
@@ -26,8 +26,8 @@ require_once __DIR__ . '/../partials/header.php';
                     <td><?= $company->name ?></td>
                     <td><?= $company->address ?></td>
                     <td>
-                        <a href="/admin/company/edit?id=<?= $company->id ?>" class="btn btn-sm btn-primary">Sửa</a>
-                        <a href="/admin/company/delete?id=<?= $company->id ?>" class="btn btn-sm btn-danger">Xóa</a>
+                        <a href="/admin/recruiters/edit?id=<?= $company->id ?>" class="btn btn-sm btn-primary">Sửa</a>
+                        <a href="/admin/recruiters/delete?id=<?= $company->id ?>" class="btn btn-sm btn-danger">Xóa</a>
                     </td>
                     </tr>
                 <?php endforeach; ?>

@@ -6,6 +6,8 @@ use App\Controllers\Admin\DashboardController;
 use App\Controllers\Admin\JobController;
 use App\Controllers\Admin\LoginController;
 use App\Controllers\Admin\CompanyController;
+use App\Controllers\Admin\RecruiterController;
+
 use Core\Route;
 
 Route::get('/admin', [DashboardController::class, 'index']);
@@ -20,4 +22,11 @@ Route::get('/admin/jobs/edit', [JobController::class, 'edit']);
 Route::post('/admin/jobs/update', [JobController::class, 'update']);
 Route::get('/admin/jobs/delete', [JobController::class, 'destroy']);
 
-Route::get('/admin/companies', [CompanyController::class, 'index']);
+Route::get('/admin/companies', [CompanyController::class, 'index']);    
+
+Route::get('/admin/recruiters/create', [RecruiterController::class, 'create']);
+Route::post('/admin/recruiters/store', [RecruiterController::class, 'store']);
+Route::get('/admin/recruiters/edit', [RecruiterController::class, 'edit']);
+Route::post('/admin/recruiters/update', [RecruiterController::class, 'update']);
+Route::get('/admin/recruiters/delete', [RecruiterController::class, 'destroy']);
+
