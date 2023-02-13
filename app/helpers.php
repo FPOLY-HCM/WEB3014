@@ -61,15 +61,17 @@ function selected(bool $condition): string|null
     return $condition ? 'selected' : null;
 }
 
-function setting(string|null $key = null, string|null $default = null): Setting|string|null
+function setting(array|string|null $key = null, string|null $default = null): Setting|string|null
 {
     $setting = new Setting();
 
     if (is_array($key)) {
-        $setting->set($key);
-    } elseif (! is_null($key)) {
-        return $setting->get($key, $default);
+        foreach ($key as $k => $v) {
+            $setting->set($k, $v);
+        }
+
+        return $setting;
     }
 
-    return $setting;
+    return $setting->get($key, $default);
 }

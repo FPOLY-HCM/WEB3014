@@ -15,5 +15,8 @@ class SettingController extends Controller
     
     public function store()
     {
+        setting(request()->all())->save();
+
+        return redirect('/admin/settings');
     }
 }
