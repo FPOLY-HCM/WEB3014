@@ -7,7 +7,7 @@ require_once __DIR__ . '/../partials/header.php';
         <h5>Thêm nhà tuyển dụng mới</h5>
     </div>
     <div class="panel-body">
-        <form action="/admin/recruiters/store" method="post">
+        <form action="/admin/companies/store" method="post">
             <div class="form-group">
                 <label for="name" class="form-label">Tên nhà tuyển dụng</label>
                 <input type="text" id="name" name="name" class="form-group">
