@@ -30,16 +30,16 @@ class CompanyController extends Controller
 
     public function edit()
     {
-        $recruiter = Company::findOrFail(request()->query('id'));
+        $company = Company::findOrFail(request()->query('id'));
 
-        return view('admin/companies/edit', compact('recruiter'));
+        return view('admin/companies/edit', compact('company'));
     }
 
     public function update()
     {
-        $recruiter = Company::findOrFail(request()->input('id'));
+        $company = Company::findOrFail(request()->input('id'));
 
-        $recruiter->update(request()->all());
+        $company->update(request()->all());
 
         return redirect('/admin/companies');
     }
