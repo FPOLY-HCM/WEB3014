@@ -56,7 +56,7 @@ require_once __DIR__ . '/../partials/header.php';
                     <div class="row mt-25">
                         <div class="col-md-6 d-flex mt-sm-15">
                             <div class="sidebar-icon-item"><img src="<?= asset('assets/imgs/page/job-single/updated.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
-                            <div class="sidebar-text-info ml-10"><span class="text-description jobtype-icon mb-10">Ngày cập nhật</span><strong class="small-heading"><?php echo explode(" ", $job->updated_at)[0] ?></strong></div>
+                            <div class="sidebar-text-info ml-10"><span class="text-description jobtype-icon mb-10">Ngày cập nhật</span><strong class="small-heading"><?= $job->updated_at->format('d/m/Y') ?></strong></div>
                         </div>
                         <div class="col-md-6 d-flex mt-sm-15">
                             <div class="sidebar-icon-item"><img src="<?= asset('assets/imgs/page/job-single/location.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
@@ -66,36 +66,33 @@ require_once __DIR__ . '/../partials/header.php';
                 </div>
                 <div class="content-single">
                     <h4>Chào mừng đến với <?= $job->company->name ?></h4>
-                    <p><?= $job->company->name ?> có tầm nhìn thiết lập một nền tảng đáng tin cậy cho phép các doanh nghiệp hoạt động hiệu quả và lành mạnh trong thế giới của mọi thứ từ xa và kỹ thuật số, các mô hình và chuẩn mực công việc thay đổi liên tục cũng như nhu cầu về khả năng phục hồi của tổ chức.</p>
+                    <p><?= $job->content ?>.</p>
                     <p>
-                        Ứng viên lý tưởng sẽ có kỹ năng sáng tạo mạnh mẽ và danh mục công việc thể hiện niềm đam mê của họ đối với thiết kế minh họa và kiểu chữ. Ứng viên này sẽ có kinh nghiệm làm việc với nhiều nền tảng thiết kế khác nhau như kỹ thuật số
-                        và in các biểu mẫu.
+                    <?= $job->content ?>.
                     </p>
                     <h4>Kiến thức, kỹ năng và kinh nghiệm thiết yếu</h4>
                     <ul>
-                        <li>Một danh mục đầu tư thể hiện sự suy nghĩ thấu đáo và trau chuốt từ đầu đến cuối hành trình của khách hàng</li>
-                        <li>Hơn 5 năm kinh nghiệm trong ngành về thiết kế tương tác và/hoặc thiết kế trực quan</li>
-                        <li>Kỹ năng quan hệ tuyệt vời</li>
-                        <li>Nhận biết các xu hướng trong di động, truyền thông và cộng tác</li>
-                        <li>Khả năng tạo các nguyên mẫu thiết kế, mô hình mô phỏng và các tạo phẩm giao tiếp khác được đánh bóng cao</li>
-                        <li>Khả năng xác định phạm vi và ước tính nỗ lực một cách chính xác và ưu tiên các nhiệm vụ và mục tiêu một cách độc lập</li>
-                        <li>Lịch sử tác động đến các sản phẩm vận chuyển với công việc của bạn</li>
-                        <li>Bằng Cử nhân về Thiết kế (hoặc lĩnh vực liên quan) hoặc kinh nghiệm chuyên môn tương đương</li>
-                        <li>Thành thạo nhiều công cụ thiết kế như Figma, Photoshop, Illustrator và Sketch</li>
+                        <li><?= $job->content ?></li>
+                        <li><?= $job->content ?></li>
+                        <li><?= $job->content ?></li>
+                        <li><?= $job->content ?></li>
+                        <li><?= $job->content ?></li>
+                        <li><?= $job->content ?></li>
+                        <li><?= $job->content ?></li>
+                        <li><?= $job->content ?></li>
+                        <li><?= $job->content ?></li>
                     </ul>
                     <h4>Kinh nghiệm thích hợp</h4>
                     <ul>
-                        <li>Thiết kế trải nghiệm người dùng cho phần mềm/dịch vụ doanh nghiệp</li>
-                        <li>Tạo và áp dụng các nguyên tắc thiết kế và mẫu tương tác đã thiết lập</li>
-                        <li>Sắp xếp hoặc ảnh hưởng đến tư duy thiết kế với các nhóm làm việc ở các khu vực địa lý khác</li>
+                        <li><?= $job->content ?></li>
+                        <li><?= $job->content ?></li>
+                        <li><?= $job->content ?></li>
                     </ul>
                     <h4>Người thiết kế sản phẩm</h4>
-                    <p><strong>Kiến thức về sản phẩm:</strong> Hiểu sâu về công nghệ, tính năng của mảng sản phẩm mình được phân công phụ trách.</p>
-                    <p><strong>Nghiên cứu:</strong> Cung cấp tác động của con người và doanh nghiệp cũng như hiểu biết sâu sắc về sản phẩm..</p>
-                    <p><strong>Sản phẩm có thể bàn giao:</strong> CTạo sản phẩm bàn giao cho khu vực sản phẩm của bạn (ví dụ: phân tích cạnh tranh, luồng người dùng, khung lưới có độ trung thực thấp, mô hình mô phỏng có độ trung thực cao, nguyên mẫu, v.v.) để giải quyết các vấn đề thực của người dùng thông qua trải nghiệm người dùng..
-                    </p>
-                    <p><strong>Giao tiếp:</strong> Truyền đạt kết quả của các hoạt động UX trong khu vực sản phẩm của bạn tới bộ phận nhóm thiết kế, các đối tác đa chức năng trong khu vực sản phẩm của bạn và các thành viên nhóm Superformula quan tâm khác bằng cách sử dụng ngôn ngữ rõ ràng giúp đơn giản hóa sự phức tạp..
-                    </p>
+                    <p><?= $job->content ?>.</p>
+                    <p><?= $job->content ?>.</p>
+                    <p><?= $job->content ?></p>
+                    <p><?= $job->content ?></p>
                 </div>
                 <div class="author-single"><span><?= $job->company->name ?></span></div>
                 <div class="single-apply-jobs">
