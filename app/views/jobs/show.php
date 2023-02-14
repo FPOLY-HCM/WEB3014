@@ -67,32 +67,6 @@ require_once __DIR__ . '/../partials/header.php';
                 <div class="content-single">
                     <h4>Chào mừng đến với <?= $job->company->name ?></h4>
                     <p><?= $job->content ?>.</p>
-                    <p>
-                    <?= $job->content ?>.
-                    </p>
-                    <h4>Kiến thức, kỹ năng và kinh nghiệm thiết yếu</h4>
-                    <ul>
-                        <li><?= $job->content ?></li>
-                        <li><?= $job->content ?></li>
-                        <li><?= $job->content ?></li>
-                        <li><?= $job->content ?></li>
-                        <li><?= $job->content ?></li>
-                        <li><?= $job->content ?></li>
-                        <li><?= $job->content ?></li>
-                        <li><?= $job->content ?></li>
-                        <li><?= $job->content ?></li>
-                    </ul>
-                    <h4>Kinh nghiệm thích hợp</h4>
-                    <ul>
-                        <li><?= $job->content ?></li>
-                        <li><?= $job->content ?></li>
-                        <li><?= $job->content ?></li>
-                    </ul>
-                    <h4>Người thiết kế sản phẩm</h4>
-                    <p><?= $job->content ?>.</p>
-                    <p><?= $job->content ?>.</p>
-                    <p><?= $job->content ?></p>
-                    <p><?= $job->content ?></p>
                 </div>
                 <div class="author-single"><span><?= $job->company->name ?></span></div>
                 <div class="single-apply-jobs">
