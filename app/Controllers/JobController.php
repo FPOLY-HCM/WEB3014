@@ -18,9 +18,8 @@ class JobController extends Controller
 
     public function show()
     {
-        $job = Job::findOrFail(request()->query('id'));
-        $company = Job::query()->with(['company'])->findOrFail(request()->query('id'));
+        $job = Job::query()->with('company')->findOrFail(request()->query('id'));
 
-        return view('jobs/show', compact('job', 'company'));
+        return view('jobs/show', compact('job'));
     }
 }
