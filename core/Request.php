@@ -10,10 +10,13 @@ class Request
 
     protected array $get;
 
+    protected array $file;
+
     public function __construct()
     {
         $this->post = $_POST;
         $this->get = $_GET;
+        $this->file = $_FILES;
     }
 
     public function getPath(): string
@@ -39,13 +42,18 @@ class Request
         return array_merge($this->post, $this->get);
     }
 
-    public function input(string $key): string
+    public function input(string $key): string|null
     {
-        return $this->post[$key] ?? '';
+        return $this->post[$key] ?? null;
     }
 
-    public function query(string $key): string
+    public function query(string $key): string|null
     {
-        return $this->get[$key] ?? '';
+        return $this->get[$key] ?? null;
+    }
+
+    public function file(string $key): array|null
+    {
+        return $this->file[$key] ?? null;
     }
 }

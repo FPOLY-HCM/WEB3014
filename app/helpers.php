@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 use Core\Auth;
+use Core\Navigation;
 use Core\Request;
 use Core\Setting;
 use Core\View;

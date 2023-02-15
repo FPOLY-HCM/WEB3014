@@ -46,7 +46,7 @@ require_once __DIR__ . '/../partials/header.php';
                         </div>
                         <div class="form-group">
                             <label for="email" class="form-label">Email</label>
-                            <input type="email" id="email" class="form-control" disabled value="<?= $account->name ?>">
+                            <input type="email" id="email" class="form-control" disabled value="<?= $account->email ?>">
                         </div>
                         <div class="form-group">
                             <label for="phone" class="form-label">Số điện thoại</label>
