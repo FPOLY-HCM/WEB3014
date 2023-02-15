@@ -65,7 +65,7 @@ require_once __DIR__ . '/../partials/header.php';
                     </div>
                 </div>
                 <div class="content-single">
-                    <p><?= $job->content ?>.</p>
+                    <?= $job->content ?>
                 </div>
                 <div class="author-single"><span><?= $job->company->name ?></span></div>
                 <div class="single-apply-jobs">
