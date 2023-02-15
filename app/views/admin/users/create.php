@@ -20,7 +20,7 @@ require_once __DIR__ . '/../partials/header.php';
                 <label for="name" class="form-label">Mật khẩu</label>
                 <input type="text" id="password" name="password" class="form-group">
             </div>
-            <button type="submit" class="btn btn-primary">Cập nhật</button>
+            <button type="submit" class="btn btn-primary">Thêm Mới</button>
         </form> 
     </div>
 </div>
