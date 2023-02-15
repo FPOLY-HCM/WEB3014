@@ -5,19 +5,19 @@ require_once __DIR__ . '/../partials/header.php';
 <main class="main">
     <section class="section-box-2">
         <div class="container">
-            <div class="banner-hero banner-image-single"><img src="/assets/imgs/page/company/img.png" alt="jobBox"></div>
+            <div class="banner-hero banner-image-single"><img src="<?= $company->cover_image ?>" alt="<?= $company->name ?>"></div>
             <div class="box-company-profile">
                 <div class="image-compay"><img src="/assets/imgs/page/company/company.png" alt="jobBox"></div>
                 <div class="row mt-10">
                     <div class="col-lg-8 col-md-12">
                         <h5 class="f-18"><?= $company->name ?><span class="card-location font-regular ml-20"><?= $company->address ?></span></h5>
                     </div>
-                    <div class="col-lg-4 col-md-12 text-lg-end"><a class="btn btn-call-icon btn-apply btn-apply-big" href="page-contact.html">Contact us</a></div>
+                    <div class="col-lg-4 col-md-12 text-lg-end"><a class="btn btn-call-icon btn-apply btn-apply-big" href="page-contact.html">Liên hệ</a></div>
                 </div>
             </div>
             <div class="box-nav-tabs mt-40 mb-5">
                 <ul class="nav" role="tablist">
-                    <li><a class="btn btn-border aboutus-icon mr-15 mb-5 active" href="#tab-about" data-bs-toggle="tab" role="tab" aria-controls="tab-about" aria-selected="true">About us</a></li>
+                    <li><a class="btn btn-border aboutus-icon mr-15 mb-5 active" href="#tab-about" data-bs-toggle="tab" role="tab" aria-controls="tab-about" aria-selected="true">Về chúng tôi</a></li>
                 </ul>
             </div>
             <div class="border-bottom pt-10 pb-10"></div>
@@ -31,7 +31,7 @@ require_once __DIR__ . '/../partials/header.php';
                         <?= $company->description ?>
                     </div>
                     <div class="box-related-job content-page">
-                        <h5 class="mb-30">Latest Jobs</h5>
+                        <h5 class="mb-30">Công việc mới nhất</h5>
                         <div class="box-list-jobs display-list">
                             <?php foreach ($company->jobs as $job) : ?>
                                 <div class="col-xl-12 col-12">
@@ -81,34 +81,16 @@ require_once __DIR__ . '/../partials/header.php';
                         <div class="sidebar-list-job">
                             <ul>
                                 <li>
-                                    <div class="sidebar-icon-item"><i class="fi-rr-briefcase"></i></div>
-                                    <div class="sidebar-text-info"><span class="text-description">Company field</span><strong class="small-heading">Accounting / Finance</strong></div>
-                                </li>
-                                <li>
                                     <div class="sidebar-icon-item"><i class="fi-rr-marker"></i></div>
-                                    <div class="sidebar-text-info"><span class="text-description">Location</span><strong class="small-heading">Chicago, US Remote Friendly</strong></div>
-                                </li>
-                                <li>
-                                    <div class="sidebar-icon-item"><i class="fi-rr-dollar"></i></div>
-                                    <div class="sidebar-text-info"><span class="text-description">Salary</span><strong class="small-heading">$35k - $45k</strong></div>
-                                </li>
-                                <li>
-                                    <div class="sidebar-icon-item"><i class="fi-rr-clock"></i></div>
-                                    <div class="sidebar-text-info"><span class="text-description">Member since</span><strong class="small-heading">Jul 2012</strong></div>
-                                </li>
-                                <li>
-                                    <div class="sidebar-icon-item"><i class="fi-rr-time-fast"></i></div>
-                                    <div class="sidebar-text-info"><span class="text-description">Last Jobs Posted</span><strong class="small-heading">4 days</strong></div>
+                                    <div class="sidebar-text-info"><span class="text-description">Địa chỉ</span><strong class="small-heading"><?= $company->address ?></strong></div>
                                 </li>
                             </ul>
                         </div>
                         <div class="sidebar-list-job">
                             <ul class="ul-disc">
-                                <li>205 North Michigan Avenue, Suite 810 Chicago, 60601, USA</li>
-                                <li>Phone: (123) 456-7890</li>
-                                <li>Email: contact@Evara.com</li>
+                                <li><?= $company->address ?></li>
                             </ul>
-                            <div class="mt-30"><a class="btn btn-send-message" href="page-contact.html">Send Message</a></div>
+                            <div class="mt-30"><a class="btn btn-send-message" href="page-contact.html">Gửi tin nhắn</a></div>
                         </div>
                     </div>
                 </div>
