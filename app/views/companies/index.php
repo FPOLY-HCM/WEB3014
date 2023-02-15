@@ -72,13 +72,13 @@ require_once __DIR__ . '/../partials/header.php';
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="card-grid-1 hover-up wow animate__animated animate__fadeIn">
                                     <div class="image-box">
-                                        <a href="/companies/show">
+                                        <a href="/companies/show?id=<?= $company->id ?>">
                                             <img src="<?= asset($company->logo) ?>" alt="<?= $company->name ?>">
                                         </a>
                                     </div>
                                     <div class="info-text mt-10">
                                         <h5 class="font-bold">
-                                            <a href="/companies/show"><?= $company->name ?></a>
+                                            <a href="/companies/show?id=<?= $company->id ?>"><?= $company->name ?></a>
                                         </h5>
                                         <div class="mt-5">
                                             <?php foreach (range(1, 5) as $i) : ?>

@@ -18,6 +18,10 @@ class CompanyController extends Controller
 
     public function show()
     {
-        return view('companies/show');
+        $company = Company::query()
+            ->with('jobs', fn ($query) => $query->limit(3))
+            ->findOrFail(request()->query('id'));
+
+        return view('companies/show', compact('company'));
     }
 }
