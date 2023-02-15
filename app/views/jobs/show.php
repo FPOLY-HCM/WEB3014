@@ -65,7 +65,6 @@ require_once __DIR__ . '/../partials/header.php';
                     </div>
                 </div>
                 <div class="content-single">
-                    <h4>Chào mừng đến với <?= $job->company->name ?></h4>
                     <p><?= $job->content ?>.</p>
                 </div>
                 <div class="author-single"><span><?= $job->company->name ?></span></div>
