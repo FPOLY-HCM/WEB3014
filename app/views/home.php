@@ -116,17 +116,17 @@ require_once __DIR__ . '/partials/header.php';
                                                 <img src="<?= asset($job->company->logo) ?>" alt="<?= $job->company->name ?>">
                                             </div>
                                             <div class="right-info">
-                                                <a class="name-job" href="/jobs/show"><?= $job->company->name ?></a>
+                                                <a class="name-job" href="/jobs/show?id=<?= $job->id ?>"><?= $job->company->name ?></a>
                                                 <span class="location-small"><?= $job->city->name ?></span>
                                             </div>
                                         </div>
                                         <div class="card-block-info">
                                             <h6>
-                                                <a href="/jobs/show"><?= $job->name ?></a>
+                                                <a href="/jobs/show?id=<?= $job->id ?>"><?= $job->name ?></a>
                                             </h6>
                                             <div class="mt-5">
                                                 <span class="card-briefcase">Fulltime</span>
-                                                <span class="card-time"><?= $job->created_at ?></span>
+                                                <span class="card-time"><?= $job->created_at->diffForHumans() ?></span>
                                             </div>
                                             <p class="font-sm color-text-paragraph mt-15"><?= $job->description ?></p>
                                             <div class="mt-30">

@@ -16,22 +16,13 @@ class RegisterController extends Controller
 
     public function register()
     {
-        $name = request()->input('name');
-        $email = request()->input('email');
-        $password = request()->input('password');
-        $password_confirmation = request()->input('password_confirmation');
-
-        $account = Account::create([
-            'name' => $name,
-            'email' => $email,
-            'password' => $password,
-        ]);
+        $account = Account::create(request()->all());
 
         if (! $account) {
             return redirect('/register');
         }
 
-        if (auth()->attempt($email, $password)) {
+        if (auth()->attempt(request()->input('email'), request()->input('password'))) {
             return redirect('/');
         }
 

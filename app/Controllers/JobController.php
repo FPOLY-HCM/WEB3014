@@ -18,8 +18,16 @@ class JobController extends Controller
 
     public function show()
     {
-        $job = Job::query()->with('company')->findOrFail(request()->query('id'));
+        $job = Job::query()
+            ->with('company', fn ($query) => $query->withCount('jobs'))
+            ->findOrFail(request()->query('id'));
 
-        return view('jobs/show', compact('job'));
+        $similarJobs = Job::query()
+            ->where('category_id', $job->category_id)
+            ->with(['company', 'city'])
+            ->inRandomOrder()
+            ->get();
+
+        return view('jobs/show', compact('job', 'similarJobs'));
     }
 }
