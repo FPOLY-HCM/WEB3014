@@ -39,8 +39,8 @@ require_once __DIR__ . '/../partials/header.php';
                                         <div class="row">
                                             <div class="col-lg-6 col-md-6 col-sm-12">
                                                 <div class="card-grid-2-image-left">
-                                                    <div class="image-box"><img src="/assets/imgs/brands/brand-6.png" alt="jobBox"></div>
-                                                    <div class="right-info"><a class="name-job" href="">Quora JSC</a><span class="location-small">New York, US</span></div>
+                                                    <div class="image-box"><img src="<?= $company->logo ?>" alt="<?= $job->name ?>"></div>
+                                                    <div class="right-info"><a class="name-job" href=""><?= $company->name ?></a><span class="location-small"><?= $job->address ?></span></div>
                                                 </div>
                                             </div>
                                             <div class="col-lg-6 text-start text-md-end pr-60 col-md-6 col-sm-12">
@@ -48,12 +48,12 @@ require_once __DIR__ . '/../partials/header.php';
                                             </div>
                                         </div>
                                         <div class="card-block-info">
-                                            <h4><a href="job-details.html">Senior System Engineer</a></h4>
+                                            <h4><a href="job-details.html"><?= $job->name ?></a></h4>
                                             <div class="mt-5"><span class="card-briefcase">Part time</span><span class="card-time"><span>5</span><span> mins ago</span></span></div>
-                                            <p class="font-sm color-text-paragraph mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
+                                            <p class="font-sm color-text-paragraph mt-10"><?= $job->description ?>.</p>
                                             <div class="card-2-bottom mt-20">
                                                 <div class="row">
-                                                    <div class="col-lg-7 col-7"><span class="card-text-price">$800</span><span class="text-muted">/Hour</span></div>
+                                                    <div class="col-lg-7 col-7"><span class="card-text-price"><?= money_format($job->salary) ?></span><span class="text-muted">/<?= $job->salary_range ?></span></div>
                                                     <div class="col-lg-5 col-5 text-end">
                                                         <div class="btn btn-apply-now" data-bs-toggle="modal" data-bs-target="#ModalApplyJobForm">Apply now</div>
                                                     </div>
