@@ -337,7 +337,7 @@ require_once __DIR__ . '/../partials/header.php';
 										</div>
 									</div>
 									<div class="card-block-info">
-										<h4><a href="/jobs/show"><?= $job->name ?></a></h4>
+										<h4><a href="/jobs/show?id=<?= $job->id ?>"><?= $job->name ?></a></h4>
 										<div class="mt-5"><span class="card-briefcase">Fulltime</span><span class="card-time"><span>4</span><span> mins ago</span></span></div>
 										<p class="font-sm color-text-paragraph mt-10"><?= $job->description ?></p>
 										<div class="card-2-bottom mt-20">
