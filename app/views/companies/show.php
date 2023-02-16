@@ -5,9 +5,9 @@ require_once __DIR__ . '/../partials/header.php';
 <main class="main">
     <section class="section-box-2">
         <div class="container">
-            <div class="banner-hero banner-image-single"><img src="<?= $company->cover_image ?>" alt="<?= $company->name ?>"></div>
+            <div class="banner-hero banner-image-single"><img src="<?= asset($company->cover_image) ?>" alt="<?= $company->name ?>"></div>
             <div class="box-company-profile">
-                <div class="image-compay"><img src="/assets/imgs/page/company/company.png" alt="jobBox"></div>
+                <div class="image-compay"><img src="<?= asset($company->logo) ?>" alt="<?= $company->name ?>" style="min-height: 100px;"></div>
                 <div class="row mt-10">
                     <div class="col-lg-8 col-md-12">
                         <h5 class="f-18"><?= $company->name ?><span class="card-location font-regular ml-20"><?= $company->address ?></span></h5>
@@ -40,7 +40,7 @@ require_once __DIR__ . '/../partials/header.php';
                                             <div class="col-lg-6 col-md-6 col-sm-12">
                                                 <div class="card-grid-2-image-left">
                                                     <div class="image-box"><img src="<?= $company->logo ?>" alt="<?= $job->name ?>"></div>
-                                                    <div class="right-info"><a class="name-job" href=""><?= $company->name ?></a><span class="location-small"><?= $job->address ?></span></div>
+                                                    <div class="right-info"><a class="name-job" href="/jobs/show?id=<?= $job->id ?>"><?= $company->name ?></a><span class="location-small"><?= $job->address ?></span></div>
                                                 </div>
                                             </div>
                                             <div class="col-lg-6 text-start text-md-end pr-60 col-md-6 col-sm-12">
@@ -48,14 +48,14 @@ require_once __DIR__ . '/../partials/header.php';
                                             </div>
                                         </div>
                                         <div class="card-block-info">
-                                            <h4><a href="job-details.html"><?= $job->name ?></a></h4>
-                                            <div class="mt-5"><span class="card-briefcase">Part time</span><span class="card-time"><span>5</span><span> mins ago</span></span></div>
+                                            <h4><a href="/jobs/show?id=<?= $job->id ?>"><?= $job->name ?></a></h4>
+                                            <div class="mt-5"><span class="card-briefcase">Toàn thời gian</span><span class="card-time"><?= $job->created_at->diffForHumans() ?></div>
                                             <p class="font-sm color-text-paragraph mt-10"><?= $job->description ?>.</p>
                                             <div class="card-2-bottom mt-20">
                                                 <div class="row">
                                                     <div class="col-lg-7 col-7"><span class="card-text-price"><?= money_format($job->salary) ?></span><span class="text-muted">/<?= $job->salary_range ?></span></div>
                                                     <div class="col-lg-5 col-5 text-end">
-                                                        <div class="btn btn-apply-now" data-bs-toggle="modal" data-bs-target="#ModalApplyJobForm">Apply now</div>
+                                                        <div class="btn btn-apply-now" data-bs-toggle="modal" data-bs-target="#ModalApplyJobForm">Ứng tuyển ngay</div>
                                                     </div>
                                                 </div>
                                             </div>
