@@ -15,11 +15,10 @@ class CategoryController extends Controller
 
         return view('admin/categories/index', compact('categories'));
     }
+
     public function create()
-    {
-        $categories = Category::all();
-    
-        return view('admin/categories/create', compact('categories'));
+    {   
+        return view('admin/categories/create');
     }
 
     public function store()
@@ -28,27 +27,28 @@ class CategoryController extends Controller
 
         return redirect('/admin/categories');
     }
+
     public function edit()
     {
-        $categories = Category::findOrFail(request()->query('id'));
+        $category = Category::findOrFail(request()->query('id'));
 
-        return view('admin/categories/edit', compact('categories'));
+        return view('admin/categories/edit', compact('category'));
     }
 
     public function update()
     {
-        $categories = Category::findOrFail(request()->input('id'));
+        $category = Category::findOrFail(request()->input('id'));
 
-        $categories->update(request()->all());
+        $category->update(request()->all());
 
         return redirect('/admin/categories');
     }
 
     public function destroy()
     {
-        $categories = Category::findOrFail(request()->query('id'));
+        $category = Category::findOrFail(request()->query('id'));
 
-        $categories->delete();
+        $category->delete();
 
         return redirect('/admin/categories');
     }    

@@ -8,14 +8,14 @@ require_once __DIR__ . '/../partials/header.php';
     </div>
     <div class="panel-body">
         <form action="/admin/categories/update" method="post">
-            <input type="hidden" name="id" value="<?= $categories->id ?>">
+            <input type="hidden" name="id" value="<?= $category->id ?>">
             <div class="form-group">
                 <label for="name" class="form-label">Tên nhà danh mục</label>
-                <input type="text" id="name" name="name" class="form-group" value="<?= $categories->name ?>">
+                <input type="text" id="name" name="name" class="form-group" value="<?= $category->name ?>">
             </div>
             <div class="form-group">
                 <label for="logo" class="form-label">Icon</label>
-                <input type="file" name="icon" id="icon" class="form-control" value="<?= $categories->icon ?>">
+                <input type="file" name="icon" id="icon" class="form-control" value="<?= $category->icon ?>">
             </div>
             <button type="submit" class="btn btn-primary">Cập nhật</button>
         </form>

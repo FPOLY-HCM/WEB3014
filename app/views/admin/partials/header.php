@@ -204,7 +204,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="dashboard2" href="my-tasks-list.html">
+                        <a class="dashboard2" href="/admin/categories">
                             <img src="<?= asset('assets/dashboard/imgs/page/dashboard/tasks.svg') ?>" alt="<?= env('APP_NAME') ?>">
                             <span class="name">Danh mục</span>
                         </a>
