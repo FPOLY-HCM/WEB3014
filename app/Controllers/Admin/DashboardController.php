@@ -18,11 +18,11 @@ class DashboardController extends Controller
             redirect('admin/login');
         }
 
-        $totalAccounts = Account::count();
-        $totalCompanies = Company::count();
-        $totalJobs = Job::count();
-        $totalApplications = Application::count();
+        $accountsCount = Account::count();
+        $companiesCount = Company::count();
+        $jobsCount = Job::count();
+        $applicationsCount = Application::count();
 
-        return view('admin/dashboard',['totalAccounts' => $totalAccounts, 'totalCompanies' => $totalCompanies,'totalJobs' => $totalJobs,'totalApplications' => $totalApplications]);
+        return view('admin/dashboard', compact('accountsCount', 'companiesCount', 'jobsCount', 'applicationsCount'));
     }
 }

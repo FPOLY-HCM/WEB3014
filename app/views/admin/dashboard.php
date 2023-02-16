@@ -11,7 +11,7 @@ require_once __DIR__ . '/partials/header.php';
                         <div class="card-image"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/computer.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
                         <div class="card-info">
                             <div class="card-title">
-                                <h3><?= $totalAccounts ?><span class="font-sm status up">25<span>%</span></span>
+                                <h3><?= $accountsCount ?><span class="font-sm status up">25<span>%</span></span>
                                 </h3>
                             </div>
                             <p class="color-text-paragraph-2"> Tổng số tài khoản</p>
@@ -23,7 +23,7 @@ require_once __DIR__ . '/partials/header.php';
                         <div class="card-image"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/bank.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
                         <div class="card-info">
                             <div class="card-title">
-                                <h3><?= $totalCompanies ?><span class="font-sm status up">5<span>%</span></span>
+                                <h3><?= $companiesCount ?><span class="font-sm status up">5<span>%</span></span>
                                 </h3>
                             </div>
                             <p class="color-text-paragraph-2">Tổng số nhà tuyển dụng</p>
@@ -35,7 +35,7 @@ require_once __DIR__ . '/partials/header.php';
                         <div class="card-image"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/headphone.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
                         <div class="card-info">
                             <div class="card-title">
-                                <h3><?= $totalJobs ?><span class="font-sm status up">5<span>%</span></span>
+                                <h3><?= $jobsCount ?><span class="font-sm status up">5<span>%</span></span>
                                 </h3>
                             </div>
                             <p class="color-text-paragraph-2">Tổng số công việc</p>
@@ -47,10 +47,10 @@ require_once __DIR__ . '/partials/header.php';
                         <div class="card-image"> <img src="<?= asset('assets/dashboard/imgs/page/dashboard/open-file.svg') ?>" alt="<?= env('APP_NAME') ?>"></div>
                         <div class="card-info">
                             <div class="card-title">
-                                <h3><?= $totalApplications ?><span class="font-sm status down">- 2%</span>
+                                <h3><?= $applicationsCount ?><span class="font-sm status down">- 2%</span>
                                 </h3>
                             </div>
-                            <p class="color-text-paragraph-2">Tổng số ứng dụng</p>
+                            <p class="color-text-paragraph-2">Tổng đơn ứng tuyển</p>
                         </div>
                     </div>
                 </div>
