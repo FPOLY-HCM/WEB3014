@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+use App\Controllers\Account\CompanyController as AccountCompanyController;
+use App\Controllers\Account\JobController as AccountJobController;
 use App\Controllers\HomeController;
 use App\Controllers\Auth\LoginController;
 use App\Controllers\Auth\RegisterController;
@@ -33,3 +35,11 @@ Route::get('/candidates', [CandidateController::class, 'index']);
 Route::get('/candidate/show', [CandidateController::class, 'show']);
 
 Route::get('/account/profile', [AccountController::class, 'profile']);
+
+Route::get('/account/companies', [AccountCompanyController::class, 'index']);
+Route::get('/account/companies/create', [AccountCompanyController::class, 'create']);
+Route::post('/account/companies/store', [AccountCompanyController::class, 'store']);
+
+Route::get('/account/jobs', [AccountJobController::class, 'index']);
+Route::get('/account/jobs/create', [AccountJobController::class, 'create']);
+Route::post('/account/jobs/store', [AccountJobController::class, 'store']);

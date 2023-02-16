@@ -1,4 +1,7 @@
 <?php
+
+use App\Enums\AccountType;
+
 require_once __DIR__ . '/../partials/header.php';
 ?>
 
@@ -27,6 +30,14 @@ require_once __DIR__ . '/../partials/header.php';
                     <div class="form-group">
                         <label class="form-label" for="password_confirmation">Nhập lại mật khẩu *</label>
                         <input class="form-control" id="password_confirmation" type="password" required="" name="password_confirmation" placeholder="************">
+                    </div>
+                    <div class="form-group">
+                        <label for="type" class="form-label">Loại tài khoản</label>
+                        <select name="type" id="type" class="form-control form-select">
+                            <?php foreach (AccountType::cases() as $type) : ?>
+                                <option value="<?= $type->value ?>"><?= $type->label() ?></option>
+                            <?php endforeach; ?>
+                        </select>
                     </div>
                     <div class="login_footer form-group d-flex justify-content-between">
                         <label class="cb-container">

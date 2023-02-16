@@ -186,7 +186,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="dashboard2" href="candidates.html">
+                        <a class="dashboard2" href="/admin/users">
                             <img src="<?= asset('assets/dashboard/imgs/page/dashboard/candidates.svg') ?>" alt="<?= env('APP_NAME') ?>">
                             <span class="name">Người dùng</span>
                         </a>
