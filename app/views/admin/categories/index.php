@@ -20,7 +20,7 @@ require_once __DIR__ . '/../partials/header.php';
             <?php foreach ($categories as $category) : ?>
                     <tr>
                     <td><?= $category->id ?></td>
-                    <td><img src="<?= $category->icon ?>" alt="<?= $category->name ?>" class="align-middle"></td>
+                    <td><img src="<?= asset($category->icon) ?>" alt="<?= $category->name ?>" class="align-middle"></td>
                     <td><?= $category->name ?></td>
                     <td>
                         <a href="/admin/categories/edit?id=<?= $category->id ?>" class="btn btn-sm btn-primary">Sửa</a>
