@@ -7,7 +7,6 @@ use App\Controllers\Admin\JobController;
 use App\Controllers\Admin\LoginController;
 use App\Controllers\Admin\CompanyController;
 use App\Controllers\Admin\SettingController;
-use App\Controllers\Admin\UsersController;
 use Core\Route;
 
 Route::get('/admin', [DashboardController::class, 'index']);
@@ -20,5 +19,7 @@ Route::resource('/admin/companies', CompanyController::class);
 
 Route::get('/admin/settings', [SettingController::class, 'index']);
 Route::post('/admin/settings', [SettingController::class, 'store']);
+
+Route::resource('/admin/categories', CategoryController::class);
 
 Route::resource('/admin/users', UsersController::class);
