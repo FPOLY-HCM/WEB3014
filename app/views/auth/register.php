@@ -42,7 +42,8 @@ require_once __DIR__ . '/../partials/header.php';
                     <div class="login_footer form-group d-flex justify-content-between">
                         <label class="cb-container">
                             <input type="checkbox"><span class="text-small">Đồng ý điều khoản và bảo mật</span><span class="checkmark"></span>
-                        </label><a class="text-muted" href="page-contact.html">Tìm hiểu thêm</a>
+                        </label>
+                        <a class="text-muted" href="page-contact.html">Tìm hiểu thêm</a>
                     </div>
                     <div class="form-group">
                         <button class="btn btn-brand-1 hover-up w-100" type="submit">Đăng ký</button>
