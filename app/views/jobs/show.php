@@ -14,7 +14,11 @@ require_once __DIR__ . '/../partials/header.php';
                 </div>
             </div>
             <div class="col-lg-4 col-md-12 text-lg-end">
-                <div class="btn btn-apply-icon btn-apply btn-apply-big hover-up" data-bs-toggle="modal" data-bs-target="#ModalApplyJobForm">Ứng tuyển ngay</div>
+                <?php if (auth()->check()) : ?>
+                    <div class="btn btn-apply-icon btn-apply btn-apply-big hover-up" data-bs-toggle="modal" data-bs-target="#ModalApplyJobForm">Ứng tuyển ngay</div>
+                <?php else : ?>
+                    <a href="/login"><div class="btn btn-apply-icon btn-apply btn-apply-big hover-up" data-bs-toggle="modal" data-bs-target="#ModalApplyJobForm">Ứng tuyển ngay</div></a>
+                <?php endif; ?>
             </div>
         </div>
         <div class="border-bottom pt-10 pb-10"></div>

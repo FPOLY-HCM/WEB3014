@@ -344,7 +344,7 @@ require_once __DIR__ . '/../partials/header.php';
 											<div class="row">
 												<div class="col-lg-7 col-7"><span class="card-text-price"><?= number_format($job->salary) ?></span><span class="text-muted">/<?= $job->salary_range ?></span></div>
 												<div class="col-lg-5 col-5 text-end">
-													<div class="btn btn-apply-now" data-bs-toggle="modal" data-bs-target="#ModalApplyJobForm">Apply now</div>
+													<a href="/jobs/show?id=<?= $job->id ?>"><div class="btn btn-apply-now">Xem thêm</div></a>
 												</div>
 											</div>
 										</div>

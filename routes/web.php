@@ -13,6 +13,7 @@ use App\Controllers\JobController;
 use App\Controllers\BlogController;
 use App\Controllers\CandidateController;
 use App\Controllers\AccountController;
+use App\Controllers\ApplicationController;
 
 use Core\Route;
 
