@@ -12,9 +12,9 @@ require_once __DIR__ . '/../partials/header.php';
             <thead>
                 <tr>
                     <th>ID</th>
-                    <th>Logo</th>
-                    <th>Nhà tuyển dụng</th>
-                    <th>Nhà tuyển dụng</th>
+                    <th>Tên công việc</th>
+                    <th>Tên tài khoản</th>
+                    <th>Trạng thái</th>
                 </tr>
             </thead>
             <tbody>
