@@ -11,7 +11,9 @@ class JobController extends Controller
 {
     public function index()
     {
-        $jobs = Job::query()->with(['company', 'city'])->get();
+        $jobs = Job::query()
+            ->with(['company', 'city'])
+            ->get();
 
         return view('jobs/index', compact('jobs'));
     }

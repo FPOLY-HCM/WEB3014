@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use App\Controllers\Account\ApplicationController;
 use App\Controllers\Account\CompanyController as AccountCompanyController;
 use App\Controllers\Account\JobController as AccountJobController;
 use App\Controllers\HomeController;
@@ -43,3 +44,6 @@ Route::post('/account/companies/store', [AccountCompanyController::class, 'store
 Route::get('/account/jobs', [AccountJobController::class, 'index']);
 Route::get('/account/jobs/create', [AccountJobController::class, 'create']);
 Route::post('/account/jobs/store', [AccountJobController::class, 'store']);
+Route::get('/account/jobs/show', [AccountJobController::class, 'show']);
+
+Route::get('/account/applications', [ApplicationController::class, 'index']);
