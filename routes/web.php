@@ -12,6 +12,7 @@ use App\Controllers\JobController;
 use App\Controllers\BlogController;
 use App\Controllers\CandidateController;
 use App\Controllers\AccountController;
+use App\Controllers\ApplicationController;
 
 use Core\Route;
 
@@ -43,3 +44,5 @@ Route::post('/account/companies/store', [AccountCompanyController::class, 'store
 Route::get('/account/jobs', [AccountJobController::class, 'index']);
 Route::get('/account/jobs/create', [AccountJobController::class, 'create']);
 Route::post('/account/jobs/store', [AccountJobController::class, 'store']);
+
+Route::post('/applications/store', [ApplicationController::class, 'store']);
