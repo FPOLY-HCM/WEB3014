@@ -15,6 +15,6 @@ class ApplicationController extends Controller
         
         Application::create(['account_id' => $accountId , 'job_id' => $jobId]);
         
-        return view('account/profile');
+        return redirect('account/applications/index');
     }
 }
