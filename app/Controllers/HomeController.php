@@ -8,6 +8,7 @@ use Core\Controller;
 use App\Models\Company;
 use App\Models\Category;
 use App\Models\City;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class HomeController extends Controller
 {
@@ -17,7 +18,7 @@ class HomeController extends Controller
             ->withCount('jobs')
             ->get();
         $categories = Category::query()
-            ->with(['jobs', 'jobs.company'])
+            ->with(['jobs' => fn (HasMany $query): HasMany => $query->latest(), 'jobs.company'])
             ->withCount('jobs')
             ->get();
         $cities = City::all();

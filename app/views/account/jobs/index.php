@@ -9,6 +9,7 @@ require_once __DIR__ . '/../partials/header.php';
         <table class="table table-hover">
             <thead>
                 <th>Tên</th>
+                <th>Số người ứng tuyển</th>
                 <th>Công ty</th>
                 <th>Mức lương</th>
                 <th>Tạo lúc</th>
@@ -17,8 +18,9 @@ require_once __DIR__ . '/../partials/header.php';
                 <?php foreach ($jobs as $job) : ?>
                     <tr>
                         <td>
-                            <a href="/jobs/show?id=<?= $job->id ?>"><?= $job->name ?></a>
+                            <a href="/account/jobs/show?id=<?= $job->id ?>"><?= $job->name ?></a>
                         </td>
+                        <td><?= number_format($job->applications_count) ?> người</td>
                         <td><?= $job->company->name ?></td>
                         <td><?= money_format($job->salary) ?></td>
                         <td><?= $job->created_at->diffForHumans() ?></td>
