@@ -22,6 +22,8 @@ class LoginController extends Controller
         if (auth()->attempt($email, $password)) {
             return redirect('/');
         }
+
+        flash()->add('Thông tin đăng nhập không chính xác', 'danger');
        
         return redirect('/login');
     }

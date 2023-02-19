@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 use Core\Auth;
+use Core\FlashMessage;
 use Core\Navigation;
 use Core\Request;
 use Core\Setting;
@@ -30,8 +31,6 @@ function asset(string $path): string
 
 function money_format(int $value): string
 {
-    $value = (int) $value;
-
     if ($value < 1000) {
         return $value . ' đ';
     }
@@ -40,7 +39,7 @@ function money_format(int $value): string
 
     $base = log($value, 1000);
 
-    $suffixIndex = (int) floor($base);
+    $suffixIndex = (int)floor($base);
 
     $formattedValue = round($value / (1000 ** $suffixIndex), 1);
 
@@ -75,4 +74,9 @@ function setting(array|string|null $key = null, string|null $default = null): Se
     }
 
     return $setting->get($key, $default);
+}
+
+function flash(): FlashMessage
+{
+    return new FlashMessage();
 }
