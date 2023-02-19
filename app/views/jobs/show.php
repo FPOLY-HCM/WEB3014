@@ -17,7 +17,9 @@ require_once __DIR__ . '/../partials/header.php';
                 <?php if (auth()->check()) : ?>
                     <div class="btn btn-apply-icon btn-apply btn-apply-big hover-up" data-bs-toggle="modal" data-bs-target="#ModalApplyJobForm">Ứng tuyển ngay</div>
                 <?php else : ?>
-                    <a href="/login"><div class="btn btn-apply-icon btn-apply btn-apply-big hover-up" data-bs-toggle="modal" data-bs-target="#ModalApplyJobForm">Ứng tuyển ngay</div></a>
+                    <a href="/login" class="btn btn-apply-icon btn-apply btn-apply-big hover-up">
+                        Ứng tuyển ngay
+                    </a>
                 <?php endif; ?>
             </div>
         </div>
@@ -35,15 +37,17 @@ require_once __DIR__ . '/../partials/header.php';
                             <div class="sidebar-icon-item">
                                 <img src="<?= asset('assets/imgs/page/job-single/industry.svg') ?>" alt="<?= env('APP_NAME') ?>">
                             </div>
-                            <div class="sidebar-text-info ml-10"><span class="text-description industry-icon mb-10">Nghành nghề</span>
-                                <strong class="small-heading"> Mechanical / Auto / Automotive, Civil / Construction</strong>
+                            <div class="sidebar-text-info ml-10">
+                                <span class="text-description industry-icon mb-10">Nghành nghề</span>
+                                <strong class="small-heading"><?= $job->category->name ?></strong>
                             </div>
                         </div>
                         <div class="col-md-6 d-flex mt-sm-15">
                             <div class="sidebar-icon-item">
                                 <img src="<?= asset('assets/imgs/page/job-single/job-level.svg') ?>" alt="<?= env('APP_NAME') ?>">
                             </div>
-                            <div class="sidebar-text-info ml-10"><span class="text-description joblevel-icon mb-10">Cấp bậc</span>
+                            <div class="sidebar-text-info ml-10">
+                                <span class="text-description joblevel-icon mb-10">Cấp bậc</span>
                                 <strong class="small-heading">Có kinh nghiệm (Non - Manager)</strong>
                             </div>
                         </div>
@@ -53,7 +57,8 @@ require_once __DIR__ . '/../partials/header.php';
                             <div class="sidebar-icon-item">
                                 <img src="<?= asset('assets/imgs/page/job-single/salary.svg') ?>" alt="<?= env('APP_NAME') ?>">
                             </div>
-                            <div class="sidebar-text-info ml-10"><span class="text-description salary-icon mb-10">Lương</span>
+                            <div class="sidebar-text-info ml-10">
+                                <span class="text-description salary-icon mb-10">Lương</span>
                                 <strong class="small-heading"><?= money_format($job->salary) ?></strong>
                             </div>
                         </div>
@@ -61,7 +66,8 @@ require_once __DIR__ . '/../partials/header.php';
                             <div class="sidebar-icon-item">
                                 <img src="<?= asset('assets/imgs/page/job-single/experience.svg') ?>" alt="<?= env('APP_NAME') ?>">
                             </div>
-                            <div class="sidebar-text-info ml-10"><span class="text-description experience-icon mb-10">Kinh nghiệm</span>
+                            <div class="sidebar-text-info ml-10">
+                                <span class="text-description experience-icon mb-10">Kinh nghiệm</span>
                                 <strong class="small-heading">1 - 2 năm</strong>
                             </div>
                         </div>
@@ -71,7 +77,8 @@ require_once __DIR__ . '/../partials/header.php';
                             <div class="sidebar-icon-item">
                                 <img src="<?= asset('assets/imgs/page/job-single/job-type.svg') ?>" alt="<?= env('APP_NAME') ?>">
                             </div>
-                            <div class="sidebar-text-info ml-10"><span class="text-description jobtype-icon mb-10">Công việc</span>
+                            <div class="sidebar-text-info ml-10">
+                                <span class="text-description jobtype-icon mb-10">Công việc</span>
                                 <strong class="small-heading">Dài hạn</strong>
                             </div>
                         </div>
@@ -79,7 +86,8 @@ require_once __DIR__ . '/../partials/header.php';
                             <div class="sidebar-icon-item">
                                 <img src="<?= asset('assets/imgs/page/job-single/deadline.svg') ?>" alt="<?= env('APP_NAME') ?>">
                             </div>
-                            <div class="sidebar-text-info ml-10"><span class="text-description mb-10">Ngày hết hạn</span>
+                            <div class="sidebar-text-info ml-10">
+                                <span class="text-description mb-10">Ngày hết hạn</span>
                                 <strong class="small-heading">10/08/2022</strong>
                             </div>
                         </div>
@@ -89,7 +97,8 @@ require_once __DIR__ . '/../partials/header.php';
                             <div class="sidebar-icon-item">
                                 <img src="<?= asset('assets/imgs/page/job-single/updated.svg') ?>" alt="<?= env('APP_NAME') ?>">
                             </div>
-                            <div class="sidebar-text-info ml-10"><span class="text-description jobtype-icon mb-10">Ngày cập nhật</span>
+                            <div class="sidebar-text-info ml-10">
+                                <span class="text-description jobtype-icon mb-10">Ngày cập nhật</span>
                                 <strong class="small-heading"><?= $job->updated_at->format('d/m/Y') ?></strong>
                             </div>
                         </div>
@@ -97,7 +106,8 @@ require_once __DIR__ . '/../partials/header.php';
                             <div class="sidebar-icon-item">
                                 <img src="<?= asset('assets/imgs/page/job-single/location.svg') ?>" alt="<?= env('APP_NAME') ?>">
                             </div>
-                            <div class="sidebar-text-info ml-10"><span class="text-description mb-10">Địa chỉ</span>
+                            <div class="sidebar-text-info ml-10">
+                                <span class="text-description mb-10">Địa chỉ</span>
                                 <strong class="small-heading"><?= $job->company->address ?></strong>
                             </div>
                         </div>

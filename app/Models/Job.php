@@ -8,6 +8,7 @@ use App\Enums\JobStatus;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Support\Collection;
 
 class Job extends Model
 {
@@ -45,5 +46,15 @@ class Job extends Model
     public function applications(): HasMany
     {
         return $this->hasMany(Application::class);
+    }
+
+    public function getSimilarJobs(): Collection
+    {
+        return Job::query()
+            ->where('category_id', $this->category_id)
+            ->with(['company', 'city'])
+            ->inRandomOrder()
+            ->limit(5)
+            ->get();
     }
 }
