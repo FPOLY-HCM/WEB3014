@@ -2,6 +2,8 @@
 require_once __DIR__ . '/../partials/header.php';
 ?>
 
+<?= flash()->display() ?>
+
 <div class="panel-white">
     <div class="panel-head d-flex justify-content-between align-items-center">
         <h5>Danh sách Việc làm</h5>

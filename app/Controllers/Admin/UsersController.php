@@ -25,7 +25,7 @@ class UsersController extends Controller
     {
         User::create(request()->all());
 
-        return redirect('/admin/users');
+        return redirect('/admin/users', compact(flash()->add('Thêm thành công', 'success')));
     }
 
     public function edit()
@@ -41,7 +41,7 @@ class UsersController extends Controller
 
         $user->update(request()->all());
 
-        return redirect('/admin/users');
+        return redirect('/admin/users', compact(flash()->add('Sửa thành công', 'success')));
     }
 
     public function destroy()
@@ -50,6 +50,6 @@ class UsersController extends Controller
 
         $user->delete();
 
-        return redirect('/admin/users');
+        return redirect('/admin/users', compact(flash()->add('Xóa thành công', 'success')));
     }
 }

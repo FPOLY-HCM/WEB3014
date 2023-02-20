@@ -25,7 +25,7 @@ class CategoryController extends Controller
     {
         Category::create(request()->all());
 
-        return redirect('/admin/categories');
+        return redirect('/admin/categories', compact(flash()->add('Thêm thành công', 'success')));
     }
 
     public function edit()
@@ -41,7 +41,7 @@ class CategoryController extends Controller
 
         $category->update(request()->all());
 
-        return redirect('/admin/categories');
+        return redirect('/admin/categories', compact(flash()->add('Sửa thành công', 'success')));
     }
 
     public function destroy()
@@ -50,6 +50,6 @@ class CategoryController extends Controller
 
         $category->delete();
 
-        return redirect('/admin/categories');
+        return redirect('/admin/categories', compact(flash()->add('Xóa thành công', 'success')));
     }    
 }

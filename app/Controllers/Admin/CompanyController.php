@@ -28,7 +28,7 @@ class CompanyController extends Controller
     {
         Company::create(request()->all());
 
-        return redirect('/admin/companies');
+        return redirect('/admin/companies', compact(flash()->add('Thêm thành công', 'success')));
     }
 
     public function edit()
@@ -45,7 +45,7 @@ class CompanyController extends Controller
 
         $company->update(request()->all());
 
-        return redirect('/admin/companies');
+        return redirect('/admin/companies', compact(flash()->add('Sửa thành công', 'success')));
     }
 
     public function destroy()
@@ -54,6 +54,6 @@ class CompanyController extends Controller
 
         $company->delete();
 
-        return redirect('/admin/companies');
+        return redirect('/admin/companies', compact(flash()->add('Xóa thành công', 'success')));
     }
 }

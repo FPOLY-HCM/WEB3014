@@ -15,4 +15,17 @@ class ApplicationController extends Controller
 
         return view('account/applications/index', compact('applications'));
     }
+
+    public function store()
+    {
+        $accountId = auth('account')->user()->id;
+        $jobId = request()->input('job_id');
+        
+        Application::create([
+            'account_id' => $accountId, 
+            'job_id' => $jobId,
+        ]);
+        
+        return redirect('/account/applications', compact(flash()->add('Thêm thành công', 'success')));
+    }
 }

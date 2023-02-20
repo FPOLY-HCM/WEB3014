@@ -37,7 +37,7 @@
                         <h2 class="mt-10 mb-5 text-brand-1 text-capitalize">Bắt đầu công việc của bạn ngay hôm nay</h2>
                         <p class="font-sm text-muted mb-30">Hãy điền thông tin của bạn và gửi cho nhà tuyển dụng. </p>
                     </div>
-                    <form class="login-register text-start mt-20 pb-30" action="/applications/store" method="post">
+                    <form class="login-register text-start mt-20 pb-30" action="/account/applications/store" method="post">
                         <input type="hidden" name="job_id" value="<?= $job->id ?>">
                         <div class="form-group">
                             <label class="form-label" for="input-1">Họ và tên *</label>

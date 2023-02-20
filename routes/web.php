@@ -47,3 +47,4 @@ Route::post('/account/jobs/store', [AccountJobController::class, 'store']);
 Route::get('/account/jobs/show', [AccountJobController::class, 'show']);
 
 Route::get('/account/applications', [ApplicationController::class, 'index']);
+Route::post('/account/applications/store', [ApplicationController::class, 'store']);
