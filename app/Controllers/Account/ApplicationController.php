@@ -26,6 +26,8 @@ class ApplicationController extends Controller
             'job_id' => $jobId,
         ]);
         
-        return redirect('/account/applications', compact(flash()->add('Thêm thành công', 'success')));
+        flash()->add('Thêm thành công', 'success');
+
+        return redirect('/account/applications');
     }
 }

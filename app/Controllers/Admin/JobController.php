@@ -30,7 +30,9 @@ class JobController extends Controller
     {
         Job::create(request()->all());
 
-        return redirect('/admin/jobs', compact(flash()->add('Thêm thành công', 'success')));
+        flash()->add('Thêm thành công', 'success');
+
+        return redirect('/admin/jobs');
     }
 
     public function edit()
@@ -48,7 +50,9 @@ class JobController extends Controller
 
         $job->update(request()->all());
 
-        return redirect('/admin/jobs', compact(flash()->add('Sửa thành công', 'success')));
+        flash()->add('Sửa thành công', 'success');
+
+        return redirect('/admin/jobs');
     }
 
     public function destroy()
@@ -57,6 +61,8 @@ class JobController extends Controller
 
         $job->delete();
 
-        return redirect('/admin/jobs', compact(flash()->add('Xóa thành công', 'success')));
+        flash()->add('Xóa thành công', 'success');
+
+        return redirect('/admin/jobs');
     }
 }
