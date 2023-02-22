@@ -18,6 +18,10 @@ class ApplicationController extends Controller
 
     public function store()
     {
+        if (! auth('account')->check()) {
+            return redirect('/login');
+        }
+        
         if (! request()->has('job_id')) {
             flash()->add('Vui lòng nhập đầy đủ thông tin', 'danger');
 
