@@ -2,9 +2,6 @@
     <nav class="nav-tavs-profile mb-5">
         <ul>
             <li>
-                <a class="btn btn-border aboutus-icon mb-20" href="/">Bảng điều khiển</a>
-            </li>
-            <li>
                 <a class="btn btn-border aboutus-icon mb-20" href="/account/profile">Thông tin tài khoản</a>
             </li>
             <?php if (auth('account')->user()->type === \App\Enums\AccountType::Employer) : ?>
