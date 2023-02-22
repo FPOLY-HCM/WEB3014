@@ -3,7 +3,7 @@ require_once __DIR__ . '/partials/header.php';
 ?>
 
 <div class="col-md-8">
-    <form>
+    <form action="/account/profile" method="post">  
         <div class="form-group">
             <label for="name" class="form-label">Họ tên</label>
             <input type="text" id="name" name="name" class="form-control" value="<?= auth('account')->user()->name ?>">
@@ -20,7 +20,7 @@ require_once __DIR__ . '/partials/header.php';
             <label for="address" class="form-label">Địa chỉ</label>
             <input type="text" id="address" name="address" class="form-control" value="<?= auth('account')->user()->address ?>">
         </div>
-        <button type="button" class="btn btn-primary">Lưu thay đổi</button>
+        <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
     </form>
 </div>
 
