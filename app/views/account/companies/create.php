@@ -4,7 +4,8 @@ require_once __DIR__ . '/../partials/header.php';
 
 <div class="col-md-8">
     <div>
-        <form action="/account/companies/store" method="post">
+        <?= flash()->display() ?>
+        <form action="/account/companies/store" method="post" enctype="multipart/form-data">
         <div class="row form-group">
                 <label for="form-label" class="col-md-3 form-label">Tên công ty</label>
                 <div class="col-md-9">

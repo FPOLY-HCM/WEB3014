@@ -13,7 +13,8 @@ class CompanyController extends Controller
     {
         $companies = Company::query()
             ->whereBelongsTo(auth('account')->user())
-            ->get();;
+            ->latest()
+            ->get();
 
         return view('account/companies/index', compact('companies'));
     }
@@ -25,8 +26,19 @@ class CompanyController extends Controller
 
     public function store()
     {
+        if (request()->has('logo')) {
+            $logo = request()->file('logo')->upload('companies');
+
+            if (! $logo) {
+                flash()->add('Có lỗi xảy ra khi tải ảnh lên.', 'danger');
+    
+                return redirect('/account/companies/create');
+            }
+        }
+
         Company::create([
-            ...request()->all(),
+            ...request()->input(),
+            'logo' => $logo ?? null,
             'account_id' => auth('account')->user()->id,
         ]);
 

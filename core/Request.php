@@ -37,13 +37,23 @@ class Request
         return $_SERVER['REQUEST_METHOD'];
     }
 
-    public function all(): array
+    public function all(string $key = null): string|array|null
     {
-        return array_merge($this->post, $this->get);
+        $data = array_merge($this->post, $this->get, $this->file);
+
+        if ($key) {
+            return $data[$key] ?? null;
+        }
+
+        return $data;
     }
 
-    public function input(string $key): string|null
+    public function input(string $key = null): array|string|null
     {
+        if (! $key) {
+            return $this->post;
+        }
+
         return $this->post[$key] ?? null;
     }
 
@@ -52,8 +62,17 @@ class Request
         return $this->get[$key] ?? null;
     }
 
-    public function file(string $key): array|null
+    public function file(string $key): UploadedFile
     {
-        return $this->file[$key] ?? null;
+        if (! isset($this->file[$key])) {
+            return null;
+        }
+
+        return new UploadedFile($this->file[$key]);
+    }
+
+    public function has(string $key): bool
+    {
+        return $this->all($key) !== null;
     }
 }
