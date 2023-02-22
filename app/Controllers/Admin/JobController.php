@@ -28,7 +28,24 @@ class JobController extends Controller
 
     public function store()
     {
+        if (
+            ! request()->has('name')
+            || ! request()->has('category_id')
+            || ! request()->has('company_id')
+            || ! request()->has('description')
+            || ! request()->has('content')
+            || ! request()->has('salary')
+            || ! request()->has('salary_range')
+            || ! request()->has('number_of_positions')
+        ) {
+            flash()->add('Vui lòng nhập đầy đủ thông tin', 'danger');
+
+            return back();
+        }
+
         Job::create(request()->all());
+
+        flash()->add('Thêm thành công', 'success');
 
         return redirect('/admin/jobs');
     }
@@ -44,9 +61,26 @@ class JobController extends Controller
 
     public function update()
     {
+        if (
+            ! request()->has('name')
+            || ! request()->has('category_id')
+            || ! request()->has('company_id')
+            || ! request()->has('description')
+            || ! request()->has('content')
+            || ! request()->has('salary')
+            || ! request()->has('salary_range')
+            || ! request()->has('number_of_positions')
+        ) {
+            flash()->add('Vui lòng nhập đầy đủ thông tin', 'danger');
+
+            return back();
+        }
+
         $job = Job::findOrFail(request()->input('id'));
 
         $job->update(request()->all());
+
+        flash()->add('Sửa thành công', 'success');
 
         return redirect('/admin/jobs');
     }
@@ -56,6 +90,8 @@ class JobController extends Controller
         $job = Job::findOrFail(request()->query('id'));
 
         $job->delete();
+
+        flash()->add('Xóa thành công', 'success');
 
         return redirect('/admin/jobs');
     }

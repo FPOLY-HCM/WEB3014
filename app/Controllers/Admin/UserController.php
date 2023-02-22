@@ -7,7 +7,7 @@ namespace App\Controllers\Admin;
 use App\Models\User;
 use Core\Controller;
 
-class UsersController extends Controller
+class UserController extends Controller
 {
     public function index()
     {
@@ -23,7 +23,14 @@ class UsersController extends Controller
 
     public function store()
     {
+        if (! request()->has('name') || ! request()->has('email') || ! request()->has('password')) {
+            flash()->add('Vui lòng nhập đầy đủ thông tin', 'danger');
+
+            return back();
+        }
         User::create(request()->all());
+
+        flash()->add('Thêm thành công', 'success');
 
         return redirect('/admin/users');
     }
@@ -37,9 +44,17 @@ class UsersController extends Controller
 
     public function update()
     {
+        if (! request()->has('name') || ! request()->has('email') || ! request()->has('password')) {
+            flash()->add('Vui lòng nhập đầy đủ thông tin', 'danger');
+
+            return back();
+        }
+        
         $user = User::findOrFail(request()->input('id'));
 
         $user->update(request()->all());
+
+        flash()->add('Sửa thành công', 'success');
 
         return redirect('/admin/users');
     }
@@ -49,6 +64,8 @@ class UsersController extends Controller
         $user = User::findOrFail(request()->query('id'));
 
         $user->delete();
+
+        flash()->add('Xóa thành công', 'success');
 
         return redirect('/admin/users');
     }

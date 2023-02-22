@@ -8,6 +8,8 @@ use App\Controllers\Admin\LoginController;
 use App\Controllers\Admin\CompanyController;
 use App\Controllers\Admin\SettingController;
 use App\Controllers\Admin\ApplicationController;
+use App\Controllers\Admin\CategoryController;
+use App\Controllers\Admin\UserController;
 use Core\Route;
 
 Route::get('/admin', [DashboardController::class, 'index']);
@@ -23,6 +25,6 @@ Route::post('/admin/settings', [SettingController::class, 'store']);
 
 Route::resource('/admin/categories', CategoryController::class);
 
-Route::resource('/admin/users', UsersController::class);
+Route::resource('/admin/users', UserController::class);
 
 Route::resource('/admin/applications', ApplicationController::class);

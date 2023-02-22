@@ -3,6 +3,7 @@ require_once __DIR__ . '/../partials/header.php';
 ?>
 
 <div class="col-md-8">
+    <?= flash()->display() ?>
     <div class="mt-4">
         <table class="table table-hover">
             <thead>

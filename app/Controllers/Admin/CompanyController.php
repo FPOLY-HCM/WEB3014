@@ -26,7 +26,15 @@ class CompanyController extends Controller
 
     public function store()
     {
+        if(! request()->has('name') || ! request()->has('logo') || ! request()->has('address')) {
+            flash()->add('Vui lòng nhập đầy đủ thông tin', 'danger');
+
+            return back();
+        }
+
         Company::create(request()->all());
+
+        flash()->add('Thêm thành công', 'success');
 
         return redirect('/admin/companies');
     }
@@ -41,9 +49,17 @@ class CompanyController extends Controller
 
     public function update()
     {
+        if(! request()->has('name') || ! request()->has('logo') || ! request()->has('address')) {
+            flash()->add('Vui lòng nhập đầy đủ thông tin', 'danger');
+
+            return back();
+        }
+
         $company = Company::findOrFail(request()->input('id'));
 
         $company->update(request()->all());
+
+        flash()->add('Sửa thành công', 'success');
 
         return redirect('/admin/companies');
     }
@@ -53,6 +69,8 @@ class CompanyController extends Controller
         $company = Company::findOrFail(request()->query('id'));
 
         $company->delete();
+
+        flash()->add('Xóa thành công', 'success');
 
         return redirect('/admin/companies');
     }

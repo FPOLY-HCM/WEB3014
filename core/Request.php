@@ -73,6 +73,6 @@ class Request
 
     public function has(string $key): bool
     {
-        return $this->all($key) !== null;
+        return $this->all($key) !== null && $this->all($key) !== '';
     }
 }

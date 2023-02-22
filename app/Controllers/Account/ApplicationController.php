@@ -15,4 +15,28 @@ class ApplicationController extends Controller
 
         return view('account/applications/index', compact('applications'));
     }
+
+    public function store()
+    {
+        if (! auth('account')->check()) {
+            return redirect('/login');
+        }
+        
+        if (! request()->has('job_id')) {
+            flash()->add('Vui lòng nhập đầy đủ thông tin', 'danger');
+
+            return back();
+        }
+        $accountId = auth('account')->user()->id;
+        $jobId = request()->input('job_id');
+        
+        Application::create([
+            'account_id' => $accountId, 
+            'job_id' => $jobId,
+        ]);
+        
+        flash()->add('Thêm thành công', 'success');
+
+        return redirect('/account/applications');
+    }
 }

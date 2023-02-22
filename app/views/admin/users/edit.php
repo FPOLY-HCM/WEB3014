@@ -7,19 +7,20 @@ require_once __DIR__ . '/../partials/header.php';
         <h5>Chỉnh sửa người dùng</h5>
     </div>
     <div class="panel-body">
+        <?= flash()->display() ?>
         <form action="/admin/users/update" method="post">
-            <input type="hidden" name="id" value="<?= $users->id ?>">
+            <input type="hidden" name="id" value="<?= $user->id ?>">
             <div class="form-group">
                 <label for="name" class="form-label">Tên người dùng</label>
-                <input type="text" id="name" name="name" class="form-group" value="<?= $users->name ?>">
+                <input type="text" id="name" name="name" class="form-group" value="<?= $user->name ?>">
             </div>
             <div class="form-group">
                 <label for="name" class="form-label">Email</label>
-                <input type="text" id="email" name="email" class="form-group" value="<?= $users->email ?>">
+                <input type="text" id="email" name="email" class="form-group" value="<?= $user->email ?>">
             </div>
             <div class="form-group">
                 <label for="name" class="form-label">Mật khẩu</label>
-                <input type="text" id="password" name="password" class="form-group" value="<?= $users->password ?>">
+                <input type="text" id="password" name="password" class="form-group" value="<?= $user->password ?>">
             </div>
             <button type="submit" class="btn btn-primary">Cập nhật</button>
         </form>

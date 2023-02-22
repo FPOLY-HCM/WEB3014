@@ -23,7 +23,15 @@ class CategoryController extends Controller
 
     public function store()
     {
+        if (! request()->has('name') || ! request()->has('icon')) {
+            flash()->add('Vui lòng nhập đầy đủ thông tin', 'danger');
+
+            return back();
+        }
+        
         Category::create(request()->all());
+
+        flash()->add('Thêm thành công', 'success');
 
         return redirect('/admin/categories');
     }
@@ -37,9 +45,17 @@ class CategoryController extends Controller
 
     public function update()
     {
+        if (! request()->has('name') || ! request()->has('icon')) {
+            flash()->add('Vui lòng nhập đầy đủ thông tin', 'danger');
+
+            return back();
+        }
+
         $category = Category::findOrFail(request()->input('id'));
 
         $category->update(request()->all());
+
+        flash()->add('Thêm thành công', 'success');
 
         return redirect('/admin/categories');
     }
@@ -49,6 +65,8 @@ class CategoryController extends Controller
         $category = Category::findOrFail(request()->query('id'));
 
         $category->delete();
+
+        flash()->add('Xóa thành công', 'success');
 
         return redirect('/admin/categories');
     }

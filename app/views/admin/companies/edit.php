@@ -7,6 +7,7 @@ require_once __DIR__ . '/../partials/header.php';
         <h5>Chỉnh sửa nhà tuyển dụng</h5>
     </div>
     <div class="panel-body">
+        <?= flash()->display() ?>
         <form action="/admin/companies/update" method="post">
             <input type="hidden" name="id" value="<?= $company->id ?>">
             <div class="form-group">

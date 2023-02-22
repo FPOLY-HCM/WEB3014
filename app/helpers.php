@@ -79,3 +79,8 @@ function flash(): FlashMessage
 {
     return new FlashMessage();
 }
+
+function back(): void
+{
+    redirect($_SERVER['HTTP_REFERER']);
+}

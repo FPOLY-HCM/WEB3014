@@ -10,6 +10,7 @@ require_once __DIR__ . '/../partials/header.php';
         <h5>Chỉnh sửa <span><?= $job->name ?></span></h5>
     </div>
     <div class="panel-body">
+        <?= flash()->display() ?>
         <form action="/admin/jobs/update" method="post">
             <input type="hidden" name="id" value="<?= $job->id ?>">
             <div class="form-group">
