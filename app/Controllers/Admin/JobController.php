@@ -58,7 +58,7 @@ class JobController extends Controller
 
         return view('admin/jobs/edit', compact('categories', 'companies', 'job'));
     }
-    
+
     public function update()
     {
         if (

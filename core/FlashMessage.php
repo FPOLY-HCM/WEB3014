@@ -4,7 +4,8 @@ declare(strict_types=1);
 
 namespace Core;
 
-class FlashMessage {
+class FlashMessage
+{
     public function __construct()
     {
         $_SESSION['flash'] ??= [];

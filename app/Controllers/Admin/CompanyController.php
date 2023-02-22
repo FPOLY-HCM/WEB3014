@@ -20,7 +20,7 @@ class CompanyController extends Controller
     public function create()
     {
         $accounts = Account::all();
-    
+
         return view('admin/companies/create', compact('accounts'));
     }
 

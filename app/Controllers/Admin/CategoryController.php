@@ -17,7 +17,7 @@ class CategoryController extends Controller
     }
 
     public function create()
-    {   
+    {
         return view('admin/categories/create');
     }
 
@@ -69,5 +69,5 @@ class CategoryController extends Controller
         flash()->add('Xóa thành công', 'success');
 
         return redirect('/admin/categories');
-    }    
+    }
 }

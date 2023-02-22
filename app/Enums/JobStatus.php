@@ -14,7 +14,7 @@ enum JobStatus: string
 
     public function label(): string
     {
-        return match($this) {
+        return match ($this) {
             self::Pending => 'Chờ duyệt',
             self::Accepted => 'Đã duyệt',
             self::Rejected => 'Từ chối',

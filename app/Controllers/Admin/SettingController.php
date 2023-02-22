@@ -12,7 +12,7 @@ class SettingController extends Controller
     {
         return view('admin/settings');
     }
-    
+
     public function store()
     {
         setting(request()->all())->save();

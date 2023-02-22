@@ -16,7 +16,7 @@ class CandidateController extends Controller
 
         return view('candidates/index', compact('accounts'));
     }
-    
+
     public function show()
     {
         $account = Account::findOrFail(request()->query('id'));
