@@ -18,6 +18,11 @@ class ApplicationController extends Controller
 
     public function store()
     {
+        if (! request()->has('job_id')) {
+            flash()->add('Vui lòng nhập đầy đủ thông tin', 'danger');
+
+            return back();
+        }
         $accountId = auth('account')->user()->id;
         $jobId = request()->input('job_id');
         

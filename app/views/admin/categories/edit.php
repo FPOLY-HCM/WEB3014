@@ -7,6 +7,7 @@ require_once __DIR__ . '/../partials/header.php';
         <h5>Chỉnh sửa danh mục</h5>
     </div>
     <div class="panel-body">
+        <?= flash()->display() ?>
         <form action="/admin/categories/update" method="post">
             <input type="hidden" name="id" value="<?= $category->id ?>">
             <div class="form-group">

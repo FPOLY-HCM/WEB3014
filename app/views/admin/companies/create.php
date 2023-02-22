@@ -7,6 +7,7 @@ require_once __DIR__ . '/../partials/header.php';
         <h5>Thêm nhà tuyển dụng mới</h5>
     </div>
     <div class="panel-body">
+        <?= flash()->display() ?>
         <form action="/admin/companies/store" method="post">
             <div class="form-group">
                 <label for="name" class="form-label">Tên nhà tuyển dụng</label>
@@ -28,7 +29,7 @@ require_once __DIR__ . '/../partials/header.php';
                 <label for="address" class="form-label">Địa chỉ</label>
                 <input type="text" id="address" name="address" class="form-group">
             </div>
-            <button type="submit" class="btn btn-primary">Cập nhật</button>
+            <button type="submit" class="btn btn-primary">Thêm</button>
         </form>
     </div>
 </div>

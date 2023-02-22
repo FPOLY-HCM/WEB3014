@@ -7,6 +7,7 @@ require_once __DIR__ . '/../partials/header.php';
         <h5>Thêm danh mục mới</h5>
     </div>
     <div class="panel-body">
+        <?= flash()->display() ?>
         <form action="/admin/categories/store" method="post">
             <div class="form-group">
                 <label for="name" class="form-label">Tên danh mục</label>

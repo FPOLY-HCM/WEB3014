@@ -7,6 +7,7 @@ require_once __DIR__ . '/../partials/header.php';
         <h5>Thêm việc làm mới</h5>
     </div>
     <div class="panel-body">
+        <?= flash()->display() ?>
         <form action="/admin/jobs/store" method="post">
             <div class="form-group">
                 <label for="name" class="form-label">Tên việc làm</label>
