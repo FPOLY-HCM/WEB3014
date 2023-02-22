@@ -13,12 +13,12 @@ class ApplicationController extends Controller
     {
         $accountId = auth('account')->user()->id;
         $jobId = request()->input('job_id');
-        
+
         Application::create([
-            'account_id' => $accountId, 
+            'account_id' => $accountId,
             'job_id' => $jobId,
         ]);
-        
+
         return redirect('account/applications/index');
     }
 }

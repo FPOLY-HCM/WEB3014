@@ -12,7 +12,7 @@ enum AccountType: string
 
     public function label(): string
     {
-        return match($this) {
+        return match ($this) {
             self::Employer => 'Nhà tuyển dụng',
             self::JobSeeker => 'Ứng viên',
         };

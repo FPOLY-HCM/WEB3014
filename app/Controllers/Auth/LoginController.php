@@ -15,7 +15,6 @@ class LoginController extends Controller
 
     public function login()
     {
-
         $email = request()->input('email');
         $password = request()->input('password');
 
@@ -24,7 +23,7 @@ class LoginController extends Controller
         }
 
         flash()->add('Thông tin đăng nhập không chính xác', 'danger');
-       
+
         return redirect('/login');
     }
 }

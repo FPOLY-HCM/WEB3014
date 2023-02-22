@@ -14,7 +14,7 @@ class DashboardController extends Controller
 {
     public function index()
     {
-        if(! auth('admin')->check()) {
+        if (! auth('admin')->check()) {
             redirect('admin/login');
         }
 

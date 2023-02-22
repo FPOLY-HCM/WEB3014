@@ -41,7 +41,7 @@ class JobController extends Controller
 
         return view('admin/jobs/edit', compact('categories', 'companies', 'job'));
     }
-    
+
     public function update()
     {
         $job = Job::findOrFail(request()->input('id'));

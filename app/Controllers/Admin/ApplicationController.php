@@ -14,5 +14,5 @@ class ApplicationController extends Controller
         $applications = Application::all();
 
         return view('admin/applications/index', compact('applications'));
-    } 
+    }
 }

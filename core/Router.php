@@ -37,7 +37,7 @@ class Router
         }
 
         if (is_array($action)) {
-            return call_user_func([new $action[0], $action[1]]);
+            return call_user_func([new $action[0](), $action[1]]);
         }
 
         return call_user_func($action);

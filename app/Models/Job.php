@@ -35,7 +35,7 @@ class Job extends Model
 
     public function company(): BelongsTo
     {
-        return $this->belongsTo(Company::class);   
+        return $this->belongsTo(Company::class);
     }
 
     public function city(): BelongsTo

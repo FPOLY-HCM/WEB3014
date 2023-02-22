@@ -31,7 +31,7 @@ class JobController extends Controller
             ->whereBelongsTo(auth()->user())
             ->get();
 
-            return view('account/jobs/create', compact('cities', 'categories', 'companies'));
+        return view('account/jobs/create', compact('cities', 'categories', 'companies'));
     }
 
     public function store()

@@ -31,7 +31,7 @@ class CompanyController extends Controller
 
             if (! $logo) {
                 flash()->add('Có lỗi xảy ra khi tải ảnh lên.', 'danger');
-    
+
                 return redirect('/account/companies/create');
             }
         }
