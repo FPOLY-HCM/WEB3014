@@ -4,12 +4,14 @@ require_once __DIR__ . '/../partials/header.php';
 
 <div class="col-md-8">
     <div>
+        <h3 class="mb-25 text-center">Chỉnh sửa công ty</h3>
         <?= flash()->display() ?>
-        <form action="/account/companies/store" method="post" enctype="multipart/form-data">
+        <form action="/account/companies/update" method="post" enctype="multipart/form-data">
+        <input type="hidden" name="id" value="<?= $company->id ?>">
         <div class="row form-group">
                 <label for="form-label" class="col-md-3 form-label">Tên công ty</label>
                 <div class="col-md-9">
-                    <input type="text" name="name" class="form-control" placeholder="Nhập tên công ty">
+                    <input type="text" name="name" class="form-control" value="<?= $company->name ?>">
                 </div>
             </div>
             <div class="row form-group">
@@ -21,18 +23,18 @@ require_once __DIR__ . '/../partials/header.php';
             <div class="row form-group">
                 <label for="form-label" class="col-md-3 form-label">Email</label>
                 <div class="col-md-9">
-                    <input type="email" name="email" class="form-control">
+                    <input type="email" name="email" class="form-control" value="<?= $company->email ?>">
                 </div>
             </div>
             <div class="row form-group">
                 <label for="form-label" class="col-md-3 form-label">Phone</label>
                 <div class="col-md-9">
-                    <input type="text" name="phone" class="form-control">
+                    <input type="text" name="phone" class="form-control" value="<?= $company->phone ?>">
                 </div>
             </div><div class="row form-group">
                 <label for="form-label" class="col-md-3 form-label">Website</label>
                 <div class="col-md-9">
-                    <input type="website" name="website" class="form-control">
+                    <input type="website" name="website" class="form-control" value="<?= $company->website ?>">
                 </div>
             </div>
             <div class="row form-group">
@@ -44,10 +46,10 @@ require_once __DIR__ . '/../partials/header.php';
             <div class="row form-group">
                 <label for="address" class="col-md-3 form-label">Địa chỉ</label>
                 <div class="col-md-9">
-                    <input type="text" name="address" class="form-control" placeholder="Nhập địa chỉ">
+                    <input type="text" name="address" class="form-control" value="<?= $company->address ?>">
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary">Tạo mới</button>
+            <button type="submit" class="btn btn-primary">Sửa</button>
         </form>
     </div>
 </div>
