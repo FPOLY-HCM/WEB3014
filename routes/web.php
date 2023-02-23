@@ -13,7 +13,6 @@ use App\Controllers\JobController;
 use App\Controllers\BlogController;
 use App\Controllers\CandidateController;
 use App\Controllers\AccountController;
-use App\Controllers\Account\ProfileController;
 
 use Core\Route;
 
@@ -50,5 +49,5 @@ Route::get('/account/jobs/show', [AccountJobController::class, 'show']);
 Route::get('/account/applications', [ApplicationController::class, 'index']);
 Route::post('/account/applications/store', [ApplicationController::class, 'store']);
 
-Route::get('/account/profile', [ProfileController::class, 'edit']);
-Route::post('/account/profile', [ProfileController::class, 'update']);
+Route::get('/account/profile', [AccountController::class, 'edit']);
+Route::post('/account/profile', [AccountController::class, 'update']);
