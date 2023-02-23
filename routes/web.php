@@ -39,10 +39,7 @@ Route::get('/account/profile', [AccountController::class, 'profile']);
 
 Route::resource('/account/companies', AccountCompanyController::class);
 
-Route::get('/account/jobs', [AccountJobController::class, 'index']);
-Route::get('/account/jobs/create', [AccountJobController::class, 'create']);
-Route::post('/account/jobs/store', [AccountJobController::class, 'store']);
-Route::get('/account/jobs/show', [AccountJobController::class, 'show']);
+Route::resource('/account/jobs', AccountJobController::class);
 
 Route::get('/account/applications', [ApplicationController::class, 'index']);
 Route::post('/account/applications/store', [ApplicationController::class, 'store']);

@@ -3,9 +3,11 @@ require_once __DIR__ . '/../partials/header.php';
 ?>
 
 <div class="col-md-8">
-    <?= flash()->display() ?>
     <div>
-        <form action="/account/jobs/store" method="post">
+        <?= flash()->display() ?>
+        <h3 class="mb-20 text-center">Chỉnh sửa công việc</h3>
+        <form action="/account/jobs/update" method="post">
+            <input type="hidden" name="id" value="<?= $job->id ?>">
             <div class="row form-group">
                 <label for="category_id" class="col-md-3 form-label">Danh mục</label>
                 <div class="col-md-9">
@@ -19,7 +21,7 @@ require_once __DIR__ . '/../partials/header.php';
             <div class="row form-group">
                 <label for="name" class="col-md-3 form-label">Tên việc làm</label>
                 <div class="col-md-9">
-                    <input type="text" name="name" class="form-control" placeholder="Nhập tên việc làm">
+                    <input type="text" name="name" class="form-control" value="<?= $job->name ?>">
                 </div>
             </div>
             <div class="row form-group">
@@ -51,22 +53,22 @@ require_once __DIR__ . '/../partials/header.php';
             <div class="row form-group">
                 <label for="address" class="col-md-3 form-label">Địa chỉ</label>
                 <div class="col-md-9">
-                    <input type="text" name="address" class="form-control" placeholder="Nhập địa chỉ">
+                    <input type="text" name="address" class="form-control" value="<?= $job->company->address ?>">
                 </div>
             </div>
             <div class="row form-group">
                 <label for="salary" class="col-md-3 form-label">Lương</label>
                 <div class="col-md-9">
-                    <input type="text" name="salary" class="form-control" placeholder="Nhập lương">
+                    <input type="text" name="salary" class="form-control" value="<?= money_format($job->salary) ?>">
                 </div>
             </div>
             <div class="row form-group">
                 <label for="number_of_positions" class="col-md-3 form-label">Số lượng tuyển dụng</label>
                 <div class="col-md-9">
-                    <input type="text" name="number_of_positions" class="form-control" placeholder="Nhập số lượng người cần tuyển">
+                    <input type="text" name="number_of_positions" class="form-control" value="<?= $job->number_of_positions ?>">
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary">Tạo mới</button>
+            <button type="submit" class="btn btn-primary">Sửa</button>
         </form>
     </div>
 </div>

@@ -36,9 +36,20 @@ class JobController extends Controller
 
     public function store()
     {
-        Job::create([
-            ...request()->all(),
-        ]);
+        if (! request()->has('name')
+            || ! request()->has('content')
+            || ! request()->has('address')
+            || ! request()->has('salary')
+            || ! request()->has('number_of_positions')
+        ) {
+            flash()->add('Vui lòng nhập đầy đủ thông tin', 'danger');
+
+            return back();
+        }
+
+        Job::create(request()->all());
+
+        flash()->add('Thêm thành công', 'success');
 
         return redirect('/account/jobs');
     }
@@ -52,5 +63,51 @@ class JobController extends Controller
             ->findOrFail(request()->query('id'));
 
         return view('account/jobs/show', compact('job'));
+    }
+
+    public function edit()
+    {
+        $categories = Category::all();
+        $cities = City::all();
+        $companies = Company::query()
+            ->whereBelongsTo(auth()->user())
+            ->get();
+
+        $job = Job::findOrFail(request()->query('id'));
+
+        return view('account/jobs/edit', compact('job', 'categories', 'companies', 'cities'));
+    }
+
+    public function update()
+    {
+        if (! request()->has('name')
+            || ! request()->has('content')
+            || ! request()->has('address')
+            || ! request()->has('salary')
+            || ! request()->has('number_of_positions')
+        ) {
+            flash()->add('Vui lòng nhập đầy đủ thông tin', 'danger');
+
+            return back();
+        }
+
+        $job = Job::findOrFail(request()->input('id'));
+
+        $job->update(request()->all());
+
+        flash()->add('Sửa thành công', 'success');
+
+        return redirect('/account/jobs');
+    }
+
+    public function destroy()
+    {
+        $job = Job::findOrFail(request()->query('id'));
+        
+        $job->delete();
+
+        flash()->add('Xóa thành công', 'success');
+
+        return back();
     }
 }
