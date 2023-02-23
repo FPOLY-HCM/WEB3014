@@ -36,7 +36,7 @@ class AccountController extends Controller
 
         $user->update(request()->all());
 
-        flash()->add('Sửa thành công', 'success');
+        flash()->add('Cập nhật thành công', 'success');
 
         return redirect('/account/profile');
     }
