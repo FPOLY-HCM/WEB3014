@@ -37,9 +37,7 @@ Route::get('/candidate/show', [CandidateController::class, 'show']);
 
 Route::get('/account/profile', [AccountController::class, 'profile']);
 
-Route::get('/account/companies', [AccountCompanyController::class, 'index']);
-Route::get('/account/companies/create', [AccountCompanyController::class, 'create']);
-Route::post('/account/companies/store', [AccountCompanyController::class, 'store']);
+Route::resource('/account/companies', AccountCompanyController::class);
 
 Route::get('/account/jobs', [AccountJobController::class, 'index']);
 Route::get('/account/jobs/create', [AccountJobController::class, 'create']);
@@ -48,3 +46,6 @@ Route::get('/account/jobs/show', [AccountJobController::class, 'show']);
 
 Route::get('/account/applications', [ApplicationController::class, 'index']);
 Route::post('/account/applications/store', [ApplicationController::class, 'store']);
+
+Route::get('/account/profile', [AccountController::class, 'edit']);
+Route::post('/account/profile', [AccountController::class, 'update']);

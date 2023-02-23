@@ -82,7 +82,7 @@ require_once __DIR__ . '/../partials/header.php';
                                                         <span class="text-muted">/<?= $job->salary_range ?></span>
                                                     </div>
                                                     <div class="col-lg-5 col-5 text-end">
-                                                        <div class="btn btn-apply-now" data-bs-toggle="modal" data-bs-target="#ModalApplyJobForm">Ứng tuyển ngay</div>
+                                                        <a href="/jobs/show?id=<?= $job->id ?>"><div class="btn btn-apply-now">Xem thêm</div></a>
                                                     </div>
                                                 </div>
                                             </div>

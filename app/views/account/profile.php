@@ -3,7 +3,8 @@ require_once __DIR__ . '/partials/header.php';
 ?>
 
 <div class="col-md-8">
-    <form>
+    <?= flash()->display() ?>
+    <form action="/account/profile" method="post">
         <div class="form-group">
             <label for="name" class="form-label">Họ tên</label>
             <input type="text" id="name" name="name" class="form-control" value="<?= auth('account')->user()->name ?>">
@@ -14,13 +15,15 @@ require_once __DIR__ . '/partials/header.php';
         </div>
         <div class="form-group">
             <label for="phone" class="form-label">Số điện thoại</label>
-            <input type="tel" id="phone" name="phone" class="form-control" value="<?= auth('account')->user()->phone ?>">
+            <input type="tel" id="phone" name="phone" class="form-control"
+                value="<?= auth('account')->user()->phone ?>">
         </div>
         <div class="form-group">
             <label for="address" class="form-label">Địa chỉ</label>
-            <input type="text" id="address" name="address" class="form-control" value="<?= auth('account')->user()->address ?>">
+            <input type="text" id="address" name="address" class="form-control"
+                value="<?= auth('account')->user()->address ?>">
         </div>
-        <button type="button" class="btn btn-primary">Lưu thay đổi</button>
+        <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
     </form>
 </div>
 
