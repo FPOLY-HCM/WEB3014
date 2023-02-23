@@ -20,13 +20,23 @@ class AccountController extends Controller
     public function edit()
     {
         $user = auth('account')->user();
+
         return view('account/profile', compact('user'));
     }
 
     public function update()
     {
+        if(! request()->has('name') || ! request()->has('phone') || ! request()->has('address')) {
+            flash()->add('Vui lòng nhập đầy đủ thông tin', 'danger');
+
+            return back();
+        }
+
         $user = auth('account')->user();
+
         $user->update(request()->all());
+
+        flash()->add('Sửa thành công', 'success');
 
         return redirect('/account/profile');
     }
