@@ -6,12 +6,16 @@ namespace App\Controllers\Account;
 
 use App\Models\Application;
 use Core\Controller;
+use App\Enums\ApplicationStatus;
 
 class ApplicationController extends Controller
 {
     public function index()
     {
-        $applications = Application::query()->whereBelongsTo(auth()->user())->get();
+        $applications = Application::query()
+            ->whereBelongsTo(auth()->user())
+            ->with('job')
+            ->get();
 
         return view('account/applications/index', compact('applications'));
     }
@@ -38,5 +42,21 @@ class ApplicationController extends Controller
         flash()->add('Thêm thành công', 'success');
 
         return redirect('/account/applications');
+    }
+
+    public function approve()
+    {
+        $application = Application::findOrFail(request()->query('id'));
+        $application->update(['status' => ApplicationStatus::Accepted]);
+
+        return back();
+    }
+
+    public function reject()
+    {
+        $application = Application::findOrFail(request()->query('id'));
+        $application->update(['status' => ApplicationStatus::Rejected]);
+
+        return back();
     }
 }

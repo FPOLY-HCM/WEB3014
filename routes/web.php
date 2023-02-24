@@ -46,6 +46,8 @@ Route::get('/account/jobs/show', [AccountJobController::class, 'show']);
 
 Route::get('/account/applications', [ApplicationController::class, 'index']);
 Route::post('/account/applications/store', [ApplicationController::class, 'store']);
+Route::get('/account/applications/approve', [ApplicationController::class, 'approve']);
+Route::get('/account/applications/reject', [ApplicationController::class, 'reject']);
 
 Route::get('/account/profile', [AccountController::class, 'edit']);
 Route::post('/account/profile', [AccountController::class, 'update']);
