@@ -67,13 +67,12 @@ class JobController extends Controller
 
     public function edit()
     {
+        $job = Job::findOrFail(request()->query('id'));
         $categories = Category::all();
         $cities = City::all();
         $companies = Company::query()
-            ->whereBelongsTo(auth()->user())
+            ->whereBelongsTo($job->company->account)
             ->get();
-
-        $job = Job::findOrFail(request()->query('id'));
 
         return view('account/jobs/edit', compact('job', 'categories', 'companies', 'cities'));
     }
