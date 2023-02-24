@@ -10,6 +10,7 @@ use App\Controllers\Admin\SettingController;
 use App\Controllers\Admin\ApplicationController;
 use App\Controllers\Admin\CategoryController;
 use App\Controllers\Admin\UserController;
+use App\Controllers\Admin\LogoutController;
 use Core\Route;
 
 Route::get('/admin', [DashboardController::class, 'index']);
@@ -28,3 +29,5 @@ Route::resource('/admin/categories', CategoryController::class);
 Route::resource('/admin/users', UserController::class);
 
 Route::resource('/admin/applications', ApplicationController::class);
+
+Route::get('/admin/logout', [LogoutController::class, 'index']);
